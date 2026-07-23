@@ -7,7 +7,7 @@
 const CAPTIONS = {
   he: [
     "🌅 בוקר טוב! נוני מתעורר.",
-    "🍎 היום אין ארוחת בוקר – אבל מותר לשתות מיץ תפוחים!",
+    "💧 היום אין ארוחת בוקר – אבל מותר לשתות מים!",
     "🚗 נוסעים לבית החולים.",
     "🧑‍⚕️ אח נחמד מקבל את נוני ונותן לו פיג'מה.",
     "🛏️ לנוני יש מיטה משלו.",
@@ -17,7 +17,7 @@ const CAPTIONS = {
   ],
   en: [
     "🌅 Good morning! Nuni wakes up.",
-    "🍎 No breakfast today — but apple juice is okay to drink!",
+    "💧 No breakfast today — but water is okay to drink!",
     "🚗 Off to the hospital.",
     "🧑‍⚕️ A kind nurse welcomes Nuni and gives him pyjamas.",
     "🛏️ Nuni gets his very own bed.",
@@ -27,7 +27,7 @@ const CAPTIONS = {
   ],
   ar: [
     "🌅 صباح الخير! نوني يستيقظ.",
-    "🍎 لا فطور اليوم — لكن يُسمح بشرب عصير التفاح!",
+    "💧 لا فطور اليوم — لكن يُسمح بشرب الماء!",
     "🚗 نذهب إلى المستشفى.",
     "🧑‍⚕️ ممرّض لطيف يستقبل نوني ويعطيه بيجامة.",
     "🛏️ لنوني سرير خاص به.",
@@ -37,7 +37,7 @@ const CAPTIONS = {
   ],
   ru: [
     "🌅 Доброе утро! Нуни просыпается.",
-    "🍎 Сегодня без завтрака — но яблочный сок пить можно!",
+    "💧 Сегодня без завтрака — но воду пить можно!",
     "🚗 Едем в больницу.",
     "🧑‍⚕️ Добрая медсестра встречает Нуни и даёт ему пижаму.",
     "🛏️ У Нуни своя кроватка.",
@@ -114,7 +114,7 @@ const Music = (() => {
     const now = ctx.currentTime;
     master.gain.cancelScheduledValues(now);
     master.gain.setValueAtTime(master.gain.value, now);
-    master.gain.linearRampToValueAtTime(on ? 0.13 : 0, now + (on ? 1.2 : 0.5));
+    master.gain.linearRampToValueAtTime(on ? 0.20 : 0, now + (on ? 1.2 : 0.5));
     if (on) {
       if (ctx.state === "suspended") ctx.resume();
       if (nextTime < ctx.currentTime) nextTime = ctx.currentTime + 0.1;
