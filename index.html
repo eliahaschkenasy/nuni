@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>נוני – מתכוננים להרדמה בעדינות</title>
+  <meta name="description" data-i18n="meta_desc" content="אתר ידידותי לילדים ולהורים שמסביר בעדינות מה קורה לפני, במהלך ואחרי הרדמה וניתוח – כדי שיהיה רגוע ופחות מפחיד." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="נוני – מתכוננים להרדמה בעדינות" />
+  <meta property="og:description" content="אתר ידידותי לילדים ולהורים שמסביר מה קורה לפני, במהלך ואחרי הרדמה וניתוח." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%AD%90%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Decorative sky -->
+  <div class="sky" aria-hidden="true">
+    <span class="cloud c1"></span>
+    <span class="cloud c2"></span>
+    <span class="cloud c3"></span>
+    <span class="star s1"></span>
+    <span class="star s2"></span>
+    <span class="star s3"></span>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Nuni">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="40" height="40">
+          <path d="M32 3l7.9 16 17.6 2.6-12.7 12.4 3 17.5L32 61l-15.8 8.5" transform="translate(0 -6)" fill="none"/>
+          <path d="M32 4l7.6 15.4 17 2.5-12.3 12 2.9 16.9L32 58l-15.1 7.9 2.9-16.9L7.5 22l17-2.5z" fill="#ffd15c" stroke="#f5a623" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="25" cy="30" r="2.4" fill="#4a3b2a"/>
+          <circle cx="39" cy="30" r="2.4" fill="#4a3b2a"/>
+          <circle cx="20" cy="35" r="3" fill="#ff9db0" opacity=".7"/>
+          <circle cx="44" cy="35" r="3" fill="#ff9db0" opacity=".7"/>
+          <path d="M27 37c2 2 8 2 10 0" fill="none" stroke="#4a3b2a" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name" data-i18n="brand_name">נוני</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main">
+      <a href="#what" data-i18n="nav_about">מה זה</a>
+      <a href="#journey" data-i18n="nav_journey">המסע</a>
+      <a href="#feelings" data-i18n="nav_feelings">רגשות</a>
+      <a href="#faq" data-i18n="nav_faq">שאלות</a>
+      <a href="#parents" data-i18n="nav_parents">להורים</a>
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="he" class="is-active">עברית</button>
+      <button type="button" data-lang="en">English</button>
+      <button type="button" data-lang="ar">العربية</button>
+      <button type="button" data-lang="ru">Русский</button>
+    </div>
+
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero_eyebrow">לילדים אמיצים (ולמבוגרים שלהם)</p>
+        <h1 data-i18n="hero_title">הכול יהיה בסדר. בואו נתכונן ביחד.</h1>
+        <p class="lead" data-i18n="hero_subtitle">בקרוב יהיה לך ניתוח, ותקבל/י שינה מיוחדת כדי שכלום לא יכאב. נוני יראה לך בדיוק מה קורה – שלב אחרי שלב.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#journey" data-i18n="hero_cta">תראה לי מה קורה</a>
+          <a class="btn btn-ghost" href="#parents" data-i18n="hero_cta2">להורים</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="mascot">
+          <svg viewBox="0 0 240 240" width="260" height="260">
+            <ellipse cx="120" cy="212" rx="72" ry="14" fill="#000" opacity=".07"/>
+            <g class="mascot-body">
+              <path d="M120 18l24 49 54 8-39 38 9 54-48-26-48 26 9-54-39-38 54-8z" fill="#ffd15c" stroke="#f5a623" stroke-width="5" stroke-linejoin="round"/>
+              <circle cx="98" cy="96" r="7" fill="#4a3b2a"/>
+              <circle cx="142" cy="96" r="7" fill="#4a3b2a"/>
+              <circle cx="100" cy="99" r="2.4" fill="#fff"/>
+              <circle cx="144" cy="99" r="2.4" fill="#fff"/>
+              <circle cx="86" cy="110" r="10" fill="#ff9db0" opacity=".65"/>
+              <circle cx="154" cy="110" r="10" fill="#ff9db0" opacity=".65"/>
+              <path d="M104 116c6 6 26 6 32 0" fill="none" stroke="#4a3b2a" stroke-width="5" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== What is anesthesia ===== -->
+    <section id="what" class="section">
+      <div class="wrap narrow">
+        <h2 data-i18n="what_title">מה זו "שינה של ניתוח"?</h2>
+        <p data-i18n="what_p1">לפני הניתוח מקבלים שינה מיוחדת ועדינה שנקראת הרדמה. זו לא שינה כמו בלילה – זו שינה עמוקה שמכינים במיוחד בשביל הניתוח.</p>
+        <p data-i18n="what_p2">רופא מיוחד שנקרא רופא ההרדמה נותן לך תרופה דרך מסכה רכה שנושמים דרכה, או דרך קשית דקיקה ביד. ואז לאט־לאט נרדמים, כאילו מרחפים על ענן.</p>
+        <p data-i18n="what_p3">בזמן השינה לא מרגישים כלום – לא דקירה ולא כאב. רופא ההרדמה נשאר לידך כל הזמן ומעיר אותך בעדינות כשהניתוח נגמר.</p>
+      </div>
+    </section>
+
+    <!-- ===== Journey ===== -->
+    <section id="journey" class="section section-alt">
+      <div class="wrap">
+        <h2 class="center" data-i18n="journey_title">המסע שלך, שלב אחרי שלב</h2>
+        <ol class="journey">
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">🏠</span>
+            <div>
+              <h3 data-i18n="step1_title">בבית</h3>
+              <p data-i18n="step1_text">אפשר לארוז צעצוע או שמיכה אהובים להביא איתך. מבוגר יעזור לך להתכונן. בית החולים יגיד מתי להפסיק לאכול ולשתות – זה שומר על הבטן שלך בזמן השינה.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">🚗</span>
+            <div>
+              <h3 data-i18n="step2_title">מגיעים לבית החולים</h3>
+              <p data-i18n="step2_text">תפגוש/י אחים ואחיות נחמדים ואת רופא ההרדמה. אולי יקשיבו ללב שלך ויבדקו כמה גדלת. אפשר לשאול אותם כל דבר!</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">👕</span>
+            <div>
+              <h3 data-i18n="step3_title">מתכוננים</h3>
+              <p data-i18n="step3_text">תלבש/י פיג'מה רכה של בית החולים. לפעמים מורחים קרם קסם או שמים מדבקה על היד, כדי שלא תרגיש/י כלום אחר כך.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">🎈</span>
+            <div>
+              <h3 data-i18n="step4_title">חדר השינה המיוחד</h3>
+              <p data-i18n="step4_text">בחדר מיוחד נושמים דרך מסכה רכה שיכולה להריח כמו מסטיק או תות, או מקבלים תרופת שינה דרך הקשית הדקיקה. אפשר לספור או לנפח בלון גדול מדומיין – ולפני שתסיים/י, כבר תהיה/י ישן/ה.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">💤</span>
+            <div>
+              <h3 data-i18n="step5_title">בזמן שאתה ישן</h3>
+              <p data-i18n="step5_text">לא תרגיש/י ולא תזכור/י את הניתוח. רופא ההרדמה משגיח עליך כל הזמן ודואג שתהיה/י בטוח/ה ונינוח/ה.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-icon" aria-hidden="true">🍧</span>
+            <div>
+              <h3 data-i18n="step6_title">מתעוררים</h3>
+              <p data-i18n="step6_text">מתעוררים בחדר התאוששות נעים. מישהו שאוהב אותך יהיה שם. אולי תרגיש/י קצת עייף/ה או צמא/ה – ואולי אפילו תקבל/י ארטיק!</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Feelings + Breathing ===== -->
+    <section id="feelings" class="section">
+      <div class="wrap two-col">
+        <div>
+          <h2 data-i18n="feelings_title">זה בסדר להרגיש איך שאתה מרגיש</h2>
+          <p data-i18n="feelings_text">נרגש, קצת לחוץ, סקרן, טיפה מפוחד – כל הרגשות האלה בסדר גמור. המון ילדים מרגישים ככה, והמבוגרים בבית החולים הם מומחים בלעזור לך להרגיש בטוח. הנה טריק מרגיע שאפשר לנסות בכל רגע:</p>
+        </div>
+        <div class="breath-card">
+          <h3 data-i18n="breath_title">נשימת בלון</h3>
+          <div class="breath-stage">
+            <div class="breath-ball"></div>
+            <p class="breath-instruction" data-i18n="breath_default">לחצו על "התחלה" ונשמו יחד עם נוני</p>
+          </div>
+          <button class="btn btn-primary breath-btn" type="button" data-i18n="breath_start">התחלה</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section section-alt">
+      <div class="wrap narrow">
+        <h2 class="center" data-i18n="faq_title">שאלות שילדים שואלים</h2>
+        <div class="faq">
+          <details class="qa">
+            <summary data-i18n="q1">האם זה יכאב?</summary>
+            <p data-i18n="a1">השינה עשויה כך שהניתוח לא כואב. ההכנה יכולה להרגיש כמו צביטה קטנטנה או קרם קריר, אבל להרבה ילדים לא כואב בכלל.</p>
+          </details>
+          <details class="qa">
+            <summary data-i18n="q2">אולי אתעורר באמצע?</summary>
+            <p data-i18n="a2">לא. רופא ההרדמה נותן בדיוק את הכמות הנכונה של תרופה ונשאר איתך כל הזמן, כך שתישאר/י ישן/ה עד שהניתוח נגמר.</p>
+          </details>
+          <details class="qa">
+            <summary data-i18n="q3">אבא או אמא יכולים לבוא איתי?</summary>
+            <p data-i18n="a3">בדרך כלל מבוגר יכול להישאר איתך עד שנרדמים, והוא יהיה שם כשמתעוררים. שאל/י את האח או האחות מה נהוג בבית החולים שלך.</p>
+          </details>
+          <details class="qa">
+            <summary data-i18n="q4">מה אם אני מפחד?</summary>
+            <p data-i18n="a4">זה נורמלי לגמרי. ספר/י לאח, לאחות או למבוגר שלך – הם יכולים להחזיק לך את היד, להביא את הצעצוע שלך, או לנשום איתך נשימת בלון.</p>
+          </details>
+          <details class="qa">
+            <summary data-i18n="q5">אולי ארגיש לא טוב אחר כך?</summary>
+            <p data-i18n="a5">חלק מהילדים מרגישים קצת עייפים, מסוחררים או עם גרון קצת כואב לזמן קצר. זה עובר, והאחים והאחיות יכולים לעזור לך להרגיש טוב יותר.</p>
+          </details>
+          <details class="qa">
+            <summary data-i18n="q6">כמה זמן זה לוקח?</summary>
+            <p data-i18n="a6">כל ניתוח שונה. רופא ההרדמה או האחות יכולים לספר לך בערך כמה זמן ייקח שלך. בשבילך זה ירגיש כאילו עצמת עיניים והתעוררת מיד.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Parents ===== -->
+    <section id="parents" class="section">
+      <div class="wrap narrow">
+        <p class="eyebrow" data-i18n="parents_eyebrow">להורים ולמטפלים</p>
+        <h2 data-i18n="parents_title">איך לעזור לילד/ה להרגיש מוכן/ה</h2>
+        <p data-i18n="parents_intro">ילדים מתמודדים הרבה יותר טוב כשהם יודעים למה לצפות, במילים שהם מבינים. הנה דרכים לתמוך בילד/ה לפני הרדמה וניתוח.</p>
+        <ul class="tips">
+          <li data-i18n="tip1">היו כנים ופשוטים. הסבירו שרופא מיוחד יעזור להם לישון שינה עמוקה כדי שהניתוח לא יכאב, ושהם יתעוררו אחר כך.</li>
+          <li data-i18n="tip2">השתמשו במילים רגועות ומרגיעות. עדיף "שינה מיוחדת" ו"תרופת שינה" על פני ביטויים מפחידים.</li>
+          <li data-i18n="tip3">אפשרו חפץ מנחם. צעצוע אהוב, שמיכה או מוצץ יכולים לעשות הבדל גדול.</li>
+          <li data-i18n="tip4">תרגלו יחד. קריאה משותפת של האתר הזה או תרגול נשימת בלון מראש בונים ביטחון.</li>
+          <li data-i18n="tip5">עקבו בדיוק אחרי הוראות בית החולים – במיוחד לגבי צום (מתי הילד/ה חייב/ת להפסיק לאכול ולשתות). הזמנים האלה שומרים על בטיחות הילד/ה ונקבעים על ידי הצוות הרפואי שלכם.</li>
+          <li data-i18n="tip6">שאלו שאלות. רשמו כל דבר שאתם לא בטוחים לגביו ושאלו את רופא ההרדמה או הצוות הסיעודי – אין שאלה קטנה מדי.</li>
+        </ul>
+        <div class="note">
+          <strong data-i18n="note_title">חשוב</strong>
+          <p data-i18n="note_text">האתר הזה נותן מידע כללי וידידותי כדי לעזור בהכנת ילדים. הוא אינו מהווה ייעוץ רפואי. יש לפעול תמיד לפי ההוראות הספציפיות של בית החולים והצוות הרפואי שלכם, ולפנות אליהם בכל חשש.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-made" data-i18n="footer_made">נבנה בְּאהבה כדי לעזור לילדים להרגיש רגועים ומוכנים.</p>
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">אינו תחליף לייעוץ רפואי מקצועי.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

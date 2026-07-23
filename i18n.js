@@ -1,0 +1,298 @@
+/* ==========================================================================
+   Nuni – translations (Hebrew, English, Arabic, Russian)
+   Every string is keyed to a data-i18n attribute in index.html.
+   ========================================================================== */
+
+const I18N = {
+  he: {
+    title: "נוני – מתכוננים להרדמה בעדינות",
+    meta_desc: "אתר ידידותי לילדים ולהורים שמסביר בעדינות מה קורה לפני, במהלך ואחרי הרדמה וניתוח – כדי שיהיה רגוע ופחות מפחיד.",
+    brand_name: "נוני",
+    nav_about: "מה זה", nav_journey: "המסע", nav_feelings: "רגשות", nav_faq: "שאלות", nav_parents: "להורים",
+    hero_eyebrow: "לילדים אמיצים (ולמבוגרים שלהם)",
+    hero_title: "הכול יהיה בסדר. בואו נתכונן ביחד.",
+    hero_subtitle: "בקרוב יהיה לך ניתוח, ותקבל/י שינה מיוחדת כדי שכלום לא יכאב. נוני יראה לך בדיוק מה קורה – שלב אחרי שלב.",
+    hero_cta: "תראה לי מה קורה", hero_cta2: "להורים",
+    what_title: "מה זו \"שינה של ניתוח\"?",
+    what_p1: "לפני הניתוח מקבלים שינה מיוחדת ועדינה שנקראת הרדמה. זו לא שינה כמו בלילה – זו שינה עמוקה שמכינים במיוחד בשביל הניתוח.",
+    what_p2: "רופא מיוחד שנקרא רופא ההרדמה נותן לך תרופה דרך מסכה רכה שנושמים דרכה, או דרך קשית דקיקה ביד. ואז לאט־לאט נרדמים, כאילו מרחפים על ענן.",
+    what_p3: "בזמן השינה לא מרגישים כלום – לא דקירה ולא כאב. רופא ההרדמה נשאר לידך כל הזמן ומעיר אותך בעדינות כשהניתוח נגמר.",
+    journey_title: "המסע שלך, שלב אחרי שלב",
+    step1_title: "בבית",
+    step1_text: "אפשר לארוז צעצוע או שמיכה אהובים להביא איתך. מבוגר יעזור לך להתכונן. בית החולים יגיד מתי להפסיק לאכול ולשתות – זה שומר על הבטן שלך בזמן השינה.",
+    step2_title: "מגיעים לבית החולים",
+    step2_text: "תפגוש/י אחים ואחיות נחמדים ואת רופא ההרדמה. אולי יקשיבו ללב שלך ויבדקו כמה גדלת. אפשר לשאול אותם כל דבר!",
+    step3_title: "מתכוננים",
+    step3_text: "תלבש/י פיג'מה רכה של בית החולים. לפעמים מורחים קרם קסם או שמים מדבקה על היד, כדי שלא תרגיש/י כלום אחר כך.",
+    step4_title: "חדר השינה המיוחד",
+    step4_text: "בחדר מיוחד נושמים דרך מסכה רכה שיכולה להריח כמו מסטיק או תות, או מקבלים תרופת שינה דרך הקשית הדקיקה. אפשר לספור או לנפח בלון גדול מדומיין – ולפני שתסיים/י, כבר תהיה/י ישן/ה.",
+    step5_title: "בזמן שאתה ישן",
+    step5_text: "לא תרגיש/י ולא תזכור/י את הניתוח. רופא ההרדמה משגיח עליך כל הזמן ודואג שתהיה/י בטוח/ה ונינוח/ה.",
+    step6_title: "מתעוררים",
+    step6_text: "מתעוררים בחדר התאוששות נעים. מישהו שאוהב אותך יהיה שם. אולי תרגיש/י קצת עייף/ה או צמא/ה – ואולי אפילו תקבל/י ארטיק!",
+    feelings_title: "זה בסדר להרגיש איך שאתה מרגיש",
+    feelings_text: "נרגש, קצת לחוץ, סקרן, טיפה מפוחד – כל הרגשות האלה בסדר גמור. המון ילדים מרגישים ככה, והמבוגרים בבית החולים הם מומחים בלעזור לך להרגיש בטוח. הנה טריק מרגיע שאפשר לנסות בכל רגע:",
+    breath_title: "נשימת בלון",
+    breath_default: "לחצו על \"התחלה\" ונשמו יחד עם נוני",
+    breath_start: "התחלה", breath_stop: "עצירה",
+    breath_in: "שאיפה… מנפחים את הבלון", breath_hold: "מחזיקים…", breath_out: "נשיפה… לאט",
+    faq_title: "שאלות שילדים שואלים",
+    q1: "האם זה יכאב?",
+    a1: "השינה עשויה כך שהניתוח לא כואב. ההכנה יכולה להרגיש כמו צביטה קטנטנה או קרם קריר, אבל להרבה ילדים לא כואב בכלל.",
+    q2: "אולי אתעורר באמצע?",
+    a2: "לא. רופא ההרדמה נותן בדיוק את הכמות הנכונה של תרופה ונשאר איתך כל הזמן, כך שתישאר/י ישן/ה עד שהניתוח נגמר.",
+    q3: "אבא או אמא יכולים לבוא איתי?",
+    a3: "בדרך כלל מבוגר יכול להישאר איתך עד שנרדמים, והוא יהיה שם כשמתעוררים. שאל/י את האח או האחות מה נהוג בבית החולים שלך.",
+    q4: "מה אם אני מפחד?",
+    a4: "זה נורמלי לגמרי. ספר/י לאח, לאחות או למבוגר שלך – הם יכולים להחזיק לך את היד, להביא את הצעצוע שלך, או לנשום איתך נשימת בלון.",
+    q5: "אולי ארגיש לא טוב אחר כך?",
+    a5: "חלק מהילדים מרגישים קצת עייפים, מסוחררים או עם גרון קצת כואב לזמן קצר. זה עובר, והאחים והאחיות יכולים לעזור לך להרגיש טוב יותר.",
+    q6: "כמה זמן זה לוקח?",
+    a6: "כל ניתוח שונה. רופא ההרדמה או האחות יכולים לספר לך בערך כמה זמן ייקח שלך. בשבילך זה ירגיש כאילו עצמת עיניים והתעוררת מיד.",
+    parents_eyebrow: "להורים ולמטפלים",
+    parents_title: "איך לעזור לילד/ה להרגיש מוכן/ה",
+    parents_intro: "ילדים מתמודדים הרבה יותר טוב כשהם יודעים למה לצפות, במילים שהם מבינים. הנה דרכים לתמוך בילד/ה לפני הרדמה וניתוח.",
+    tip1: "היו כנים ופשוטים. הסבירו שרופא מיוחד יעזור להם לישון שינה עמוקה כדי שהניתוח לא יכאב, ושהם יתעוררו אחר כך.",
+    tip2: "השתמשו במילים רגועות ומרגיעות. עדיף \"שינה מיוחדת\" ו\"תרופת שינה\" על פני ביטויים מפחידים.",
+    tip3: "אפשרו חפץ מנחם. צעצוע אהוב, שמיכה או מוצץ יכולים לעשות הבדל גדול.",
+    tip4: "תרגלו יחד. קריאה משותפת של האתר הזה או תרגול נשימת בלון מראש בונים ביטחון.",
+    tip5: "עקבו בדיוק אחרי הוראות בית החולים – במיוחד לגבי צום (מתי הילד/ה חייב/ת להפסיק לאכול ולשתות). הזמנים האלה שומרים על בטיחות הילד/ה ונקבעים על ידי הצוות הרפואי שלכם.",
+    tip6: "שאלו שאלות. רשמו כל דבר שאתם לא בטוחים לגביו ושאלו את רופא ההרדמה או הצוות הסיעודי – אין שאלה קטנה מדי.",
+    note_title: "חשוב",
+    note_text: "האתר הזה נותן מידע כללי וידידותי כדי לעזור בהכנת ילדים. הוא אינו מהווה ייעוץ רפואי. יש לפעול תמיד לפי ההוראות הספציפיות של בית החולים והצוות הרפואי שלכם, ולפנות אליהם בכל חשש.",
+    footer_made: "נבנה בְּאהבה כדי לעזור לילדים להרגיש רגועים ומוכנים.",
+    footer_disclaimer: "אינו תחליף לייעוץ רפואי מקצועי."
+  },
+
+  en: {
+    title: "Nuni – Getting ready for anesthesia, gently",
+    meta_desc: "A friendly site for children and parents that gently explains what happens before, during and after anesthesia and an operation — to make it calmer and less scary.",
+    brand_name: "Nuni",
+    nav_about: "What it is", nav_journey: "The journey", nav_feelings: "Feelings", nav_faq: "Questions", nav_parents: "Parents",
+    hero_eyebrow: "For brave kids (and their grown-ups)",
+    hero_title: "You're going to be okay. Let's get ready together.",
+    hero_subtitle: "Soon you'll have an operation, and you'll have a special sleep so nothing hurts. Nuni will show you exactly what happens — step by step.",
+    hero_cta: "Show me what happens", hero_cta2: "For parents",
+    what_title: "What is \"operation sleep\"?",
+    what_p1: "Before your operation you get a special, gentle sleep called anesthesia. It's not like sleeping at night — it's a deep sleep made just for the operation.",
+    what_p2: "A special doctor called the sleep doctor (anesthetist) gives you medicine through a soft mask you breathe through, or through a tiny thin straw in your hand. Then you slowly drift off, like floating on a cloud.",
+    what_p3: "While you sleep you feel nothing at all — no poking and no hurting. The sleep doctor stays right next to you the whole time and wakes you gently when the operation is done.",
+    journey_title: "Your journey, step by step",
+    step1_title: "At home",
+    step1_text: "Pack a favorite toy or blanket to bring with you. A grown-up will help you get ready. The hospital will tell you when to stop eating and drinking — this keeps your tummy safe during the sleep.",
+    step2_title: "Arriving at the hospital",
+    step2_text: "You'll meet friendly nurses and your sleep doctor. They might listen to your heart and check how much you've grown. You can ask them anything!",
+    step3_title: "Getting ready",
+    step3_text: "You'll put on soft hospital pajamas. Sometimes they use magic cream or a sticker on your hand so you won't feel a thing later.",
+    step4_title: "The special sleep room",
+    step4_text: "In a special room you'll breathe through a soft mask that can smell like bubblegum or strawberry, or get sleepy medicine through the tiny straw. Try counting or blowing up a big pretend balloon — before you finish, you'll be asleep.",
+    step5_title: "While you sleep",
+    step5_text: "You won't feel or remember the operation. The sleep doctor watches over you the whole time, making sure you're safe and comfy.",
+    step6_title: "Waking up",
+    step6_text: "You wake up in a cozy recovery room. Someone who loves you will be there. You might feel a little sleepy or thirsty — and you might even get a popsicle!",
+    feelings_title: "It's okay to feel however you feel",
+    feelings_text: "Excited, a little nervous, curious, a bit scared — all of these feelings are okay. Lots of kids feel this way, and the grown-ups at the hospital are experts at helping you feel safe. Here's a calming trick you can try any time:",
+    breath_title: "Balloon breathing",
+    breath_default: "Tap \"Start\" and breathe with Nuni",
+    breath_start: "Start", breath_stop: "Stop",
+    breath_in: "Breathe in… fill the balloon", breath_hold: "Hold…", breath_out: "Breathe out… slowly",
+    faq_title: "Questions kids ask",
+    q1: "Will it hurt?",
+    a1: "The sleep is made so the operation doesn't hurt. Getting ready might feel like a tiny pinch or a cool cream, but many kids don't feel anything at all.",
+    q2: "Might I wake up in the middle?",
+    a2: "No. The sleep doctor gives you just the right amount of medicine and stays with you the whole time, so you stay asleep until the operation is finished.",
+    q3: "Can my mom or dad come with me?",
+    a3: "Usually a grown-up can stay with you until you fall asleep, and they'll be there when you wake up. Ask your nurse what happens at your hospital.",
+    q4: "What if I feel scared?",
+    a4: "That's completely normal. Tell a nurse or your grown-up — they can hold your hand, bring your toy, or do balloon breathing with you.",
+    q5: "Will I feel sick afterward?",
+    a5: "Some kids feel a little sleepy, dizzy, or have a sore throat for a short while. It goes away, and the nurses can help you feel better.",
+    q6: "How long does it take?",
+    a6: "Every operation is different. Your sleep doctor or nurse can tell you about how long yours will be. To you it will feel like you closed your eyes and woke up right away.",
+    parents_eyebrow: "For parents & caregivers",
+    parents_title: "Helping your child feel prepared",
+    parents_intro: "Children cope far better when they know what to expect, in words they understand. Here are ways to support your child before an anesthetic and operation.",
+    tip1: "Be honest and simple. Explain that a special doctor will help them have a deep sleep so the operation doesn't hurt, and that they'll wake up afterward.",
+    tip2: "Use calm, reassuring words. 'Special sleep' and 'sleepy medicine' feel safer than frightening phrases.",
+    tip3: "Allow a comfort item. A favorite toy, blanket, or dummy can make a big difference.",
+    tip4: "Practice together. Reading through this site or trying balloon breathing beforehand builds confidence.",
+    tip5: "Follow your hospital's instructions exactly — especially about fasting (when your child must stop eating and drinking). These times keep your child safe and are set by your medical team.",
+    tip6: "Ask questions. Write down anything you're unsure about and ask the anesthetist or nurses — no question is too small.",
+    note_title: "Important",
+    note_text: "This website gives general, friendly information to help prepare children. It is not medical advice. Always follow the specific instructions given by your own hospital and medical team, and contact them with any concerns.",
+    footer_made: "Made with care to help children feel calm and informed.",
+    footer_disclaimer: "Not a substitute for professional medical advice."
+  },
+
+  ar: {
+    title: "نوني – نستعدّ للتخدير بلطف",
+    meta_desc: "موقع ودود للأطفال وأهاليهم يشرح بلطف ما يحدث قبل التخدير والعملية وأثناءهما وبعدهما — ليكون الأمر أهدأ وأقل خوفًا.",
+    brand_name: "نوني",
+    nav_about: "ما هو", nav_journey: "الرحلة", nav_feelings: "المشاعر", nav_faq: "أسئلة", nav_parents: "للأهل",
+    hero_eyebrow: "للأطفال الشجعان (ولكبارهم)",
+    hero_title: "كل شيء سيكون على ما يُرام. لنستعدّ معًا.",
+    hero_subtitle: "قريبًا ستُجرى لك عملية، وستنام نومًا خاصًا حتى لا يؤلمك شيء. سيريك نوني بالضبط ما يحدث — خطوة بخطوة.",
+    hero_cta: "أرِني ماذا يحدث", hero_cta2: "للأهل",
+    what_title: "ما هو «نوم العملية»؟",
+    what_p1: "قبل العملية تحصل على نوم خاص ولطيف اسمه التخدير. إنه ليس كالنوم في الليل — بل نوم عميق مُعدّ خصيصًا للعملية.",
+    what_p2: "يعطيك طبيب خاص اسمه طبيب التخدير دواءً عبر قناع ناعم تتنفّس منه، أو عبر قَشّة رفيعة جدًا في يدك. ثم تغفو ببطء وكأنك تطفو على غيمة.",
+    what_p3: "أثناء النوم لا تشعر بأي شيء — لا وخز ولا ألم. يبقى طبيب التخدير بجانبك طوال الوقت ويوقظك بلطف عند انتهاء العملية.",
+    journey_title: "رحلتك، خطوة بخطوة",
+    step1_title: "في البيت",
+    step1_text: "احزم لعبتك أو بطانيتك المفضّلة لتأخذها معك. سيساعدك أحد الكبار على الاستعداد. سيخبرك المستشفى متى تتوقّف عن الأكل والشرب — هذا يحافظ على سلامة معدتك أثناء النوم.",
+    step2_title: "الوصول إلى المستشفى",
+    step2_text: "ستقابل ممرّضين لطفاء وطبيب التخدير. قد يستمعون إلى قلبك ويقيسون كم كبرت. يمكنك أن تسألهم أي شيء!",
+    step3_title: "الاستعداد",
+    step3_text: "سترتدي بيجامة ناعمة خاصة بالمستشفى. أحيانًا يضعون كريمًا سحريًا أو ملصقًا على يدك حتى لا تشعر بشيء لاحقًا.",
+    step4_title: "غرفة النوم الخاصة",
+    step4_text: "في غرفة خاصة ستتنفّس عبر قناع ناعم قد تكون رائحته كالعلكة أو الفراولة، أو تحصل على دواء النوم عبر القشّة الرفيعة. جرّب أن تعدّ أو تنفخ بالونًا كبيرًا في خيالك — وقبل أن تنتهي ستكون قد نمت.",
+    step5_title: "بينما أنت نائم",
+    step5_text: "لن تشعر بالعملية ولن تتذكّرها. يراقبك طبيب التخدير طوال الوقت ويتأكّد من أنك آمن ومرتاح.",
+    step6_title: "الاستيقاظ",
+    step6_text: "تستيقظ في غرفة إفاقة مريحة. سيكون هناك شخص يحبّك. قد تشعر ببعض النعاس أو العطش — وربما تحصل على مصّاصة مثلجة!",
+    feelings_title: "لا بأس أن تشعر بما تشعر به",
+    feelings_text: "متحمّس، قليل التوتر، فضولي، خائف بعض الشيء — كل هذه المشاعر لا بأس بها. كثير من الأطفال يشعرون هكذا، والكبار في المستشفى خبراء في مساعدتك على الشعور بالأمان. إليك حيلة مهدّئة يمكنك تجربتها في أي وقت:",
+    breath_title: "تنفّس البالون",
+    breath_default: "اضغط «ابدأ» وتنفّس مع نوني",
+    breath_start: "ابدأ", breath_stop: "توقّف",
+    breath_in: "خذ نفسًا… انفخ البالون", breath_hold: "احبس نفسك…", breath_out: "أخرِج النفس… ببطء",
+    faq_title: "أسئلة يطرحها الأطفال",
+    q1: "هل سيؤلمني؟",
+    a1: "النوم مُعدّ حتى لا تؤلمك العملية. قد يكون الاستعداد كوخزة صغيرة جدًا أو كريم بارد، لكن كثيرًا من الأطفال لا يشعرون بشيء إطلاقًا.",
+    q2: "هل قد أستيقظ في المنتصف؟",
+    a2: "لا. يعطيك طبيب التخدير الكمية المناسبة تمامًا من الدواء ويبقى معك طوال الوقت، فتبقى نائمًا حتى تنتهي العملية.",
+    q3: "هل يستطيع أبي أو أمي أن يأتي معي؟",
+    a3: "عادةً يستطيع أحد الكبار البقاء معك حتى تنام، وسيكون هناك عندما تستيقظ. اسأل الممرّض عمّا هو معتاد في مستشفاك.",
+    q4: "ماذا لو شعرت بالخوف؟",
+    a4: "هذا طبيعي تمامًا. أخبر الممرّض أو الشخص الكبير معك — يمكنهم أن يمسكوا يدك، أو يحضروا لعبتك، أو يتنفّسوا معك تنفّس البالون.",
+    q5: "هل سأشعر بتوعّك بعد ذلك؟",
+    a5: "بعض الأطفال يشعرون ببعض النعاس أو الدوخة أو بألم خفيف في الحلق لفترة قصيرة. يزول ذلك، ويمكن للممرّضين مساعدتك على الشعور بتحسّن.",
+    q6: "كم يستغرق الأمر؟",
+    a6: "كل عملية مختلفة. يستطيع طبيب التخدير أو الممرّض إخبارك تقريبًا كم ستستغرق عمليتك. بالنسبة لك، ستشعر وكأنك أغمضت عينيك واستيقظت فورًا.",
+    parents_eyebrow: "للأهل ومقدّمي الرعاية",
+    parents_title: "كيف تساعد طفلك على الشعور بالاستعداد",
+    parents_intro: "يتأقلم الأطفال بشكل أفضل بكثير عندما يعرفون ما يمكن توقّعه، بكلمات يفهمونها. إليك طرقًا لدعم طفلك قبل التخدير والعملية.",
+    tip1: "كن صادقًا وبسيطًا. اشرح أن طبيبًا خاصًا سيساعده على النوم نومًا عميقًا حتى لا تؤلمه العملية، وأنه سيستيقظ بعدها.",
+    tip2: "استخدم كلمات هادئة ومطمئنة. عبارات مثل «نوم خاص» و«دواء النوم» تبدو أكثر أمانًا من العبارات المخيفة.",
+    tip3: "اسمح بإحضار غرض مريح. لعبة مفضّلة أو بطانية أو لهّاية قد تُحدث فرقًا كبيرًا.",
+    tip4: "تدرّبا معًا. قراءة هذا الموقع أو تجربة تنفّس البالون مسبقًا تبني الثقة.",
+    tip5: "اتبع تعليمات المستشفى بدقة — خاصةً بشأن الصيام (متى يجب أن يتوقّف طفلك عن الأكل والشرب). هذه الأوقات تحافظ على سلامة طفلك ويحدّدها فريقك الطبي.",
+    tip6: "اطرح الأسئلة. دوّن كل ما لست متأكدًا منه واسأل طبيب التخدير أو الممرّضين — لا يوجد سؤال صغير جدًا.",
+    note_title: "مهم",
+    note_text: "يقدّم هذا الموقع معلومات عامة وودّية للمساعدة في تهيئة الأطفال. وهو ليس استشارة طبية. اتبع دائمًا التعليمات المحدّدة التي يقدّمها مستشفاك وفريقك الطبي، وتواصل معهم عند أي قلق.",
+    footer_made: "صُنع بعناية لمساعدة الأطفال على الشعور بالهدوء والاطمئنان.",
+    footer_disclaimer: "ليس بديلاً عن الاستشارة الطبية المتخصّصة."
+  },
+
+  ru: {
+    title: "Нуни – мягко готовимся к наркозу",
+    meta_desc: "Добрый сайт для детей и родителей, который мягко объясняет, что происходит до, во время и после наркоза и операции — чтобы было спокойнее и не так страшно.",
+    brand_name: "Нуни",
+    nav_about: "Что это", nav_journey: "Путешествие", nav_feelings: "Чувства", nav_faq: "Вопросы", nav_parents: "Родителям",
+    hero_eyebrow: "Для храбрых детей (и их взрослых)",
+    hero_title: "Всё будет хорошо. Давай подготовимся вместе.",
+    hero_subtitle: "Скоро у тебя будет операция, и ты будешь спать особым сном, чтобы ничего не болело. Нуни покажет тебе, что именно происходит — шаг за шагом.",
+    hero_cta: "Покажи, что будет", hero_cta2: "Родителям",
+    what_title: "Что такое «операционный сон»?",
+    what_p1: "Перед операцией тебе дают особый, мягкий сон — он называется наркоз. Это не как сон ночью — это глубокий сон, сделанный специально для операции.",
+    what_p2: "Особый врач — врач-анестезиолог — даёт тебе лекарство через мягкую маску, через которую ты дышишь, или через тоненькую трубочку в руке. И ты медленно засыпаешь, как будто плывёшь на облаке.",
+    what_p3: "Во время сна ты совсем ничего не чувствуешь — ни уколов, ни боли. Врач-анестезиолог всё время рядом с тобой и мягко будит тебя, когда операция закончилась.",
+    journey_title: "Твоё путешествие, шаг за шагом",
+    step1_title: "Дома",
+    step1_text: "Возьми с собой любимую игрушку или одеяльце. Взрослый поможет тебе собраться. В больнице скажут, когда перестать есть и пить — так твой животик будет в безопасности во время сна.",
+    step2_title: "Приезд в больницу",
+    step2_text: "Ты познакомишься с добрыми медсёстрами и врачом-анестезиологом. Возможно, они послушают твоё сердечко и проверят, как ты подрос. Ты можешь спросить их о чём угодно!",
+    step3_title: "Подготовка",
+    step3_text: "Ты наденешь мягкую больничную пижаму. Иногда на руку наносят волшебный крем или наклейку, чтобы потом ты ничего не почувствовал.",
+    step4_title: "Особая комната сна",
+    step4_text: "В особой комнате ты будешь дышать через мягкую маску, которая может пахнуть жвачкой или клубникой, или получишь сонное лекарство через тоненькую трубочку. Попробуй считать или надувать большой воображаемый шарик — и не успеешь закончить, как уже уснёшь.",
+    step5_title: "Пока ты спишь",
+    step5_text: "Ты не почувствуешь и не запомнишь операцию. Врач-анестезиолог всё время следит за тобой и заботится, чтобы тебе было безопасно и удобно.",
+    step6_title: "Пробуждение",
+    step6_text: "Ты просыпаешься в уютной палате пробуждения. Рядом будет тот, кто тебя любит. Возможно, ты немного сонный или хочешь пить — а ещё тебе могут дать фруктовый лёд!",
+    feelings_title: "Можно чувствовать всё, что ты чувствуешь",
+    feelings_text: "Радостно, немного тревожно, любопытно, чуть-чуть страшно — все эти чувства нормальны. Многие дети чувствуют то же самое, а взрослые в больнице — мастера в том, чтобы ты чувствовал себя в безопасности. Вот успокаивающий трюк, который можно попробовать в любой момент:",
+    breath_title: "Дыхание-шарик",
+    breath_default: "Нажми «Начать» и дыши вместе с Нуни",
+    breath_start: "Начать", breath_stop: "Стоп",
+    breath_in: "Вдохни… надуй шарик", breath_hold: "Задержи…", breath_out: "Выдохни… медленно",
+    faq_title: "Вопросы, которые задают дети",
+    q1: "Будет ли больно?",
+    a1: "Сон сделан так, чтобы операция не была больной. Подготовка может ощущаться как крошечный щипок или прохладный крем, но многие дети совсем ничего не чувствуют.",
+    q2: "Могу ли я проснуться посередине?",
+    a2: "Нет. Врач-анестезиолог даёт ровно нужное количество лекарства и всё время рядом, поэтому ты спишь, пока операция не закончится.",
+    q3: "Может ли мама или папа пойти со мной?",
+    a3: "Обычно взрослый может побыть с тобой, пока ты не уснёшь, и будет рядом, когда ты проснёшься. Спроси у медсестры, как это устроено в твоей больнице.",
+    q4: "А если мне страшно?",
+    a4: "Это совершенно нормально. Скажи медсестре или своему взрослому — они могут подержать тебя за руку, принести твою игрушку или подышать вместе с тобой дыханием-шариком.",
+    q5: "Будет ли мне плохо потом?",
+    a5: "Некоторые дети недолго чувствуют сонливость, головокружение или лёгкую боль в горле. Это проходит, и медсёстры помогут тебе почувствовать себя лучше.",
+    q6: "Сколько это длится?",
+    a6: "Каждая операция разная. Врач-анестезиолог или медсестра расскажут, сколько примерно продлится твоя. Для тебя это будет как будто ты закрыл глаза и тут же проснулся.",
+    parents_eyebrow: "Родителям и опекунам",
+    parents_title: "Как помочь ребёнку почувствовать себя готовым",
+    parents_intro: "Дети справляются намного лучше, когда знают, чего ожидать, понятными им словами. Вот как поддержать ребёнка перед наркозом и операцией.",
+    tip1: "Будьте честны и просты. Объясните, что особый врач поможет ему крепко уснуть, чтобы операция не была больной, и что потом он проснётся.",
+    tip2: "Используйте спокойные, ободряющие слова. «Особый сон» и «сонное лекарство» звучат безопаснее пугающих выражений.",
+    tip3: "Разрешите взять любимую вещь. Любимая игрушка, одеяльце или соска могут очень помочь.",
+    tip4: "Потренируйтесь вместе. Чтение этого сайта или дыхание-шарик заранее придают уверенности.",
+    tip5: "Точно следуйте указаниям больницы — особенно насчёт голодания (когда ребёнку нужно перестать есть и пить). Эти сроки обеспечивают безопасность ребёнка и устанавливаются вашей медицинской командой.",
+    tip6: "Задавайте вопросы. Запишите всё, в чём не уверены, и спросите анестезиолога или медсестёр — не бывает слишком маленьких вопросов.",
+    note_title: "Важно",
+    note_text: "Этот сайт даёт общую, дружелюбную информацию, чтобы помочь подготовить детей. Это не медицинская консультация. Всегда следуйте конкретным указаниям вашей больницы и медицинской команды и обращайтесь к ним при любых сомнениях.",
+    footer_made: "Сделано с заботой, чтобы дети чувствовали себя спокойно и уверенно.",
+    footer_disclaimer: "Не заменяет профессиональную медицинскую консультацию."
+  }
+};
+
+const RTL_LANGS = ["he", "ar"];
+
+/* Currently active language + dictionary, exposed for app.js */
+window.NUNI = { lang: "he", t: I18N.he };
+
+function applyLanguage(lang) {
+  const dict = I18N[lang];
+  if (!dict) return;
+
+  const dir = RTL_LANGS.includes(lang) ? "rtl" : "ltr";
+  document.documentElement.lang = lang;
+  document.documentElement.dir = dir;
+
+  // Swap every translatable element
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.getAttribute("data-i18n");
+    if (!(key in dict)) return;
+    if (el.tagName === "META") {
+      el.setAttribute("content", dict[key]);
+    } else if (el.tagName === "TITLE") {
+      el.textContent = dict[key];
+    } else {
+      el.textContent = dict[key];
+    }
+  });
+
+  document.title = dict.title;
+
+  // Active-state on the language buttons
+  document.querySelectorAll(".lang-switch button").forEach((btn) => {
+    btn.classList.toggle("is-active", btn.dataset.lang === lang);
+  });
+
+  window.NUNI.lang = lang;
+  window.NUNI.t = dict;
+  try { localStorage.setItem("nuni-lang", lang); } catch (e) {}
+
+  // Let app.js update any live UI (e.g. the breathing button label)
+  window.dispatchEvent(new CustomEvent("nuni:langchange", { detail: { lang, dict } }));
+}
+
+// Wire up the switcher and restore the saved language
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".lang-switch button").forEach((btn) => {
+    btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
+  });
+
+  let saved = "he";
+  try { saved = localStorage.getItem("nuni-lang") || "he"; } catch (e) {}
+  applyLanguage(saved);
+});
