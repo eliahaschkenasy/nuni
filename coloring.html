@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>דפי צביעה של נוני</title>
+  <meta name="description" data-i18n="coloring_intro" content="דפי צביעה להדפסה עם נוני." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%96%8D%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="coloring.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Nuni">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="40" height="40">
+          <path d="M 35.49 12.64 L 36.74 15.03 Q 40.23 21.67 47.62 22.94 L 50.29 23.39 Q 57.68 24.66 52.44 30.02 L 50.55 31.96 Q 45.31 37.33 46.4 44.75 L 46.79 47.42 Q 47.87 54.84 41.15 51.52 L 38.72 50.32 Q 32 47 25.28 50.32 L 22.85 51.52 Q 16.13 54.84 17.21 47.42 L 17.6 44.75 Q 18.69 37.33 13.45 31.96 L 11.56 30.02 Q 6.32 24.66 13.71 23.39 L 16.38 22.94 Q 23.77 21.67 27.26 15.03 L 28.51 12.64 Q 32 6 35.49 12.64 Z" fill="#ffd15c" stroke="#f5a623" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="25" cy="30" r="2.4" fill="#4a3b2a"/><circle cx="39" cy="30" r="2.4" fill="#4a3b2a"/>
+          <path d="M27 37c2 2 8 2 10 0" fill="none" stroke="#4a3b2a" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name" data-i18n="brand_name">נוני</span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html" data-i18n="nav_home">דף הבית</a>
+      <a href="story.html" data-i18n="nav_story">סרטון</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="he" class="is-active">עברית</button>
+      <button type="button" data-lang="en">English</button>
+      <button type="button" data-lang="ar">العربية</button>
+      <button type="button" data-lang="ru">Русский</button>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main class="wrap coloring-main">
+    <h1 data-i18n="coloring_title">דפי צביעה של נוני</h1>
+    <p class="coloring-lead" data-i18n="coloring_intro">בחרו דף, הדפיסו וצבעו!</p>
+    <button class="btn btn-primary print-btn" type="button" onclick="window.print()" data-i18n="coloring_print">הדפיסו את כל הדפים</button>
+
+    <div class="coloring-grid">
+
+      <!-- Nuni the star -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <path d="M 131.82 43.16 L 137.56 54.39 Q 149.39 77.55 175.07 81.64 L 187.53 83.63 Q 213.2 87.72 194.84 106.12 L 185.92 115.05 Q 167.55 133.45 171.6 159.13 L 173.56 171.6 Q 177.6 197.28 154.43 185.5 L 143.18 179.78 Q 120 168 96.82 179.78 L 85.57 185.5 Q 62.4 197.28 66.44 171.6 L 68.4 159.13 Q 72.45 133.45 54.08 115.05 L 45.16 106.12 Q 26.8 87.72 52.47 83.63 L 64.93 81.64 Q 90.61 77.55 102.44 54.39 L 108.18 43.16 Q 120 20 131.82 43.16 Z"/>
+          <circle cx="103" cy="105" r="7"/><circle cx="137" cy="105" r="7"/>
+          <circle cx="88" cy="120" r="9"/><circle cx="152" cy="120" r="9"/>
+          <path d="M104 128c8 8 24 8 32 0"/>
+        </svg>
+        <figcaption data-i18n="color_nuni">נוני הכוכב</figcaption>
+      </figure>
+
+      <!-- Breathing balloon -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <path d="M120 40c34 0 58 26 58 60 0 40-34 66-58 66s-58-26-58-66c0-34 24-60 58-60z"/>
+          <path d="M112 166l8 14 8-14"/>
+          <path d="M120 180c0 18 14 22 14 40"/>
+          <path d="M92 78c6-10 20-16 30-15"/>
+        </svg>
+        <figcaption data-i18n="color_balloon">בלון הנשימה</figcaption>
+      </figure>
+
+      <!-- Hospital bed -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <path d="M30 120h150c18 0 30 12 30 30v20H30z"/>
+          <path d="M30 90v90"/>
+          <path d="M30 140h180"/>
+          <rect x="44" y="104" width="46" height="26" rx="8"/>
+          <circle cx="60" cy="184" r="12"/><circle cx="190" cy="184" r="12"/>
+          <path d="M210 120V96"/>
+        </svg>
+        <figcaption data-i18n="color_bed">מיטת בית החולים</figcaption>
+      </figure>
+
+      <!-- Apple juice -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <path d="M78 70h84l-10 122c-1 12-11 20-22 20h-20c-11 0-21-8-22-20z"/>
+          <path d="M82 108h76"/>
+          <path d="M150 60l14-24"/>
+          <path d="M150 62c0-14 12-22 22-22-2 14-10 22-22 22z"/>
+          <path d="M132 60c-8-8-6-22 4-30 6 10 4 24-4 30z"/>
+        </svg>
+        <figcaption data-i18n="color_juice">כוס מיץ תפוחים</figcaption>
+      </figure>
+
+      <!-- Magic mask -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <path d="M120 70c30 0 46 22 46 54 0 24-20 46-46 46s-46-22-46-46c0-32 16-54 46-54z"/>
+          <path d="M92 150c10 12 46 12 56 0"/>
+          <path d="M120 170v22"/>
+          <path d="M108 192h24"/>
+          <path d="M96 96c8-8 40-8 48 0"/>
+        </svg>
+        <figcaption data-i18n="color_mask">מסכת הקסם</figcaption>
+      </figure>
+
+      <!-- Kind nurse -->
+      <figure class="sheet">
+        <svg viewBox="0 0 240 240" role="img">
+          <circle cx="120" cy="78" r="34"/>
+          <path d="M104 66v-8h32v8"/>
+          <path d="M116 54v10M112 59h8"/>
+          <circle cx="110" cy="80" r="3"/><circle cx="130" cy="80" r="3"/>
+          <path d="M110 92c6 5 14 5 20 0"/>
+          <path d="M74 200c0-30 20-52 46-52s46 22 46 52"/>
+          <path d="M120 148v52"/>
+        </svg>
+        <figcaption data-i18n="color_nurse">האח/ות הנחמד/ה</figcaption>
+      </figure>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">אינו תחליף לייעוץ רפואי מקצועי.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

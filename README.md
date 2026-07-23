@@ -11,6 +11,11 @@ support for Hebrew and Arabic. Your choice is remembered in the browser.
 
 - **What it is** — a gentle explanation of anesthesia ("operation sleep").
 - **The journey** — six illustrated steps from home to waking up.
+- **Story film** (`story.html`) — a ~2-minute wordless animation of Nuni's day, for
+  little ones who can't read yet (wakes up → fasts but drinks apple juice → hospital →
+  nurse & pyjamas → own bed → soft mask → sleeps while the doctor watches → wakes happy).
+  Big play/pause controls and a read-aloud caption for grown-ups.
+- **Coloring pages** (`coloring.html`) — six printable line-art sheets.
 - **Feelings** — reassurance plus an interactive *balloon breathing* calming exercise.
 - **Questions** — the questions children commonly ask.
 - **For parents** — practical tips and an important note to always follow your own

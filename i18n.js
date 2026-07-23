@@ -61,7 +61,17 @@ const I18N = {
     note_title: "חשוב",
     note_text: "האתר הזה נותן מידע כללי וידידותי כדי לעזור בהכנת ילדים. הוא אינו מהווה ייעוץ רפואי. יש לפעול תמיד לפי ההוראות הספציפיות של בית החולים והצוות הרפואי שלכם, ולפנות אליהם בכל חשש.",
     footer_made: "נבנה בְּאהבה כדי לעזור לילדים להרגיש רגועים ומוכנים.",
-    footer_disclaimer: "אינו תחליף לייעוץ רפואי מקצועי."
+    footer_disclaimer: "אינו תחליף לייעוץ רפואי מקצועי.",
+    nav_home: "דף הבית", nav_story: "סרטון", nav_coloring: "דפי צביעה",
+    hero_story: "צפו בסרטון של נוני",
+    coloring_title: "דפי צביעה של נוני",
+    coloring_intro: "בחרו דף, הדפיסו וצבעו! דרך נהדרת להירגע ולהכיר את נוני לפני הביקור בבית החולים.",
+    coloring_print: "הדפיסו את כל הדפים",
+    color_nuni: "נוני הכוכב", color_balloon: "בלון הנשימה", color_bed: "מיטת בית החולים",
+    color_juice: "כוס מיץ תפוחים", color_mask: "מסכת הקסם", color_nurse: "האח/ות הנחמד/ה",
+    story_title: "היום של נוני בבית החולים",
+    story_sub: "סרטון קצר בלי מילים – מתאים גם לקטנטנים שעוד לא קוראים.",
+    story_replay: "מהתחלה"
   },
 
   en: {
@@ -121,7 +131,17 @@ const I18N = {
     note_title: "Important",
     note_text: "This website gives general, friendly information to help prepare children. It is not medical advice. Always follow the specific instructions given by your own hospital and medical team, and contact them with any concerns.",
     footer_made: "Made with care to help children feel calm and informed.",
-    footer_disclaimer: "Not a substitute for professional medical advice."
+    footer_disclaimer: "Not a substitute for professional medical advice.",
+    nav_home: "Home", nav_story: "Story", nav_coloring: "Coloring",
+    hero_story: "Watch Nuni's story",
+    coloring_title: "Nuni's coloring pages",
+    coloring_intro: "Pick a page, print it, and color! A lovely way to relax and get to know Nuni before the hospital visit.",
+    coloring_print: "Print all pages",
+    color_nuni: "Nuni the star", color_balloon: "Breathing balloon", color_bed: "Hospital bed",
+    color_juice: "Apple juice", color_mask: "The magic mask", color_nurse: "The kind nurse",
+    story_title: "Nuni's day at the hospital",
+    story_sub: "A short wordless film — perfect for little ones who can't read yet.",
+    story_replay: "Replay"
   },
 
   ar: {
@@ -181,7 +201,17 @@ const I18N = {
     note_title: "مهم",
     note_text: "يقدّم هذا الموقع معلومات عامة وودّية للمساعدة في تهيئة الأطفال. وهو ليس استشارة طبية. اتبع دائمًا التعليمات المحدّدة التي يقدّمها مستشفاك وفريقك الطبي، وتواصل معهم عند أي قلق.",
     footer_made: "صُنع بعناية لمساعدة الأطفال على الشعور بالهدوء والاطمئنان.",
-    footer_disclaimer: "ليس بديلاً عن الاستشارة الطبية المتخصّصة."
+    footer_disclaimer: "ليس بديلاً عن الاستشارة الطبية المتخصّصة.",
+    nav_home: "الرئيسية", nav_story: "الفيلم", nav_coloring: "التلوين",
+    hero_story: "شاهد قصة نوني",
+    coloring_title: "صفحات تلوين نوني",
+    coloring_intro: "اختر صفحة، اطبعها، ولوّنها! طريقة جميلة للاسترخاء والتعرّف على نوني قبل زيارة المستشفى.",
+    coloring_print: "اطبع كل الصفحات",
+    color_nuni: "نوني النجمة", color_balloon: "بالون التنفّس", color_bed: "سرير المستشفى",
+    color_juice: "عصير التفاح", color_mask: "قناع السحر", color_nurse: "الممرّض اللطيف",
+    story_title: "يوم نوني في المستشفى",
+    story_sub: "فيلم قصير بلا كلمات — مثالي للصغار الذين لا يقرؤون بعد.",
+    story_replay: "من البداية"
   },
 
   ru: {
@@ -241,7 +271,17 @@ const I18N = {
     note_title: "Важно",
     note_text: "Этот сайт даёт общую, дружелюбную информацию, чтобы помочь подготовить детей. Это не медицинская консультация. Всегда следуйте конкретным указаниям вашей больницы и медицинской команды и обращайтесь к ним при любых сомнениях.",
     footer_made: "Сделано с заботой, чтобы дети чувствовали себя спокойно и уверенно.",
-    footer_disclaimer: "Не заменяет профессиональную медицинскую консультацию."
+    footer_disclaimer: "Не заменяет профессиональную медицинскую консультацию.",
+    nav_home: "Главная", nav_story: "Мультик", nav_coloring: "Раскраски",
+    hero_story: "Смотреть мультик про Нуни",
+    coloring_title: "Раскраски с Нуни",
+    coloring_intro: "Выбери страницу, распечатай и раскрась! Прекрасный способ расслабиться и познакомиться с Нуни перед визитом в больницу.",
+    coloring_print: "Распечатать все",
+    color_nuni: "Звёздочка Нуни", color_balloon: "Шарик для дыхания", color_bed: "Больничная кроватка",
+    color_juice: "Яблочный сок", color_mask: "Волшебная маска", color_nurse: "Добрая медсестра",
+    story_title: "День Нуни в больнице",
+    story_sub: "Короткий мультик без слов — подойдёт даже малышам, которые ещё не читают.",
+    story_replay: "Сначала"
   }
 };
 

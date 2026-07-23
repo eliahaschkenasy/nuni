@@ -1,0 +1,34 @@
+.coloring-main { padding-block: 40px 60px; text-align: center; }
+.coloring-lead { color: var(--ink-soft); font-size: 1.1rem; max-width: 60ch; margin-inline: auto; }
+.print-btn { margin: 6px 0 34px; }
+
+.coloring-grid {
+  display: grid; gap: 22px; text-align: center;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.sheet {
+  background: #fff; border-radius: 22px; box-shadow: var(--shadow);
+  padding: 22px; break-inside: avoid;
+}
+.sheet svg {
+  width: 100%; height: auto; max-height: 300px;
+  fill: none; stroke: #1f2740; stroke-width: 4;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+/* small solid features (eyes) still read as outlines when colored */
+.sheet svg circle[r="3"], .sheet svg circle[r="7"] { fill: none; }
+.sheet figcaption { font-weight: 700; font-size: 1.15rem; margin-top: 14px; color: var(--ink); }
+
+/* ===== Print: one clean sheet per page ===== */
+@media print {
+  body { background: #fff; }
+  .site-header, .site-footer, .coloring-lead, .print-btn, .sky { display: none !important; }
+  .coloring-main h1 { display: none; }
+  .coloring-grid { display: block; }
+  .sheet {
+    box-shadow: none; border: none; padding: 0;
+    page-break-after: always; break-after: page;
+    height: 96vh; display: flex; flex-direction: column; justify-content: center;
+  }
+  .sheet svg { max-height: 80vh; stroke: #000; }
+}
