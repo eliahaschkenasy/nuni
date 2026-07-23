@@ -30,6 +30,13 @@
   flex: none; border: 0; cursor: pointer; font-family: inherit; font-weight: 700;
   background: #fff; color: var(--ink); padding: 12px 18px; border-radius: 999px; box-shadow: var(--shadow);
 }
+.music-btn {
+  flex: none; width: 48px; height: 48px; border-radius: 50%; border: 0; cursor: pointer;
+  background: #fff; font-size: 1.2rem; box-shadow: var(--shadow); display: grid; place-items: center;
+  transition: transform .12s, opacity .2s;
+}
+.music-btn:active { transform: scale(.94); }
+.music-btn.is-off { opacity: .45; }
 
 /* ===== Caption (read-aloud for grown-ups) ===== */
 .caption {
@@ -58,6 +65,12 @@
 .fadeOutLate { animation: fadeOutLate var(--dur) linear forwards; }
 @keyframes fadeInLate  { 0%,48% { opacity: 0; } 62%,100% { opacity: 1; } }
 @keyframes fadeOutLate { 0%,48% { opacity: 1; } 62%,100% { opacity: .28; } }
+
+/* late swap — used when Nuni changes into the pyjamas */
+.fadeOutEnd { animation: fadeOutEnd var(--dur) linear forwards; }
+.fadeInEnd  { animation: fadeInEnd  var(--dur) linear forwards; }
+@keyframes fadeOutEnd { 0%,58% { opacity: 1; } 72%,100% { opacity: 0; } }
+@keyframes fadeInEnd  { 0%,60% { opacity: 0; } 74%,100% { opacity: 1; } }
 
 .popIn { animation: popIn var(--dur) ease-out forwards; transform-box: fill-box; transform-origin: center; }
 @keyframes popIn { 0%,18% { transform: scale(0); opacity: 0; } 30% { transform: scale(1.18); opacity: 1; } 40%,100% { transform: scale(1); opacity: 1; } }

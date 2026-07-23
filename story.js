@@ -9,10 +9,10 @@ const CAPTIONS = {
     "🌅 בוקר טוב! נוני מתעורר.",
     "🍎 היום אין ארוחת בוקר – אבל מותר לשתות מיץ תפוחים!",
     "🚗 נוסעים לבית החולים.",
-    "🧑‍⚕️ אח/ות נחמד/ה מקבל/ת את נוני ונותן/ת לו פיג'מה.",
+    "🧑‍⚕️ אח נחמד מקבל את נוני ונותן לו פיג'מה.",
     "🛏️ לנוני יש מיטה משלו.",
     "😴 מסכה רכה, סופרים 3־2־1… ונוני נרדם.",
-    "💙 נוני ישן, והרופא/ה המרדימ/ה שומר/ת עליו כל הזמן.",
+    "💙 נוני ישן, והרופא המרדים שומר עליו כל הזמן.",
     "🎉 נוני מתעורר – הכול נגמר, וכל הכבוד!"
   ],
   en: [
@@ -46,6 +46,88 @@ const CAPTIONS = {
     "🎉 Нуни просыпается — всё позади, молодец!"
   ]
 };
+
+/* --------------------------------------------------------------------------
+   Gentle lullaby, synthesised in the browser (no audio files to load).
+   Browsers only allow sound after a user gesture, so playback resumes on the
+   first tap/click anywhere on the page.
+   -------------------------------------------------------------------------- */
+const Music = (() => {
+  const BEAT = 0.58;
+  // a calm pentatonic melody, [frequency, beats]
+  const MEL = [
+    [659.25, 1], [783.99, 1], [880.00, 2], [783.99, 1], [659.25, 1], [587.33, 2],
+    [523.25, 1], [659.25, 1], [783.99, 2], [880.00, 1], [783.99, 1], [659.25, 2],
+    [587.33, 2], [523.25, 2]
+  ];
+  const BASS = [130.81, 196.00, 174.61, 196.00]; // C3 G3 F3 G3
+
+  let ctx = null, master = null, timer = null;
+  let noteIndex = 0, nextTime = 0, enabled = true, wanted = false;
+
+  function ensure() {
+    if (ctx) return;
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    ctx = new AC();
+    master = ctx.createGain();
+    master.gain.value = 0;
+    master.connect(ctx.destination);
+    // resume on the first user interaction (autoplay policy)
+    const wake = () => {
+      if (ctx.state === "suspended") ctx.resume();
+      document.removeEventListener("pointerdown", wake);
+      document.removeEventListener("keydown", wake);
+    };
+    document.addEventListener("pointerdown", wake);
+    document.addEventListener("keydown", wake);
+  }
+
+  function tone(freq, t, dur, gain, type) {
+    const o = ctx.createOscillator();
+    const g = ctx.createGain();
+    o.type = type; o.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(gain, t + 0.08);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g); g.connect(master);
+    o.start(t); o.stop(t + dur + 0.05);
+  }
+
+  function tick() {
+    if (!ctx) return;
+    const ahead = ctx.currentTime + 1.2;
+    while (nextTime < ahead) {
+      const [f, b] = MEL[noteIndex % MEL.length];
+      tone(f, nextTime, b * BEAT * 0.95, 0.20, "triangle");
+      if (noteIndex % 4 === 0) {
+        tone(BASS[((noteIndex / 4) | 0) % BASS.length], nextTime, BEAT * 3.6, 0.10, "sine");
+      }
+      nextTime += b * BEAT;
+      noteIndex++;
+    }
+  }
+
+  function apply() {
+    if (!ctx) return;
+    const on = enabled && wanted;
+    const now = ctx.currentTime;
+    master.gain.cancelScheduledValues(now);
+    master.gain.setValueAtTime(master.gain.value, now);
+    master.gain.linearRampToValueAtTime(on ? 0.13 : 0, now + (on ? 1.2 : 0.5));
+    if (on) {
+      if (ctx.state === "suspended") ctx.resume();
+      if (nextTime < ctx.currentTime) nextTime = ctx.currentTime + 0.1;
+      if (!timer) { tick(); timer = setInterval(tick, 250); }
+    }
+  }
+
+  return {
+    setPlaying(p) { wanted = p; ensure(); apply(); },
+    toggle() { enabled = !enabled; ensure(); apply(); return enabled; },
+    restart() { if (ctx) { noteIndex = 0; nextTime = ctx.currentTime + 0.1; } }
+  };
+})();
 
 document.addEventListener("DOMContentLoaded", () => {
   const stage    = document.getElementById("stage");
@@ -113,6 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
     last = 0;
     stage.classList.remove("paused");
     playBtn.textContent = "⏸";
+    Music.setPlaying(true);
     requestAnimationFrame(frame);
   }
 
@@ -120,10 +203,18 @@ document.addEventListener("DOMContentLoaded", () => {
     playing = false;
     stage.classList.add("paused");
     playBtn.textContent = "▶";
+    Music.setPlaying(false);
   }
 
   playBtn.addEventListener("click", () => (playing ? pause(false) : play()));
-  replayBtn.addEventListener("click", () => { elapsed = 0; index = -1; play(); });
+  replayBtn.addEventListener("click", () => { elapsed = 0; index = -1; Music.restart(); play(); });
+
+  const musicBtn = document.getElementById("musicBtn");
+  musicBtn.addEventListener("click", () => {
+    const on = Music.toggle();
+    musicBtn.textContent = on ? "🔊" : "🔇";
+    musicBtn.classList.toggle("is-off", !on);
+  });
 
   // Keep the caption in the chosen language
   window.addEventListener("nuni:langchange", setCaption);
