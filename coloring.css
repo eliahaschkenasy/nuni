@@ -6,10 +6,27 @@
   display: grid; gap: 22px; text-align: center;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
+.coloring-hint { color: var(--ink-soft); font-size: .98rem; margin: 4px 0 14px; }
+
 .sheet {
   background: #fff; border-radius: 22px; box-shadow: var(--shadow);
-  padding: 22px; break-inside: avoid;
+  padding: 22px; margin: 0; break-inside: avoid;
+  position: relative; cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
 }
+.sheet:hover, .sheet:focus-visible {
+  transform: translateY(-4px); outline: none;
+  box-shadow: 0 24px 46px -18px rgba(51, 64, 90, .5);
+}
+/* little printer hint on hover */
+.sheet::after {
+  content: "🖨"; position: absolute; top: 12px; inset-inline-end: 16px;
+  font-size: 1.1rem; opacity: 0; transition: opacity .15s;
+}
+.sheet:hover::after, .sheet:focus-visible::after { opacity: .6; }
+/* the wide machine drawing gets a full row on big screens */
+.sheet-wide { grid-column: span 2; }
+@media (max-width: 620px) { .sheet-wide { grid-column: auto; } }
 .sheet svg {
   width: 100%; height: auto; max-height: 300px;
   fill: none; stroke: #1f2740; stroke-width: 4;
@@ -22,13 +39,25 @@
 /* ===== Print: one clean sheet per page ===== */
 @media print {
   body { background: #fff; }
-  .site-header, .site-footer, .coloring-lead, .print-btn, .sky { display: none !important; }
+  .site-header, .site-footer, .coloring-lead, .coloring-hint, .print-btn, .sky { display: none !important; }
   .coloring-main h1 { display: none; }
+  .coloring-main { padding: 0 !important; }
   .coloring-grid { display: block; }
   .sheet {
-    box-shadow: none; border: none; padding: 0;
+    box-shadow: none; border: none; padding: 0; margin: 0 !important; transform: none;
     page-break-after: always; break-after: page;
-    height: 96vh; display: flex; flex-direction: column; justify-content: center;
+    height: 92vh; display: flex; flex-direction: column; justify-content: center;
   }
+  /* no trailing blank page after the final sheet */
+  .sheet:last-child { page-break-after: auto; break-after: auto; }
+  .sheet::after { display: none; }
   .sheet svg { max-height: 80vh; stroke: #000; }
+
+  /* printing a single picture: hide the rest, and no trailing blank page */
+  body.printing-one .sheet { display: none !important; }
+  body.printing-one .sheet.print-only {
+    display: flex !important;
+    height: 92vh;
+    page-break-after: auto; break-after: auto;
+  }
 }

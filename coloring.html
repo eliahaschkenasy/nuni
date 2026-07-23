@@ -40,7 +40,8 @@
   <main class="wrap coloring-main">
     <h1 data-i18n="coloring_title">דפי צביעה של נוני</h1>
     <p class="coloring-lead" data-i18n="coloring_intro">בחרו דף, הדפיסו וצבעו!</p>
-    <button class="btn btn-primary print-btn" type="button" onclick="window.print()" data-i18n="coloring_print">הדפיסו את כל הדפים</button>
+    <p class="coloring-hint" data-i18n="coloring_hint">לחצו על תמונה כדי להדפיס אותה לבד.</p>
+    <button class="btn btn-primary print-btn" id="printAll" type="button" data-i18n="coloring_print">הדפיסו את כל הדפים</button>
 
     <div class="coloring-grid">
 
@@ -103,18 +104,69 @@
         <figcaption data-i18n="color_mask">מסכת הקסם</figcaption>
       </figure>
 
-      <!-- Kind nurse -->
+      <!-- Kind nurse, with a stethoscope round the neck -->
       <figure class="sheet">
         <svg viewBox="0 0 240 240" role="img">
-          <circle cx="120" cy="78" r="34"/>
-          <path d="M104 66v-8h32v8"/>
-          <path d="M116 54v10M112 59h8"/>
-          <circle cx="110" cy="80" r="3"/><circle cx="130" cy="80" r="3"/>
-          <path d="M110 92c6 5 14 5 20 0"/>
-          <path d="M74 200c0-30 20-52 46-52s46 22 46 52"/>
-          <path d="M120 148v52"/>
+          <circle cx="120" cy="66" r="32"/>
+          <path d="M92 58c6-20 50-20 56 0"/>
+          <circle cx="110" cy="66" r="3"/><circle cx="130" cy="66" r="3"/>
+          <path d="M111 78c5 5 13 5 18 0"/>
+          <path d="M108 94v14"/><path d="M132 94v14"/>
+          <path d="M108 108C86 113 72 124 68 142L62 216h116l-6-74c-4-18-18-29-40-34"/>
+          <path d="M108 108l12 22 12-22"/>
+          <path d="M66 152h26"/><path d="M174 152h-26"/>
+          <rect x="74" y="168" width="26" height="22" rx="3"/>
+          <path d="M106 112C96 140 104 162 120 168"/>
+          <path d="M134 112C144 138 138 160 122 168"/>
+          <path d="M121 168l9 14"/>
+          <circle cx="134" cy="194" r="13"/>
+          <circle cx="134" cy="194" r="6"/>
         </svg>
         <figcaption data-i18n="color_nurse">האח הנחמד</figcaption>
+      </figure>
+
+      <!-- Anesthesia machine, connected to the mask -->
+      <figure class="sheet sheet-wide">
+        <svg viewBox="0 0 320 240" role="img">
+          <!-- monitor -->
+          <rect x="34" y="18" width="104" height="52" rx="6"/>
+          <rect x="44" y="28" width="84" height="32" rx="3"/>
+          <path d="M50 46h11l6-12 8 22 7-14 5 4h25"/>
+          <!-- main body -->
+          <rect x="28" y="70" width="116" height="132" rx="8"/>
+          <!-- flowmeter tubes with floats -->
+          <rect x="40" y="82" width="10" height="46" rx="5"/>
+          <rect x="56" y="82" width="10" height="46" rx="5"/>
+          <rect x="72" y="82" width="10" height="46" rx="5"/>
+          <circle cx="45" cy="104" r="3"/><circle cx="61" cy="112" r="3"/><circle cx="77" cy="98" r="3"/>
+          <!-- vaporizer with dial -->
+          <rect x="94" y="82" width="38" height="46" rx="4"/>
+          <circle cx="113" cy="105" r="12"/>
+          <path d="M113 105l7-7"/>
+          <!-- control knobs -->
+          <circle cx="46" cy="146" r="7"/><circle cx="68" cy="146" r="7"/><circle cx="90" cy="146" r="7"/>
+          <!-- drawer -->
+          <rect x="38" y="164" width="96" height="30" rx="4"/>
+          <path d="M78 179h16"/>
+          <!-- castors -->
+          <path d="M50 202v8"/><path d="M122 202v8"/>
+          <circle cx="50" cy="218" r="10"/><circle cx="122" cy="218" r="10"/>
+          <!-- breathing bag -->
+          <path d="M144 122l12 8"/>
+          <ellipse cx="168" cy="156" rx="18" ry="26"/>
+          <!-- corrugated hose out to the mask -->
+          <path d="M144 96C186 74 240 86 266 118"/>
+          <path d="M144 118C182 100 232 110 254 136"/>
+          <path d="M144 96v22"/>
+          <path d="M176 82l-6 23"/><path d="M206 82l-7 23"/>
+          <path d="M232 92l-9 22"/><path d="M252 106l-10 20"/>
+          <!-- face mask -->
+          <rect x="264" y="114" width="16" height="14" rx="4"/>
+          <path d="M272 128c-16 0-24 12-24 22l3 12h42l3-12c0-10-8-22-24-22z"/>
+          <ellipse cx="272" cy="176" rx="28" ry="16"/>
+          <ellipse cx="272" cy="176" rx="15" ry="7"/>
+        </svg>
+        <figcaption data-i18n="color_machine">מכונת ההרדמה</figcaption>
       </figure>
 
     </div>
@@ -128,5 +180,6 @@
 
   <script src="i18n.js"></script>
   <script src="app.js"></script>
+  <script src="coloring.js"></script>
 </body>
 </html>
