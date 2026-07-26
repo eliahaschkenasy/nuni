@@ -1,0 +1,33 @@
+# === Local Claude Code files (never upload) ===
+CLAUDE.md
+.claude/
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# === OS cruft ===
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# === Scratch / temp / notes ===
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+notes/
+scratch/
+TODO.md
+NOTES.md
+
+# === Dependencies / build output (this is a no-build static site; none expected) ===
+node_modules/
+dist/
+build/
+.cache/
