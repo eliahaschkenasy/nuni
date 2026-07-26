@@ -190,7 +190,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const playBtn  = document.getElementById("playBtn");
   const replayBtn= document.getElementById("replayBtn");
   const progress = document.getElementById("progress");
+  const track    = document.getElementById("progressTrack");
+  const handle   = document.getElementById("progressHandle");
   const caption  = document.getElementById("caption");
+  let scrubbing  = false;
 
   // Durations come straight from each scene's --dur (single source of truth)
   const durs = scenes.map((s) => {
@@ -218,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
     index = i;
     scenes.forEach((s, n) => s.classList.toggle("active", n === i));
     setCaption();
-    if (playing) Narrator.speak(i);
+    if (playing && !scrubbing) Narrator.speak(i);
   }
 
   function render() {
@@ -226,13 +229,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let i = ends.findIndex((e) => elapsed < e);
     if (i === -1) i = scenes.length - 1;
     showScene(i);
-    progress.style.width = Math.min(100, (elapsed / total) * 100) + "%";
+    const pct = Math.min(100, (elapsed / total) * 100);
+    progress.style.width = pct + "%";
+    handle.style.insetInlineStart = pct + "%";
+    track.setAttribute("aria-valuenow", Math.round(pct));
   }
 
   function frame(ts) {
     if (!playing) return;
     if (!last) last = ts;
-    elapsed += ts - last;
+    if (!scrubbing) elapsed += ts - last;   // hold time still while dragging
     last = ts;
 
     if (elapsed >= total) {
@@ -287,6 +293,62 @@ document.addEventListener("DOMContentLoaded", () => {
       if (on && playing && index >= 0) { Narrator.reset(); Narrator.speak(index); }
     });
   }
+
+  // ---- Seeking: drag or click the bar to jump through the film ----
+  const isRTL = () =>
+    (document.documentElement.getAttribute("dir") || document.dir) === "rtl";
+
+  function fractionFromX(clientX) {
+    const r = track.getBoundingClientRect();
+    let f = (clientX - r.left) / r.width;
+    if (isRTL()) f = 1 - f;              // bar fills from the right in RTL
+    return Math.max(0, Math.min(1, f));
+  }
+
+  function seekTo(f) {
+    elapsed = Math.max(0, Math.min(1, f)) * total;
+    index = -1;                         // force the scene + caption to refresh
+    Narrator.stop();
+    render();
+  }
+
+  track.addEventListener("pointerdown", (e) => {
+    scrubbing = true;
+    track.setPointerCapture(e.pointerId);
+    seekTo(fractionFromX(e.clientX));
+    e.preventDefault();
+  });
+  track.addEventListener("pointermove", (e) => {
+    if (scrubbing) seekTo(fractionFromX(e.clientX));
+  });
+  function endScrub(e) {
+    if (!scrubbing) return;
+    scrubbing = false;
+    try { track.releasePointerCapture(e.pointerId); } catch (_) {}
+    last = 0;                           // avoid a time jump when playback resumes
+    if (playing && index >= 0) Narrator.speak(index);
+  }
+  track.addEventListener("pointerup", endScrub);
+  track.addEventListener("pointercancel", endScrub);
+
+  // Keyboard: arrows step between scenes, Home/End jump to the ends
+  track.addEventListener("keydown", (e) => {
+    let cur = ends.findIndex((en) => elapsed < en);
+    if (cur === -1) cur = scenes.length - 1;
+    let handled = true;
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      const step = (e.key === "ArrowRight") !== isRTL() ? 1 : -1;
+      const target = Math.max(0, Math.min(scenes.length - 1, cur + step));
+      seekTo((target === 0 ? 0 : ends[target - 1]) / total);
+    } else if (e.key === "Home") {
+      seekTo(0);
+    } else if (e.key === "End") {
+      seekTo(1);
+    } else {
+      handled = false;
+    }
+    if (handled) { e.preventDefault(); if (playing && index >= 0) Narrator.speak(index); }
+  });
 
   // Keep the caption in the chosen language
   window.addEventListener("nuni:langchange", setCaption);

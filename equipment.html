@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>מכירים את הציוד – נוני</title>
+  <meta name="description" data-i18n="equip_intro" content="מכירים את הציוד של בית החולים בצורה ידידותית ומרגיעה." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A9%BA%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="equipment.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Nuni">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="40" height="40">
+          <path d="M 35.49 12.64 L 36.74 15.03 Q 40.23 21.67 47.62 22.94 L 50.29 23.39 Q 57.68 24.66 52.44 30.02 L 50.55 31.96 Q 45.31 37.33 46.4 44.75 L 46.79 47.42 Q 47.87 54.84 41.15 51.52 L 38.72 50.32 Q 32 47 25.28 50.32 L 22.85 51.52 Q 16.13 54.84 17.21 47.42 L 17.6 44.75 Q 18.69 37.33 13.45 31.96 L 11.56 30.02 Q 6.32 24.66 13.71 23.39 L 16.38 22.94 Q 23.77 21.67 27.26 15.03 L 28.51 12.64 Q 32 6 35.49 12.64 Z" fill="#ffd15c" stroke="#f5a623" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="25" cy="30" r="2.4" fill="#4a3b2a"/><circle cx="39" cy="30" r="2.4" fill="#4a3b2a"/>
+          <path d="M27 37c2 2 8 2 10 0" fill="none" stroke="#4a3b2a" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name" data-i18n="brand_name">נוני</span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html" data-i18n="nav_home">דף הבית</a>
+      <a href="story.html" data-i18n="nav_story">סרטון</a>
+      <a href="coloring.html" data-i18n="nav_coloring">דפי צביעה</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="he" class="is-active">עברית</button>
+      <button type="button" data-lang="en">English</button>
+      <button type="button" data-lang="ar">العربية</button>
+      <button type="button" data-lang="ru">Русский</button>
+      <button type="button" data-lang="fr">Français</button>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main class="wrap equip-main">
+    <h1 data-i18n="equip_title">מכירים את הציוד</h1>
+    <p class="equip-lead" data-i18n="equip_intro">לחצו על כל דבר כדי לשמוע איך קוראים לו ומה הוא עושה. שום דבר לא כואב!</p>
+
+    <div class="equip-grid">
+
+      <!-- Soft mask -->
+      <button class="gear" type="button" data-sound="mask" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#eaf5ff" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <path d="M60 14C60 6 92 4 102 18" fill="none" stroke="#8e7ede" stroke-width="6" stroke-linecap="round"/>
+            <rect x="52" y="12" width="16" height="16" rx="4" fill="#cfc3ff" stroke="#8e7ede" stroke-width="4"/>
+            <path d="M60 26c18 0 30 16 30 38 0 20-13 36-30 36S30 84 30 64c0-22 12-38 30-38z" fill="#bfe3ff" stroke="#5aa9e6" stroke-width="4"/>
+            <ellipse cx="60" cy="90" rx="20" ry="11" fill="#eaf7ff" stroke="#5aa9e6" stroke-width="4"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_mask_name">המסכה הרכה</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_mask_desc">נושמים דרכה כמו דרך ענן רך וקטן. היא יכולה להריח כמו תות או מסטיק.</span>
+      </button>
+
+      <!-- Pulse oximeter -->
+      <button class="gear" type="button" data-sound="oximeter" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#fff0f2" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <path d="M20 76c0-9 9-16 22-16h22v24H44c-13 0-24-4-24-8z" fill="#ffd9c2" stroke="#e8a487" stroke-width="4"/>
+            <path d="M60 62c7 0 9 5 9 11s-2 11-9 11" fill="#ffe9df" stroke="#e8a487" stroke-width="3"/>
+            <rect x="58" y="50" width="36" height="44" rx="9" fill="#eef1ff" stroke="#5f6bd8" stroke-width="4"/>
+            <circle cx="76" cy="72" r="7" fill="#ff5a6e"/>
+            <circle cx="76" cy="72" r="13" fill="none" stroke="#ff9db0" stroke-width="3" opacity=".7"/>
+            <path d="M68 40h5l3-6 4 11 3-7 2 3h6" fill="none" stroke="#5f6bd8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_oximeter_name">האור על האצבע</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_oximeter_desc">הוא מחבק בעדינות את קצה האצבע באור אדום רך וסופר את פעימות הלב. זה בכלל לא כואב – רק מדגדג קצת.</span>
+      </button>
+
+      <!-- Blood-pressure cuff -->
+      <button class="gear" type="button" data-sound="cuff" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#e9f8f2" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <rect x="14" y="52" width="92" height="28" rx="14" fill="#ffd9c2" stroke="#e8a487" stroke-width="4"/>
+            <rect x="40" y="42" width="42" height="48" rx="8" fill="#8fd6c0" stroke="#3fae91" stroke-width="4"/>
+            <path d="M80 50c12-1 14-4 14-12" fill="none" stroke="#3fae91" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="94" cy="32" r="13" fill="#fff" stroke="#3fae91" stroke-width="4"/>
+            <path d="M94 32l7-5" stroke="#e8556e" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_cuff_name">חיבוק ליד</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_cuff_desc">הוא לוחץ לך על היד בעדינות, כמו חיבוק קטן, ואז משחרר.</span>
+      </button>
+
+      <!-- Stethoscope -->
+      <button class="gear" type="button" data-sound="steth" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#eef1ff" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <circle cx="34" cy="20" r="6" fill="#5f6bd8"/>
+            <circle cx="74" cy="20" r="6" fill="#5f6bd8"/>
+            <path d="M34 25C34 54 60 54 60 68C60 86 44 90 44 102" fill="none" stroke="#5f6bd8" stroke-width="6" stroke-linecap="round"/>
+            <path d="M74 25C74 54 60 54 60 68" fill="none" stroke="#5f6bd8" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="44" cy="104" r="14" fill="#cfe0ff" stroke="#5f6bd8" stroke-width="5"/>
+            <circle cx="44" cy="104" r="5" fill="#5f6bd8"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_steth_name">מכשיר ההקשבה</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_steth_desc">הרופא מקשיב איתו איך הלב שלך עושה בום־בום. אולי זה ירגיש קצת קריר.</span>
+      </button>
+
+      <!-- Name bracelet -->
+      <button class="gear" type="button" data-sound="band" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#fff0f5" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <path d="M60 24a36 36 0 1 0 .1 0z" fill="none" stroke="#ffb3c1" stroke-width="12"/>
+            <rect x="30" y="48" width="60" height="24" rx="6" fill="#fff" stroke="#f48fb1" stroke-width="4"/>
+            <path d="M40 57h40M40 65h26" stroke="#f48fb1" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_band_name">הצמיד עם השם שלך</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_band_desc">צמיד רך עם השם שלך, כדי שכולם בבית החולים ידעו שזה אתה.</span>
+      </button>
+
+      <!-- Numbing cream -->
+      <button class="gear" type="button" data-sound="cream" aria-expanded="false">
+        <span class="gear-visual" style="--bg:#eafaf3" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <rect x="46" y="40" width="30" height="60" rx="10" fill="#d9f2e8" stroke="#3fae91" stroke-width="4"/>
+            <rect x="52" y="26" width="18" height="16" rx="4" fill="#3fae91"/>
+            <rect x="52" y="58" width="18" height="26" rx="3" fill="#fff" stroke="#3fae91" stroke-width="3"/>
+            <path d="M61 62l2 5 5 .4-4 3 1 5-4-3-4 3 1-5-4-3 5-.4z" fill="#ffd15c"/>
+            <path d="M88 32l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#ffd15c"/>
+            <circle cx="34" cy="50" r="3" fill="#ffd15c"/>
+          </svg>
+        </span>
+        <span class="gear-name" data-i18n="gear_cream_name">קרם הקסם</span>
+        <span class="gear-hint"><span aria-hidden="true">👆</span> <span data-i18n="gear_hint">לחצו כדי לגלות</span></span>
+        <span class="gear-desc" data-i18n="gear_cream_desc">קרם קטן שגורם לנקודה על היד להיות רדומה, כך שכמעט לא מרגישים שם כלום.</span>
+      </button>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">אינו תחליף לייעוץ רפואי מקצועי.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+  <script src="equipment.js"></script>
+</body>
+</html>
