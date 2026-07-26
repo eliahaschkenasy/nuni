@@ -37,7 +37,7 @@
   background: linear-gradient(90deg, var(--mint), var(--sun)); border-radius: 999px;
 }
 .progress-handle {
-  position: absolute; top: 50%; inset-inline-start: 0;
+  position: absolute; top: 50%; left: 0;
   width: 22px; height: 22px; border-radius: 50%; background: #fff;
   border: 3px solid var(--sun); box-shadow: 0 3px 8px -1px rgba(51,64,90,.55);
   transform: translate(-50%, -50%); pointer-events: none;

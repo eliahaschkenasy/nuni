@@ -47,38 +47,91 @@ const CAPTIONS = {
   ]
 };
 
-/* Gentle English narration for pre-readers, one calm line per scene.
+/* Gentle narration for pre-readers, one calm line per scene, in every language.
    Read aloud by the browser's built-in voice (no audio files, works offline). */
-const NARRATION_EN = [
-  "Good morning! Nuni wakes up.",
-  "There is no breakfast today. But Nuni can drink some water.",
-  "Now Nuni goes to the hospital.",
-  "A kind nurse says hello, and gives Nuni soft pyjamas.",
-  "Nuni gets his very own bed.",
-  "A soft mask goes on. Let's count together. Three… two… one… and Nuni falls asleep.",
-  "Nuni is sleeping. The sleep doctor stays close the whole time.",
-  "Nuni wakes up. It's all done. Well done, Nuni!"
-];
+const NARRATION = {
+  he: [
+    "בוקר טוב! נוני מתעורר.",
+    "היום אין ארוחת בוקר, אבל מותר לנוני לשתות קצת מים.",
+    "עכשיו נוני נוסע לבית החולים.",
+    "איש צוות נחמד אומר שלום, ונותן לנוני פיג'מה רכה.",
+    "לנוני יש מיטה משלו.",
+    "מסכה רכה מתקרבת. בואו נספור יחד. שלוש… שתיים… אחת… ונוני נרדם.",
+    "נוני ישן. רופא ההרדמה נמצא לידו כל הזמן.",
+    "נוני מתעורר. הכול נגמר. כל הכבוד, נוני!"
+  ],
+  en: [
+    "Good morning! Nuni wakes up.",
+    "There is no breakfast today. But Nuni can drink a little water.",
+    "Now Nuni goes to the hospital.",
+    "A kind member of staff says hello, and gives Nuni soft pyjamas.",
+    "Nuni gets his very own bed.",
+    "A soft mask comes down. Let's count together. Three… two… one… and Nuni falls asleep.",
+    "Nuni is sleeping. The sleep doctor stays close the whole time.",
+    "Nuni wakes up. It's all done. Well done, Nuni!"
+  ],
+  ar: [
+    "صباح الخير! نوني يستيقظ.",
+    "لا يوجد فطور اليوم، لكن يمكن لنوني أن يشرب قليلاً من الماء.",
+    "الآن يذهب نوني إلى المستشفى.",
+    "أحد أفراد الطاقم اللطفاء يقول مرحباً، ويعطي نوني بيجامة ناعمة.",
+    "لنوني سرير خاص به.",
+    "ينزل قناع ناعم. لنعدّ معاً. ثلاثة… اثنان… واحد… وينام نوني.",
+    "نوني نائم. طبيب التخدير يبقى بقربه طوال الوقت.",
+    "نوني يستيقظ. انتهى كل شيء. أحسنت يا نوني!"
+  ],
+  ru: [
+    "Доброе утро! Нуни просыпается.",
+    "Сегодня нет завтрака, но Нуни можно попить немного воды.",
+    "Теперь Нуни едет в больницу.",
+    "Добрый сотрудник здоровается и даёт Нуни мягкую пижаму.",
+    "У Нуни есть своя кроватка.",
+    "Опускается мягкая маска. Давай посчитаем вместе. Три… два… один… и Нуни засыпает.",
+    "Нуни спит. Врач-анестезиолог всё время рядом.",
+    "Нуни просыпается. Всё закончилось. Молодец, Нуни!"
+  ],
+  fr: [
+    "Bonjour ! Nuni se réveille.",
+    "Il n'y a pas de petit-déjeuner aujourd'hui, mais Nuni peut boire un peu d'eau.",
+    "Maintenant, Nuni va à l'hôpital.",
+    "Un gentil membre du personnel dit bonjour et donne à Nuni un pyjama tout doux.",
+    "Nuni a son propre lit.",
+    "Un masque tout doux descend. Comptons ensemble. Trois… deux… un… et Nuni s'endort.",
+    "Nuni dort. Le médecin anesthésiste reste tout près pendant tout ce temps.",
+    "Nuni se réveille. C'est terminé. Bravo, Nuni !"
+  ]
+};
+
+/* BCP-47 tags used to ask the speech engine for a matching voice. */
+const NARRATION_LANG = { he: "he-IL", en: "en-US", ar: "ar-SA", ru: "ru-RU", fr: "fr-FR" };
 
 /* --------------------------------------------------------------------------
-   Narrator – speaks the English lines with the browser's speech engine.
-   English only for now. Off by default; the toggle counts as the user
-   gesture some browsers require before speaking.
+   Narrator – reads each scene aloud in the current language with the
+   browser's speech engine. Off by default; the toggle counts as the user
+   gesture some browsers require before speaking. Which languages actually
+   speak depends on the voices installed on the device.
    -------------------------------------------------------------------------- */
 const Narrator = (() => {
   const synth = window.speechSynthesis;
-  let on = false, voice = null, spokenFor = -1;
+  let on = false, spokenFor = -1;
 
-  function pickVoice() {
-    if (!synth) return;
-    const voices = synth.getVoices().filter((v) => /^en(-|_|$)/i.test(v.lang));
-    // prefer a warm, natural English voice when one is offered
-    const nice = voices.find((v) => /(Google|Natural|Samantha|Aria|Zira|Female)/i.test(v.name));
-    voice = nice || voices[0] || null;
+  const curLang = () => (window.NUNI && window.NUNI.lang) || "he";
+  const allVoices = () => (synth ? synth.getVoices() : []);
+
+  // warm the voice list so the first click has voices ready
+  if (synth && synth.addEventListener) {
+    synth.addEventListener("voiceschanged", allVoices);
+    allVoices();
   }
-  if (synth) {
-    pickVoice();
-    synth.addEventListener && synth.addEventListener("voiceschanged", pickVoice);
+
+  function pickVoice(lang) {
+    const rx = new RegExp("^" + lang + "(-|_|$)", "i");
+    const matches = allVoices().filter((v) => rx.test(v.lang));
+    if (!matches.length) return null;
+    // prefer a warmer, more natural voice when the device offers one
+    const nice = matches.find((v) =>
+      /(Google|Natural|Neural|Premium|Enhanced|Samantha|Aria|Zira|Female)/i.test(v.name));
+    return nice || matches[0];
   }
 
   function speak(i) {
@@ -86,9 +139,13 @@ const Narrator = (() => {
     if (i === spokenFor) return;         // don't repeat the same scene
     spokenFor = i;
     synth.cancel();
-    const u = new SpeechSynthesisUtterance(NARRATION_EN[i] || "");
-    u.lang = "en-US"; u.rate = 0.92; u.pitch = 1.15; u.volume = 1;
-    if (voice) u.voice = voice;
+    const lang = curLang();
+    const lines = NARRATION[lang] || NARRATION.he;
+    const u = new SpeechSynthesisUtterance(lines[Math.min(i, lines.length - 1)] || "");
+    u.lang = NARRATION_LANG[lang] || "en-US";
+    u.rate = 0.92; u.pitch = 1.12; u.volume = 1;
+    const v = pickVoice(lang);
+    if (v) u.voice = v;
     synth.speak(u);
   }
 
@@ -231,7 +288,9 @@ document.addEventListener("DOMContentLoaded", () => {
     showScene(i);
     const pct = Math.min(100, (elapsed / total) * 100);
     progress.style.width = pct + "%";
-    handle.style.insetInlineStart = pct + "%";
+    // the fill grows from the start edge already; place the handle centre at the
+    // same point using a physical offset so it lines up in RTL as well as LTR
+    handle.style.left = (isRTL() ? 100 - pct : pct) + "%";
     track.setAttribute("aria-valuenow", Math.round(pct));
   }
 
@@ -350,8 +409,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (handled) { e.preventDefault(); if (playing && index >= 0) Narrator.speak(index); }
   });
 
-  // Keep the caption in the chosen language
-  window.addEventListener("nuni:langchange", setCaption);
+  // Keep the caption + narration in the chosen language, and re-place the
+  // handle since the fill direction flips between RTL and LTR
+  window.addEventListener("nuni:langchange", () => {
+    setCaption();
+    render();
+    Narrator.reset();                 // next line speaks in the new language
+    if (Narrator.isOn() && playing && index >= 0) Narrator.speak(index);
+  });
 
   // Start
   render();
