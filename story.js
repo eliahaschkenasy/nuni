@@ -47,6 +47,61 @@ const CAPTIONS = {
   ]
 };
 
+/* Gentle English narration for pre-readers, one calm line per scene.
+   Read aloud by the browser's built-in voice (no audio files, works offline). */
+const NARRATION_EN = [
+  "Good morning! Nuni wakes up.",
+  "There is no breakfast today. But Nuni can drink some water.",
+  "Now Nuni goes to the hospital.",
+  "A kind nurse says hello, and gives Nuni soft pyjamas.",
+  "Nuni gets his very own bed.",
+  "A soft mask goes on. Let's count together. Three… two… one… and Nuni falls asleep.",
+  "Nuni is sleeping. The sleep doctor stays close the whole time.",
+  "Nuni wakes up. It's all done. Well done, Nuni!"
+];
+
+/* --------------------------------------------------------------------------
+   Narrator – speaks the English lines with the browser's speech engine.
+   English only for now. Off by default; the toggle counts as the user
+   gesture some browsers require before speaking.
+   -------------------------------------------------------------------------- */
+const Narrator = (() => {
+  const synth = window.speechSynthesis;
+  let on = false, voice = null, spokenFor = -1;
+
+  function pickVoice() {
+    if (!synth) return;
+    const voices = synth.getVoices().filter((v) => /^en(-|_|$)/i.test(v.lang));
+    // prefer a warm, natural English voice when one is offered
+    const nice = voices.find((v) => /(Google|Natural|Samantha|Aria|Zira|Female)/i.test(v.name));
+    voice = nice || voices[0] || null;
+  }
+  if (synth) {
+    pickVoice();
+    synth.addEventListener && synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function speak(i) {
+    if (!on || !synth) return;
+    if (i === spokenFor) return;         // don't repeat the same scene
+    spokenFor = i;
+    synth.cancel();
+    const u = new SpeechSynthesisUtterance(NARRATION_EN[i] || "");
+    u.lang = "en-US"; u.rate = 0.92; u.pitch = 1.15; u.volume = 1;
+    if (voice) u.voice = voice;
+    synth.speak(u);
+  }
+
+  return {
+    supported: !!synth,
+    isOn: () => on,
+    toggle() { on = !on; if (!on) this.stop(); return on; },
+    speak,
+    reset() { spokenFor = -1; },
+    stop() { if (synth) synth.cancel(); spokenFor = -1; }
+  };
+})();
+
 /* --------------------------------------------------------------------------
    Gentle lullaby, synthesised in the browser (no audio files to load).
    Browsers only allow sound after a user gesture, so playback resumes on the
@@ -163,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     index = i;
     scenes.forEach((s, n) => s.classList.toggle("active", n === i));
     setCaption();
+    if (playing) Narrator.speak(i);
   }
 
   function render() {
@@ -204,10 +260,11 @@ document.addEventListener("DOMContentLoaded", () => {
     stage.classList.add("paused");
     playBtn.textContent = "▶";
     Music.setPlaying(false);
+    Narrator.stop();
   }
 
   playBtn.addEventListener("click", () => (playing ? pause(false) : play()));
-  replayBtn.addEventListener("click", () => { elapsed = 0; index = -1; Music.restart(); play(); });
+  replayBtn.addEventListener("click", () => { elapsed = 0; index = -1; Music.restart(); Narrator.reset(); play(); });
 
   const musicBtn = document.getElementById("musicBtn");
   musicBtn.addEventListener("click", () => {
@@ -215,6 +272,21 @@ document.addEventListener("DOMContentLoaded", () => {
     musicBtn.textContent = on ? "🔊" : "🔇";
     musicBtn.classList.toggle("is-off", !on);
   });
+
+  // English narration for little ones who can't read yet
+  const narrateBtn = document.getElementById("narrateBtn");
+  if (!Narrator.supported) {
+    narrateBtn.style.display = "none";
+  } else {
+    narrateBtn.addEventListener("click", () => {
+      const on = Narrator.toggle();
+      narrateBtn.textContent = on ? "🗣️" : "🔈";
+      narrateBtn.classList.toggle("is-off", !on);
+      narrateBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      // start speaking the current scene right away when turned on mid-film
+      if (on && playing && index >= 0) { Narrator.reset(); Narrator.speak(index); }
+    });
+  }
 
   // Keep the caption in the chosen language
   window.addEventListener("nuni:langchange", setCaption);
