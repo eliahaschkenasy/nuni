@@ -39,11 +39,21 @@ const CAPTIONS = {
     "🌅 Доброе утро! Нуни просыпается.",
     "💧 Сегодня без завтрака — но воду пить можно!",
     "🚗 Едем в больницу.",
-    "🧑‍⚕️ Добрая медсестра встречает Нуни и даёт ему пижаму.",
+    "🧑‍⚕️ Добрый сотрудник встречает Нуни и даёт ему пижаму.",
     "🛏️ У Нуни своя кроватка.",
     "😴 Мягкая маска, считаем 3-2-1… и Нуни засыпает.",
     "💙 Нуни спит, а врач-анестезиолог всё время рядом.",
     "🎉 Нуни просыпается — всё позади, молодец!"
+  ],
+  fr: [
+    "🌅 Bonjour ! Nuni se réveille.",
+    "💧 Pas de petit-déjeuner aujourd'hui — mais Nuni peut boire de l'eau !",
+    "🚗 En route pour l'hôpital.",
+    "🧑‍⚕️ Un gentil membre du personnel accueille Nuni et lui donne un pyjama.",
+    "🛏️ Nuni a son propre lit.",
+    "😴 Un masque tout doux, on compte 3-2-1… et Nuni s'endort.",
+    "💙 Nuni dort, et le médecin anesthésiste veille sur lui tout le temps.",
+    "🎉 Nuni se réveille — c'est terminé, bravo !"
   ]
 };
 
@@ -338,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
     musicBtn.classList.toggle("is-off", !on);
   });
 
-  // English narration for little ones who can't read yet
+  // Optional narration for little ones who can't read yet
   const narrateBtn = document.getElementById("narrateBtn");
   if (!Narrator.supported) {
     narrateBtn.style.display = "none";

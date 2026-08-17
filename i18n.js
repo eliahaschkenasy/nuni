@@ -8,6 +8,7 @@ const I18N = {
     title: "נוני – מתכוננים להרדמה בעדינות",
     meta_desc: "אתר ידידותי לילדים ולהורים שמסביר בעדינות מה קורה לפני, במהלך ואחרי הרדמה וניתוח – כדי שיהיה רגוע ופחות מפחיד.",
     brand_name: "נוני",
+    aria_main: "ניווט ראשי", aria_language: "בחירת שפה", aria_menu: "תפריט",
     nav_about: "מה זה", nav_journey: "המסע", nav_feelings: "רגשות", nav_faq: "שאלות", nav_parents: "להורים",
     hero_eyebrow: "לילדים אמיצים (ולמבוגרים שלהם)",
     hero_title: "הכול יהיה בסדר. בואו נתכונן ביחד.",
@@ -74,6 +75,11 @@ const I18N = {
     story_title: "היום של נוני בבית החולים",
     story_sub: "סרטון קצר בלי מילים – מתאים גם לקטנטנים שעוד לא קוראים.",
     story_replay: "מהתחלה",
+    story_play_pause: "הפעלה או השהיה",
+    story_scene: "סצנה",
+    story_music: "מוזיקה",
+    story_narration: "קריינות",
+    story_narrate_title: "הקראת הסיפור",
     nav_equipment: "הציוד",
     equip_title: "מכירים את הציוד",
     equip_intro: "לחצו על כל דבר כדי לשמוע איך קוראים לו ומה הוא עושה. שום דבר לא כואב!",
@@ -97,6 +103,7 @@ const I18N = {
     title: "Nuni – Getting ready for anesthesia, gently",
     meta_desc: "A friendly site for children and parents that gently explains what happens before, during and after anesthesia and an operation — to make it calmer and less scary.",
     brand_name: "Nuni",
+    aria_main: "Main navigation", aria_language: "Choose language", aria_menu: "Menu",
     nav_about: "What it is", nav_journey: "The journey", nav_feelings: "Feelings", nav_faq: "Questions", nav_parents: "Parents",
     hero_eyebrow: "For brave kids (and their grown-ups)",
     hero_title: "You're going to be okay. Let's get ready together.",
@@ -163,6 +170,11 @@ const I18N = {
     story_title: "Nuni's day at the hospital",
     story_sub: "A short wordless film — perfect for little ones who can't read yet.",
     story_replay: "Replay",
+    story_play_pause: "Play or pause",
+    story_scene: "Scene",
+    story_music: "Music",
+    story_narration: "Narration",
+    story_narrate_title: "Read the story aloud",
     nav_equipment: "The equipment",
     equip_title: "Meet the equipment",
     equip_intro: "Tap each one to hear its friendly name and what it does. None of them hurt!",
@@ -186,6 +198,7 @@ const I18N = {
     title: "نوني – نستعدّ للتخدير بلطف",
     meta_desc: "موقع ودود للأطفال وأهاليهم يشرح بلطف ما يحدث قبل التخدير والعملية وأثناءهما وبعدهما — ليكون الأمر أهدأ وأقل خوفًا.",
     brand_name: "نوني",
+    aria_main: "التنقل الرئيسي", aria_language: "اختيار اللغة", aria_menu: "القائمة",
     nav_about: "ما هو", nav_journey: "الرحلة", nav_feelings: "المشاعر", nav_faq: "أسئلة", nav_parents: "للأهل",
     hero_eyebrow: "للأطفال الشجعان (ولكبارهم)",
     hero_title: "كل شيء سيكون على ما يُرام. لنستعدّ معًا.",
@@ -252,6 +265,11 @@ const I18N = {
     story_title: "يوم نوني في المستشفى",
     story_sub: "فيلم قصير بلا كلمات — مثالي للصغار الذين لا يقرؤون بعد.",
     story_replay: "من البداية",
+    story_play_pause: "تشغيل أو إيقاف مؤقت",
+    story_scene: "المشهد",
+    story_music: "الموسيقى",
+    story_narration: "السرد",
+    story_narrate_title: "قراءة القصة بصوت عالٍ",
     nav_equipment: "المعدّات",
     equip_title: "تعرّف على المعدّات",
     equip_intro: "اضغط على كل شيء لتسمع اسمه اللطيف وماذا يفعل. لا شيء منها يؤلم!",
@@ -275,6 +293,7 @@ const I18N = {
     title: "Нуни – мягко готовимся к наркозу",
     meta_desc: "Добрый сайт для детей и родителей, который мягко объясняет, что происходит до, во время и после наркоза и операции — чтобы было спокойнее и не так страшно.",
     brand_name: "Нуни",
+    aria_main: "Основная навигация", aria_language: "Выбор языка", aria_menu: "Меню",
     nav_about: "Что это", nav_journey: "Путешествие", nav_feelings: "Чувства", nav_faq: "Вопросы", nav_parents: "Родителям",
     hero_eyebrow: "Для храбрых детей (и их взрослых)",
     hero_title: "Всё будет хорошо. Давай подготовимся вместе.",
@@ -341,6 +360,11 @@ const I18N = {
     story_title: "День Нуни в больнице",
     story_sub: "Короткий мультик без слов — подойдёт даже малышам, которые ещё не читают.",
     story_replay: "Сначала",
+    story_play_pause: "Воспроизвести или приостановить",
+    story_scene: "Сцена",
+    story_music: "Музыка",
+    story_narration: "Озвучивание",
+    story_narrate_title: "Прочитать историю вслух",
     nav_equipment: "Оборудование",
     equip_title: "Знакомимся с оборудованием",
     equip_intro: "Нажми на каждый предмет, чтобы услышать его доброе название и узнать, что он делает. Ничего из этого не больно!",
@@ -364,8 +388,9 @@ const I18N = {
     title: "Nuni – se préparer en douceur à l'anesthésie",
     meta_desc: "Un site bienveillant pour les enfants et les parents qui explique en douceur ce qui se passe avant, pendant et après l'anesthésie et une opération — pour que ce soit plus calme et moins effrayant.",
     brand_name: "Nuni",
+    aria_main: "Navigation principale", aria_language: "Choix de la langue", aria_menu: "Menu",
     nav_about: "C'est quoi", nav_journey: "Le parcours", nav_feelings: "Émotions", nav_faq: "Questions", nav_parents: "Parents",
-    hero_eyebrow: "Pour les enfants courageux (et leurs grands)",
+    hero_eyebrow: "Pour les enfants courageux (et les adultes qui les accompagnent)",
     hero_title: "Tout va bien se passer. Préparons-nous ensemble.",
     hero_subtitle: "Bientôt tu vas avoir une opération, et tu auras un sommeil spécial pour que rien ne fasse mal. Nuni va te montrer exactement ce qui se passe — étape par étape.",
     hero_cta: "Montre-moi ce qui se passe", hero_cta2: "Pour les parents",
@@ -375,7 +400,7 @@ const I18N = {
     what_p3: "Pendant que tu dors, tu ne sens rien du tout — ni piqûre ni douleur. Le médecin du sommeil reste juste à côté de toi tout le temps et te réveille en douceur quand l'opération est finie.",
     journey_title: "Ton parcours, étape par étape",
     step1_title: "À la maison",
-    step1_text: "Tu peux emporter un jouet ou une couverture que tu aimes bien. Un grand va t'aider à te préparer. L'hôpital te dira quand arrêter de manger et de boire — ça protège ton ventre pendant le sommeil.",
+    step1_text: "Tu peux emporter un jouet ou une couverture que tu aimes bien. Un adulte va t'aider à te préparer. L'hôpital te dira quand arrêter de manger et de boire — ça protège ton ventre pendant le sommeil.",
     step2_title: "L'arrivée à l'hôpital",
     step2_text: "Tu rencontreras des infirmiers et infirmières gentils et ton médecin du sommeil. Ils écouteront peut-être ton cœur et regarderont combien tu as grandi. Tu peux leur demander tout ce que tu veux !",
     step3_title: "On se prépare",
@@ -387,7 +412,7 @@ const I18N = {
     step6_title: "Le réveil",
     step6_text: "Tu te réveilles dans une salle de réveil douillette. Quelqu'un qui t'aime sera là. Tu te sentiras peut-être un peu fatigué ou assoiffé — et tu auras peut-être même une glace !",
     feelings_title: "C'est normal de ressentir ce que tu ressens",
-    feelings_text: "Excité, un peu nerveux, curieux, un petit peu effrayé — toutes ces émotions sont normales. Beaucoup d'enfants ressentent ça, et les grands à l'hôpital sont des experts pour t'aider à te sentir en sécurité. Voici une astuce apaisante que tu peux essayer à tout moment :",
+    feelings_text: "Excité, un peu nerveux, curieux, un petit peu effrayé — toutes ces émotions sont normales. Beaucoup d'enfants ressentent ça, et le personnel de l'hôpital sait très bien comment t'aider à te sentir en sécurité. Voici une astuce apaisante que tu peux essayer à tout moment :",
     breath_title: "La respiration du ballon",
     breath_default: "Appuie sur « Départ » et respire avec Nuni",
     breath_start: "Départ", breath_stop: "Stop",
@@ -398,9 +423,9 @@ const I18N = {
     q2: "Est-ce que je peux me réveiller au milieu ?",
     a2: "Non. Le médecin du sommeil te donne juste la bonne quantité de médicament et reste avec toi tout le temps, alors tu restes endormi jusqu'à ce que l'opération soit finie.",
     q3: "Est-ce que mon papa ou ma maman peut venir avec moi ?",
-    a3: "En général, un grand peut rester avec toi jusqu'à ce que tu t'endormes, et il sera là quand tu te réveilleras. Demande au personnel comment ça se passe dans ton hôpital.",
+    a3: "En général, un adulte peut rester avec toi jusqu'à ce que tu t'endormes, et il sera là quand tu te réveilleras. Demande au personnel comment ça se passe dans ton hôpital.",
     q4: "Et si j'ai peur ?",
-    a4: "C'est tout à fait normal. Dis-le au personnel ou à ton grand — ils peuvent te tenir la main, apporter ton jouet, ou faire la respiration du ballon avec toi.",
+    a4: "C'est tout à fait normal. Dis-le au personnel ou à l'adulte qui t'accompagne — ils peuvent te tenir la main, apporter ton jouet, ou faire la respiration du ballon avec toi.",
     q5: "Est-ce que je vais me sentir mal après ?",
     a5: "Certains enfants se sentent un peu fatigués, un peu étourdis, ou ont un peu mal à la gorge pendant un petit moment. Ça passe, et le personnel peut t'aider à te sentir mieux.",
     q6: "Combien de temps ça dure ?",
@@ -430,6 +455,11 @@ const I18N = {
     story_title: "La journée de Nuni à l'hôpital",
     story_sub: "Un court film sans paroles — parfait aussi pour les petits qui ne lisent pas encore.",
     story_replay: "Revoir",
+    story_play_pause: "Lire ou mettre en pause",
+    story_scene: "Scène",
+    story_music: "Musique",
+    story_narration: "Narration",
+    story_narrate_title: "Lire l'histoire à voix haute",
     nav_equipment: "Le matériel",
     equip_title: "Découvre le matériel",
     equip_intro: "Touche chaque objet pour entendre son petit nom et ce qu'il fait. Rien de tout ça ne fait mal !",
@@ -480,6 +510,16 @@ function applyLanguage(lang) {
     }
   });
 
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-aria-label");
+    if (key in dict) el.setAttribute("aria-label", dict[key]);
+  });
+
+  document.querySelectorAll("[data-i18n-title]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-title");
+    if (key in dict) el.setAttribute("title", dict[key]);
+  });
+
   document.title = dict.title;
 
   // Active-state on the language buttons
@@ -497,8 +537,31 @@ function applyLanguage(lang) {
 
 // Wire up the switcher and restore the saved language
 document.addEventListener("DOMContentLoaded", () => {
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".nav-toggle");
+
+  const closeMenu = () => {
+    if (!header || !toggle) return;
+    header.classList.remove("open");
+    toggle.setAttribute("aria-expanded", "false");
+  };
+
+  if (header && toggle) {
+    toggle.addEventListener("click", () => {
+      const open = header.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+
+    header.querySelectorAll(".main-nav a").forEach((link) => {
+      link.addEventListener("click", closeMenu);
+    });
+  }
+
   document.querySelectorAll(".lang-switch button").forEach((btn) => {
-    btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
+    btn.addEventListener("click", () => {
+      applyLanguage(btn.dataset.lang);
+      closeMenu();
+    });
   });
 
   let saved = "he";

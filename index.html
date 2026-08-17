@@ -30,7 +30,7 @@
 
   <!-- ===== Header ===== -->
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Nuni">
+    <a class="brand" href="#top" aria-label="נוני" data-i18n-aria-label="brand_name">
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 64 64" width="40" height="40">
           <path d="M 35.49 12.64 L 36.74 15.03 Q 40.23 21.67 47.62 22.94 L 50.29 23.39 Q 57.68 24.66 52.44 30.02 L 50.55 31.96 Q 45.31 37.33 46.4 44.75 L 46.79 47.42 Q 47.87 54.84 41.15 51.52 L 38.72 50.32 Q 32 47 25.28 50.32 L 22.85 51.52 Q 16.13 54.84 17.21 47.42 L 17.6 44.75 Q 18.69 37.33 13.45 31.96 L 11.56 30.02 Q 6.32 24.66 13.71 23.39 L 16.38 22.94 Q 23.77 21.67 27.26 15.03 L 28.51 12.64 Q 32 6 35.49 12.64 Z" fill="#ffd15c" stroke="#f5a623" stroke-width="2" stroke-linejoin="round"/>
@@ -44,7 +44,8 @@
       <span class="brand-name" data-i18n="brand_name">נוני</span>
     </a>
 
-    <nav class="main-nav" aria-label="Main">
+    <div class="header-menu">
+    <nav class="main-nav" aria-label="ניווט ראשי" data-i18n-aria-label="aria_main">
       <a href="#what" data-i18n="nav_about">מה זה</a>
       <a href="#journey" data-i18n="nav_journey">המסע</a>
       <a href="story.html" data-i18n="nav_story">סרטון</a>
@@ -55,15 +56,16 @@
       <a href="#parents" data-i18n="nav_parents">להורים</a>
     </nav>
 
-    <div class="lang-switch" role="group" aria-label="Language">
+    <div class="lang-switch" role="group" aria-label="בחירת שפה" data-i18n-aria-label="aria_language">
       <button type="button" data-lang="he" class="is-active">עברית</button>
       <button type="button" data-lang="en">English</button>
       <button type="button" data-lang="ar">العربية</button>
       <button type="button" data-lang="ru">Русский</button>
       <button type="button" data-lang="fr">Français</button>
     </div>
+    </div>
 
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="תפריט" data-i18n-aria-label="aria_menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </header>

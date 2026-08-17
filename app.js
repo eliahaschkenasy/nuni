@@ -3,23 +3,6 @@
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
-  /* ---- Mobile navigation ---- */
-  const header = document.querySelector(".site-header");
-  const toggle = document.querySelector(".nav-toggle");
-  if (toggle) {
-    toggle.addEventListener("click", () => {
-      const open = header.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
-    });
-    // Close the menu after tapping a link
-    header.querySelectorAll(".main-nav a").forEach((a) =>
-      a.addEventListener("click", () => {
-        header.classList.remove("open");
-        toggle.setAttribute("aria-expanded", "false");
-      })
-    );
-  }
-
   /* ---- Balloon breathing ---- */
   const btn = document.querySelector(".breath-btn");
   const ball = document.querySelector(".breath-ball");
