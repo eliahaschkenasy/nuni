@@ -898,16 +898,13 @@ function updateAudienceUI(audience) {
   if (heroSubtitle) heroSubtitle.textContent = dict[`audience_${audience}_hero_subtitle`];
 
   const primaryCta = document.querySelector(".hero-cta .btn-primary");
-  const parentCta = document.querySelector(".hero-cta .btn-ghost");
-  if (primaryCta && parentCta) {
+  if (primaryCta) {
     if (audience === "parents") {
       primaryCta.textContent = dict.audience_parent_cta;
       primaryCta.setAttribute("href", "#parents");
-      parentCta.hidden = true;
     } else {
       primaryCta.textContent = dict.hero_cta;
       primaryCta.setAttribute("href", "#journey");
-      parentCta.hidden = false;
     }
   }
 }
