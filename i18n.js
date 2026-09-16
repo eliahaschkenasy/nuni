@@ -849,12 +849,70 @@ const QUIZ_I18N = {
   ]
 };
 
+const PARENT_FAQ_I18N = {
+  he: {
+    title: "שאלות שהורים שואלים",
+    items: [
+      ["איך כדאי להכין את הילד לניתוח?", "כדאי להסביר בכנות ובמילים שמתאימות לגיל מה צפוי לקרות. לילדים קטנים מספיק בדרך כלל הסבר קצר סמוך ליום הניתוח; ילדים גדולים יותר ובני נוער יכולים לקבל מידע מוקדם יותר ולהיות שותפים בשיחה."],
+      ["מה חשוב להביא לבית החולים?", "הביאו את המסמכים והתרופות שבית החולים ביקש, בגדים נוחים וחפץ מוכר שמרגיע את הילד. מומלץ גם להכין רשימת שאלות לצוות."],
+      ["האם אוכל להישאר עם הילד בזמן תחילת ההרדמה?", "הדבר תלוי במדיניות בית החולים, במצב הרפואי ובתוכנית ההרדמה. שאלו מראש את הצוות מה מתאפשר אצלכם ומתי תוכלו להצטרף לילד בחדר ההתאוששות."],
+      ["מה עושים אם הילד מצונן או חולה לפני הניתוח?", "צרו קשר עם בית החולים או עם הצוות המטפל לפני ההגעה וספרו על חום, שיעול, צינון, הקאות או שינוי אחר במצב הבריאות. הצוות יחליט אם נדרשת בדיקה או דחייה."],
+      ["למה הצום חשוב ואיך יודעים מתי להפסיק לאכול ולשתות?", "הצום מפחית את הסיכון שתוכן מהקיבה יגיע לריאות בזמן ההרדמה. הזמנים משתנים לפי גיל, סוג המזון וההליך, ולכן יש לפעול רק לפי ההוראות האישיות שקיבלתם מבית החולים."],
+      ["למה אפשר לצפות בחדר ההתאוששות?", "ילדים עשויים להתעורר עייפים, מבולבלים, בוכים, עם בחילה או כאב. התחושות בדרך כלל חולפות, וחשוב לספר לצוות על כל אי־נוחות כדי שיוכל לעזור."]
+    ]
+  },
+  en: {
+    title: "Questions parents ask",
+    items: [
+      ["How should I prepare my child for surgery?", "Explain honestly, using words that fit your child’s age, what they can expect. Younger children usually need a short explanation close to the day; older children and teenagers can receive information earlier and take part in the conversation."],
+      ["What should we bring to the hospital?", "Bring the documents and medicines requested by the hospital, comfortable clothes and a familiar comfort item. It also helps to bring a written list of questions for the staff."],
+      ["Can I stay with my child when anesthesia begins?", "This depends on hospital policy, your child’s medical situation and the anesthesia plan. Ask the staff beforehand what is possible and when you can join your child in recovery."],
+      ["What if my child has a cold or becomes unwell before surgery?", "Contact the hospital or care team before arriving and report fever, cough, a cold, vomiting or any other change in health. The team will decide whether your child needs an assessment or the procedure should be postponed."],
+      ["Why is fasting important, and when should my child stop eating and drinking?", "Fasting reduces the risk of stomach contents entering the lungs during anesthesia. Timings vary by age, food type and procedure, so follow only the individual instructions provided by your hospital."],
+      ["What should I expect in the recovery room?", "Children may wake feeling sleepy, confused, tearful, nauseated or sore. These effects usually pass; tell the staff about any discomfort so they can help."]
+    ]
+  },
+  ar: {
+    title: "أسئلة يطرحها الأهل",
+    items: [
+      ["كيف أُعِدّ طفلي للعملية؟", "اشرحوا بصدق وبكلمات تناسب عمر الطفل ما الذي سيحدث. يكفي للصغار عادة شرح قصير قريب من يوم العملية، بينما يمكن إشراك الأكبر سنًا والمراهقين في الحديث في وقت أبكر."],
+      ["ماذا ينبغي أن نحضر إلى المستشفى؟", "أحضروا المستندات والأدوية التي طلبها المستشفى، وملابس مريحة، وغرضًا مألوفًا يهدّئ الطفل. ومن المفيد أيضًا إعداد قائمة أسئلة للطاقم."],
+      ["هل يمكنني البقاء مع طفلي عند بدء التخدير؟", "يعتمد ذلك على سياسة المستشفى وحالة الطفل وخطة التخدير. اسألوا الطاقم مسبقًا عما هو ممكن ومتى يمكنكم الانضمام إلى طفلكم في غرفة التعافي."],
+      ["ماذا أفعل إذا أُصيب طفلي بالزكام أو مرض قبل العملية؟", "تواصلوا مع المستشفى أو الفريق المعالج قبل الوصول، وأبلغوهم عن الحمى أو السعال أو الزكام أو القيء أو أي تغير صحي. سيقرر الفريق إن كانت هناك حاجة إلى فحص أو تأجيل."],
+      ["لماذا الصيام مهم، ومتى يتوقف طفلي عن الأكل والشرب؟", "يقلل الصيام خطر وصول محتويات المعدة إلى الرئتين أثناء التخدير. تختلف الأوقات حسب العمر ونوع الطعام والإجراء، لذلك اتبعوا فقط التعليمات الشخصية التي أعطاها المستشفى."],
+      ["ماذا أتوقع في غرفة التعافي؟", "قد يستيقظ الطفل وهو نعسان أو مرتبك أو باكٍ، وقد يشعر بالغثيان أو الألم. تزول هذه الآثار غالبًا، وأخبروا الطاقم عن أي انزعاج ليتمكن من المساعدة."]
+    ]
+  },
+  ru: {
+    title: "Вопросы родителей",
+    items: [
+      ["Как подготовить ребёнка к операции?", "Честно и понятными по возрасту словами расскажите, чего ожидать. Маленьким детям обычно достаточно короткого объяснения незадолго до операции; детей постарше и подростков можно информировать раньше и вовлекать в разговор."],
+      ["Что взять с собой в больницу?", "Возьмите документы и лекарства, которые просила больница, удобную одежду и знакомую вещь, успокаивающую ребёнка. Полезно также записать вопросы персоналу."],
+      ["Можно ли быть с ребёнком в начале анестезии?", "Это зависит от правил больницы, состояния ребёнка и плана анестезии. Заранее спросите персонал, что возможно и когда вы сможете присоединиться к ребёнку в палате пробуждения."],
+      ["Что делать, если ребёнок простудился или заболел перед операцией?", "До приезда свяжитесь с больницей или лечащей командой и сообщите о температуре, кашле, насморке, рвоте или других изменениях здоровья. Команда решит, нужен ли осмотр или перенос процедуры."],
+      ["Почему важно голодание и когда прекращать есть и пить?", "Голодание снижает риск попадания содержимого желудка в лёгкие во время анестезии. Время зависит от возраста, вида пищи и процедуры, поэтому следуйте только индивидуальным инструкциям вашей больницы."],
+      ["Чего ожидать в палате пробуждения?", "Ребёнок может проснуться сонным, растерянным, плачущим, с тошнотой или болью. Обычно это проходит; сообщайте персоналу о любом дискомфорте, чтобы он мог помочь."]
+    ]
+  },
+  fr: {
+    title: "Questions des parents",
+    items: [
+      ["Comment préparer mon enfant à l’opération ?", "Expliquez honnêtement ce qui va se passer avec des mots adaptés à son âge. Une courte explication proche du jour de l’opération suffit souvent aux petits ; les plus grands et les adolescents peuvent être informés plus tôt et participer à la discussion."],
+      ["Que faut-il apporter à l’hôpital ?", "Apportez les documents et médicaments demandés par l’hôpital, des vêtements confortables et un objet familier qui rassure votre enfant. Pensez aussi à préparer une liste de questions pour le personnel."],
+      ["Puis-je rester avec mon enfant au début de l’anesthésie ?", "Cela dépend des règles de l’hôpital, de la situation médicale et du plan d’anesthésie. Demandez à l’avance ce qui est possible et quand vous pourrez rejoindre votre enfant en salle de réveil."],
+      ["Que faire si mon enfant est enrhumé ou malade avant l’opération ?", "Contactez l’hôpital ou l’équipe soignante avant de venir et signalez toute fièvre, toux, rhume, vomissement ou autre changement de santé. L’équipe décidera si une évaluation ou un report est nécessaire."],
+      ["Pourquoi le jeûne est-il important et quand faut-il arrêter de manger et boire ?", "Le jeûne réduit le risque que le contenu de l’estomac entre dans les poumons pendant l’anesthésie. Les horaires varient selon l’âge, les aliments et l’intervention : suivez uniquement les consignes personnelles de votre hôpital."],
+      ["À quoi faut-il s’attendre en salle de réveil ?", "Les enfants peuvent se réveiller somnolents, désorientés, en pleurs, nauséeux ou douloureux. Ces effets passent généralement ; signalez toute gêne au personnel afin qu’il puisse aider."]
+    ]
+  }
+};
+
 Object.keys(AUDIENCE_I18N).forEach((lang) => Object.assign(I18N[lang], AUDIENCE_I18N[lang]));
 
 const RTL_LANGS = ["he", "ar"];
 
 /* Currently active language + dictionary, exposed for app.js */
-window.NUNI = { lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, audience: null };
+window.NUNI = { lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, parentFaq: PARENT_FAQ_I18N.he, audience: null };
 
 const AUDIENCES = ["little", "kids", "teen", "parents"];
 let activeAudience = null;
@@ -907,6 +965,23 @@ function updateAudienceUI(audience) {
       primaryCta.setAttribute("href", "#journey");
     }
   }
+
+  const faqTitle = document.querySelector("#faq h2");
+  const faqRows = document.querySelectorAll("#faq .qa");
+  const faqContent = audience === "parents"
+    ? window.NUNI.parentFaq
+    : {
+        title: dict.faq_title,
+        items: [1, 2, 3, 4, 5, 6].map((number) => [dict[`q${number}`], dict[`a${number}`]])
+      };
+
+  if (faqTitle) faqTitle.textContent = faqContent.title;
+  faqRows.forEach((row, index) => {
+    const item = faqContent.items[index];
+    if (!item) return;
+    row.querySelector("summary").textContent = item[0];
+    row.querySelector("p").textContent = item[1];
+  });
 }
 
 function setAudience(audience, { save = true, closeGate = true } = {}) {
@@ -992,6 +1067,7 @@ function applyLanguage(lang) {
   window.NUNI.lang = lang;
   window.NUNI.t = dict;
   window.NUNI.quiz = QUIZ_I18N[lang];
+  window.NUNI.parentFaq = PARENT_FAQ_I18N[lang];
   try { localStorage.setItem("nuni-lang", lang); } catch (e) {}
 
   updateAudienceUI(activeAudience || "kids");
