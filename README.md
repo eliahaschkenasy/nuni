@@ -9,8 +9,10 @@ support for Hebrew and Arabic. Your choice is remembered in the browser.
 
 ## What's inside
 
-- **Four age-aware experiences** — ages 0–6, 7–13, 13–18, and parents each get
+- **Four age-aware experiences** — ages 0–6, 7–12, 13–18, and parents each get
   a tailored introduction, visual tone, and set of highlighted activities.
+- **Interactive anesthesia quiz** — ten scored questions for ages 7–12 and
+  13–18, with immediate explanations in all five languages.
 - **What it is** — a gentle explanation of anesthesia ("operation sleep").
 - **The journey** — six illustrated steps from home to waking up.
 - **Story film** (`story.html`) — a ~2-minute wordless animation of Nuni's day, for

@@ -51,7 +51,7 @@
         <button class="audience-card audience-card-kids" type="button" data-audience="kids">
           <span class="audience-icon" aria-hidden="true">🚀</span>
           <span class="audience-card-copy">
-            <strong data-i18n="audience_kids">גילאי 7 עד 13</strong>
+            <strong data-i18n="audience_kids">גילאי 7 עד 12</strong>
             <small data-i18n="audience_kids_desc">לגלות מה קורה, צעד אחר צעד</small>
           </span>
           <span class="audience-arrow" aria-hidden="true">←</span>
@@ -110,6 +110,7 @@
       <a href="coloring.html" data-i18n="nav_coloring" data-audiences="little,kids">דפי צביעה</a>
       <a href="equipment.html" data-i18n="nav_equipment">הציוד</a>
       <a href="#feelings" data-i18n="nav_feelings">רגשות</a>
+      <a href="#quiz" data-i18n="nav_quiz" data-audiences="kids,teen">חידון</a>
       <a href="#faq" data-i18n="nav_faq">שאלות</a>
       <a href="#parents" data-i18n="nav_parents">להורים</a>
     </nav>
@@ -125,7 +126,7 @@
 
     <button class="audience-switch" type="button" data-i18n-aria-label="audience_change" aria-label="שינוי קבוצת גיל">
       <span class="audience-switch-dot" aria-hidden="true"></span>
-      <span class="audience-switch-label">גילאי 7–13</span>
+      <span class="audience-switch-label">גילאי 7–12</span>
     </button>
 
     <button class="nav-toggle" aria-label="תפריט" data-i18n-aria-label="aria_menu" aria-expanded="false">
@@ -166,6 +167,67 @@
       </div>
     </section>
 
+    <!-- ===== A tailored starting point for each audience ===== -->
+    <section class="audience-hub-section" aria-label="תוכן מותאם לגיל" data-i18n-aria-label="audience_hub_aria">
+      <div class="wrap">
+        <div class="audience-hub" data-audiences="little">
+          <div class="audience-hub-heading">
+            <p class="eyebrow" data-i18n="little_hub_eyebrow">בואו נכיר יחד</p>
+            <h2 data-i18n="little_hub_title">לראות, לשחק ולהרגיש מוכנים</h2>
+            <p data-i18n="little_hub_intro">לקטנטנים הכי קל להתכונן דרך תמונות, משחק וסיפור קצר יחד עם מבוגר.</p>
+          </div>
+          <div class="audience-paths">
+            <a class="audience-path" href="story.html"><span aria-hidden="true">▶</span><strong data-i18n="little_path1_title">הסיפור של נוני</strong><small data-i18n="little_path1_text">סרטון קצר בלי צורך לקרוא</small></a>
+            <a class="audience-path" href="equipment.html"><span aria-hidden="true">🩺</span><strong data-i18n="little_path2_title">מכירים את הציוד</strong><small data-i18n="little_path2_text">נוגעים ומגלים מה כל דבר עושה</small></a>
+            <a class="audience-path" href="coloring.html"><span aria-hidden="true">🖍️</span><strong data-i18n="little_path3_title">צובעים עם נוני</strong><small data-i18n="little_path3_text">דפים רגועים להדפסה ולצביעה</small></a>
+          </div>
+          <p class="audience-guidance" data-i18n="little_guidance">למבוגר שמלווה: השתמשו במשפטים קצרים, תנו לילד לבחור במה להתחיל וחזרו על הסיפור כמה פעמים שירצה.</p>
+        </div>
+
+        <div class="audience-hub" data-audiences="kids">
+          <div class="audience-hub-heading">
+            <p class="eyebrow" data-i18n="kids_hub_eyebrow">המסע שלך</p>
+            <h2 data-i18n="kids_hub_title">לגלות מה יקרה ולהיות חלק מההכנה</h2>
+            <p data-i18n="kids_hub_intro">אפשר להכיר את השלבים, לבדוק את הידע ולבחור מה יעזור לך להרגיש רגוע יותר.</p>
+          </div>
+          <div class="audience-paths">
+            <a class="audience-path" href="#journey"><span aria-hidden="true">🧭</span><strong data-i18n="kids_path1_title">המסע לבית החולים</strong><small data-i18n="kids_path1_text">כל מה שקורה, שלב אחר שלב</small></a>
+            <a class="audience-path" href="equipment.html"><span aria-hidden="true">🔎</span><strong data-i18n="kids_path2_title">חוקרים את הציוד</strong><small data-i18n="kids_path2_text">מסכה, מדדים וצמיד זיהוי</small></a>
+            <a class="audience-path" href="#quiz"><span aria-hidden="true">✓</span><strong data-i18n="kids_path3_title">חידון ההרדמה</strong><small data-i18n="kids_path3_text">עשר שאלות עם תשובה במקום</small></a>
+          </div>
+          <p class="audience-guidance" data-i18n="kids_guidance">אפשר לשאול את הצוות כל שאלה ולספר מה מדאיג אותך. יחד תוכלו לבחור דרך הרגעה שמתאימה לך.</p>
+        </div>
+
+        <div class="audience-hub" data-audiences="teen">
+          <div class="audience-hub-heading">
+            <p class="eyebrow" data-i18n="teen_hub_eyebrow">ישר ולעניין</p>
+            <h2 data-i18n="teen_hub_title">מה באמת קורה ואיפה יש לך בחירה</h2>
+            <p data-i18n="teen_hub_intro">מידע ישיר על ההרדמה, ההכנה וההתאוששות — בלי פעילויות שמיועדות לילדים קטנים.</p>
+          </div>
+          <div class="audience-paths">
+            <a class="audience-path" href="#what"><span aria-hidden="true">01</span><strong data-i18n="teen_path1_title">להבין את ההרדמה</strong><small data-i18n="teen_path1_text">מה התרופות עושות ואיך משגיחים עליך</small></a>
+            <a class="audience-path" href="#journey"><span aria-hidden="true">02</span><strong data-i18n="teen_path2_title">לדעת למה לצפות</strong><small data-i18n="teen_path2_text">קבלה, הכנה, הרדמה והתאוששות</small></a>
+            <a class="audience-path" href="#quiz"><span aria-hidden="true">03</span><strong data-i18n="teen_path3_title">לבדוק את עצמך</strong><small data-i18n="teen_path3_text">חידון קצר עם הסבר לכל תשובה</small></a>
+          </div>
+          <p class="audience-guidance" data-i18n="teen_guidance">ההעדפות שלך חשובות. אפשר לומר לצוות אם מחטים, מסכה, בחילה, פרטיות או חוסר ודאות מטרידים אותך ולשאול אילו אפשרויות מתאימות ובטוחות עבורך.</p>
+        </div>
+
+        <div class="audience-hub" data-audiences="parents">
+          <div class="audience-hub-heading">
+            <p class="eyebrow" data-i18n="parents_hub_eyebrow">הכנה מעשית</p>
+            <h2 data-i18n="parents_hub_title">מה לומר, מה להביא ומה לשאול</h2>
+            <p data-i18n="parents_hub_intro">כלים פשוטים שיעזרו לכם להכין את הילד בהתאם לגיל ולתמוך בו ביום הניתוח.</p>
+          </div>
+          <div class="audience-paths">
+            <a class="audience-path" href="#parents"><span aria-hidden="true">💬</span><strong data-i18n="parents_path1_title">איך לדבר על הניתוח</strong><small data-i18n="parents_path1_text">כנות, תזמון ומילים מותאמות לגיל</small></a>
+            <a class="audience-path" href="#journey"><span aria-hidden="true">📋</span><strong data-i18n="parents_path2_title">לעבור על היום מראש</strong><small data-i18n="parents_path2_text">מהבית ועד חדר ההתאוששות</small></a>
+            <a class="audience-path" href="#faq"><span aria-hidden="true">?</span><strong data-i18n="parents_path3_title">להכין שאלות לצוות</strong><small data-i18n="parents_path3_text">צום, תרופות, כאב וההתאוששות</small></a>
+          </div>
+          <p class="audience-guidance" data-i18n="parents_guidance">הוראות בית החולים שלכם תמיד קודמות למידע כללי באתר, במיוחד בנוגע לצום, שתייה ותרופות קבועות.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== What is anesthesia ===== -->
     <section id="what" class="section">
       <div class="wrap narrow">
@@ -173,6 +235,37 @@
         <p data-i18n="what_p1">לפני הניתוח מקבלים שינה מיוחדת ועדינה שנקראת הרדמה. זו לא שינה כמו בלילה – זו שינה עמוקה שמכינים במיוחד בשביל הניתוח.</p>
         <p data-i18n="what_p2">רופא מיוחד שנקרא הרופא המרדים נותן לך תרופה דרך מסכה רכה שנושמים דרכה, או דרך צינורית דקיקה ביד. ואז לאט־לאט נרדמים, כאילו מרחפים על ענן.</p>
         <p data-i18n="what_p3">בזמן השינה לא מרגישים כלום – לא דקירה ולא כאב. הרופא המרדים נשאר לידך כל הזמן ומעיר אותך בעדינות כשהניתוח נגמר.</p>
+      </div>
+    </section>
+
+    <!-- ===== Interactive anesthesia quiz ===== -->
+    <section id="quiz" class="section section-alt quiz-section" data-audiences="kids,teen">
+      <div class="wrap narrow">
+        <div class="quiz-heading center">
+          <p class="eyebrow" data-i18n="quiz_eyebrow">עכשיו תורך</p>
+          <h2 data-i18n="quiz_title">חידון ההרדמה</h2>
+          <p data-i18n="quiz_intro">עשר שאלות קצרות על ההכנה, ההרדמה וההתאוששות. אחרי כל תשובה יופיע הסבר.</p>
+        </div>
+        <div class="quiz-shell">
+          <div class="quiz-progress-row">
+            <span class="quiz-count" aria-live="polite"></span>
+            <div class="quiz-progress" role="progressbar" aria-valuemin="1" aria-valuemax="10" aria-valuenow="1" data-i18n-aria-label="quiz_progress_aria"><span></span></div>
+          </div>
+          <div class="quiz-question-view">
+            <h3 class="quiz-question" tabindex="-1"></h3>
+            <div class="quiz-options" role="group" data-i18n-aria-label="quiz_options_aria"></div>
+            <div class="quiz-feedback" aria-live="polite" hidden></div>
+            <button class="btn btn-primary quiz-next" type="button" hidden></button>
+          </div>
+          <div class="quiz-result" hidden aria-live="polite">
+            <span class="quiz-result-icon" aria-hidden="true">★</span>
+            <h3 data-i18n="quiz_result_title">סיימת את החידון!</h3>
+            <p class="quiz-score"></p>
+            <p class="quiz-result-message"></p>
+            <button class="btn btn-primary quiz-restart" type="button" data-i18n="quiz_restart">לנסות שוב</button>
+          </div>
+        </div>
+        <p class="quiz-safety" data-i18n="quiz_safety">חשוב: תמיד פועלים לפי הוראות בית החולים שלכם, במיוחד לגבי אוכל, שתייה ותרופות.</p>
       </div>
     </section>
 
@@ -310,5 +403,6 @@
 
   <script src="i18n.js"></script>
   <script src="app.js"></script>
+  <script src="quiz.js"></script>
 </body>
 </html>
