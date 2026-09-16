@@ -849,6 +849,64 @@ const QUIZ_I18N = {
   ]
 };
 
+const TEEN_FAQ_I18N = {
+  he: {
+    title: "שאלות נפוצות בגיל 13–18",
+    items: [
+      ["מה הסיכוי שאתעורר במהלך הניתוח?", "התעוררות לא מתוכננת במהלך הרדמה כללית היא נדירה. הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים, ומתאים את ההרדמה לפי הצורך. אם הנושא מטריד אותך, אפשר להעלות אותו בפגישה לפני הניתוח."],
+      ["יש לי בחירה באופן שבו מתחילים את ההרדמה?", "לפעמים קיימות כמה אפשרויות, למשל תרופה דרך עירוי או נשימה דרך מסכה, אבל לא כל אפשרות מתאימה לכל הליך. כדאי לומר לרופא המרדים מה חשוב לך וממה אתה חושש; יחד תבחרו בתוכנית שמתאימה לך ובטוחה מבחינה רפואית."],
+      ["אפשר לשאול שאלה רפואית בלי ההורים בחדר?", "כן, אפשר לבקש לדבר עם איש צוות בפרטיות. הצוות יסביר מה יכול להישאר חסוי ומה יהיה צורך לשתף כדי לשמור על בטיחותך. זו דרך מקובלת לשאול על נושאים אישיים בלי מבוכה."],
+      ["מה עושים אם כואב לי או יש לי בחילה אחרי הניתוח?", "לא צריך לחכות שהתחושה תחמיר. כדאי לתאר לצוות מוקדם ככל האפשר מה מרגישים ועד כמה זה מפריע. אפשר לטפל בכאב, בבחילה ובתופעות נוספות בכמה דרכים ולהתאים את הטיפול לפי התגובה שלך."],
+      ["איזה מידע חשוב למסור לצוות, גם אם הוא אישי?", "ספר לצוות על תרופות ותוספים, אלרגיות, תגובות קודמות להרדמה, עישון או אידוי, אלכוהול ושימוש בחומרים אחרים. המידע עוזר להתאים טיפול בטוח; מטרת השאלות היא רפואית ולא שיפוטית."],
+      ["מתי אפשר לחזור ללימודים, לספורט ולשגרה?", "זה תלוי בניתוח, בהרדמה ובהרגשה שלך. ההשפעה על ערנות ושיקול דעת יכולה להימשך גם אחרי שמתעוררים, ולכן חשוב לפעול לפי הוראות השחרור ולהיעזר במבוגר. שאל את הצוות מתי בטוח לחזור לכל פעילות." ]
+    ]
+  },
+  en: {
+    title: "Common questions for ages 13–18",
+    items: [
+      ["What are the chances of waking up during surgery?", "Unintended awareness during general anesthesia is rare. The anesthetist stays with you throughout the procedure, continuously monitors your breathing, heart rate, blood pressure and other signs, and adjusts the anesthetic when needed. If this worries you, bring it up before surgery."],
+      ["Do I get a say in how anesthesia starts?", "There may be options, such as medicine through an IV or breathing through a mask, but not every option suits every procedure. Tell the anesthetist what matters to you and what concerns you; together you can agree on a plan that is suitable and medically safe."],
+      ["Can I ask a medical question without my parents in the room?", "Yes. You can ask to speak with a staff member privately. They will explain what can remain confidential and what may need to be shared to keep you safe. It is a normal way to discuss personal topics without embarrassment."],
+      ["What if I have pain or nausea after surgery?", "You do not need to wait for it to get worse. Tell the staff early what you feel and how much it is bothering you. Pain, nausea and other symptoms can be treated in several ways, and the treatment can be adjusted based on how you respond."],
+      ["What should I tell the staff, even if it feels personal?", "Tell them about medicines and supplements, allergies, previous reactions to anesthesia, smoking or vaping, alcohol and other substance use. This information helps them plan safer care; the questions are medical, not judgmental."],
+      ["When can I go back to school, sports and my usual routine?", "That depends on the operation, the anesthetic and how you feel. Alertness and judgment can still be affected after you wake up, so follow your discharge instructions and have an adult help you. Ask the staff when each activity is safe for you." ]
+    ]
+  },
+  ar: {
+    title: "أسئلة شائعة للأعمار 13–18",
+    items: [
+      ["ما احتمال أن أستيقظ أثناء العملية؟", "الوعي غير المقصود أثناء التخدير العام نادر. يبقى طبيب التخدير معك طوال العملية، ويراقب باستمرار التنفس والنبض وضغط الدم ومؤشرات أخرى، ويعدّل التخدير عند الحاجة. إذا كان الأمر يقلقك، يمكنك طرحه قبل العملية."],
+      ["هل لي رأي في طريقة بدء التخدير؟", "قد تتوفر خيارات، مثل إعطاء الدواء عبر الوريد أو التنفس عبر قناع، لكن ليست كل طريقة مناسبة لكل إجراء. أخبر طبيب التخدير بما يهمك وما يقلقك؛ ويمكنكما الاتفاق على خطة مناسبة وآمنة طبيًا."],
+      ["هل يمكنني طرح سؤال طبي من دون وجود والديّ؟", "نعم. يمكنك طلب التحدث مع أحد أفراد الطاقم على انفراد. سيشرح لك ما يمكن أن يبقى سريًا وما قد يلزم مشاركته للحفاظ على سلامتك. هذه طريقة معتادة لمناقشة المواضيع الشخصية من دون إحراج."],
+      ["ماذا أفعل إذا شعرت بالألم أو الغثيان بعد العملية؟", "لا حاجة إلى الانتظار حتى يزداد الشعور سوءًا. أخبر الطاقم مبكرًا بما تشعر به ومدى إزعاجه لك. يمكن علاج الألم والغثيان وأعراض أخرى بعدة طرق، وتعديل العلاج بحسب استجابتك."],
+      ["ما المعلومات التي يجب أن أخبر بها الطاقم حتى لو كانت شخصية؟", "أخبرهم عن الأدوية والمكمّلات والحساسيات وردود الفعل السابقة للتخدير والتدخين أو التدخين الإلكتروني والكحول واستخدام مواد أخرى. تساعد هذه المعلومات في وضع خطة أكثر أمانًا؛ فالأسئلة طبية وليست للحكم عليك."],
+      ["متى يمكنني العودة إلى الدراسة والرياضة وروتيني المعتاد؟", "يعتمد ذلك على العملية والتخدير وكيف تشعر. قد يتأثر الانتباه والقدرة على اتخاذ القرار حتى بعد الاستيقاظ، لذلك اتبع تعليمات الخروج واستعن بشخص بالغ. اسأل الطاقم متى تصبح كل فعالية آمنة لك." ]
+    ]
+  },
+  ru: {
+    title: "Частые вопросы в 13–18 лет",
+    items: [
+      ["Какова вероятность проснуться во время операции?", "Незапланированное пробуждение во время общей анестезии случается редко. Анестезиолог находится рядом на протяжении всей операции, постоянно контролирует дыхание, пульс, давление и другие показатели и при необходимости корректирует анестезию. Если это вас тревожит, обсудите вопрос до операции."],
+      ["Могу ли я участвовать в выборе способа начала анестезии?", "Иногда есть варианты, например введение лекарства через венозный катетер или вдыхание через маску, но не каждый способ подходит для каждой процедуры. Расскажите анестезиологу, что для вас важно и чего вы опасаетесь; вместе вы согласуете подходящий и безопасный план."],
+      ["Можно ли задать медицинский вопрос без родителей в комнате?", "Да. Можно попросить поговорить с сотрудником наедине. Вам объяснят, что может остаться конфиденциальным, а чем потребуется поделиться ради вашей безопасности. Это обычный способ без стеснения обсудить личные темы."],
+      ["Что делать, если после операции болит или тошнит?", "Не нужно ждать, пока станет хуже. Как можно раньше расскажите персоналу, что вы чувствуете и насколько это вас беспокоит. Боль, тошноту и другие симптомы можно лечить разными способами и корректировать лечение по вашей реакции."],
+      ["Что важно сообщить персоналу, даже если это личное?", "Расскажите о лекарствах и добавках, аллергиях, прошлых реакциях на анестезию, курении или вейпинге, алкоголе и употреблении других веществ. Эта информация помогает сделать лечение безопаснее; вопросы задают по медицинским причинам, а не для осуждения."],
+      ["Когда можно вернуться к учёбе, спорту и обычному распорядку?", "Это зависит от операции, анестезии и вашего самочувствия. Внимание и способность принимать решения могут быть снижены и после пробуждения, поэтому соблюдайте инструкции при выписке и примите помощь взрослого. Уточните у персонала, когда каждая активность будет для вас безопасна." ]
+    ]
+  },
+  fr: {
+    title: "Questions fréquentes de 13 à 18 ans",
+    items: [
+      ["Quel est le risque de me réveiller pendant l’opération ?", "Une prise de conscience involontaire pendant une anesthésie générale est rare. L’anesthésiste reste auprès de toi pendant toute l’intervention, surveille en continu ta respiration, ton pouls, ta tension et d’autres paramètres, puis ajuste l’anesthésie si nécessaire. Si cela t’inquiète, parle-en avant l’opération."],
+      ["Puis-je participer au choix de la façon dont l’anesthésie commence ?", "Il peut y avoir plusieurs options, par exemple un médicament par perfusion ou un gaz respiré à travers un masque, mais toutes ne conviennent pas à chaque intervention. Dis à l’anesthésiste ce qui compte pour toi et ce qui t’inquiète ; vous pourrez convenir d’un plan adapté et sûr sur le plan médical."],
+      ["Puis-je poser une question médicale sans mes parents dans la pièce ?", "Oui. Tu peux demander à parler en privé avec un membre du personnel. On t’expliquera ce qui peut rester confidentiel et ce qui devra éventuellement être partagé pour assurer ta sécurité. C’est une façon normale d’aborder des sujets personnels sans gêne."],
+      ["Que faire si j’ai mal ou si j’ai des nausées après l’opération ?", "Tu n’as pas besoin d’attendre que cela empire. Dis rapidement au personnel ce que tu ressens et à quel point cela te gêne. La douleur, les nausées et d’autres symptômes peuvent être traités de plusieurs façons, puis le traitement adapté selon ta réaction."],
+      ["Que dois-je dire au personnel, même si cela paraît personnel ?", "Parle des médicaments et compléments, des allergies, des réactions antérieures à l’anesthésie, du tabac ou vapotage, de l’alcool et de toute autre substance. Ces informations permettent de préparer des soins plus sûrs ; les questions sont médicales et sans jugement."],
+      ["Quand puis-je reprendre les cours, le sport et mes activités habituelles ?", "Cela dépend de l’opération, de l’anesthésie et de ton état. La vigilance et le jugement peuvent rester diminués après le réveil : suis donc les consignes de sortie et fais-toi aider par un adulte. Demande au personnel quand chaque activité sera sans danger pour toi." ]
+    ]
+  }
+};
+
 const PARENT_FAQ_I18N = {
   he: {
     title: "שאלות שהורים שואלים",
@@ -912,7 +970,7 @@ Object.keys(AUDIENCE_I18N).forEach((lang) => Object.assign(I18N[lang], AUDIENCE_
 const RTL_LANGS = ["he", "ar"];
 
 /* Currently active language + dictionary, exposed for app.js */
-window.NUNI = { lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, parentFaq: PARENT_FAQ_I18N.he, audience: null };
+window.NUNI = { lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, teenFaq: TEEN_FAQ_I18N.he, parentFaq: PARENT_FAQ_I18N.he, audience: null };
 
 const AUDIENCES = ["little", "kids", "teen", "parents"];
 let activeAudience = null;
@@ -970,7 +1028,9 @@ function updateAudienceUI(audience) {
   const faqRows = document.querySelectorAll("#faq .qa");
   const faqContent = audience === "parents"
     ? window.NUNI.parentFaq
-    : {
+    : audience === "teen"
+      ? window.NUNI.teenFaq
+      : {
         title: dict.faq_title,
         items: [1, 2, 3, 4, 5, 6].map((number) => [dict[`q${number}`], dict[`a${number}`]])
       };
@@ -1067,6 +1127,7 @@ function applyLanguage(lang) {
   window.NUNI.lang = lang;
   window.NUNI.t = dict;
   window.NUNI.quiz = QUIZ_I18N[lang];
+  window.NUNI.teenFaq = TEEN_FAQ_I18N[lang];
   window.NUNI.parentFaq = PARENT_FAQ_I18N[lang];
   try { localStorage.setItem("nuni-lang", lang); } catch (e) {}
 
