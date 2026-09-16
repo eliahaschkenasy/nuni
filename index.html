@@ -18,6 +18,64 @@
 </head>
 <body>
 
+  <!-- Audience chooser (shown on first visit and whenever the audience chip is used) -->
+  <div class="audience-gate" role="dialog" aria-modal="true" aria-labelledby="audience-title" hidden>
+    <div class="audience-gate-panel">
+      <div class="audience-gate-top">
+        <a class="gate-brand" href="index.html" aria-label="נוני" data-i18n-aria-label="brand_name">
+          <span aria-hidden="true">✦</span>
+          <span data-i18n="brand_name">נוני</span>
+        </a>
+        <div class="lang-switch gate-languages" role="group" aria-label="בחירת שפה" data-i18n-aria-label="aria_language">
+          <button type="button" data-lang="he" class="is-active">עברית</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="ar">العربية</button>
+          <button type="button" data-lang="ru">Русский</button>
+          <button type="button" data-lang="fr">Français</button>
+        </div>
+      </div>
+      <div class="audience-intro">
+        <p class="eyebrow" data-i18n="audience_eyebrow">המקום הנכון בשבילכם</p>
+        <h1 id="audience-title" data-i18n="audience_title">למי נוני עוזר היום?</h1>
+        <p data-i18n="audience_intro">בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.</p>
+      </div>
+      <div class="audience-grid">
+        <button class="audience-card audience-card-little" type="button" data-audience="little">
+          <span class="audience-icon" aria-hidden="true">☀️</span>
+          <span class="audience-card-copy">
+            <strong data-i18n="audience_little">גילאי 0 עד 6</strong>
+            <small data-i18n="audience_little_desc">סיפור עדין, תמונות ומשחק</small>
+          </span>
+          <span class="audience-arrow" aria-hidden="true">←</span>
+        </button>
+        <button class="audience-card audience-card-kids" type="button" data-audience="kids">
+          <span class="audience-icon" aria-hidden="true">🚀</span>
+          <span class="audience-card-copy">
+            <strong data-i18n="audience_kids">גילאי 7 עד 13</strong>
+            <small data-i18n="audience_kids_desc">לגלות מה קורה, צעד אחר צעד</small>
+          </span>
+          <span class="audience-arrow" aria-hidden="true">←</span>
+        </button>
+        <button class="audience-card audience-card-teen" type="button" data-audience="teen">
+          <span class="audience-icon" aria-hidden="true">✦</span>
+          <span class="audience-card-copy">
+            <strong data-i18n="audience_teen">גילאי 13 עד 18</strong>
+            <small data-i18n="audience_teen_desc">מידע ברור, ישיר ובגובה העיניים</small>
+          </span>
+          <span class="audience-arrow" aria-hidden="true">←</span>
+        </button>
+        <button class="audience-card audience-card-parents" type="button" data-audience="parents">
+          <span class="audience-icon" aria-hidden="true">♥</span>
+          <span class="audience-card-copy">
+            <strong data-i18n="audience_parents">הורים ומטפלים</strong>
+            <small data-i18n="audience_parents_desc">כלים מעשיים להכנה ולתמיכה</small>
+          </span>
+          <span class="audience-arrow" aria-hidden="true">←</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Decorative sky -->
   <div class="sky" aria-hidden="true">
     <span class="cloud c1"></span>
@@ -48,8 +106,8 @@
     <nav class="main-nav" aria-label="ניווט ראשי" data-i18n-aria-label="aria_main">
       <a href="#what" data-i18n="nav_about">מה זה</a>
       <a href="#journey" data-i18n="nav_journey">המסע</a>
-      <a href="story.html" data-i18n="nav_story">סרטון</a>
-      <a href="coloring.html" data-i18n="nav_coloring">דפי צביעה</a>
+      <a href="story.html" data-i18n="nav_story" data-audiences="little,kids">סרטון</a>
+      <a href="coloring.html" data-i18n="nav_coloring" data-audiences="little,kids">דפי צביעה</a>
       <a href="equipment.html" data-i18n="nav_equipment">הציוד</a>
       <a href="#feelings" data-i18n="nav_feelings">רגשות</a>
       <a href="#faq" data-i18n="nav_faq">שאלות</a>
@@ -64,6 +122,11 @@
       <button type="button" data-lang="fr">Français</button>
     </div>
     </div>
+
+    <button class="audience-switch" type="button" data-i18n-aria-label="audience_change" aria-label="שינוי קבוצת גיל">
+      <span class="audience-switch-dot" aria-hidden="true"></span>
+      <span class="audience-switch-label">גילאי 7–13</span>
+    </button>
 
     <button class="nav-toggle" aria-label="תפריט" data-i18n-aria-label="aria_menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -80,7 +143,7 @@
         <p class="lead" data-i18n="hero_subtitle">בקרוב יהיה לך ניתוח, ותקבל שינה מיוחדת כדי שכלום לא יכאב. נוני יראה לך בדיוק מה קורה – שלב אחרי שלב.</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="#journey" data-i18n="hero_cta">תראה לי מה קורה</a>
-          <a class="btn btn-story" href="story.html" data-i18n="hero_story">צפו בסרטון של נוני</a>
+          <a class="btn btn-story" href="story.html" data-i18n="hero_story" data-audiences="little,kids">צפו בסרטון של נוני</a>
           <a class="btn btn-ghost" href="#parents" data-i18n="hero_cta2">להורים</a>
         </div>
       </div>

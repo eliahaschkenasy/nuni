@@ -480,10 +480,241 @@ const I18N = {
   }
 };
 
+/* Audience chooser and tailored home-page introductions. Kept together so the
+   four experiences stay easy to compare across every supported language. */
+const AUDIENCE_I18N = {
+  he: {
+    audience_change: "שינוי קבוצת גיל",
+    audience_eyebrow: "המקום הנכון בשבילכם",
+    audience_title: "למי נוני עוזר היום?",
+    audience_intro: "בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.",
+    audience_little: "גילאי 0 עד 6", audience_little_short: "גילאי 0 עד 6",
+    audience_little_desc: "סיפור עדין, תמונות ומשחק",
+    audience_kids: "גילאי 7 עד 13", audience_kids_short: "גילאי 7 עד 13",
+    audience_kids_desc: "לגלות מה קורה, צעד אחר צעד",
+    audience_teen: "גילאי 13 עד 18", audience_teen_short: "גילאי 13 עד 18",
+    audience_teen_desc: "מידע ברור, ישיר ובגובה העיניים",
+    audience_parents: "הורים ומטפלים", audience_parents_short: "להורים",
+    audience_parents_desc: "כלים מעשיים להכנה ולתמיכה",
+    audience_little_hero_eyebrow: "גילאי 0 עד 6 • אפשר לגלות יחד",
+    audience_little_hero_title: "נוני כאן כדי להראות שהכול יהיה בסדר.",
+    audience_little_hero_subtitle: "בעזרת סיפור, תמונות ומשחק נכיר את בית החולים ואת השינה המיוחדת — לאט וביחד.",
+    audience_kids_hero_eyebrow: "גילאי 7 עד 13 • המסע שלך",
+    audience_kids_hero_title: "כשיודעים מה יקרה, מרגישים מוכנים יותר.",
+    audience_kids_hero_subtitle: "נוני יסביר מה קורה לפני הניתוח, בזמן ההרדמה ואחרי שמתעוררים — שלב אחרי שלב.",
+    audience_teen_hero_eyebrow: "גילאי 13 עד 18 • בלי ניחושים",
+    audience_teen_hero_title: "מידע ברור על ההרדמה והניתוח שלך.",
+    audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגישו ואילו שאלות כדאי לשאול. מידע ישיר שיעזור להגיע מוכנים יותר.",
+    audience_parents_hero_eyebrow: "להורים ולמטפלים",
+    audience_parents_hero_title: "לעזור לילד להגיע רגוע ומוכן יותר.",
+    audience_parents_hero_subtitle: "הסברים מותאמי גיל, כלים לשיחה ורעיונות מעשיים לקראת הרדמה וניתוח.",
+    audience_parent_cta: "לכלים להורים"
+  },
+  en: {
+    audience_change: "Change age group",
+    audience_eyebrow: "The right space for you",
+    audience_title: "Who is Nuni helping today?",
+    audience_intro: "Choose an age group for explanations and a look made to fit.",
+    audience_little: "Ages 0–6", audience_little_short: "Ages 0–6",
+    audience_little_desc: "A gentle story, pictures and play",
+    audience_kids: "Ages 7–13", audience_kids_short: "Ages 7–13",
+    audience_kids_desc: "See what happens, step by step",
+    audience_teen: "Ages 13–18", audience_teen_short: "Ages 13–18",
+    audience_teen_desc: "Clear, direct, age-appropriate information",
+    audience_parents: "Parents & caregivers", audience_parents_short: "Parents",
+    audience_parents_desc: "Practical tools to prepare and support",
+    audience_little_hero_eyebrow: "Ages 0–6 • Explore together",
+    audience_little_hero_title: "Nuni is here to show you it will be okay.",
+    audience_little_hero_subtitle: "With a story, pictures and play, we’ll meet the hospital and learn about special sleep — gently, together.",
+    audience_kids_hero_eyebrow: "Ages 7–13 • Your journey",
+    audience_kids_hero_title: "Knowing what will happen can help you feel ready.",
+    audience_kids_hero_subtitle: "Nuni explains what happens before the operation, during anesthesia and after you wake up — one step at a time.",
+    audience_teen_hero_eyebrow: "Ages 13–18 • No guesswork",
+    audience_teen_hero_title: "Clear information about your anesthesia and operation.",
+    audience_teen_hero_subtitle: "What to expect, what you might feel and what to ask. Straightforward information to help you arrive prepared.",
+    audience_parents_hero_eyebrow: "For parents & caregivers",
+    audience_parents_hero_title: "Help your child arrive calmer and better prepared.",
+    audience_parents_hero_subtitle: "Age-appropriate explanations, conversation tools and practical ideas for anesthesia and surgery.",
+    audience_parent_cta: "Parent resources"
+  },
+  ar: {
+    audience_change: "تغيير الفئة العمرية",
+    audience_eyebrow: "المكان المناسب لكم",
+    audience_title: "من يساعد نوني اليوم؟",
+    audience_intro: "اختاروا الفئة العمرية لتحصلوا على شرح وتصميم مناسبين لكم.",
+    audience_little: "من 0 إلى 6 سنوات", audience_little_short: "من 0 إلى 6",
+    audience_little_desc: "قصة لطيفة وصور ولعب",
+    audience_kids: "من 7 إلى 13 سنة", audience_kids_short: "من 7 إلى 13",
+    audience_kids_desc: "اكتشفوا ما سيحدث خطوة بخطوة",
+    audience_teen: "من 13 إلى 18 سنة", audience_teen_short: "من 13 إلى 18",
+    audience_teen_desc: "معلومات واضحة ومباشرة ومناسبة للعمر",
+    audience_parents: "الأهل ومقدّمو الرعاية", audience_parents_short: "للأهل",
+    audience_parents_desc: "أدوات عملية للاستعداد والدعم",
+    audience_little_hero_eyebrow: "من 0 إلى 6 سنوات • نكتشف معًا",
+    audience_little_hero_title: "نوني هنا ليُريك أن كل شيء سيكون بخير.",
+    audience_little_hero_subtitle: "بالقصة والصور واللعب سنتعرّف معًا وبلطف إلى المستشفى والنوم الخاص.",
+    audience_kids_hero_eyebrow: "من 7 إلى 13 سنة • رحلتك",
+    audience_kids_hero_title: "عندما تعرف ما سيحدث، تشعر بأنك أكثر استعدادًا.",
+    audience_kids_hero_subtitle: "يشرح نوني ما يحدث قبل العملية وأثناء التخدير وبعد الاستيقاظ — خطوة بخطوة.",
+    audience_teen_hero_eyebrow: "من 13 إلى 18 سنة • بلا تخمين",
+    audience_teen_hero_title: "معلومات واضحة عن التخدير والعملية.",
+    audience_teen_hero_subtitle: "ما الذي سيحدث، وما قد تشعر به، وما الأسئلة التي يمكنك طرحها. معلومات مباشرة تساعدك على الاستعداد.",
+    audience_parents_hero_eyebrow: "للأهل ومقدّمي الرعاية",
+    audience_parents_hero_title: "ساعدوا طفلكم على الوصول بهدوء واستعداد أكبر.",
+    audience_parents_hero_subtitle: "شرح مناسب للعمر وأدوات للحوار وأفكار عملية قبل التخدير والعملية.",
+    audience_parent_cta: "أدوات للأهل"
+  },
+  ru: {
+    audience_change: "Изменить возрастную группу",
+    audience_eyebrow: "Подходящий раздел для вас",
+    audience_title: "Кому Нуни помогает сегодня?",
+    audience_intro: "Выберите возрастную группу — оформление и объяснения подстроятся под вас.",
+    audience_little: "0–6 лет", audience_little_short: "0–6 лет",
+    audience_little_desc: "Добрая история, картинки и игра",
+    audience_kids: "7–13 лет", audience_kids_short: "7–13 лет",
+    audience_kids_desc: "Узнать, что будет, шаг за шагом",
+    audience_teen: "13–18 лет", audience_teen_short: "13–18 лет",
+    audience_teen_desc: "Понятная и прямая информация по возрасту",
+    audience_parents: "Родители и близкие", audience_parents_short: "Родителям",
+    audience_parents_desc: "Практические способы подготовки и поддержки",
+    audience_little_hero_eyebrow: "0–6 лет • Узнаём вместе",
+    audience_little_hero_title: "Нуни покажет, что всё будет хорошо.",
+    audience_little_hero_subtitle: "С помощью истории, картинок и игры мы вместе и без спешки познакомимся с больницей и особым сном.",
+    audience_kids_hero_eyebrow: "7–13 лет • Твой путь",
+    audience_kids_hero_title: "Когда знаешь, что будет, легче подготовиться.",
+    audience_kids_hero_subtitle: "Нуни объяснит, что происходит до операции, во время анестезии и после пробуждения — шаг за шагом.",
+    audience_teen_hero_eyebrow: "13–18 лет • Без догадок",
+    audience_teen_hero_title: "Понятно об анестезии и предстоящей операции.",
+    audience_teen_hero_subtitle: "Чего ожидать, что вы можете почувствовать и о чём стоит спросить. Прямые ответы помогут подготовиться.",
+    audience_parents_hero_eyebrow: "Для родителей и близких",
+    audience_parents_hero_title: "Помогите ребёнку прийти спокойнее и подготовленнее.",
+    audience_parents_hero_subtitle: "Объяснения по возрасту, подсказки для разговора и практические идеи перед анестезией и операцией.",
+    audience_parent_cta: "Материалы для родителей"
+  },
+  fr: {
+    audience_change: "Changer de groupe d’âge",
+    audience_eyebrow: "L’espace qui vous correspond",
+    audience_title: "Qui Nuni accompagne-t-il aujourd’hui ?",
+    audience_intro: "Choisissez un âge pour adapter les explications et l’univers visuel.",
+    audience_little: "0–6 ans", audience_little_short: "0–6 ans",
+    audience_little_desc: "Une histoire douce, des images et du jeu",
+    audience_kids: "7–13 ans", audience_kids_short: "7–13 ans",
+    audience_kids_desc: "Découvrir chaque étape de l’aventure",
+    audience_teen: "13–18 ans", audience_teen_short: "13–18 ans",
+    audience_teen_desc: "Des informations claires, directes et adaptées",
+    audience_parents: "Parents et accompagnants", audience_parents_short: "Parents",
+    audience_parents_desc: "Des outils concrets pour préparer et soutenir",
+    audience_little_hero_eyebrow: "0–6 ans • Découvrons ensemble",
+    audience_little_hero_title: "Nuni est là pour te montrer que tout ira bien.",
+    audience_little_hero_subtitle: "Avec une histoire, des images et du jeu, découvrons doucement l’hôpital et le sommeil spécial.",
+    audience_kids_hero_eyebrow: "7–13 ans • Ton parcours",
+    audience_kids_hero_title: "Savoir ce qui va se passer aide à se sentir prêt.",
+    audience_kids_hero_subtitle: "Nuni explique ce qui se passe avant l’opération, pendant l’anesthésie et au réveil — étape par étape.",
+    audience_teen_hero_eyebrow: "13–18 ans • Sans zone floue",
+    audience_teen_hero_title: "Des informations claires sur ton anesthésie et ton opération.",
+    audience_teen_hero_subtitle: "Ce qui va se passer, ce que tu pourrais ressentir et les questions à poser. Des réponses directes pour arriver mieux préparé.",
+    audience_parents_hero_eyebrow: "Pour les parents et les accompagnants",
+    audience_parents_hero_title: "Aidez votre enfant à arriver plus calme et mieux préparé.",
+    audience_parents_hero_subtitle: "Des explications selon l’âge, des outils de dialogue et des idées concrètes avant l’anesthésie et l’opération.",
+    audience_parent_cta: "Ressources pour les parents"
+  }
+};
+
+Object.keys(AUDIENCE_I18N).forEach((lang) => Object.assign(I18N[lang], AUDIENCE_I18N[lang]));
+
 const RTL_LANGS = ["he", "ar"];
 
 /* Currently active language + dictionary, exposed for app.js */
-window.NUNI = { lang: "he", t: I18N.he };
+window.NUNI = { lang: "he", t: I18N.he, audience: null };
+
+const AUDIENCES = ["little", "kids", "teen", "parents"];
+let activeAudience = null;
+
+try {
+  const savedAudience = localStorage.getItem("nuni-audience");
+  if (AUDIENCES.includes(savedAudience)) activeAudience = savedAudience;
+} catch (e) {}
+
+function updateAudienceUI(audience) {
+  if (!AUDIENCES.includes(audience)) return;
+
+  document.body.dataset.audience = audience;
+  window.NUNI.audience = audience;
+
+  const dict = window.NUNI.t;
+  const label = dict[`audience_${audience}_short`];
+  document.querySelectorAll(".audience-switch-label").forEach((el) => {
+    el.textContent = label;
+  });
+
+  document.querySelectorAll("[data-audiences]").forEach((el) => {
+    const allowed = el.dataset.audiences.split(",");
+    el.hidden = !allowed.includes(audience);
+  });
+
+  document.querySelectorAll(".audience-card").forEach((card) => {
+    card.classList.toggle("is-current", card.dataset.audience === audience);
+  });
+
+  const heroEyebrow = document.querySelector(".hero .eyebrow");
+  const heroTitle = document.querySelector(".hero h1");
+  const heroSubtitle = document.querySelector(".hero .lead");
+  if (heroEyebrow) heroEyebrow.textContent = dict[`audience_${audience}_hero_eyebrow`];
+  if (heroTitle) heroTitle.textContent = dict[`audience_${audience}_hero_title`];
+  if (heroSubtitle) heroSubtitle.textContent = dict[`audience_${audience}_hero_subtitle`];
+
+  const primaryCta = document.querySelector(".hero-cta .btn-primary");
+  const parentCta = document.querySelector(".hero-cta .btn-ghost");
+  if (primaryCta && parentCta) {
+    if (audience === "parents") {
+      primaryCta.textContent = dict.audience_parent_cta;
+      primaryCta.setAttribute("href", "#parents");
+      parentCta.hidden = true;
+    } else {
+      primaryCta.textContent = dict.hero_cta;
+      primaryCta.setAttribute("href", "#journey");
+      parentCta.hidden = false;
+    }
+  }
+}
+
+function setAudience(audience, { save = true, closeGate = true } = {}) {
+  if (!AUDIENCES.includes(audience)) return;
+  activeAudience = audience;
+  updateAudienceUI(audience);
+
+  if (save) {
+    try { localStorage.setItem("nuni-audience", audience); } catch (e) {}
+  }
+
+  if (closeGate) {
+    const gate = document.querySelector(".audience-gate");
+    if (gate) gate.hidden = true;
+    document.body.classList.remove("audience-choosing");
+    document.querySelectorAll(".site-header, main, .site-footer").forEach((el) => { el.inert = false; });
+
+    const url = new URL(window.location.href);
+    if (url.searchParams.has("choose")) {
+      url.searchParams.delete("choose");
+      window.history.replaceState({}, "", url);
+    }
+  }
+}
+
+function openAudienceGate() {
+  const gate = document.querySelector(".audience-gate");
+  if (!gate) {
+    window.location.href = "index.html?choose=1";
+    return;
+  }
+  gate.hidden = false;
+  document.body.classList.add("audience-choosing");
+  document.querySelectorAll(".site-header, main, .site-footer").forEach((el) => { el.inert = true; });
+  const current = gate.querySelector(".audience-card.is-current") || gate.querySelector(".audience-card");
+  if (current) current.focus({ preventScroll: true });
+}
+
+window.NUNI.setAudience = setAudience;
 
 function applyLanguage(lang) {
   const dict = I18N[lang];
@@ -531,6 +762,8 @@ function applyLanguage(lang) {
   window.NUNI.t = dict;
   try { localStorage.setItem("nuni-lang", lang); } catch (e) {}
 
+  updateAudienceUI(activeAudience || "kids");
+
   // Let app.js update any live UI (e.g. the breathing button label)
   window.dispatchEvent(new CustomEvent("nuni:langchange", { detail: { lang, dict } }));
 }
@@ -539,6 +772,16 @@ function applyLanguage(lang) {
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".nav-toggle");
+
+  // Inner pages receive the same persistent audience control without repeating markup.
+  if (header && !header.querySelector(".audience-switch")) {
+    const audienceSwitch = document.createElement("button");
+    audienceSwitch.className = "audience-switch";
+    audienceSwitch.type = "button";
+    audienceSwitch.setAttribute("data-i18n-aria-label", "audience_change");
+    audienceSwitch.innerHTML = '<span class="audience-switch-dot" aria-hidden="true"></span><span class="audience-switch-label"></span>';
+    header.insertBefore(audienceSwitch, toggle);
+  }
 
   const closeMenu = () => {
     if (!header || !toggle) return;
@@ -567,4 +810,26 @@ document.addEventListener("DOMContentLoaded", () => {
   let saved = "he";
   try { saved = localStorage.getItem("nuni-lang") || "he"; } catch (e) {}
   applyLanguage(saved);
+
+  document.querySelectorAll(".audience-card").forEach((card) => {
+    card.addEventListener("click", () => setAudience(card.dataset.audience));
+  });
+
+  document.querySelectorAll(".audience-switch").forEach((btn) => {
+    btn.addEventListener("click", openAudienceGate);
+  });
+
+  const forceChooser = new URLSearchParams(window.location.search).get("choose") === "1";
+  if (forceChooser || !activeAudience) openAudienceGate();
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !activeAudience) return;
+    const gate = document.querySelector(".audience-gate");
+    if (gate && !gate.hidden) {
+      gate.hidden = true;
+      document.body.classList.remove("audience-choosing");
+      document.querySelectorAll(".site-header, main, .site-footer").forEach((el) => { el.inert = false; });
+      document.querySelector(".audience-switch")?.focus();
+    }
+  });
 });
