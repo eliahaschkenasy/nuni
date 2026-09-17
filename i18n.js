@@ -488,17 +488,17 @@ const AUDIENCE_I18N = {
     audience_eyebrow: "המקום הנכון בשבילכם",
     audience_title: "בחרו את המסלול המתאים",
     audience_intro: "בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.",
-    audience_little: "גילאי 0 עד 6", audience_little_short: "גילאי 0 עד 6",
-    audience_little_desc: "סיפור עדין, תמונות ומשחק",
+    audience_little: "גִּילָאֵי 0 עַד 6", audience_little_short: "גִּילָאֵי 0 עַד 6",
+    audience_little_desc: "סִפּוּר עָדִין, תְּמוּנוֹת וּמִשְׂחָק",
     audience_kids: "גילאי 7 עד 12", audience_kids_short: "גילאי 7 עד 12",
     audience_kids_desc: "לגלות מה קורה, צעד אחר צעד",
     audience_teen: "גילאי 13 עד 18", audience_teen_short: "גילאי 13 עד 18",
     audience_teen_desc: "מידע ברור, ישיר ובגובה העיניים",
     audience_parents: "הורים ומטפלים", audience_parents_short: "להורים",
     audience_parents_desc: "כלים מעשיים להכנה ולתמיכה",
-    audience_little_hero_eyebrow: "גילאי 0 עד 6 • אפשר לגלות יחד",
-    audience_little_hero_title: "נוני כאן כדי להראות שהכול יהיה בסדר.",
-    audience_little_hero_subtitle: "בעזרת סיפור, תמונות ומשחק נכיר את בית החולים ואת השינה המיוחדת — לאט וביחד.",
+    audience_little_hero_eyebrow: "גִּילָאֵי 0 עַד 6 • אֶפְשָׁר לְגַלּוֹת יַחַד",
+    audience_little_hero_title: "נוּנִי כָּאן כְּדֵי לְהַרְאוֹת שֶׁהַכֹּל יִהְיֶה בְּסֵדֶר.",
+    audience_little_hero_subtitle: "בְּעֶזְרַת סִפּוּר, תְּמוּנוֹת וּמִשְׂחָק נַכִּיר אֶת בֵּית הַחוֹלִים וְאֶת הַהַרְדָּמָה — לְאַט וּבְיַחַד.",
     audience_kids_hero_eyebrow: "גילאי 7 עד 12 • המסע שלך",
     audience_kids_hero_title: "כשיודעים מה יקרה, מרגישים מוכנים יותר.",
     audience_kids_hero_subtitle: "נוני יסביר מה קורה לפני הניתוח, בזמן ההרדמה ואחרי שמתעוררים — שלב אחרי שלב.",
@@ -508,13 +508,14 @@ const AUDIENCE_I18N = {
     audience_parents_hero_eyebrow: "להורים ולמטפלים",
     audience_parents_hero_title: "לעזור לילד להגיע רגוע ומוכן יותר.",
     audience_parents_hero_subtitle: "הסברים מותאמי גיל, כלים לשיחה ורעיונות מעשיים לקראת הרדמה וניתוח.",
-    audience_parent_cta: "לכלים להורים",
+    audience_parent_cta: "לכלים להורים", audience_little_cta: "תַּרְאוּ לִי מַה קּוֹרֶה", audience_little_story_cta: "צְפוּ בַּסִּפּוּר שֶׁל נוּנִי",
+    read_aloud: "הַשְׁמִיעוּ לִי", read_stop: "עֲצִירָה", read_unavailable: "הַהַקְרָאָה אֵינָהּ זְמִינָה בַּמַּכְשִׁיר הַזֶּה",
     nav_quiz: "חידון", audience_hub_aria: "תוכן מותאם לגיל",
-    little_hub_eyebrow: "בואו נכיר יחד", little_hub_title: "לראות, לשחק ולהרגיש מוכנים",
-    little_hub_intro: "לקטנטנים הכי קל להתכונן דרך תמונות, משחק וסיפור קצר יחד עם מבוגר.",
-    little_path1_title: "הסיפור של נוני", little_path1_text: "סרטון קצר בלי צורך לקרוא",
-    little_path2_title: "מכירים את הציוד", little_path2_text: "נוגעים ומגלים מה כל דבר עושה",
-    little_path3_title: "צובעים עם נוני", little_path3_text: "דפים רגועים להדפסה ולצביעה",
+    little_hub_eyebrow: "בּוֹאוּ נַכִּיר יַחַד", little_hub_title: "לִרְאוֹת, לְשַׂחֵק וּלְהַרְגִּישׁ מוּכָנִים",
+    little_hub_intro: "אֶפְשָׁר לִרְאוֹת תְּמוּנוֹת, לְשַׂחֵק וְלִשְׁמֹעַ סִפּוּר קָצָר עִם מְבֻגָּר.",
+    little_path1_title: "הַסִּפּוּר שֶׁל נוּנִי", little_path1_text: "סִרְטוֹן קָצָר שֶׁלֹּא צָרִיךְ לִקְרֹא",
+    little_path2_title: "מַכִּירִים אֶת הַצִּיּוּד", little_path2_text: "נוֹגְעִים וּמְגַלִּים מַה כָּל דָּבָר עוֹשֶׂה",
+    little_path3_title: "צוֹבְעִים עִם נוּנִי", little_path3_text: "דַּפִּים רְגוּעִים לְהַדְפָּסָה וְלִצְבִיעָה",
     little_guidance: "למבוגר שמלווה: השתמשו במשפטים קצרים, תנו לילד לבחור במה להתחיל וחזרו על הסיפור כמה פעמים שירצה.",
     kids_hub_eyebrow: "המסע שלך", kids_hub_title: "לגלות מה יקרה ולהיות חלק מההכנה",
     kids_hub_intro: "אפשר להכיר את השלבים, לבדוק את הידע ולבחור מה יעזור לך להרגיש רגוע יותר.",
@@ -568,7 +569,8 @@ const AUDIENCE_I18N = {
     audience_parents_hero_eyebrow: "For parents & caregivers",
     audience_parents_hero_title: "Help your child arrive calmer and better prepared.",
     audience_parents_hero_subtitle: "Age-appropriate explanations, conversation tools and practical ideas for anesthesia and surgery.",
-    audience_parent_cta: "Parent resources",
+    audience_parent_cta: "Parent resources", audience_little_cta: "Show me what happens", audience_little_story_cta: "Watch Nuni's story",
+    read_aloud: "Read this to me", read_stop: "Stop", read_unavailable: "Read-aloud is not available on this device",
     nav_quiz: "Quiz", audience_hub_aria: "Age-tailored content",
     little_hub_eyebrow: "Explore together", little_hub_title: "Watch, play and feel prepared",
     little_hub_intro: "Pictures, play and a short story shared with a grown-up make preparation easier for little ones.",
@@ -628,7 +630,8 @@ const AUDIENCE_I18N = {
     audience_parents_hero_eyebrow: "للأهل ومقدّمي الرعاية",
     audience_parents_hero_title: "ساعدوا طفلكم على الوصول بهدوء واستعداد أكبر.",
     audience_parents_hero_subtitle: "شرح مناسب للعمر وأدوات للحوار وأفكار عملية قبل التخدير والعملية.",
-    audience_parent_cta: "أدوات للأهل",
+    audience_parent_cta: "أدوات للأهل", audience_little_cta: "أرني ما سيحدث", audience_little_story_cta: "شاهد قصة نوني",
+    read_aloud: "اقرأ لي", read_stop: "توقّف", read_unavailable: "القراءة الصوتية غير متاحة على هذا الجهاز",
     nav_quiz: "اختبار", audience_hub_aria: "محتوى مناسب للعمر",
     little_hub_eyebrow: "لنكتشف معًا", little_hub_title: "نشاهد ونلعب ونستعد",
     little_hub_intro: "تساعد الصور واللعب والقصة القصيرة مع أحد الكبار الصغار على الاستعداد بسهولة.",
@@ -688,7 +691,8 @@ const AUDIENCE_I18N = {
     audience_parents_hero_eyebrow: "Для родителей и близких",
     audience_parents_hero_title: "Помогите ребёнку прийти спокойнее и подготовленнее.",
     audience_parents_hero_subtitle: "Объяснения по возрасту, подсказки для разговора и практические идеи перед анестезией и операцией.",
-    audience_parent_cta: "Материалы для родителей",
+    audience_parent_cta: "Материалы для родителей", audience_little_cta: "Покажи, что будет", audience_little_story_cta: "Смотреть историю Нуни",
+    read_aloud: "Прочитай мне", read_stop: "Остановить", read_unavailable: "Озвучивание недоступно на этом устройстве",
     nav_quiz: "Тест", audience_hub_aria: "Материалы по возрасту",
     little_hub_eyebrow: "Узнаём вместе", little_hub_title: "Смотреть, играть и готовиться",
     little_hub_intro: "Малышам легче подготовиться с помощью картинок, игры и короткой истории вместе со взрослым.",
@@ -748,7 +752,8 @@ const AUDIENCE_I18N = {
     audience_parents_hero_eyebrow: "Pour les parents et les accompagnants",
     audience_parents_hero_title: "Aidez votre enfant à arriver plus calme et mieux préparé.",
     audience_parents_hero_subtitle: "Des explications selon l’âge, des outils de dialogue et des idées concrètes avant l’anesthésie et l’opération.",
-    audience_parent_cta: "Ressources pour les parents",
+    audience_parent_cta: "Ressources pour les parents", audience_little_cta: "Montre-moi ce qui va se passer", audience_little_story_cta: "Regarder l’histoire de Nuni",
+    read_aloud: "Lis-moi la page", read_stop: "Arrêter", read_unavailable: "La lecture à voix haute n’est pas disponible sur cet appareil",
     nav_quiz: "Quiz", audience_hub_aria: "Contenu adapté à l’âge",
     little_hub_eyebrow: "Découvrons ensemble", little_hub_title: "Regarder, jouer et se préparer",
     little_hub_intro: "Les images, le jeu et une courte histoire partagée avec un adulte aident les petits à se préparer.",
@@ -968,9 +973,9 @@ const PARENT_FAQ_I18N = {
 const CORE_CONTENT_I18N = {
   he: {
     little: {
-      whatTitle: "מה זו הרדמה?", whatParagraphs: ["הרדמה היא תרופה שעוזרת לישון בזמן הטיפול.", "לפעמים נושמים דרך מסכה ולפעמים מקבלים תרופה דרך צינורית קטנה ביד. הצוות יספר מה מתאים לך.", "בזמן הטיפול הרופא המרדים נמצא לידך ושומר עליך."],
-      journeyTitle: "היום בבית החולים — בתמונות ובמילים קצרות", steps: [["מתכוננים בבית", "מבוגר יעזור לך להתכונן ויפעל לפי הוראות בית החולים."], ["אומרים שלום לצוות", "פוגשים את הצוות ואפשר להביא משהו מוכר מהבית."], ["לובשים בגדי בית חולים", "מקבלים בגדים מתאימים ומתכוננים יחד."], ["מתחילים את ההרדמה", "הצוות יסביר על המסכה או על הצינורית הקטנה ביד."], ["הצוות שומר עליך", "הרופא המרדים נמצא לידך לאורך הטיפול."], ["מתעוררים", "מתעוררים בחדר התאוששות והצוות עוזר להרגיש בנוח."]],
-      feelingsTitle: "מותר להרגיש הכול", feelingsText: "אפשר לפחד, לכעוס או לשאול שוב. ספרו למבוגר ולצוות מה יעזור: יד להחזיק, חפץ מוכר או נשימה יחד.", breathTitle: "נושמים כמו בלון", breathDefault: "לחצו על התחלה ונשמו יחד", breathIn: "שואפים… הבלון גדל", breathHold: "מחזיקים…", breathOut: "נושפים… לאט"
+      whatTitle: "מַהִי הַרְדָּמָה?", whatParagraphs: ["הַרְדָּמָה הִיא תְּרוּפָה שֶׁעוֹזֶרֶת לָנוּ לִישֹׁן בִּזְמַן הַטִּפּוּל.", "לִפְעָמִים נוֹשְׁמִים דֶּרֶךְ מַסֵּכָה, וְלִפְעָמִים מְקַבְּלִים תְּרוּפָה דֶּרֶךְ צִנּוֹרִית קְטַנָּה בַּיָּד. הַצֶּוֶת יַסְבִּיר מַה מַתְאִים לְךָ.", "בִּזְמַן הַטִּפּוּל, הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב וְשׁוֹמֵר עָלֶיךָ."],
+      journeyTitle: "הַיּוֹם בְּבֵית הַחוֹלִים — בִּתְמוּנוֹת וּבְמִלִּים קְצָרוֹת", steps: [["מִתְכּוֹנְנִים בַּבַּיִת", "מְבֻגָּר יַעֲזֹר לְךָ לְהִתְכּוֹנֵן וְיִפְעַל לְפִי הוֹרָאוֹת בֵּית הַחוֹלִים."], ["אוֹמְרִים שָׁלוֹם לַצֶּוֶת", "פּוֹגְשִׁים אֶת הַצֶּוֶת וְאֶפְשָׁר לְהָבִיא מַשֶּׁהוּ מֻכָּר מֵהַבַּיִת."], ["לוֹבְשִׁים בִּגְדֵי בֵּית חוֹלִים", "מְקַבְּלִים בְּגָדִים מַתְאִימִים וּמִתְכּוֹנְנִים יַחַד."], ["מַתְחִילִים אֶת הַהַרְדָּמָה", "הַצֶּוֶת יַסְבִּיר עַל הַמַּסֵּכָה אוֹ עַל הַצִּנּוֹרִית הַקְּטַנָּה בַּיָּד."], ["הַצֶּוֶת שׁוֹמֵר עָלֶיךָ", "הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב בְּמֶשֶׁךְ כָּל הַטִּפּוּל."], ["מִתְעוֹרְרִים", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, וְהַצֶּוֶת עוֹזֵר לְהַרְגִּישׁ בְּנוֹחַ."]],
+      feelingsTitle: "מֻתָּר לְהַרְגִּישׁ הַכֹּל", feelingsText: "אֶפְשָׁר לְפַחֵד, לִכְעֹס אוֹ לִשְׁאֹל שׁוּב. סַפְּרוּ לִמְבֻגָּר וְלַצֶּוֶת מַה יַּעֲזֹר: יָד לְהַחֲזִיק, חֵפֶץ מֻכָּר אוֹ נְשִׁימָה יַחַד.", breathTitle: "נוֹשְׁמִים כְּמוֹ בָּלוֹן", breathDefault: "לַחֲצוּ עַל הַתְחָלָה וְנִשְׁמוּ יַחַד", breathIn: "שׁוֹאֲפִים… הַבָּלוֹן גָּדֵל", breathHold: "מַחֲזִיקִים…", breathOut: "נוֹשְׁפִים… לְאַט", breathStart: "הַתְחָלָה", breathStop: "עֲצִירָה"
     },
     kids: {
       whatTitle: "מהי הרדמה כללית?", whatParagraphs: ["הרדמה כללית היא תרופה שגורמת לך להיות מחוסר הכרה בזמן הניתוח, כך שלא תהיה מודע למה שקורה.", "הרופא המרדים יכול להתחיל את ההרדמה דרך מסכה או דרך עירוי — צינורית פלסטיק דקה בווריד. אפשר להשתמש בקרם מאלחש כדי להפחית אי־נוחות בהכנסת העירוי.", "במשך כל הניתוח הרופא המרדים נמצא לידך ועוקב אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים."],
@@ -1074,7 +1079,7 @@ const CORE_CONTENT_I18N = {
 };
 
 const LITTLE_FAQ_I18N = {
-  he: { title: "שאלות קטנות וחשובות", items: [["מי יהיה איתי?", "מבוגר והצוות יעזרו לך. שאלו את בית החולים מי יכול להיות לידך בכל שלב."], ["מה אלבש?", "בדרך כלל מקבלים בגדי בית חולים נוחים שמתאימים לטיפול."], ["מה עושה המסכה?", "המסכה מונחת בעדינות ליד האף והפה ועוזרת לנשום. הצוות יראה לך אותה קודם כשאפשר."], ["מה תהיה הצינורית ביד?", "זו צינורית פלסטיק קטנה שדרכה אפשר לתת תרופה. אפשר לשאול על קרם שמאלחש את המקום."], ["איפה אתעורר?", "מתעוררים בחדר התאוששות, שבו הצוות נשאר קרוב ועוזר."], ["מה אם אפחד?", "אפשר לומר שפוחדים, לבקש הסבר נוסף ולהחזיק יד או חפץ מוכר."]] },
+  he: { title: "שְׁאֵלוֹת קְטַנּוֹת וַחֲשׁוּבוֹת", items: [["מִי יִהְיֶה אִתִּי?", "מְבֻגָּר וְהַצֶּוֶת יַעַזְרוּ לְךָ. אֶפְשָׁר לִשְׁאֹל מִי יָכוֹל לִהְיוֹת לְיָדְךָ בְּכָל שָׁלָב."], ["מָה אֶלְבַּשׁ?", "בְּדֶרֶךְ כְּלָל מְקַבְּלִים בִּגְדֵי בֵּית חוֹלִים נוֹחִים שֶׁמַּתְאִימִים לַטִּפּוּל."], ["מָה עוֹשָׂה הַמַּסֵּכָה?", "הַמַּסֵּכָה מֻנַּחַת בַּעֲדִינוּת לְיַד הָאַף וְהַפֶּה וְעוֹזֶרֶת לִנְשֹׁם. כְּשֶׁאֶפְשָׁר, הַצֶּוֶת יַרְאֶה לְךָ אוֹתָהּ קֹדֶם."], ["מָה זֹאת הַצִּנּוֹרִית בַּיָּד?", "זֹאת צִנּוֹרִית פְּלַסְטִיק קְטַנָּה שֶׁדַּרְכָּהּ אֶפְשָׁר לָתֵת תְּרוּפָה. אֶפְשָׁר לִשְׁאֹל עַל קְרֵם שֶׁמְּאַלְחֵשׁ אֶת הַמָּקוֹם."], ["אֵיפֹה אֶתְעוֹרֵר?", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, שֶׁבּוֹ הַצֶּוֶת נִשְׁאָר קָרוֹב וְעוֹזֵר."], ["מָה אִם אֶפְחַד?", "אֶפְשָׁר לוֹמַר שֶׁפּוֹחֲדִים, לְבַקֵּשׁ עוֹד הֶסְבֵּר וּלְהַחֲזִיק יָד אוֹ חֵפֶץ מֻכָּר."]] },
   en: { title: "Small but important questions", items: [["Who will be with me?", "A grown-up and the staff will help you. Ask the hospital who can stay near you at each stage."], ["What will I wear?", "You will usually get comfortable hospital clothes that suit the treatment."], ["What does the mask do?", "The mask rests gently near your nose and mouth and helps you breathe. When possible, the staff can show it to you first."], ["What is the small tube in my hand?", "It is a small plastic tube used to give medicine. You can ask about cream that numbs the skin."], ["Where will I wake up?", "You wake in a recovery room, where the staff stay close and help you."], ["What if I feel scared?", "You can say you are scared, ask for another explanation and hold a hand or something familiar."]] },
   ar: { title: "أسئلة صغيرة ومهمة", items: [["من سيكون معي؟", "سيساعدك شخص بالغ والطاقم. اسألوا المستشفى من يمكنه البقاء قربك في كل مرحلة."], ["ماذا سأرتدي؟", "عادة تحصل على ملابس مستشفى مريحة تناسب العلاج."], ["ماذا يفعل القناع؟", "يوضع القناع بلطف قرب الأنف والفم ويساعدك على التنفس. يمكن للطاقم أن يريك إياه أولًا عندما يكون ذلك ممكنًا."], ["ما الأنبوب الصغير في يدي؟", "إنه أنبوب بلاستيكي صغير يمكن إعطاء الدواء من خلاله. يمكن السؤال عن كريم يخدّر الجلد."], ["أين سأستيقظ؟", "تستيقظ في غرفة التعافي، حيث يبقى الطاقم قريبًا ويساعدك."], ["ماذا لو خفت؟", "يمكنك أن تقول إنك خائف وأن تطلب شرحًا آخر وتمسك يدًا أو شيئًا مألوفًا."]] },
   ru: { title: "Маленькие, но важные вопросы", items: [["Кто будет со мной?", "Взрослый и персонал помогут тебе. Спросите в больнице, кто может быть рядом на каждом этапе."], ["Что я надену?", "Обычно дают удобную больничную одежду, подходящую для лечения."], ["Для чего нужна маска?", "Маску мягко прикладывают к носу и рту, и она помогает дышать. Если возможно, персонал сначала покажет её."], ["Что за маленькая трубочка в руке?", "Это маленькая пластиковая трубка, через которую дают лекарства. Можно спросить о креме, обезболивающем кожу."], ["Где я проснусь?", "Ты проснёшься в палате пробуждения, где персонал будет рядом и поможет."], ["Что, если мне страшно?", "Можно сказать, что страшно, попросить объяснить ещё раз и держать кого-то за руку или знакомую вещь."]] },
@@ -1103,6 +1108,18 @@ const EQUIPMENT_VIEW_I18N = {
   ar: { kids: ["تعرّف إلى المعدات بأسمائها الحقيقية", "اختر كل أداة لتعرف ما تفعله وكيف قد يكون الإحساس بها."], teen: ["معدات قد تراها مع التخدير", "شرح مباشر لمعدات المراقبة والتخدير الشائعة. لا تُستخدم كلها في كل إجراء."], parents: ["معدات شائعة في تخدير الأطفال", "دليل قصير للمعدات التي قد يقابلها الطفل. سيشرح الطاقم ما يلزم في حالتكم."] },
   ru: { kids: ["Оборудование и его настоящие названия", "Выбери предмет, чтобы узнать, для чего он нужен и что можно почувствовать."], teen: ["Оборудование при анестезии", "Прямое объяснение распространённых мониторов и оборудования. Не всё используется при каждой процедуре."], parents: ["Обычное оборудование при детской анестезии", "Краткий обзор оборудования, с которым может встретиться ребёнок. Персонал объяснит, что нужно в вашем случае."] },
   fr: { kids: ["Le matériel et ses vrais noms", "Sélectionne chaque objet pour comprendre son rôle et ce que tu pourrais ressentir."], teen: ["Le matériel utilisé autour de l’anesthésie", "Une présentation directe du matériel d’anesthésie et de surveillance courant. Tout n’est pas utilisé pour chaque intervention."], parents: ["Matériel courant en anesthésie pédiatrique", "Un bref aperçu du matériel que votre enfant peut rencontrer. Le personnel expliquera ce qui est nécessaire dans votre situation."] }
+};
+
+const LITTLE_EQUIPMENT_HE = {
+  title: "מַכִּירִים אֶת הַצִּיּוּד",
+  intro: "לַחֲצוּ עַל כָּל פְּרִיט כְּדֵי לְהַכִּיר אוֹתוֹ וּלְגַלּוֹת מָה הוּא עוֹשֶׂה.",
+  hint: "לַחֲצוּ כְּדֵי לְגַלּוֹת",
+  items: [["הַמַּסֵּכָה הָרַכָּה", "נוֹשְׁמִים דַּרְכָּהּ בַּעֲדִינוּת. לִפְעָמִים יֵשׁ לָהּ רֵיחַ שֶׁל תּוּת אוֹ מַסְטִיק."], ["הָאוֹר עַל הָאֶצְבַּע", "הוּא מֵאִיר בְּאוֹר אָדֹם וּבוֹדֵק אֶת הַדֹּפֶק וְאֶת הַחַמְצָן."], ["הַשַּׁרְווּל עַל הַיָּד", "הוּא מִתְנַפֵּחַ לְכַמָּה שְׁנִיּוֹת וּבוֹדֵק אֶת לַחַץ הַדָּם."], ["הַסְּטֶטוֹסְקוֹפּ", "הָרוֹפֵא מַקְשִׁיב בְּעֶזְרָתוֹ לַלֵּב וְלַנְּשִׁימָה."], ["הַצָּמִיד עִם הַשֵּׁם", "הַצֶּוֶת בּוֹדֵק אֶת הַשֵּׁם שֶׁעַל הַצָּמִיד לִפְנֵי טִפּוּל."], ["קְרֵם מְאַלְחֵשׁ", "הַקְּרֵם עוֹזֵר לְהַפְחִית אֶת הַתְּחוּשָׁה בָּעוֹר לִפְנֵי הַצִּנּוֹרִית."]]
+};
+
+const LITTLE_COLORING_HE = {
+  title: "דַּפֵּי הַצְּבִיעָה שֶׁל נוּנִי", intro: "בַּחֲרוּ דַּף, הַדְפִּיסוּ וְצִבְעוּ!", hint: "לַחֲצוּ עַל תְּמוּנָה כְּדֵי לְהַדְפִּיס רַק אוֹתָהּ.", print: "הַדְפִּיסוּ אֶת כָּל הַדַּפִּים",
+  captions: ["נוּנִי הַכּוֹכָב", "בָּלוֹן הַנְּשִׁימָה", "מִטַּת בֵּית הַחוֹלִים", "כּוֹס מַיִם", "מַסֵּכַת הַהַרְדָּמָה", "אִישׁ צֶוֶת נֶחְמָד", "מְכוֹנַת הַהַרְדָּמָה"]
 };
 
 const TEEN_QUIZ_COPY_I18N = {
@@ -1169,7 +1186,7 @@ const TEEN_QUIZ_I18N = {
 const EQUIPMENT_OPEN_I18N = { he: "פתחו להסבר", en: "Open details", ar: "افتح للتفاصيل", ru: "Открыть описание", fr: "Voir les détails" };
 
 const AUDIENCE_CHROME_I18N = {
-  he: { teen: { about: "הרדמה", journey: "יום הניתוח", feelings: "חששות ופרטיות", quiz: "תרחישים", footer: "מידע ברור לבני נוער לקראת הרדמה וניתוח." }, parents: { about: "על ההרדמה", journey: "הכנה ליום הניתוח", faq: "שאלות להורים", footer: "מידע וכלים מעשיים להורים לקראת הרדמה וניתוח של ילד." } },
+  he: { little: { about: "מַה זֶּה", journey: "הַיּוֹם שֶׁלִּי", story: "סִפּוּר", coloring: "דַּפֵּי צְבִיעָה", equipment: "צִיּוּד", feelings: "רְגָשׁוֹת", faq: "שְׁאֵלוֹת" }, teen: { about: "הרדמה", journey: "יום הניתוח", feelings: "חששות ופרטיות", quiz: "תרחישים", footer: "מידע ברור לבני נוער לקראת הרדמה וניתוח." }, parents: { about: "על ההרדמה", journey: "הכנה ליום הניתוח", faq: "שאלות להורים", footer: "מידע וכלים מעשיים להורים לקראת הרדמה וניתוח של ילד." } },
   en: { teen: { about: "Anesthesia", journey: "Surgery day", feelings: "Concerns & privacy", quiz: "Scenarios", footer: "Clear information for teenagers preparing for anesthesia and surgery." }, parents: { about: "About anesthesia", journey: "Preparing for the day", faq: "Parent questions", footer: "Practical information and tools for parents preparing a child for anesthesia and surgery." } },
   ar: { teen: { about: "التخدير", journey: "يوم العملية", feelings: "المخاوف والخصوصية", quiz: "مواقف", footer: "معلومات واضحة للمراهقين استعدادًا للتخدير والعملية." }, parents: { about: "عن التخدير", journey: "الاستعداد ليوم العملية", faq: "أسئلة الأهل", footer: "معلومات وأدوات عملية للأهل قبل تخدير الطفل وعملية جراحية." } },
   ru: { teen: { about: "Анестезия", journey: "День операции", feelings: "Тревоги и приватность", quiz: "Ситуации", footer: "Понятная информация для подростков перед анестезией и операцией." }, parents: { about: "Об анестезии", journey: "Подготовка к дню операции", faq: "Вопросы родителей", footer: "Практическая информация для родителей перед анестезией и операцией ребёнка." } },
@@ -1177,7 +1194,7 @@ const AUDIENCE_CHROME_I18N = {
 };
 
 const STORY_VIEW_I18N = {
-  he: { kids: ["יום הניתוח בסרטון קצר", "סקירה חזותית קצרה של השלבים מהבית ועד ההתאוששות."], parents: ["סרטון הכנה לילדים צעירים", "אפשר לצפות יחד ולדבר על השלבים במילים שמתאימות לילד שלכם."] },
+  he: { little: ["הַיּוֹם שֶׁל נוּנִי בְּבֵית הַחוֹלִים", "סִרְטוֹן קָצָר בְּלִי מִלִּים."], kids: ["יום הניתוח בסרטון קצר", "סקירה חזותית קצרה של השלבים מהבית ועד ההתאוששות."], parents: ["סרטון הכנה לילדים צעירים", "אפשר לצפות יחד ולדבר על השלבים במילים שמתאימות לילד שלכם."] },
   en: { kids: ["Surgery day in a short film", "A quick visual overview from home through recovery."], parents: ["A preparation film for younger children", "Watch together and discuss the steps in words that suit your child."] },
   ar: { kids: ["يوم العملية في فيلم قصير", "نظرة بصرية سريعة على المراحل من البيت حتى التعافي."], parents: ["فيلم تحضيري للأطفال الأصغر", "شاهدوه معًا وتحدثوا عن المراحل بكلمات تناسب طفلكم."] },
   ru: { kids: ["День операции в коротком фильме", "Краткий наглядный обзор этапов от дома до восстановления."], parents: ["Подготовительный фильм для маленьких детей", "Посмотрите вместе и обсудите этапы понятными ребёнку словами."] },
@@ -1242,11 +1259,17 @@ function updateAudienceUI(audience) {
     const feelingsLink = mainNav.querySelector('a[href="#feelings"]');
     const quizLink = mainNav.querySelector('a[href="#quiz"]');
     const faqLink = mainNav.querySelector('a[href="#faq"]');
+    const storyLink = mainNav.querySelector('a[href="story.html"]');
+    const coloringLink = mainNav.querySelector('a[href="coloring.html"]');
+    const equipmentLink = mainNav.querySelector('a[href="equipment.html"]');
     if (aboutLink) aboutLink.textContent = navCopy?.about || dict.nav_about;
     if (journeyLink) journeyLink.textContent = navCopy?.journey || dict.nav_journey;
     if (feelingsLink) feelingsLink.textContent = navCopy?.feelings || dict.nav_feelings;
     if (quizLink) quizLink.textContent = navCopy?.quiz || dict.nav_quiz;
     if (faqLink) faqLink.textContent = navCopy?.faq || dict.nav_faq;
+    if (storyLink) storyLink.textContent = navCopy?.story || dict.nav_story;
+    if (coloringLink) coloringLink.textContent = navCopy?.coloring || dict.nav_coloring;
+    if (equipmentLink) equipmentLink.textContent = navCopy?.equipment || dict.nav_equipment;
   }
   const footerMade = document.querySelector(".footer-made");
   if (footerMade) footerMade.textContent = navCopy?.footer || dict.footer_made;
@@ -1266,11 +1289,16 @@ function updateAudienceUI(audience) {
     } else if (audience === "teen") {
       primaryCta.textContent = dict.teen_path2_title;
       primaryCta.setAttribute("href", "#journey");
+    } else if (audience === "little") {
+      primaryCta.textContent = dict.audience_little_cta;
+      primaryCta.setAttribute("href", "#journey");
     } else {
       primaryCta.textContent = dict.hero_cta;
       primaryCta.setAttribute("href", "#journey");
     }
   }
+  const storyCta = document.querySelector(".hero-cta .btn-story");
+  if (storyCta) storyCta.textContent = audience === "little" ? dict.audience_little_story_cta : dict.hero_story;
 
   const core = window.NUNI.core[audience];
   if (core) {
@@ -1307,6 +1335,8 @@ function updateAudienceUI(audience) {
       if (feelingsText) feelingsText.textContent = core.feelingsText;
       if (breathTitle) breathTitle.textContent = core.breathTitle;
       if (breathInstruction) breathInstruction.textContent = core.breathDefault;
+      const breathButton = document.querySelector("#feelings .breath-btn");
+      if (breathButton) breathButton.textContent = core.breathStart || dict.breath_start;
     }
   }
 
@@ -1359,11 +1389,12 @@ function updateAudienceUI(audience) {
 
   const equipmentMain = document.querySelector(".equip-main");
   if (equipmentMain) {
+    const vocalizedLittleEquipment = audience === "little" && window.NUNI.lang === "he" ? LITTLE_EQUIPMENT_HE : null;
     const view = audience === "little" ? null : window.NUNI.equipmentView[audience];
-    equipmentMain.querySelector("h1").textContent = view ? view[0] : dict.equip_title;
-    equipmentMain.querySelector(".equip-lead").textContent = view ? view[1] : dict.equip_intro;
+    equipmentMain.querySelector("h1").textContent = vocalizedLittleEquipment?.title || (view ? view[0] : dict.equip_title);
+    equipmentMain.querySelector(".equip-lead").textContent = vocalizedLittleEquipment?.intro || (view ? view[1] : dict.equip_intro);
     equipmentMain.querySelectorAll(".gear").forEach((gear, index) => {
-      const translatedItem = audience === "little" ? null : window.NUNI.equipmentItems[index];
+      const translatedItem = vocalizedLittleEquipment?.items[index] || (audience === "little" ? null : window.NUNI.equipmentItems[index]);
       if (translatedItem) {
         gear.querySelector(".gear-name").textContent = translatedItem[0];
         gear.querySelector(".gear-desc").textContent = translatedItem[1];
@@ -1375,8 +1406,19 @@ function updateAudienceUI(audience) {
       const hintIcon = gear.querySelector(".gear-hint > [aria-hidden='true']");
       const hintText = gear.querySelector(".gear-hint [data-i18n='gear_hint']");
       if (hintIcon) hintIcon.hidden = audience === "teen" || audience === "parents";
-      if (hintText) hintText.textContent = audience === "teen" || audience === "parents" ? window.NUNI.equipmentOpen : dict.gear_hint;
+      if (hintText) hintText.textContent = vocalizedLittleEquipment?.hint || (audience === "teen" || audience === "parents" ? window.NUNI.equipmentOpen : dict.gear_hint);
     });
+  }
+
+  const coloringMain = document.querySelector(".coloring-main");
+  if (coloringMain) {
+    const vocalizedColoring = audience === "little" && window.NUNI.lang === "he" ? LITTLE_COLORING_HE : null;
+    const captionKeys = ["color_nuni", "color_balloon", "color_bed", "color_juice", "color_mask", "color_nurse", "color_machine"];
+    coloringMain.querySelector("h1").textContent = vocalizedColoring?.title || dict.coloring_title;
+    coloringMain.querySelector(".coloring-lead").textContent = vocalizedColoring?.intro || dict.coloring_intro;
+    coloringMain.querySelector(".coloring-hint").textContent = vocalizedColoring?.hint || dict.coloring_hint;
+    coloringMain.querySelector(".print-btn").textContent = vocalizedColoring?.print || dict.coloring_print;
+    coloringMain.querySelectorAll("figcaption").forEach((caption, index) => { caption.textContent = vocalizedColoring?.captions[index] || dict[captionKeys[index]]; });
   }
 
   const storyMain = document.querySelector(".story-main");

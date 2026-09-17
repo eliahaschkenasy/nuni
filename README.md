@@ -11,6 +11,8 @@ support for Hebrew and Arabic. Your choice is remembered in the browser.
 
 - **Four age-aware experiences** — ages 0–6, 7–12, 13–18, and parents each get
   tailored core explanations, navigation, visuals, questions and preparation steps.
+- **Independent reading for ages 0–6** — the Hebrew child-facing text includes
+  niqqud, roomier line spacing and an optional page read-aloud control.
 - **Interactive anesthesia quizzes** — ten knowledge questions for ages 7–12 and
   eight realistic decision scenarios for ages 13–18, with immediate explanations.
 - **What it is** — four age-specific explanations, from short child-friendly text to
@@ -36,7 +38,7 @@ Plain static site — HTML, CSS and vanilla JavaScript, no build step.
 | `index.html` | Page structure with `data-i18n` hooks |
 | `styles.css` | Design; uses CSS logical properties so it mirrors for RTL |
 | `i18n.js` | Five translations, audience content + language switching |
-| `app.js` | Mobile nav + breathing exercise |
+| `app.js` | Breathing exercise + read-aloud interaction |
 
 ## Run locally
 

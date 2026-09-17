@@ -40,14 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function start() {
     running = true;
-    btn.textContent = t().breath_stop;
+    btn.textContent = c().breathStop || t().breath_stop;
     inhale();
   }
   function stop() {
     running = false;
     clearTimeout(timer);
     ball.classList.remove("inhale", "exhale");
-    btn.textContent = t().breath_start;
+    btn.textContent = c().breathStart || t().breath_start;
     label.textContent = c().breathDefault || t().breath_default;
   }
 
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("nuni:langchange", () => {
     if (!btn) return;
     if (running) {
-      btn.textContent = t().breath_stop;
+      btn.textContent = c().breathStop || t().breath_stop;
     }
     // When idle, i18n.js already reset the default strings for us.
   });
@@ -67,4 +67,67 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!btn) return;
     stop();
   });
+
+  /* ---- Read-aloud for the youngest audience ---- */
+  const readButton = document.querySelector(".read-page-btn");
+  const readAloudSupported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  let readingPage = false;
+
+  const stopReadingPage = () => {
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    readingPage = false;
+    if (readButton) {
+      readButton.textContent = readAloudSupported ? t().read_aloud : t().read_unavailable;
+      readButton.setAttribute("aria-pressed", "false");
+    }
+  };
+
+  const pageTextForReading = () => {
+    const selectors = [
+      ".hero h1", ".hero .lead",
+      '.audience-hub[data-audiences="little"] h2',
+      '.audience-hub[data-audiences="little"] .audience-hub-heading > p:last-child',
+      '.audience-hub[data-audiences="little"] .audience-path strong',
+      '.audience-hub[data-audiences="little"] .audience-path small',
+      "#what h2", "#what p:not([hidden])",
+      "#journey h2", "#journey .step h3", "#journey .step p",
+      "#feelings h2", "#feelings .two-col > div:first-child p",
+      "#faq h2", "#faq summary"
+    ];
+    return selectors.flatMap((selector) => [...document.querySelectorAll(selector)])
+      .filter((element) => !element.closest("[hidden]"))
+      .map((element) => element.textContent.trim())
+      .filter(Boolean)
+      .join(". ");
+  };
+
+  if (readButton) {
+    readButton.setAttribute("aria-pressed", "false");
+    if (!readAloudSupported) {
+      readButton.disabled = true;
+      readButton.textContent = t().read_unavailable;
+    } else {
+      readButton.addEventListener("click", () => {
+        if (readingPage) {
+          stopReadingPage();
+          return;
+        }
+        const utterance = new SpeechSynthesisUtterance(pageTextForReading());
+        const speechLanguages = { he: "he-IL", en: "en-US", ar: "ar", ru: "ru-RU", fr: "fr-FR" };
+        utterance.lang = speechLanguages[window.NUNI.lang] || document.documentElement.lang;
+        utterance.rate = window.NUNI.lang === "he" ? 0.82 : 0.9;
+        utterance.pitch = 1;
+        utterance.onend = stopReadingPage;
+        utterance.onerror = stopReadingPage;
+        readingPage = true;
+        readButton.textContent = t().read_stop;
+        readButton.setAttribute("aria-pressed", "true");
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(utterance);
+      });
+    }
+  }
+
+  window.addEventListener("nuni:langchange", stopReadingPage);
+  window.addEventListener("nuni:audiencechange", stopReadingPage);
 });
