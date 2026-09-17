@@ -43,6 +43,22 @@
 }
 .gear.open .gear-desc { max-height: 260px; opacity: 1; margin-top: 4px; }
 
+body[data-audience="teen"] .equip-main,
+body[data-audience="parents"] .equip-main { text-align: start; }
+body[data-audience="teen"] .equip-lead,
+body[data-audience="parents"] .equip-lead { margin-inline: 0; }
+body[data-audience="teen"] .gear,
+body[data-audience="parents"] .gear {
+  text-align: start; align-items: flex-start; border-width: 1px; border-radius: 14px;
+  box-shadow: 0 16px 34px -28px rgba(23,45,66,.55);
+}
+body[data-audience="teen"] .gear-visual,
+body[data-audience="parents"] .gear-visual { width: 88px; height: 88px; border-radius: 14px; }
+body[data-audience="teen"] .gear-visual svg,
+body[data-audience="parents"] .gear-visual svg { width: 62px; height: 62px; }
+body[data-audience="teen"] .gear-hint,
+body[data-audience="parents"] .gear-hint { background: #e7f2f1; border-radius: 7px; }
+
 @media (max-width: 620px) {
   .equip-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
   .gear-visual { width: 96px; height: 96px; }

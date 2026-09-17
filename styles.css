@@ -191,6 +191,20 @@ html[dir="ltr"] .audience-arrow { transform: scaleX(-1); }
 .hero-art { display: flex; justify-content: center; }
 .mascot { filter: drop-shadow(0 20px 30px rgba(51,64,90,.18)); }
 .mascot-body { transform-origin: 120px 130px; animation: float 5s ease-in-out infinite; }
+.hero-context-art {
+  display: none; width: min(320px, 80vw); min-height: 220px; padding: 38px;
+  border: 1px solid rgba(23,45,66,.12); border-radius: 22px;
+  background: rgba(255,255,255,.66); box-shadow: var(--shadow);
+  align-content: center; gap: 18px;
+}
+.context-line { display: block; width: 68%; height: 10px; border-radius: 999px; background: rgba(23,45,66,.13); }
+.context-line-long { width: 92%; }
+.context-line-short { width: 48%; }
+.context-pulse {
+  display: block; width: 100%; height: 54px;
+  background: linear-gradient(135deg, transparent 0 33%, var(--sun) 33% 38%, transparent 38% 45%, var(--sun) 45% 50%, transparent 50% 100%);
+  opacity: .85;
+}
 @keyframes float { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-14px) rotate(1deg); } }
 
 /* ===== Audience-specific starting points ===== */
@@ -370,6 +384,8 @@ body[data-audience="little"] {
   background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom) 64%, #fffaf0);
 }
 body[data-audience="little"] h1 { font-size: clamp(2.25rem, 6vw, 3.75rem); }
+body[data-audience="little"] #what .narrow { max-width: 720px; }
+body[data-audience="little"] #what p { font-size: 1.16rem; }
 body[data-audience="little"] .step { border-radius: 32px 20px 32px 20px; }
 body[data-audience="little"] .step-icon { width: 66px; height: 66px; min-width: 66px; font-size: 2.1rem; border-radius: 24px; }
 body[data-audience="little"] .mascot { transform: scale(1.08) rotate(-2deg); }
@@ -393,9 +409,32 @@ body[data-audience="teen"] {
 body[data-audience="teen"] .sky { opacity: .2; filter: saturate(.2); }
 body[data-audience="teen"] .hero { padding-top: clamp(42px, 8vw, 92px); }
 body[data-audience="teen"] .hero-text { border-inline-start: 5px solid var(--sun); padding-inline-start: clamp(20px, 4vw, 42px); }
-body[data-audience="teen"] .mascot { filter: drop-shadow(0 20px 30px rgba(23,45,66,.15)) saturate(.62); transform: scale(.88); }
+body[data-audience="teen"] .mascot,
+body[data-audience="parents"] .mascot { display: none; }
+body[data-audience="teen"] .hero-context-art,
+body[data-audience="parents"] .hero-context-art { display: grid; }
+body[data-audience="teen"] .brand-mark svg,
+body[data-audience="parents"] .brand-mark svg { display: none; }
+body[data-audience="teen"] .brand-mark::after,
+body[data-audience="parents"] .brand-mark::after {
+  content: "✦"; display: grid; place-items: center; width: 32px; height: 32px;
+  border-radius: 9px; background: var(--sun); color: #fff; font-size: 1.1rem;
+}
 body[data-audience="teen"] .step { border-radius: 14px; border: 1px solid rgba(23,45,66,.09); }
-body[data-audience="teen"] .step-icon { border-radius: 12px; background: #eaf3f4; }
+body[data-audience="teen"] .step-icon {
+  border-radius: 10px; background: #e4f2f0; color: #126f66;
+  font-size: .92rem; font-weight: 800;
+}
+body[data-audience="teen"] .step:hover,
+body[data-audience="parents"] .step:hover { transform: none; }
+body[data-audience="teen"] .breath-card {
+  background: #f7fafb; border: 1px solid rgba(23,45,66,.1); border-radius: 14px;
+}
+body[data-audience="teen"] .breath-ball {
+  background: transparent; border: 3px solid var(--sun); box-shadow: none;
+}
+body[data-audience="teen"] .breath-ball.inhale { background: rgba(54,197,176,.12); }
+body[data-audience="teen"] .breath-ball.exhale { background: transparent; }
 body[data-audience="teen"] .btn { border-radius: 10px; }
 body[data-audience="teen"] .btn-primary { color: #083b35; box-shadow: 0 10px 22px -10px rgba(22,142,128,.65); }
 body[data-audience="teen"] .audience-switch-dot { background: #168e80; }
@@ -407,11 +446,11 @@ body[data-audience="parents"] {
   background: linear-gradient(180deg, #f2eee8, #fbfaf7 62%, #f5f1eb);
 }
 body[data-audience="parents"] .sky { display: none; }
-body[data-audience="parents"] .hero { min-height: 560px; }
-body[data-audience="parents"] .hero-art { opacity: .72; transform: scale(.82); }
+body[data-audience="parents"] .hero { min-height: 520px; }
+body[data-audience="parents"] .hero-context-art { border-radius: 12px; background: rgba(255,255,255,.7); }
 body[data-audience="parents"] .section-alt { background: rgba(255,255,255,.48); }
 body[data-audience="parents"] .step { border: 1px solid rgba(41,60,58,.08); }
-body[data-audience="parents"] .step-icon { background: #edf3ef; border-radius: 10px; }
+body[data-audience="parents"] .step-icon { background: #edf3ef; border-radius: 8px; font-size: .92rem; font-weight: 800; color: #3e7164; }
 body[data-audience="parents"] .btn { border-radius: 9px; }
 body[data-audience="parents"] .btn-primary { color: #173d34; box-shadow: 0 10px 22px -10px rgba(78,130,115,.55); }
 body[data-audience="parents"] .audience-switch-dot { background: #4e8273; }

@@ -82,7 +82,7 @@ const I18N = {
     story_narrate_title: "הקראת הסיפור",
     nav_equipment: "הציוד",
     equip_title: "מכירים את הציוד",
-    equip_intro: "לחצו על כל דבר כדי לשמוע איך קוראים לו ומה הוא עושה. שום דבר לא כואב!",
+    equip_intro: "לחצו על כל פריט כדי להכיר אותו ולגלות מה הוא עושה.",
     gear_hint: "לחצו כדי לגלות",
     gear_mask_name: "המסכה הרכה",
     gear_mask_desc: "נושמים דרכה כמו דרך ענן רך וקטן. היא יכולה להריח כמו תות או מסטיק.",
@@ -177,7 +177,7 @@ const I18N = {
     story_narrate_title: "Read the story aloud",
     nav_equipment: "The equipment",
     equip_title: "Meet the equipment",
-    equip_intro: "Tap each one to hear its friendly name and what it does. None of them hurt!",
+    equip_intro: "Tap each item to meet it and find out what it does.",
     gear_hint: "Tap to explore",
     gear_mask_name: "The soft mask",
     gear_mask_desc: "You breathe through it like a soft little cloud. It can smell like strawberry or bubblegum.",
@@ -272,7 +272,7 @@ const I18N = {
     story_narrate_title: "قراءة القصة بصوت عالٍ",
     nav_equipment: "المعدّات",
     equip_title: "تعرّف على المعدّات",
-    equip_intro: "اضغط على كل شيء لتسمع اسمه اللطيف وماذا يفعل. لا شيء منها يؤلم!",
+    equip_intro: "اضغط على كل أداة لتتعرّف إليها وتعرف ماذا تفعل.",
     gear_hint: "اضغط للاكتشاف",
     gear_mask_name: "القناع الناعم",
     gear_mask_desc: "تتنفّس من خلاله مثل غيمة صغيرة ناعمة. وقد تكون رائحته مثل الفراولة أو العلكة.",
@@ -367,7 +367,7 @@ const I18N = {
     story_narrate_title: "Прочитать историю вслух",
     nav_equipment: "Оборудование",
     equip_title: "Знакомимся с оборудованием",
-    equip_intro: "Нажми на каждый предмет, чтобы услышать его доброе название и узнать, что он делает. Ничего из этого не больно!",
+    equip_intro: "Нажми на предмет, чтобы познакомиться с ним и узнать, для чего он нужен.",
     gear_hint: "Нажми, чтобы узнать",
     gear_mask_name: "Мягкая маска",
     gear_mask_desc: "Через неё дышишь, как сквозь мягкое облачко. Она может пахнуть клубникой или жвачкой.",
@@ -462,7 +462,7 @@ const I18N = {
     story_narrate_title: "Lire l'histoire à voix haute",
     nav_equipment: "Le matériel",
     equip_title: "Découvre le matériel",
-    equip_intro: "Touche chaque objet pour entendre son petit nom et ce qu'il fait. Rien de tout ça ne fait mal !",
+    equip_intro: "Touche chaque objet pour le découvrir et comprendre à quoi il sert.",
     gear_hint: "Touche pour découvrir",
     gear_mask_name: "Le masque tout doux",
     gear_mask_desc: "Tu respires à travers comme dans un petit nuage tout doux. Il peut sentir la fraise ou le chewing-gum.",
@@ -486,7 +486,7 @@ const AUDIENCE_I18N = {
   he: {
     audience_change: "שינוי קבוצת גיל",
     audience_eyebrow: "המקום הנכון בשבילכם",
-    audience_title: "למי נוני עוזר היום?",
+    audience_title: "בחרו את המסלול המתאים",
     audience_intro: "בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.",
     audience_little: "גילאי 0 עד 6", audience_little_short: "גילאי 0 עד 6",
     audience_little_desc: "סיפור עדין, תמונות ומשחק",
@@ -504,7 +504,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_subtitle: "נוני יסביר מה קורה לפני הניתוח, בזמן ההרדמה ואחרי שמתעוררים — שלב אחרי שלב.",
     audience_teen_hero_eyebrow: "גילאי 13 עד 18 • בלי ניחושים",
     audience_teen_hero_title: "מידע ברור על ההרדמה והניתוח שלך.",
-    audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגישו ואילו שאלות כדאי לשאול. מידע ישיר שיעזור להגיע מוכנים יותר.",
+    audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגיש ואילו שאלות כדאי לשאול. מידע ישיר שיעזור להגיע מוכן יותר.",
     audience_parents_hero_eyebrow: "להורים ולמטפלים",
     audience_parents_hero_title: "לעזור לילד להגיע רגוע ומוכן יותר.",
     audience_parents_hero_subtitle: "הסברים מותאמי גיל, כלים לשיחה ורעיונות מעשיים לקראת הרדמה וניתוח.",
@@ -546,7 +546,7 @@ const AUDIENCE_I18N = {
   en: {
     audience_change: "Change age group",
     audience_eyebrow: "The right space for you",
-    audience_title: "Who is Nuni helping today?",
+    audience_title: "Choose the right path",
     audience_intro: "Choose an age group for explanations and a look made to fit.",
     audience_little: "Ages 0–6", audience_little_short: "Ages 0–6",
     audience_little_desc: "A gentle story, pictures and play",
@@ -606,7 +606,7 @@ const AUDIENCE_I18N = {
   ar: {
     audience_change: "تغيير الفئة العمرية",
     audience_eyebrow: "المكان المناسب لكم",
-    audience_title: "من يساعد نوني اليوم؟",
+    audience_title: "اختاروا المسار المناسب",
     audience_intro: "اختاروا الفئة العمرية لتحصلوا على شرح وتصميم مناسبين لكم.",
     audience_little: "من 0 إلى 6 سنوات", audience_little_short: "من 0 إلى 6",
     audience_little_desc: "قصة لطيفة وصور ولعب",
@@ -666,7 +666,7 @@ const AUDIENCE_I18N = {
   ru: {
     audience_change: "Изменить возрастную группу",
     audience_eyebrow: "Подходящий раздел для вас",
-    audience_title: "Кому Нуни помогает сегодня?",
+    audience_title: "Выберите подходящий раздел",
     audience_intro: "Выберите возрастную группу — оформление и объяснения подстроятся под вас.",
     audience_little: "0–6 лет", audience_little_short: "0–6 лет",
     audience_little_desc: "Добрая история, картинки и игра",
@@ -726,7 +726,7 @@ const AUDIENCE_I18N = {
   fr: {
     audience_change: "Changer de groupe d’âge",
     audience_eyebrow: "L’espace qui vous correspond",
-    audience_title: "Qui Nuni accompagne-t-il aujourd’hui ?",
+    audience_title: "Choisissez le parcours adapté",
     audience_intro: "Choisissez un âge pour adapter les explications et l’univers visuel.",
     audience_little: "0–6 ans", audience_little_short: "0–6 ans",
     audience_little_desc: "Une histoire douce, des images et du jeu",
@@ -965,12 +965,239 @@ const PARENT_FAQ_I18N = {
   }
 };
 
+const CORE_CONTENT_I18N = {
+  he: {
+    little: {
+      whatTitle: "מה זו הרדמה?", whatParagraphs: ["הרדמה היא תרופה שעוזרת לישון בזמן הטיפול.", "לפעמים נושמים דרך מסכה ולפעמים מקבלים תרופה דרך צינורית קטנה ביד. הצוות יספר מה מתאים לך.", "בזמן הטיפול הרופא המרדים נמצא לידך ושומר עליך."],
+      journeyTitle: "היום בבית החולים — בתמונות ובמילים קצרות", steps: [["מתכוננים בבית", "מבוגר יעזור לך להתכונן ויפעל לפי הוראות בית החולים."], ["אומרים שלום לצוות", "פוגשים את הצוות ואפשר להביא משהו מוכר מהבית."], ["לובשים בגדי בית חולים", "מקבלים בגדים מתאימים ומתכוננים יחד."], ["מתחילים את ההרדמה", "הצוות יסביר על המסכה או על הצינורית הקטנה ביד."], ["הצוות שומר עליך", "הרופא המרדים נמצא לידך לאורך הטיפול."], ["מתעוררים", "מתעוררים בחדר התאוששות והצוות עוזר להרגיש בנוח."]],
+      feelingsTitle: "מותר להרגיש הכול", feelingsText: "אפשר לפחד, לכעוס או לשאול שוב. ספרו למבוגר ולצוות מה יעזור: יד להחזיק, חפץ מוכר או נשימה יחד.", breathTitle: "נושמים כמו בלון", breathDefault: "לחצו על התחלה ונשמו יחד", breathIn: "שואפים… הבלון גדל", breathHold: "מחזיקים…", breathOut: "נושפים… לאט"
+    },
+    kids: {
+      whatTitle: "מהי הרדמה כללית?", whatParagraphs: ["הרדמה כללית היא תרופה שגורמת לך להיות מחוסר הכרה בזמן הניתוח, כך שלא תהיה מודע למה שקורה.", "הרופא המרדים יכול להתחיל את ההרדמה דרך מסכה או דרך עירוי — צינורית פלסטיק דקה בווריד. אפשר להשתמש בקרם מאלחש כדי להפחית אי־נוחות בהכנסת העירוי.", "במשך כל הניתוח הרופא המרדים נמצא לידך ועוקב אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים."],
+      journeyTitle: "המסע שלך, שלב אחר שלב", steps: [["בבית", "מכינים תיק ופועלים בדיוק לפי הוראות בית החולים לגבי אוכל, שתייה ותרופות."], ["בקבלה", "הצוות בודק פרטים, שואל על הבריאות שלך ומסביר מה צפוי."], ["מתכוננים", "לובשים בגדי בית חולים ולפעמים מקבלים קרם מאלחש לפני הכנסת עירוי."], ["מתחילים את ההרדמה", "הרופא המרדים מסביר אם ההרדמה תתחיל דרך מסכה או דרך העירוי."], ["בזמן הניתוח", "הרופא המרדים משגיח ברציפות ומתאים את התרופות לפי הצורך."], ["בהתאוששות", "הצוות בודק איך מרגישים ועוזר במקרה של כאב, בחילה או אי־נוחות."]],
+      feelingsTitle: "אפשר לדבר על מה שמדאיג אותך", feelingsText: "מחטים, מסכה, כאב וחוסר ודאות יכולים להדאיג. ספר לצוות מה הכי קשה לך ושאל אילו אפשרויות יכולות לעזור.", breathTitle: "תרגיל נשימה קצר", breathDefault: "לחצו על התחלה ועקבו אחר הקצב", breathIn: "שאיפה איטית", breathHold: "מחזיקים לרגע", breathOut: "נשיפה ארוכה ואיטית"
+    },
+    teen: {
+      whatTitle: "הרדמה כללית — מה חשוב לדעת", whatParagraphs: ["הרדמה כללית היא מצב מבוקר של חוסר הכרה שנוצר באמצעות תרופות, כדי שלא תהיה מודע לניתוח ולא תחוש כאב במהלכו.", "לפני הניתוח תפגוש את הרופא המרדים ותוכלו לדבר על מצבך הרפואי, תרופות, רגישויות, חששות והעדפות. ההרדמה מתחילה בדרך כלל דרך עירוי, ולעיתים באמצעות גז דרך מסכה.", "הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ורמת החמצן ומתאים את הטיפול לפי הצורך."],
+      journeyTitle: "מה צפוי ביום הניתוח", steps: [["לפני ההגעה", "פועלים לפי ההוראות האישיות לגבי צום, שתייה ותרופות ומביאים רשימת תרופות ומידע רפואי."], ["קבלה והערכה", "הצוות מאמת פרטים ושואל על בריאות, אלרגיות, תגובות קודמות ושינויים מאז הבדיקה האחרונה."], ["תוכנית ההרדמה", "אפשר לשאול על העירוי, המסכה, טיפול בכאב, בחילה, פרטיות וכל נושא שמטריד אותך."], ["תחילת ההרדמה", "מחברים אמצעי ניטור ומתחילים את ההרדמה בדרך שסוכמה איתך ומתאימה להליך."], ["במהלך הניתוח", "הרופא המרדים מנטר את תפקודי הגוף ומתאים תרופות, נוזלים ותמיכה בנשימה."], ["התאוששות ושחרור", "מדווחים מוקדם על כאב או בחילה ופועלים לפי הוראות השחרור לפני החזרה ללימודים, לספורט ולשגרה."]],
+      feelingsTitle: "שליטה, פרטיות וחששות", feelingsText: "אפשר לבקש הסבר ישיר, זמן לשאלות או שיחה פרטית עם איש צוות. כדאי לומר מראש אם מחטים, חוסר שליטה, בחילה, פרטיות או התעוררות מטרידים אותך.", breathTitle: "נשימה מודרכת — 60 שניות", breathDefault: "התחילו ועקבו אחר הקצב", breathIn: "שאיפה איטית דרך האף", breathHold: "עצירה קצרה", breathOut: "נשיפה ארוכה ואיטית"
+    },
+    parents: {
+      whatTitle: "הרדמה כללית: עיקרי הדברים להורים", whatParagraphs: ["בהרדמה כללית תרופות גורמות לילד להיות מחוסר הכרה במהלך ההליך. תוכנית ההרדמה מותאמת לניתוח, לגיל ולמצב הרפואי.", "לפני ההליך הרופא המרדים עובר על ההיסטוריה הרפואית, תרופות, אלרגיות ותגובות קודמות ומסביר כיצד תתחיל ההרדמה וכיצד יטופלו כאב ובחילה.", "במהלך הניתוח הרופא המרדים מנטר ברציפות את הנשימה, הדופק, לחץ הדם ורמת החמצן. הוראות בית החולים האישיות קודמות תמיד למידע כללי באתר."],
+      journeyTitle: "מה להכין ומה צפוי ביום הניתוח", steps: [["בדקו את ההוראות", "ודאו מראש את זמני הצום והשתייה ואת ההנחיות לגבי תרופות קבועות."], ["עדכנו על שינוי בריאותי", "דווחו לבית החולים על חום, שיעול, צינון, הקאות או שינוי אחר לפני ההגעה."], ["הביאו מידע מלא", "הכינו רשימת תרופות, תוספים, אלרגיות, מחלות ותגובות קודמות להרדמה."], ["עברו על התוכנית", "שאלו כיצד תתחיל ההרדמה, מי רשאי להיות נוכח ומהי התוכנית לטיפול בכאב ובבחילה."], ["בחדר ההתאוששות", "הילד עשוי להיות עייף, מבולבל, כאוב או עם בחילה. דווחו לצוות על כל אי־נוחות."], ["לפני השחרור", "ודאו שהבנתם את הוראות התרופות, האכילה, הפעילות, ההשגחה בבית וסימני האזהרה."]]
+    }
+  },
+  en: {
+    little: {
+      whatTitle: "What is anesthesia?", whatParagraphs: ["Anesthesia is medicine that helps you sleep during your treatment.", "Sometimes you breathe through a mask and sometimes medicine goes through a small tube in your hand. The staff will tell you what is right for you.", "The anesthetist stays nearby and looks after you during the treatment."],
+      journeyTitle: "Your hospital day — short words and pictures", steps: [["Getting ready at home", "A grown-up will help you get ready and follow the hospital’s instructions."], ["Saying hello to the staff", "You meet the staff and can bring something familiar from home."], ["Hospital clothes", "You change into suitable clothes and get ready together."], ["Starting anesthesia", "The staff explain the mask or the small tube in your hand."], ["The staff look after you", "The anesthetist stays close throughout the treatment."], ["Waking up", "You wake in recovery and the staff help you feel comfortable."]],
+      feelingsTitle: "Every feeling is allowed", feelingsText: "You can feel scared, cross or ask again. Tell a grown-up and the staff what could help: a hand to hold, something familiar or breathing together.", breathTitle: "Balloon breathing", breathDefault: "Press start and breathe together", breathIn: "Breathe in… the balloon grows", breathHold: "Hold…", breathOut: "Breathe out… slowly"
+    },
+    kids: {
+      whatTitle: "What is general anesthesia?", whatParagraphs: ["General anesthesia is medicine that makes you unconscious during an operation, so you are not aware of what is happening.", "The anesthetist may start it through a mask or an IV — a thin plastic tube in a vein. Numbing cream may be used to reduce discomfort when the IV is placed.", "The anesthetist stays with you throughout the operation and monitors breathing, heart rate, blood pressure and other signs."],
+      journeyTitle: "Your journey, step by step", steps: [["At home", "Pack what you need and follow the hospital’s instructions about food, drinks and medicines exactly."], ["Checking in", "The staff check your details, ask about your health and explain what will happen."], ["Getting ready", "You change into hospital clothes and may have numbing cream before an IV is placed."], ["Starting anesthesia", "The anesthetist explains whether anesthesia will start through a mask or the IV."], ["During the operation", "The anesthetist monitors you continuously and adjusts the medicines when needed."], ["In recovery", "The staff check how you feel and help with pain, nausea or other discomfort."]],
+      feelingsTitle: "Talk about what worries you", feelingsText: "Needles, masks, pain and uncertainty can feel worrying. Tell the staff what is hardest for you and ask what options could help.", breathTitle: "A short breathing exercise", breathDefault: "Press start and follow the pace", breathIn: "Slow breath in", breathHold: "Hold for a moment", breathOut: "Long, slow breath out"
+    },
+    teen: {
+      whatTitle: "General anesthesia — what matters", whatParagraphs: ["General anesthesia is a controlled state of unconsciousness produced by medicines so you are not aware of the operation and do not feel pain during it.", "Before surgery you will meet the anesthetist and can discuss your health, medicines, allergies, concerns and preferences. Anesthesia usually starts through an IV and sometimes with gas through a mask.", "The anesthetist stays with you throughout the procedure, continuously monitors breathing, heart rate, blood pressure and oxygen, and adjusts care when needed."],
+      journeyTitle: "What to expect on the day", steps: [["Before you arrive", "Follow your individual instructions about fasting, drinks and medicines, and bring a medicines list and relevant health information."], ["Check-in and assessment", "The staff confirm your details and ask about health, allergies, previous reactions and any recent changes."], ["Your anesthesia plan", "Ask about the IV, mask, pain control, nausea, privacy or anything else that concerns you."], ["Starting anesthesia", "Monitoring is attached and anesthesia begins using the method agreed with you and suited to the procedure."], ["During the operation", "The anesthetist monitors your body and adjusts medicines, fluids and breathing support."], ["Recovery and discharge", "Report pain or nausea early and follow discharge advice before returning to school, sports and your normal routine."]],
+      feelingsTitle: "Control, privacy and concerns", feelingsText: "You can ask for a direct explanation, time for questions or a private conversation with a staff member. Mention needles, loss of control, nausea, privacy or awareness if any of these worry you.", breathTitle: "60-second guided breathing", breathDefault: "Start and follow the pace", breathIn: "Slow breath in through your nose", breathHold: "Brief pause", breathOut: "Long, slow breath out"
+    },
+    parents: {
+      whatTitle: "General anesthesia: key information for parents", whatParagraphs: ["General anesthesia uses medicines to make a child unconscious during a procedure. The plan is tailored to the operation, age and medical condition.", "Before the procedure, the anesthetist reviews medical history, medicines, allergies and previous reactions, and explains how anesthesia will begin and how pain and nausea will be managed.", "During surgery, the anesthetist continuously monitors breathing, heart rate, blood pressure and oxygen. Your hospital’s individual instructions always take priority over general website information."],
+      journeyTitle: "What to prepare and expect", steps: [["Check the instructions", "Confirm fasting and drinking times and what to do with regular medicines."], ["Report health changes", "Tell the hospital about fever, cough, a cold, vomiting or any other change before arrival."], ["Bring complete information", "Prepare a list of medicines, supplements, allergies, conditions and previous reactions to anesthesia."], ["Review the plan", "Ask how anesthesia will begin, who may be present and how pain and nausea will be managed."], ["In recovery", "A child may be sleepy, confused, sore or nauseated. Tell the staff about any discomfort."], ["Before discharge", "Make sure you understand instructions for medicines, food, activity, supervision at home and warning signs."]]
+    }
+  },
+  ar: {
+    little: {
+      whatTitle: "ما هو التخدير؟", whatParagraphs: ["التخدير دواء يساعدك على النوم أثناء العلاج.", "أحيانًا تتنفس عبر قناع، وأحيانًا يصل الدواء عبر أنبوب صغير في اليد. سيشرح لك الطاقم ما يناسبك.", "يبقى طبيب التخدير قريبًا ويعتني بك أثناء العلاج."],
+      journeyTitle: "يومك في المستشفى — صور وكلمات قصيرة", steps: [["الاستعداد في البيت", "يساعدك شخص بالغ ويتبع تعليمات المستشفى."], ["نقول مرحبًا للطاقم", "تقابل الطاقم ويمكنك إحضار شيء مألوف من البيت."], ["ملابس المستشفى", "ترتدي ملابس مناسبة وتستعدون معًا."], ["بدء التخدير", "يشرح الطاقم القناع أو الأنبوب الصغير في اليد."], ["الطاقم يعتني بك", "يبقى طبيب التخدير قريبًا طوال العلاج."], ["الاستيقاظ", "تستيقظ في غرفة التعافي ويساعدك الطاقم على الشعور بالراحة."]],
+      feelingsTitle: "كل المشاعر مسموحة", feelingsText: "يمكنك أن تخاف أو تغضب أو تسأل مرة أخرى. أخبر شخصًا بالغًا والطاقم بما يساعدك: يد تمسكها أو شيء مألوف أو التنفس معًا.", breathTitle: "تنفّس البالون", breathDefault: "اضغط ابدأ وتنفّسوا معًا", breathIn: "شهيق… يكبر البالون", breathHold: "نحبس قليلًا…", breathOut: "زفير… ببطء"
+    },
+    kids: {
+      whatTitle: "ما هو التخدير العام؟", whatParagraphs: ["التخدير العام دواء يجعلك فاقدًا للوعي أثناء العملية، فلا تدرك ما يحدث.", "قد يبدأ طبيب التخدير عبر قناع أو قنية وريدية، وهي أنبوب بلاستيكي رفيع داخل الوريد. وقد يُستخدم كريم مخدّر لتخفيف الانزعاج عند وضعها.", "يبقى طبيب التخدير معك طوال العملية ويراقب التنفس والنبض وضغط الدم ومؤشرات أخرى."],
+      journeyTitle: "رحلتك خطوة بخطوة", steps: [["في البيت", "حضّر ما تحتاجه واتبع بدقة تعليمات الطعام والشراب والأدوية."], ["عند الاستقبال", "يتحقق الطاقم من بياناتك ويسأل عن صحتك ويشرح ما سيحدث."], ["الاستعداد", "ترتدي ملابس المستشفى وقد يوضع كريم مخدّر قبل القنية الوريدية."], ["بدء التخدير", "يشرح طبيب التخدير إن كان البدء عبر القناع أو القنية."], ["أثناء العملية", "يراقبك طبيب التخدير باستمرار ويعدّل الأدوية عند الحاجة."], ["في التعافي", "يتحقق الطاقم من شعورك ويساعد في الألم أو الغثيان أو أي انزعاج."]],
+      feelingsTitle: "تحدّث عمّا يقلقك", feelingsText: "قد تقلقك الإبر أو القناع أو الألم أو عدم معرفة ما سيحدث. أخبر الطاقم بما يصعب عليك واسأل عن الخيارات التي قد تساعد.", breathTitle: "تمرين تنفّس قصير", breathDefault: "اضغط ابدأ واتبع الإيقاع", breathIn: "شهيق بطيء", breathHold: "توقف لحظة", breathOut: "زفير طويل وبطيء"
+    },
+    teen: {
+      whatTitle: "التخدير العام — ما المهم؟", whatParagraphs: ["التخدير العام حالة مضبوطة من فقدان الوعي تسببها الأدوية، كي لا تدرك العملية ولا تشعر بالألم خلالها.", "قبل العملية ستقابل طبيب التخدير ويمكنك مناقشة صحتك وأدويتك وحساسياتك ومخاوفك وتفضيلاتك. يبدأ التخدير عادة عبر قنية وريدية وأحيانًا بغاز عبر قناع.", "يبقى طبيب التخدير معك طوال العملية ويراقب باستمرار التنفس والنبض وضغط الدم والأكسجين ويعدّل العلاج عند الحاجة."],
+      journeyTitle: "ما المتوقع يوم العملية", steps: [["قبل الوصول", "اتبع تعليماتك الشخصية للصيام والشراب والأدوية وأحضر قائمة الأدوية والمعلومات الصحية."], ["الاستقبال والتقييم", "يتحقق الطاقم من بياناتك ويسأل عن الصحة والحساسيات وردود الفعل السابقة وأي تغيّر حديث."], ["خطة التخدير", "اسأل عن القنية والقناع وعلاج الألم والغثيان والخصوصية وكل ما يقلقك."], ["بدء التخدير", "تُوصل أجهزة المراقبة ويبدأ التخدير بالطريقة المتفق عليها والمناسبة للإجراء."], ["أثناء العملية", "يراقب طبيب التخدير وظائف الجسم ويعدّل الأدوية والسوائل ودعم التنفس."], ["التعافي والخروج", "أبلغ مبكرًا عن الألم أو الغثيان واتبع تعليمات الخروج قبل العودة إلى الدراسة والرياضة والروتين."]],
+      feelingsTitle: "التحكم والخصوصية والمخاوف", feelingsText: "يمكنك طلب شرح مباشر أو وقت للأسئلة أو حديث خاص مع أحد أفراد الطاقم. اذكر الإبر أو فقدان السيطرة أو الغثيان أو الخصوصية أو الوعي إذا كانت تقلقك.", breathTitle: "تنفّس موجّه لمدة 60 ثانية", breathDefault: "ابدأ واتبع الإيقاع", breathIn: "شهيق بطيء عبر الأنف", breathHold: "توقف قصير", breathOut: "زفير طويل وبطيء"
+    },
+    parents: {
+      whatTitle: "التخدير العام: معلومات أساسية للأهل", whatParagraphs: ["يستخدم التخدير العام أدوية تجعل الطفل فاقدًا للوعي أثناء الإجراء. تُخصّص الخطة حسب العملية والعمر والحالة الطبية.", "يراجع طبيب التخدير قبل الإجراء التاريخ الطبي والأدوية والحساسيات وردود الفعل السابقة، ويشرح بدء التخدير وخطة علاج الألم والغثيان.", "يراقب طبيب التخدير باستمرار التنفس والنبض وضغط الدم والأكسجين. تتقدم تعليمات مستشفاكم الشخصية دائمًا على المعلومات العامة."],
+      journeyTitle: "ما الذي ينبغي تحضيره وما المتوقع", steps: [["راجعوا التعليمات", "تأكدوا من أوقات الصيام والشراب وتعليمات الأدوية المعتادة."], ["أبلغوا عن أي تغير صحي", "أخبروا المستشفى عن الحمى أو السعال أو الزكام أو القيء أو أي تغير قبل الوصول."], ["أحضروا معلومات كاملة", "جهزوا قائمة الأدوية والمكمّلات والحساسيات والأمراض وردود الفعل السابقة للتخدير."], ["راجعوا الخطة", "اسألوا عن بدء التخدير ومن يمكنه الحضور وخطة علاج الألم والغثيان."], ["في غرفة التعافي", "قد يكون الطفل نعسانًا أو مرتبكًا أو متألمًا أو يشعر بالغثيان. أبلغوا الطاقم بأي انزعاج."], ["قبل الخروج", "تأكدوا من فهم تعليمات الأدوية والطعام والنشاط والمراقبة المنزلية وعلامات التحذير."]]
+    }
+  },
+  ru: {
+    little: {
+      whatTitle: "Что такое анестезия?", whatParagraphs: ["Анестезия — это лекарство, которое помогает спать во время лечения.", "Иногда нужно дышать через маску, а иногда лекарство дают через маленькую трубочку в руке. Персонал расскажет, что подходит тебе.", "Анестезиолог всё время находится рядом и заботится о тебе."],
+      journeyTitle: "День в больнице — коротко и с картинками", steps: [["Готовимся дома", "Взрослый поможет подготовиться и выполнит инструкции больницы."], ["Здороваемся с персоналом", "Ты встретишь персонал и можешь взять знакомую вещь из дома."], ["Больничная одежда", "Ты переоденешься и подготовишься вместе со взрослым."], ["Начало анестезии", "Персонал расскажет о маске или маленькой трубочке в руке."], ["Персонал заботится о тебе", "Анестезиолог остаётся рядом всё время."], ["Пробуждение", "Ты проснёшься в палате пробуждения, и персонал поможет чувствовать себя удобно."]],
+      feelingsTitle: "Можно чувствовать по-разному", feelingsText: "Можно бояться, сердиться или спросить ещё раз. Скажи взрослому и персоналу, что поможет: держать кого-то за руку, знакомая вещь или совместное дыхание.", breathTitle: "Дыхание-шарик", breathDefault: "Нажми «Начать» и дышите вместе", breathIn: "Вдох… шарик растёт", breathHold: "Задержи…", breathOut: "Выдох… медленно"
+    },
+    kids: {
+      whatTitle: "Что такое общая анестезия?", whatParagraphs: ["Общая анестезия — это лекарства, из-за которых во время операции ты находишься без сознания и не понимаешь, что происходит.", "Анестезиолог может начать анестезию через маску или внутривенный катетер — тонкую пластиковую трубку в вене. Обезболивающий крем может уменьшить неприятные ощущения при его установке.", "Анестезиолог остаётся с тобой всю операцию и следит за дыханием, пульсом, давлением и другими показателями."],
+      journeyTitle: "Твой путь по шагам", steps: [["Дома", "Собери нужные вещи и точно следуй инструкциям о еде, питье и лекарствах."], ["Приём", "Персонал проверит данные, спросит о здоровье и объяснит, что будет дальше."], ["Подготовка", "Ты переоденешься; перед катетером могут нанести обезболивающий крем."], ["Начало анестезии", "Анестезиолог объяснит, начнётся ли она через маску или катетер."], ["Во время операции", "Анестезиолог постоянно наблюдает и при необходимости меняет дозы лекарств."], ["В палате пробуждения", "Персонал проверит самочувствие и поможет при боли, тошноте или другом дискомфорте."]],
+      feelingsTitle: "Расскажи, что тебя беспокоит", feelingsText: "Иглы, маска, боль и неизвестность могут тревожить. Скажи персоналу, что для тебя труднее всего, и спроси, какие варианты помогут.", breathTitle: "Короткое дыхательное упражнение", breathDefault: "Нажми «Начать» и следуй ритму", breathIn: "Медленный вдох", breathHold: "Короткая пауза", breathOut: "Долгий медленный выдох"
+    },
+    teen: {
+      whatTitle: "Общая анестезия — главное", whatParagraphs: ["Общая анестезия — это контролируемое состояние без сознания, вызванное лекарствами, чтобы вы не осознавали операцию и не чувствовали боли во время неё.", "До операции вы встретитесь с анестезиологом и сможете обсудить здоровье, лекарства, аллергии, опасения и предпочтения. Обычно анестезию начинают через венозный катетер, иногда — газом через маску.", "Анестезиолог остаётся с вами всю операцию, постоянно следит за дыханием, пульсом, давлением и кислородом и корректирует лечение."],
+      journeyTitle: "Чего ожидать в день операции", steps: [["До приезда", "Выполните личные инструкции о голодании, питье и лекарствах; возьмите список лекарств и медицинские сведения."], ["Приём и оценка", "Персонал проверит данные и спросит о здоровье, аллергиях, прошлых реакциях и недавних изменениях."], ["План анестезии", "Спросите о катетере, маске, контроле боли, тошноте, приватности и всём, что вас беспокоит."], ["Начало анестезии", "Подключат мониторы и начнут анестезию согласованным и подходящим для процедуры способом."], ["Во время операции", "Анестезиолог следит за организмом и регулирует лекарства, жидкости и поддержку дыхания."], ["Восстановление и выписка", "Рано сообщайте о боли или тошноте и соблюдайте инструкции перед возвращением к учёбе, спорту и обычным делам."]],
+      feelingsTitle: "Контроль, приватность и тревоги", feelingsText: "Можно попросить прямое объяснение, время для вопросов или разговор с сотрудником наедине. Скажите, если вас тревожат иглы, потеря контроля, тошнота, приватность или пробуждение.", breathTitle: "Дыхание с подсказками — 60 секунд", breathDefault: "Начните и следуйте ритму", breathIn: "Медленный вдох через нос", breathHold: "Короткая пауза", breathOut: "Долгий медленный выдох"
+    },
+    parents: {
+      whatTitle: "Общая анестезия: главное для родителей", whatParagraphs: ["При общей анестезии лекарства вводят ребёнка в бессознательное состояние на время процедуры. План учитывает операцию, возраст и состояние здоровья.", "Перед процедурой анестезиолог уточняет историю болезни, лекарства, аллергии и прошлые реакции и объясняет начало анестезии и контроль боли и тошноты.", "Во время операции анестезиолог постоянно следит за дыханием, пульсом, давлением и кислородом. Индивидуальные инструкции больницы всегда важнее общей информации."],
+      journeyTitle: "Что подготовить и чего ожидать", steps: [["Проверьте инструкции", "Уточните время голодания и питья и правила приёма постоянных лекарств."], ["Сообщите об изменениях здоровья", "До приезда расскажите больнице о температуре, кашле, насморке, рвоте или других изменениях."], ["Возьмите полную информацию", "Подготовьте список лекарств, добавок, аллергий, заболеваний и прошлых реакций на анестезию."], ["Обсудите план", "Спросите, как начнётся анестезия, кто может присутствовать и как будут контролировать боль и тошноту."], ["В палате пробуждения", "Ребёнок может быть сонным, растерянным, испытывать боль или тошноту. Сообщайте персоналу о дискомфорте."], ["Перед выпиской", "Убедитесь, что понятны правила лекарств, питания, активности, наблюдения дома и тревожные признаки."]]
+    }
+  },
+  fr: {
+    little: {
+      whatTitle: "Qu’est-ce que l’anesthésie ?", whatParagraphs: ["L’anesthésie est un médicament qui t’aide à dormir pendant le soin.", "Parfois tu respires dans un masque, parfois le médicament passe par un petit tube dans la main. Le personnel t’expliquera ce qui te convient.", "L’anesthésiste reste près de toi et veille sur toi pendant le soin."],
+      journeyTitle: "Ta journée à l’hôpital — images et mots courts", steps: [["Se préparer à la maison", "Un adulte t’aide et suit les consignes de l’hôpital."], ["Dire bonjour au personnel", "Tu rencontres le personnel et peux apporter un objet familier."], ["Les vêtements de l’hôpital", "Tu mets des vêtements adaptés et vous vous préparez ensemble."], ["Commencer l’anesthésie", "Le personnel explique le masque ou le petit tube dans la main."], ["Le personnel veille sur toi", "L’anesthésiste reste près de toi pendant tout le soin."], ["Se réveiller", "Tu te réveilles en salle de réveil et le personnel t’aide à être bien."]],
+      feelingsTitle: "Toutes les émotions sont permises", feelingsText: "Tu peux avoir peur, être fâché ou redemander. Dis à un adulte et au personnel ce qui peut aider : tenir une main, garder un objet familier ou respirer ensemble.", breathTitle: "Respiration du ballon", breathDefault: "Appuie sur départ et respirez ensemble", breathIn: "Inspire… le ballon grandit", breathHold: "Retiens…", breathOut: "Expire… lentement"
+    },
+    kids: {
+      whatTitle: "Qu’est-ce que l’anesthésie générale ?", whatParagraphs: ["L’anesthésie générale utilise des médicaments qui te rendent inconscient pendant l’opération : tu ne sais pas ce qui se passe.", "L’anesthésiste peut commencer avec un masque ou une perfusion, un fin tube en plastique placé dans une veine. Une crème anesthésiante peut réduire la gêne lors de sa pose.", "L’anesthésiste reste avec toi pendant toute l’opération et surveille la respiration, le pouls, la tension et d’autres paramètres."],
+      journeyTitle: "Ton parcours étape par étape", steps: [["À la maison", "Prépare tes affaires et suis exactement les consignes sur les aliments, les boissons et les médicaments."], ["À l’accueil", "Le personnel vérifie tes informations, pose des questions sur ta santé et explique la suite."], ["La préparation", "Tu mets une tenue d’hôpital et peux recevoir une crème anesthésiante avant la perfusion."], ["Le début de l’anesthésie", "L’anesthésiste explique si elle commencera par le masque ou la perfusion."], ["Pendant l’opération", "L’anesthésiste te surveille en continu et adapte les médicaments si nécessaire."], ["En salle de réveil", "Le personnel vérifie comment tu te sens et traite la douleur, les nausées ou toute gêne."]],
+      feelingsTitle: "Parle de ce qui t’inquiète", feelingsText: "Les aiguilles, le masque, la douleur ou l’incertitude peuvent inquiéter. Dis au personnel ce qui est le plus difficile et demande quelles options peuvent aider.", breathTitle: "Un court exercice de respiration", breathDefault: "Appuie sur départ et suis le rythme", breathIn: "Inspiration lente", breathHold: "Petite pause", breathOut: "Expiration longue et lente"
+    },
+    teen: {
+      whatTitle: "Anesthésie générale — l’essentiel", whatParagraphs: ["L’anesthésie générale est un état contrôlé d’inconscience produit par des médicaments, pour ne pas avoir conscience de l’opération ni ressentir de douleur pendant celle-ci.", "Avant l’opération, tu rencontres l’anesthésiste et peux parler de ta santé, de tes médicaments, allergies, inquiétudes et préférences. L’anesthésie commence généralement par une perfusion, parfois avec un gaz respiré par un masque.", "L’anesthésiste reste avec toi pendant toute l’intervention, surveille en continu la respiration, le pouls, la tension et l’oxygène, et adapte les soins."],
+      journeyTitle: "À quoi s’attendre le jour de l’opération", steps: [["Avant l’arrivée", "Suis tes consignes personnelles de jeûne, de boissons et de médicaments, et apporte une liste de traitements et les informations médicales utiles."], ["Accueil et évaluation", "Le personnel vérifie tes informations et demande tes allergies, réactions antérieures et changements récents de santé."], ["Ton plan d’anesthésie", "Pose tes questions sur la perfusion, le masque, la douleur, les nausées, l’intimité ou tout autre sujet."], ["Début de l’anesthésie", "Les moniteurs sont installés et l’anesthésie commence selon la méthode convenue et adaptée à l’intervention."], ["Pendant l’opération", "L’anesthésiste surveille ton organisme et adapte les médicaments, les liquides et l’aide respiratoire."], ["Réveil et sortie", "Signale tôt la douleur ou les nausées et suis les consignes avant de reprendre les cours, le sport et tes activités."]],
+      feelingsTitle: "Contrôle, intimité et inquiétudes", feelingsText: "Tu peux demander une explication directe, du temps pour tes questions ou un entretien privé avec un membre du personnel. Parle des aiguilles, de la perte de contrôle, des nausées, de l’intimité ou du réveil si cela t’inquiète.", breathTitle: "Respiration guidée — 60 secondes", breathDefault: "Commence et suis le rythme", breathIn: "Inspire lentement par le nez", breathHold: "Courte pause", breathOut: "Expire longtemps et lentement"
+    },
+    parents: {
+      whatTitle: "Anesthésie générale : l’essentiel pour les parents", whatParagraphs: ["L’anesthésie générale utilise des médicaments pour rendre l’enfant inconscient pendant l’intervention. Le plan est adapté à l’opération, à l’âge et à l’état médical.", "Avant l’intervention, l’anesthésiste examine les antécédents, traitements, allergies et réactions précédentes, puis explique le début de l’anesthésie et la prise en charge de la douleur et des nausées.", "Pendant l’opération, l’anesthésiste surveille en continu la respiration, le pouls, la tension et l’oxygène. Les consignes personnelles de votre hôpital priment toujours sur les informations générales."],
+      journeyTitle: "Que préparer et à quoi s’attendre", steps: [["Vérifiez les consignes", "Confirmez les horaires de jeûne et de boissons et les instructions pour les traitements habituels."], ["Signalez tout changement de santé", "Prévenez l’hôpital en cas de fièvre, toux, rhume, vomissements ou autre changement avant l’arrivée."], ["Apportez des informations complètes", "Préparez la liste des médicaments, compléments, allergies, maladies et réactions antérieures à l’anesthésie."], ["Revoyez le plan", "Demandez comment l’anesthésie commencera, qui peut être présent et comment douleur et nausées seront prises en charge."], ["En salle de réveil", "L’enfant peut être somnolent, désorienté, douloureux ou nauséeux. Signalez toute gêne au personnel."], ["Avant la sortie", "Vérifiez les consignes sur les médicaments, l’alimentation, l’activité, la surveillance à domicile et les signes d’alerte."]]
+    }
+  }
+};
+
+const LITTLE_FAQ_I18N = {
+  he: { title: "שאלות קטנות וחשובות", items: [["מי יהיה איתי?", "מבוגר והצוות יעזרו לך. שאלו את בית החולים מי יכול להיות לידך בכל שלב."], ["מה אלבש?", "בדרך כלל מקבלים בגדי בית חולים נוחים שמתאימים לטיפול."], ["מה עושה המסכה?", "המסכה מונחת בעדינות ליד האף והפה ועוזרת לנשום. הצוות יראה לך אותה קודם כשאפשר."], ["מה תהיה הצינורית ביד?", "זו צינורית פלסטיק קטנה שדרכה אפשר לתת תרופה. אפשר לשאול על קרם שמאלחש את המקום."], ["איפה אתעורר?", "מתעוררים בחדר התאוששות, שבו הצוות נשאר קרוב ועוזר."], ["מה אם אפחד?", "אפשר לומר שפוחדים, לבקש הסבר נוסף ולהחזיק יד או חפץ מוכר."]] },
+  en: { title: "Small but important questions", items: [["Who will be with me?", "A grown-up and the staff will help you. Ask the hospital who can stay near you at each stage."], ["What will I wear?", "You will usually get comfortable hospital clothes that suit the treatment."], ["What does the mask do?", "The mask rests gently near your nose and mouth and helps you breathe. When possible, the staff can show it to you first."], ["What is the small tube in my hand?", "It is a small plastic tube used to give medicine. You can ask about cream that numbs the skin."], ["Where will I wake up?", "You wake in a recovery room, where the staff stay close and help you."], ["What if I feel scared?", "You can say you are scared, ask for another explanation and hold a hand or something familiar."]] },
+  ar: { title: "أسئلة صغيرة ومهمة", items: [["من سيكون معي؟", "سيساعدك شخص بالغ والطاقم. اسألوا المستشفى من يمكنه البقاء قربك في كل مرحلة."], ["ماذا سأرتدي؟", "عادة تحصل على ملابس مستشفى مريحة تناسب العلاج."], ["ماذا يفعل القناع؟", "يوضع القناع بلطف قرب الأنف والفم ويساعدك على التنفس. يمكن للطاقم أن يريك إياه أولًا عندما يكون ذلك ممكنًا."], ["ما الأنبوب الصغير في يدي؟", "إنه أنبوب بلاستيكي صغير يمكن إعطاء الدواء من خلاله. يمكن السؤال عن كريم يخدّر الجلد."], ["أين سأستيقظ؟", "تستيقظ في غرفة التعافي، حيث يبقى الطاقم قريبًا ويساعدك."], ["ماذا لو خفت؟", "يمكنك أن تقول إنك خائف وأن تطلب شرحًا آخر وتمسك يدًا أو شيئًا مألوفًا."]] },
+  ru: { title: "Маленькие, но важные вопросы", items: [["Кто будет со мной?", "Взрослый и персонал помогут тебе. Спросите в больнице, кто может быть рядом на каждом этапе."], ["Что я надену?", "Обычно дают удобную больничную одежду, подходящую для лечения."], ["Для чего нужна маска?", "Маску мягко прикладывают к носу и рту, и она помогает дышать. Если возможно, персонал сначала покажет её."], ["Что за маленькая трубочка в руке?", "Это маленькая пластиковая трубка, через которую дают лекарства. Можно спросить о креме, обезболивающем кожу."], ["Где я проснусь?", "Ты проснёшься в палате пробуждения, где персонал будет рядом и поможет."], ["Что, если мне страшно?", "Можно сказать, что страшно, попросить объяснить ещё раз и держать кого-то за руку или знакомую вещь."]] },
+  fr: { title: "De petites questions importantes", items: [["Qui sera avec moi ?", "Un adulte et le personnel t’aideront. Demandez à l’hôpital qui peut rester près de toi à chaque étape."], ["Que vais-je porter ?", "Tu recevras généralement une tenue d’hôpital confortable et adaptée au soin."], ["À quoi sert le masque ?", "Le masque se pose doucement près du nez et de la bouche et aide à respirer. Si possible, le personnel peut te le montrer avant."], ["Qu’est-ce que le petit tube dans ma main ?", "C’est un petit tube en plastique qui permet de donner des médicaments. Tu peux demander une crème qui endort la peau."], ["Où vais-je me réveiller ?", "Tu te réveilleras en salle de réveil, où le personnel reste près de toi et t’aide."], ["Et si j’ai peur ?", "Tu peux dire que tu as peur, demander une autre explication et tenir une main ou un objet familier."]] }
+};
+
+const PARENT_GUIDE_I18N = {
+  he: { title: "הכנה מעשית לקראת הרדמה וניתוח", intro: "רשימת פעולות קצרה שתעזור לכם למסור מידע מלא, להכין את הילד ולתכנן את החזרה הביתה.", items: ["הסבירו בכנות ובמילים שמתאימות לגיל מה צפוי לקרות, בלי להבטיח הבטחות שאינן בשליטתכם.", "פעלו בדיוק לפי הוראות בית החולים לגבי אוכל, שתייה ותרופות. אם הייתה חריגה, עדכנו את הצוות ואל תסתירו מידע.", "הכינו רשימה של תרופות ותוספים, אלרגיות, מחלות ותגובות קודמות להרדמה.", "צרו קשר עם בית החולים אם מופיעים חום, שיעול, צינון, הקאות או שינוי רפואי לפני הניתוח.", "שאלו מראש על נוכחות מלווה, עירוי או מסכה, טיפול בכאב ובבחילה ומה יכול לעזור לילד להירגע.", "לפני השחרור ודאו שהבנתם את הוראות התרופות, הפעילות, האכילה, ההשגחה בבית ומתי לפנות לעזרה." ] },
+  en: { title: "Practical preparation for anesthesia and surgery", intro: "A short action list to help you share complete information, prepare your child and plan the return home.", items: ["Explain honestly, in age-appropriate words, what to expect without making promises that are outside your control.", "Follow the hospital’s food, drink and medicine instructions exactly. If there was a mistake, tell the staff rather than hiding it.", "Prepare a list of medicines and supplements, allergies, medical conditions and previous reactions to anesthesia.", "Contact the hospital if fever, cough, a cold, vomiting or another health change appears before surgery.", "Ask beforehand about a caregiver’s presence, IV or mask, pain and nausea control, and what may help your child cope.", "Before discharge, make sure you understand medicines, activity, food, supervision at home and when to seek help." ] },
+  ar: { title: "استعداد عملي للتخدير والعملية", intro: "قائمة إجراءات قصيرة تساعدكم على تقديم معلومات كاملة وتهيئة الطفل والتخطيط للعودة إلى البيت.", items: ["اشرحوا بصدق وبكلمات تناسب العمر ما المتوقع، من دون وعود لا يمكنكم ضمانها.", "اتبعوا بدقة تعليمات الطعام والشراب والأدوية. إذا حدث خطأ فأخبروا الطاقم ولا تخفوا المعلومات.", "جهزوا قائمة الأدوية والمكمّلات والحساسيات والحالات الصحية وردود الفعل السابقة للتخدير.", "تواصلوا مع المستشفى إذا ظهرت حمى أو سعال أو زكام أو قيء أو أي تغير صحي قبل العملية.", "اسألوا مسبقًا عن وجود المرافق والقنية أو القناع وعلاج الألم والغثيان وما قد يساعد الطفل.", "قبل الخروج تأكدوا من فهم تعليمات الأدوية والنشاط والطعام والمراقبة في البيت ومتى تطلبون المساعدة." ] },
+  ru: { title: "Практическая подготовка к анестезии и операции", intro: "Короткий список действий поможет сообщить полную информацию, подготовить ребёнка и спланировать возвращение домой.", items: ["Честно и понятными по возрасту словами расскажите, чего ожидать, не давая обещаний, которые от вас не зависят.", "Точно соблюдайте инструкции больницы о еде, питье и лекарствах. Если произошла ошибка, сообщите персоналу и не скрывайте информацию.", "Подготовьте список лекарств и добавок, аллергий, заболеваний и прошлых реакций на анестезию.", "Свяжитесь с больницей, если до операции появились температура, кашель, насморк, рвота или другое изменение здоровья.", "Заранее спросите о присутствии сопровождающего, катетере или маске, контроле боли и тошноты и способах помочь ребёнку.", "Перед выпиской убедитесь, что понятны правила лекарств, активности, питания, наблюдения дома и обращения за помощью." ] },
+  fr: { title: "Préparation pratique à l’anesthésie et à l’opération", intro: "Une courte liste d’actions pour transmettre les informations utiles, préparer votre enfant et organiser le retour à la maison.", items: ["Expliquez honnêtement ce qui va se passer avec des mots adaptés à l’âge, sans faire de promesse qui ne dépend pas de vous.", "Suivez exactement les consignes sur les aliments, les boissons et les médicaments. En cas d’erreur, informez le personnel sans rien cacher.", "Préparez la liste des médicaments et compléments, allergies, maladies et réactions antérieures à l’anesthésie.", "Contactez l’hôpital si fièvre, toux, rhume, vomissements ou autre changement de santé apparaissent avant l’opération.", "Demandez à l’avance la présence possible d’un accompagnant, la perfusion ou le masque, le contrôle de la douleur et des nausées et ce qui peut aider l’enfant.", "Avant la sortie, vérifiez les consignes sur les médicaments, l’activité, l’alimentation, la surveillance à domicile et les situations nécessitant de l’aide." ] }
+};
+
+const EQUIPMENT_ITEMS_I18N = {
+  he: [["מסכת הרדמה", "המסכה יכולה לשמש למתן חמצן או גז הרדמה. הצוות יסביר אם היא חלק מתוכנית ההרדמה."], ["מד סטורציה", "חיישן קטן על האצבע מודד את רמת החמצן בדם ואת הדופק באמצעות אור."], ["שרוול לחץ דם", "השרוול מתנפח סביב הזרוע לכמה שניות כדי למדוד לחץ דם."], ["סטטוסקופ", "בעזרתו מקשיבים לקולות הלב והנשימה."], ["צמיד זיהוי", "הצוות בודק את השם ופרטי הזיהוי לפני תרופות וטיפולים."], ["קרם מאלחש", "אפשר למרוח אותו לפני הכנסת עירוי כדי להפחית את התחושה בעור."]],
+  en: [["Anesthesia mask", "The mask may be used to give oxygen or anesthetic gas. The staff will explain whether it is part of your plan."], ["Pulse oximeter", "A small sensor on a finger uses light to measure blood oxygen and pulse."], ["Blood-pressure cuff", "The cuff inflates around the arm for a few seconds to measure blood pressure."], ["Stethoscope", "It is used to listen to heart and breathing sounds."], ["Identity band", "The staff check the name and identifying details before medicines and treatments."], ["Numbing cream", "It may be applied before an IV is placed to reduce sensation in the skin."]],
+  ar: [["قناع التخدير", "قد يُستخدم القناع لإعطاء الأكسجين أو غاز التخدير. سيشرح الطاقم إن كان جزءًا من الخطة."], ["مقياس التأكسج", "حساس صغير على الإصبع يستخدم الضوء لقياس الأكسجين في الدم والنبض."], ["كُمّ ضغط الدم", "ينتفخ الكُم حول الذراع لثوانٍ لقياس ضغط الدم."], ["سماعة الطبيب", "تُستخدم للاستماع إلى أصوات القلب والتنفس."], ["سوار التعريف", "يتحقق الطاقم من الاسم وبيانات الهوية قبل الأدوية والعلاجات."], ["كريم مخدّر", "يمكن وضعه قبل القنية الوريدية لتقليل الإحساس في الجلد."]],
+  ru: [["Анестезиологическая маска", "Маска может использоваться для подачи кислорода или анестезирующего газа. Персонал объяснит, входит ли она в ваш план."], ["Пульсоксиметр", "Небольшой датчик на пальце с помощью света измеряет кислород в крови и пульс."], ["Манжета для давления", "Манжета на несколько секунд надувается вокруг руки и измеряет давление."], ["Стетоскоп", "С его помощью слушают сердце и дыхание."], ["Идентификационный браслет", "Перед лекарствами и процедурами персонал проверяет имя и данные пациента."], ["Обезболивающий крем", "Его можно нанести перед установкой катетера, чтобы уменьшить чувствительность кожи."]],
+  fr: [["Masque d’anesthésie", "Le masque peut servir à donner de l’oxygène ou un gaz anesthésique. Le personnel expliquera s’il fait partie du plan."], ["Oxymètre de pouls", "Un petit capteur au doigt utilise la lumière pour mesurer l’oxygène dans le sang et le pouls."], ["Brassard de tension", "Le brassard se gonfle autour du bras pendant quelques secondes pour mesurer la tension."], ["Stéthoscope", "Il sert à écouter les bruits du cœur et de la respiration."], ["Bracelet d’identité", "Le personnel vérifie le nom et les informations d’identité avant les médicaments et les soins."], ["Crème anesthésiante", "Elle peut être appliquée avant la perfusion pour réduire la sensation sur la peau."]]
+};
+
+const EQUIPMENT_VIEW_I18N = {
+  he: { kids: ["מכירים את הציוד בשמות האמיתיים", "לחצו על כל פריט כדי להבין מה הוא עושה ואיך הוא עשוי להרגיש."], teen: ["ציוד שתפגוש סביב ההרדמה", "הסבר ישיר על אמצעי הניטור והציוד הנפוצים. לא בכל הליך משתמשים בכולם."], parents: ["ציוד נפוץ בהרדמת ילדים", "סקירה קצרה של ציוד שהילד עשוי לפגוש. הצוות יסביר מה נדרש במקרה שלכם."] },
+  en: { kids: ["Meet the equipment by its real names", "Select each item to learn what it does and what it may feel like."], teen: ["Equipment used around anesthesia", "A direct guide to common monitoring and anesthesia equipment. Not every item is used for every procedure."], parents: ["Common equipment in pediatric anesthesia", "A short guide to equipment your child may meet. The staff will explain what is needed in your child’s case."] },
+  ar: { kids: ["تعرّف إلى المعدات بأسمائها الحقيقية", "اختر كل أداة لتعرف ما تفعله وكيف قد يكون الإحساس بها."], teen: ["معدات قد تراها مع التخدير", "شرح مباشر لمعدات المراقبة والتخدير الشائعة. لا تُستخدم كلها في كل إجراء."], parents: ["معدات شائعة في تخدير الأطفال", "دليل قصير للمعدات التي قد يقابلها الطفل. سيشرح الطاقم ما يلزم في حالتكم."] },
+  ru: { kids: ["Оборудование и его настоящие названия", "Выбери предмет, чтобы узнать, для чего он нужен и что можно почувствовать."], teen: ["Оборудование при анестезии", "Прямое объяснение распространённых мониторов и оборудования. Не всё используется при каждой процедуре."], parents: ["Обычное оборудование при детской анестезии", "Краткий обзор оборудования, с которым может встретиться ребёнок. Персонал объяснит, что нужно в вашем случае."] },
+  fr: { kids: ["Le matériel et ses vrais noms", "Sélectionne chaque objet pour comprendre son rôle et ce que tu pourrais ressentir."], teen: ["Le matériel utilisé autour de l’anesthésie", "Une présentation directe du matériel d’anesthésie et de surveillance courant. Tout n’est pas utilisé pour chaque intervention."], parents: ["Matériel courant en anesthésie pédiatrique", "Un bref aperçu du matériel que votre enfant peut rencontrer. Le personnel expliquera ce qui est nécessaire dans votre situation."] }
+};
+
+const TEEN_QUIZ_COPY_I18N = {
+  he: { eyebrow: "תרחישים אמיתיים", title: "מה תעשה לפני ואחרי הרדמה?", intro: "שמונה מצבים מציאותיים על הכנה, פרטיות, בטיחות והתאוששות." },
+  en: { eyebrow: "Real situations", title: "What would you do before and after anesthesia?", intro: "Eight realistic situations about preparation, privacy, safety and recovery." },
+  ar: { eyebrow: "مواقف واقعية", title: "ماذا ستفعل قبل التخدير وبعده؟", intro: "ثمانية مواقف واقعية عن الاستعداد والخصوصية والسلامة والتعافي." },
+  ru: { eyebrow: "Реальные ситуации", title: "Как поступить до и после анестезии?", intro: "Восемь реалистичных ситуаций о подготовке, приватности, безопасности и восстановлении." },
+  fr: { eyebrow: "Situations réelles", title: "Que ferais-tu avant et après l’anesthésie ?", intro: "Huit situations réalistes sur la préparation, l’intimité, la sécurité et le réveil." }
+};
+
+const TEEN_QUIZ_I18N = {
+  he: [
+    { q: "שתית בטעות אחרי השעה שבה התבקשת להפסיק. מה נכון לעשות?", choices: ["להודיע לצוות בדיוק מה שתית ומתי", "לא לומר דבר אם זו הייתה כמות קטנה", "לבטל את הניתוח בעצמך ולא להגיע"], answer: 0, explanation: "חשוב למסור לצוות מידע מדויק. הוא יחליט אם וכיצד אפשר להמשיך בבטחה." },
+    { q: "מה הדרך הנכונה לטפל בתרופות ובתוספים קבועים לפני הניתוח?", choices: ["להפסיק את כולם ביום שלפני", "להביא רשימה ולפעול לפי ההוראות האישיות שקיבלת", "לקחת מנה כפולה כדי לפצות על הצום"], answer: 1, explanation: "ההנחיות משתנות בין תרופות והליכים. אין להפסיק או לשנות מינון בלי הוראה רפואית." },
+    { q: "למה חשוב לספר בכנות על עישון, אידוי, אלכוהול או שימוש בחומרים אחרים?", choices: ["כי המידע עשוי להשפיע על הנשימה, התרופות ותוכנית ההרדמה", "רק כדי להשלים טופס מנהלי", "אין לכך משמעות אם אתה צעיר ובריא"], answer: 0, explanation: "המידע עוזר לרופא המרדים לתכנן טיפול בטוח. מטרת השאלות רפואית, לא שיפוטית." },
+    { q: "יש נושא אישי שאתה מעדיף לשאול בלי הורה בחדר. מה אפשר לעשות?", choices: ["לוותר על השאלה", "לבקש לדבר עם איש צוות בפרטיות", "לכתוב על כך רק אחרי הניתוח"], answer: 1, explanation: "אפשר לבקש שיחה פרטית. הצוות יסביר גם מה יכול להישאר חסוי ומה צריך לשתף לצורך בטיחות." },
+    { q: "למה משתמשים בעירוי או בקנולה?", choices: ["כדי לתת תרופות ונוזלים ישירות לווריד", "כדי למדוד לחץ דם", "כדי לבדוק את רמת החמצן"], answer: 0, explanation: "הקנולה היא צינורית פלסטיק דקה בווריד, שמאפשרת לתת תרופות ונוזלים." },
+    { q: "מה עושה הרופא המרדים בזמן הניתוח?", choices: ["יוצא לאחר שנרדמים וחוזר בסיום", "מנטר את תפקודי הגוף ומתאים את ההרדמה לאורך הניתוח", "עוקב רק אחר משך הניתוח"], answer: 1, explanation: "הרופא המרדים נשאר לאורך הניתוח ועוקב בין היתר אחר נשימה, דופק, לחץ דם וחמצן." },
+    { q: "בעבר הייתה לך בחילה חזקה אחרי הרדמה. מתי כדאי לציין זאת?", choices: ["רק אם הבחילה חוזרת", "לפני הניתוח, בשיחה עם הצוות", "אין צורך כי כל הרדמה זהה"], answer: 1, explanation: "מידע על תגובות קודמות יכול לעזור לצוות לתכנן מניעה וטיפול מתאימים." },
+    { q: "מתחיל לכאוב בחדר ההתאוששות. מה עדיף לעשות?", choices: ["לדווח לצוות מוקדם ולתאר את עוצמת הכאב", "לחכות עד שהכאב יהיה חזק מאוד", "לקחת תרופה שהבאת מהבית בלי לשאול"], answer: 0, explanation: "קל יותר לטפל בכאב לפני שהוא מחמיר. אין לקחת תרופה עצמאית בלי אישור הצוות." }
+  ],
+  en: [
+    { q: "You accidentally drank after the time you were told to stop. What should you do?", choices: ["Tell the staff exactly what you drank and when", "Say nothing if it was only a small amount", "Cancel the operation yourself and do not attend"], answer: 0, explanation: "Give the staff accurate information. They will decide whether and how it is safe to proceed." },
+    { q: "What is the right approach to regular medicines and supplements before surgery?", choices: ["Stop all of them the day before", "Bring a list and follow your individual instructions", "Take a double dose to make up for fasting"], answer: 1, explanation: "Instructions vary by medicine and procedure. Do not stop or change a dose without medical advice." },
+    { q: "Why should you be honest about smoking, vaping, alcohol or other substance use?", choices: ["It may affect breathing, medicines and the anesthesia plan", "It is only needed for an administrative form", "It does not matter if you are young and healthy"], answer: 0, explanation: "The information helps the anesthetist plan safer care. The questions are medical, not judgmental." },
+    { q: "You have a personal question you would rather ask without a parent in the room. What can you do?", choices: ["Skip the question", "Ask to speak with a staff member privately", "Write about it only after surgery"], answer: 1, explanation: "You can ask for a private conversation. The staff will also explain what can remain confidential and what must be shared for safety." },
+    { q: "Why is an IV or cannula used?", choices: ["To give medicines and fluids into a vein", "To measure blood pressure", "To check oxygen levels"], answer: 0, explanation: "A cannula is a thin plastic tube in a vein that allows medicines and fluids to be given." },
+    { q: "What does the anesthetist do during the operation?", choices: ["Leaves once you are asleep and returns at the end", "Monitors your body and adjusts anesthesia throughout", "Only tracks how long the operation takes"], answer: 1, explanation: "The anesthetist stays throughout and monitors breathing, heart rate, blood pressure, oxygen and other signs." },
+    { q: "You had severe nausea after anesthesia before. When should you mention it?", choices: ["Only if nausea happens again", "Before surgery when speaking with the staff", "There is no need because every anesthetic is the same"], answer: 1, explanation: "Previous reactions can help the staff plan suitable prevention and treatment." },
+    { q: "Pain starts in the recovery room. What is the best response?", choices: ["Tell the staff early and describe how strong it is", "Wait until it becomes severe", "Take medicine you brought from home without asking"], answer: 0, explanation: "Pain is easier to treat before it becomes severe. Do not take your own medicine without staff approval." }
+  ],
+  ar: [
+    { q: "شربت بالخطأ بعد الوقت الذي طُلب منك التوقف فيه. ماذا تفعل؟", choices: ["تخبر الطاقم بدقة ماذا شربت ومتى", "لا تقول شيئًا إذا كانت الكمية قليلة", "تلغي العملية بنفسك ولا تحضر"], answer: 0, explanation: "أعطِ الطاقم معلومات دقيقة، وهو يقرر إن كان الاستمرار آمنًا وكيف." },
+    { q: "ما الطريقة الصحيحة للتعامل مع الأدوية والمكمّلات المعتادة قبل العملية؟", choices: ["إيقافها كلها في اليوم السابق", "إحضار قائمة واتباع التعليمات الشخصية", "أخذ جرعة مضاعفة لتعويض الصيام"], answer: 1, explanation: "تختلف التعليمات حسب الدواء والإجراء. لا توقف دواء أو تغيّر جرعته من دون توجيه طبي." },
+    { q: "لماذا يجب الصدق بشأن التدخين أو التدخين الإلكتروني أو الكحول أو مواد أخرى؟", choices: ["قد يؤثر ذلك في التنفس والأدوية وخطة التخدير", "فقط لإكمال استمارة إدارية", "لا أهمية لذلك إذا كنت شابًا وبصحة جيدة"], answer: 0, explanation: "تساعد المعلومات طبيب التخدير على تخطيط رعاية أكثر أمانًا. الأسئلة طبية وليست للحكم عليك." },
+    { q: "لديك سؤال شخصي وتفضّل طرحه دون وجود أحد الوالدين. ماذا تفعل؟", choices: ["تتخلى عن السؤال", "تطلب التحدث مع أحد أفراد الطاقم على انفراد", "تكتب عنه فقط بعد العملية"], answer: 1, explanation: "يمكنك طلب حديث خاص. سيشرح الطاقم ما يمكن أن يبقى سريًا وما يجب مشاركته للسلامة." },
+    { q: "لماذا تُستخدم القنية الوريدية؟", choices: ["لإعطاء الأدوية والسوائل في الوريد", "لقياس ضغط الدم", "لقياس مستوى الأكسجين"], answer: 0, explanation: "القنية أنبوب بلاستيكي رفيع داخل الوريد يسمح بإعطاء الأدوية والسوائل." },
+    { q: "ماذا يفعل طبيب التخدير أثناء العملية؟", choices: ["يغادر بعد نومك ويعود في النهاية", "يراقب وظائف الجسم ويعدّل التخدير طوال العملية", "يتابع مدة العملية فقط"], answer: 1, explanation: "يبقى طبيب التخدير طوال العملية ويراقب التنفس والنبض وضغط الدم والأكسجين وغيرها." },
+    { q: "أصبت سابقًا بغثيان شديد بعد التخدير. متى تذكر ذلك؟", choices: ["فقط إذا تكرر الغثيان", "قبل العملية عند الحديث مع الطاقم", "لا حاجة لأن كل أنواع التخدير متشابهة"], answer: 1, explanation: "تساعد معرفة ردود الفعل السابقة الطاقم على التخطيط للوقاية والعلاج." },
+    { q: "بدأ الألم في غرفة التعافي. ما الأفضل؟", choices: ["إبلاغ الطاقم مبكرًا ووصف شدة الألم", "الانتظار حتى يصبح الألم شديدًا", "أخذ دواء أحضرته من البيت دون سؤال"], answer: 0, explanation: "يسهل علاج الألم قبل أن يشتد. لا تأخذ دواء بنفسك من دون موافقة الطاقم." }
+  ],
+  ru: [
+    { q: "Вы случайно выпили после времени, когда нужно было остановиться. Что делать?", choices: ["Точно сказать персоналу, что и когда вы выпили", "Ничего не говорить, если выпили немного", "Самостоятельно отменить операцию и не приезжать"], answer: 0, explanation: "Сообщите точную информацию. Персонал решит, можно ли и как безопасно продолжить." },
+    { q: "Как правильно поступить с постоянными лекарствами и добавками перед операцией?", choices: ["Отменить всё за день", "Взять список и выполнить индивидуальные инструкции", "Принять двойную дозу из-за голодания"], answer: 1, explanation: "Правила зависят от лекарства и процедуры. Не отменяйте и не меняйте дозу без медицинского указания." },
+    { q: "Почему важно честно рассказать о курении, вейпинге, алкоголе или других веществах?", choices: ["Это может повлиять на дыхание, лекарства и план анестезии", "Это нужно только для административной анкеты", "Это неважно для молодого здорового человека"], answer: 0, explanation: "Информация помогает анестезиологу сделать лечение безопаснее. Вопросы медицинские, а не оценочные." },
+    { q: "Вы хотите задать личный вопрос без родителя в комнате. Что можно сделать?", choices: ["Не задавать вопрос", "Попросить поговорить с сотрудником наедине", "Написать об этом только после операции"], answer: 1, explanation: "Можно попросить личную беседу. Персонал объяснит, что останется конфиденциальным, а что нужно сообщить ради безопасности." },
+    { q: "Для чего используют венозный катетер?", choices: ["Чтобы вводить в вену лекарства и жидкости", "Чтобы измерять давление", "Чтобы проверять уровень кислорода"], answer: 0, explanation: "Катетер — тонкая пластиковая трубка в вене, через которую вводят лекарства и жидкости." },
+    { q: "Что делает анестезиолог во время операции?", choices: ["Уходит после засыпания и возвращается в конце", "Следит за организмом и регулирует анестезию всю операцию", "Следит только за длительностью операции"], answer: 1, explanation: "Анестезиолог остаётся всё время и контролирует дыхание, пульс, давление, кислород и другие показатели." },
+    { q: "Раньше после анестезии была сильная тошнота. Когда об этом сказать?", choices: ["Только если тошнота повторится", "До операции во время разговора с персоналом", "Не нужно, потому что любая анестезия одинакова"], answer: 1, explanation: "Информация о прошлых реакциях помогает спланировать профилактику и лечение." },
+    { q: "В палате пробуждения появилась боль. Что лучше сделать?", choices: ["Рано сообщить персоналу и описать силу боли", "Ждать, пока боль станет очень сильной", "Принять принесённое лекарство без разрешения"], answer: 0, explanation: "Боль легче лечить до её усиления. Не принимайте свои лекарства без разрешения персонала." }
+  ],
+  fr: [
+    { q: "Tu as bu par erreur après l’heure d’arrêt indiquée. Que faire ?", choices: ["Dire exactement au personnel ce que tu as bu et quand", "Ne rien dire si la quantité était petite", "Annuler toi-même l’opération et ne pas venir"], answer: 0, explanation: "Donne des informations précises. Le personnel décidera si et comment il est possible de continuer en sécurité." },
+    { q: "Que faire des médicaments et compléments habituels avant l’opération ?", choices: ["Tout arrêter la veille", "Apporter une liste et suivre les consignes personnelles", "Prendre une double dose pour compenser le jeûne"], answer: 1, explanation: "Les consignes varient selon le médicament et l’intervention. Ne change rien sans avis médical." },
+    { q: "Pourquoi parler honnêtement du tabac, vapotage, alcool ou d’autres substances ?", choices: ["Cela peut modifier la respiration, les médicaments et le plan d’anesthésie", "Uniquement pour remplir un formulaire administratif", "Cela ne compte pas quand on est jeune et en bonne santé"], answer: 0, explanation: "Ces informations aident l’anesthésiste à préparer des soins plus sûrs. Les questions sont médicales et sans jugement." },
+    { q: "Tu préfères poser une question personnelle sans parent dans la pièce. Que peux-tu faire ?", choices: ["Renoncer à la question", "Demander à parler en privé avec un membre du personnel", "Écrire à ce sujet seulement après l’opération"], answer: 1, explanation: "Tu peux demander un entretien privé. Le personnel expliquera ce qui peut rester confidentiel et ce qui doit être partagé pour ta sécurité." },
+    { q: "À quoi sert une perfusion ou une canule ?", choices: ["À donner des médicaments et liquides dans une veine", "À mesurer la tension", "À vérifier le niveau d’oxygène"], answer: 0, explanation: "La canule est un fin tube en plastique placé dans une veine pour donner médicaments et liquides." },
+    { q: "Que fait l’anesthésiste pendant l’opération ?", choices: ["Il part une fois que tu dors et revient à la fin", "Il surveille ton organisme et adapte l’anesthésie tout au long de l’opération", "Il surveille seulement la durée de l’opération"], answer: 1, explanation: "L’anesthésiste reste présent et surveille notamment la respiration, le pouls, la tension et l’oxygène." },
+    { q: "Tu as déjà eu de fortes nausées après une anesthésie. Quand le signaler ?", choices: ["Seulement si les nausées reviennent", "Avant l’opération pendant l’entretien avec le personnel", "Ce n’est pas utile car toutes les anesthésies sont identiques"], answer: 1, explanation: "Les réactions antérieures aident le personnel à prévoir une prévention et un traitement adaptés." },
+    { q: "Une douleur commence en salle de réveil. Que vaut-il mieux faire ?", choices: ["Prévenir tôt le personnel et décrire son intensité", "Attendre qu’elle devienne très forte", "Prendre un médicament apporté de chez soi sans demander"], answer: 0, explanation: "La douleur est plus facile à traiter avant qu’elle s’aggrave. Ne prends pas de médicament personnel sans accord du personnel." }
+  ]
+};
+
+const EQUIPMENT_OPEN_I18N = { he: "פתחו להסבר", en: "Open details", ar: "افتح للتفاصيل", ru: "Открыть описание", fr: "Voir les détails" };
+
+const AUDIENCE_CHROME_I18N = {
+  he: { teen: { about: "הרדמה", journey: "יום הניתוח", feelings: "חששות ופרטיות", quiz: "תרחישים", footer: "מידע ברור לבני נוער לקראת הרדמה וניתוח." }, parents: { about: "על ההרדמה", journey: "הכנה ליום הניתוח", faq: "שאלות להורים", footer: "מידע וכלים מעשיים להורים לקראת הרדמה וניתוח של ילד." } },
+  en: { teen: { about: "Anesthesia", journey: "Surgery day", feelings: "Concerns & privacy", quiz: "Scenarios", footer: "Clear information for teenagers preparing for anesthesia and surgery." }, parents: { about: "About anesthesia", journey: "Preparing for the day", faq: "Parent questions", footer: "Practical information and tools for parents preparing a child for anesthesia and surgery." } },
+  ar: { teen: { about: "التخدير", journey: "يوم العملية", feelings: "المخاوف والخصوصية", quiz: "مواقف", footer: "معلومات واضحة للمراهقين استعدادًا للتخدير والعملية." }, parents: { about: "عن التخدير", journey: "الاستعداد ليوم العملية", faq: "أسئلة الأهل", footer: "معلومات وأدوات عملية للأهل قبل تخدير الطفل وعملية جراحية." } },
+  ru: { teen: { about: "Анестезия", journey: "День операции", feelings: "Тревоги и приватность", quiz: "Ситуации", footer: "Понятная информация для подростков перед анестезией и операцией." }, parents: { about: "Об анестезии", journey: "Подготовка к дню операции", faq: "Вопросы родителей", footer: "Практическая информация для родителей перед анестезией и операцией ребёнка." } },
+  fr: { teen: { about: "Anesthésie", journey: "Jour de l’opération", feelings: "Inquiétudes et intimité", quiz: "Situations", footer: "Des informations claires pour les adolescents avant une anesthésie et une opération." }, parents: { about: "L’anesthésie", journey: "Préparer le jour J", faq: "Questions des parents", footer: "Informations et outils pratiques pour les parents avant l’anesthésie et l’opération d’un enfant." } }
+};
+
+const STORY_VIEW_I18N = {
+  he: { kids: ["יום הניתוח בסרטון קצר", "סקירה חזותית קצרה של השלבים מהבית ועד ההתאוששות."], parents: ["סרטון הכנה לילדים צעירים", "אפשר לצפות יחד ולדבר על השלבים במילים שמתאימות לילד שלכם."] },
+  en: { kids: ["Surgery day in a short film", "A quick visual overview from home through recovery."], parents: ["A preparation film for younger children", "Watch together and discuss the steps in words that suit your child."] },
+  ar: { kids: ["يوم العملية في فيلم قصير", "نظرة بصرية سريعة على المراحل من البيت حتى التعافي."], parents: ["فيلم تحضيري للأطفال الأصغر", "شاهدوه معًا وتحدثوا عن المراحل بكلمات تناسب طفلكم."] },
+  ru: { kids: ["День операции в коротком фильме", "Краткий наглядный обзор этапов от дома до восстановления."], parents: ["Подготовительный фильм для маленьких детей", "Посмотрите вместе и обсудите этапы понятными ребёнку словами."] },
+  fr: { kids: ["Le jour de l’opération en vidéo", "Un bref aperçu visuel des étapes, de la maison à la salle de réveil."], parents: ["Une vidéo de préparation pour les plus jeunes", "Regardez-la ensemble et parlez des étapes avec des mots adaptés à votre enfant."] }
+};
+
 Object.keys(AUDIENCE_I18N).forEach((lang) => Object.assign(I18N[lang], AUDIENCE_I18N[lang]));
 
 const RTL_LANGS = ["he", "ar"];
 
 /* Currently active language + dictionary, exposed for app.js */
-window.NUNI = { lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, teenFaq: TEEN_FAQ_I18N.he, parentFaq: PARENT_FAQ_I18N.he, audience: null };
+window.NUNI = {
+  lang: "he", t: I18N.he, quiz: QUIZ_I18N.he, audience: null,
+  core: CORE_CONTENT_I18N.he, littleFaq: LITTLE_FAQ_I18N.he,
+  teenFaq: TEEN_FAQ_I18N.he, parentFaq: PARENT_FAQ_I18N.he,
+  parentGuide: PARENT_GUIDE_I18N.he, equipmentItems: EQUIPMENT_ITEMS_I18N.he,
+  equipmentView: EQUIPMENT_VIEW_I18N.he, equipmentOpen: EQUIPMENT_OPEN_I18N.he,
+  teenQuizCopy: TEEN_QUIZ_COPY_I18N.he, chrome: AUDIENCE_CHROME_I18N.he,
+  storyView: STORY_VIEW_I18N.he
+};
 
 const AUDIENCES = ["little", "kids", "teen", "parents"];
 let activeAudience = null;
@@ -983,7 +1210,7 @@ try {
 function updateAudienceUI(audience) {
   if (!AUDIENCES.includes(audience)) return;
 
-  if (audience === "teen" && document.querySelector(".coloring-main")) {
+  if (audience === "teen" && document.querySelector(".coloring-main, .story-main")) {
     window.location.replace("index.html");
     return;
   }
@@ -992,6 +1219,7 @@ function updateAudienceUI(audience) {
   window.NUNI.audience = audience;
 
   const dict = window.NUNI.t;
+  window.NUNI.quiz = audience === "teen" ? TEEN_QUIZ_I18N[window.NUNI.lang] : QUIZ_I18N[window.NUNI.lang];
   const label = dict[`audience_${audience}_short`];
   document.querySelectorAll(".audience-switch-label").forEach((el) => {
     el.textContent = label;
@@ -1006,6 +1234,23 @@ function updateAudienceUI(audience) {
     card.classList.toggle("is-current", card.dataset.audience === audience);
   });
 
+  const navCopy = window.NUNI.chrome[audience];
+  const mainNav = document.querySelector(".main-nav");
+  if (mainNav) {
+    const aboutLink = mainNav.querySelector('a[href="#what"]');
+    const journeyLink = mainNav.querySelector('a[href="#journey"]');
+    const feelingsLink = mainNav.querySelector('a[href="#feelings"]');
+    const quizLink = mainNav.querySelector('a[href="#quiz"]');
+    const faqLink = mainNav.querySelector('a[href="#faq"]');
+    if (aboutLink) aboutLink.textContent = navCopy?.about || dict.nav_about;
+    if (journeyLink) journeyLink.textContent = navCopy?.journey || dict.nav_journey;
+    if (feelingsLink) feelingsLink.textContent = navCopy?.feelings || dict.nav_feelings;
+    if (quizLink) quizLink.textContent = navCopy?.quiz || dict.nav_quiz;
+    if (faqLink) faqLink.textContent = navCopy?.faq || dict.nav_faq;
+  }
+  const footerMade = document.querySelector(".footer-made");
+  if (footerMade) footerMade.textContent = navCopy?.footer || dict.footer_made;
+
   const heroEyebrow = document.querySelector(".hero .eyebrow");
   const heroTitle = document.querySelector(".hero h1");
   const heroSubtitle = document.querySelector(".hero .lead");
@@ -1018,11 +1263,69 @@ function updateAudienceUI(audience) {
     if (audience === "parents") {
       primaryCta.textContent = dict.audience_parent_cta;
       primaryCta.setAttribute("href", "#parents");
+    } else if (audience === "teen") {
+      primaryCta.textContent = dict.teen_path2_title;
+      primaryCta.setAttribute("href", "#journey");
     } else {
       primaryCta.textContent = dict.hero_cta;
       primaryCta.setAttribute("href", "#journey");
     }
   }
+
+  const core = window.NUNI.core[audience];
+  if (core) {
+    const whatTitle = document.querySelector("#what h2");
+    const whatParagraphs = document.querySelectorAll("#what p");
+    if (whatTitle) whatTitle.textContent = core.whatTitle;
+    whatParagraphs.forEach((paragraph, index) => {
+      paragraph.textContent = core.whatParagraphs[index] || "";
+      paragraph.hidden = !core.whatParagraphs[index];
+    });
+
+    const journeyTitle = document.querySelector("#journey h2");
+    const journeySteps = document.querySelectorAll("#journey .step");
+    const icons = audience === "little"
+      ? ["🏠", "👋", "👕", "☁", "♥", "☀"]
+      : audience === "kids"
+        ? ["🏠", "🏥", "🩹", "◌", "◉", "✓"]
+        : ["01", "02", "03", "04", "05", "06"];
+    if (journeyTitle) journeyTitle.textContent = core.journeyTitle;
+    journeySteps.forEach((step, index) => {
+      const item = core.steps[index];
+      if (!item) return;
+      step.querySelector(".step-icon").textContent = icons[index];
+      step.querySelector("h3").textContent = item[0];
+      step.querySelector("p").textContent = item[1];
+    });
+
+    if (core.feelingsTitle) {
+      const feelingsTitle = document.querySelector("#feelings h2");
+      const feelingsText = document.querySelector("#feelings .two-col > div:first-child p");
+      const breathTitle = document.querySelector("#feelings .breath-card h3");
+      const breathInstruction = document.querySelector("#feelings .breath-instruction");
+      if (feelingsTitle) feelingsTitle.textContent = core.feelingsTitle;
+      if (feelingsText) feelingsText.textContent = core.feelingsText;
+      if (breathTitle) breathTitle.textContent = core.breathTitle;
+      if (breathInstruction) breathInstruction.textContent = core.breathDefault;
+    }
+  }
+
+  const quizEyebrow = document.querySelector("#quiz .quiz-heading .eyebrow");
+  const quizTitle = document.querySelector("#quiz .quiz-heading h2");
+  const quizIntro = document.querySelector("#quiz .quiz-heading > p:last-child");
+  if (quizTitle) {
+    if (audience === "teen") {
+      quizEyebrow.textContent = window.NUNI.teenQuizCopy.eyebrow;
+      quizTitle.textContent = window.NUNI.teenQuizCopy.title;
+      quizIntro.textContent = window.NUNI.teenQuizCopy.intro;
+    } else {
+      quizEyebrow.textContent = dict.quiz_eyebrow;
+      quizTitle.textContent = dict.quiz_title;
+      quizIntro.textContent = dict.quiz_intro;
+    }
+  }
+  const quizResultIcon = document.querySelector(".quiz-result-icon");
+  if (quizResultIcon) quizResultIcon.textContent = audience === "teen" ? "✓" : "★";
 
   const faqTitle = document.querySelector("#faq h2");
   const faqRows = document.querySelectorAll("#faq .qa");
@@ -1030,6 +1333,8 @@ function updateAudienceUI(audience) {
     ? window.NUNI.parentFaq
     : audience === "teen"
       ? window.NUNI.teenFaq
+      : audience === "little"
+        ? window.NUNI.littleFaq
       : {
         title: dict.faq_title,
         items: [1, 2, 3, 4, 5, 6].map((number) => [dict[`q${number}`], dict[`a${number}`]])
@@ -1042,6 +1347,44 @@ function updateAudienceUI(audience) {
     row.querySelector("summary").textContent = item[0];
     row.querySelector("p").textContent = item[1];
   });
+
+  const parentSection = document.querySelector("#parents");
+  if (parentSection && audience === "parents") {
+    parentSection.querySelector("h2").textContent = window.NUNI.parentGuide.title;
+    parentSection.querySelector("[data-i18n='parents_intro']").textContent = window.NUNI.parentGuide.intro;
+    parentSection.querySelectorAll(".tips li").forEach((item, index) => {
+      item.textContent = window.NUNI.parentGuide.items[index];
+    });
+  }
+
+  const equipmentMain = document.querySelector(".equip-main");
+  if (equipmentMain) {
+    const view = audience === "little" ? null : window.NUNI.equipmentView[audience];
+    equipmentMain.querySelector("h1").textContent = view ? view[0] : dict.equip_title;
+    equipmentMain.querySelector(".equip-lead").textContent = view ? view[1] : dict.equip_intro;
+    equipmentMain.querySelectorAll(".gear").forEach((gear, index) => {
+      const translatedItem = audience === "little" ? null : window.NUNI.equipmentItems[index];
+      if (translatedItem) {
+        gear.querySelector(".gear-name").textContent = translatedItem[0];
+        gear.querySelector(".gear-desc").textContent = translatedItem[1];
+      } else {
+        const keys = ["mask", "oximeter", "cuff", "steth", "band", "cream"];
+        gear.querySelector(".gear-name").textContent = dict[`gear_${keys[index]}_name`];
+        gear.querySelector(".gear-desc").textContent = dict[`gear_${keys[index]}_desc`];
+      }
+      const hintIcon = gear.querySelector(".gear-hint > [aria-hidden='true']");
+      const hintText = gear.querySelector(".gear-hint [data-i18n='gear_hint']");
+      if (hintIcon) hintIcon.hidden = audience === "teen" || audience === "parents";
+      if (hintText) hintText.textContent = audience === "teen" || audience === "parents" ? window.NUNI.equipmentOpen : dict.gear_hint;
+    });
+  }
+
+  const storyMain = document.querySelector(".story-main");
+  if (storyMain) {
+    const storyView = window.NUNI.storyView[audience];
+    storyMain.querySelector("h1").textContent = storyView ? storyView[0] : dict.story_title;
+    storyMain.querySelector(".story-sub").textContent = storyView ? storyView[1] : dict.story_sub;
+  }
 }
 
 function setAudience(audience, { save = true, closeGate = true } = {}) {
@@ -1052,6 +1395,8 @@ function setAudience(audience, { save = true, closeGate = true } = {}) {
   if (save) {
     try { localStorage.setItem("nuni-audience", audience); } catch (e) {}
   }
+
+  window.dispatchEvent(new CustomEvent("nuni:audiencechange", { detail: { audience } }));
 
   if (closeGate) {
     const gate = document.querySelector(".audience-gate");
@@ -1126,9 +1471,18 @@ function applyLanguage(lang) {
 
   window.NUNI.lang = lang;
   window.NUNI.t = dict;
-  window.NUNI.quiz = QUIZ_I18N[lang];
+  window.NUNI.core = CORE_CONTENT_I18N[lang];
+  window.NUNI.littleFaq = LITTLE_FAQ_I18N[lang];
   window.NUNI.teenFaq = TEEN_FAQ_I18N[lang];
   window.NUNI.parentFaq = PARENT_FAQ_I18N[lang];
+  window.NUNI.parentGuide = PARENT_GUIDE_I18N[lang];
+  window.NUNI.equipmentItems = EQUIPMENT_ITEMS_I18N[lang];
+  window.NUNI.equipmentView = EQUIPMENT_VIEW_I18N[lang];
+  window.NUNI.equipmentOpen = EQUIPMENT_OPEN_I18N[lang];
+  window.NUNI.teenQuizCopy = TEEN_QUIZ_COPY_I18N[lang];
+  window.NUNI.chrome = AUDIENCE_CHROME_I18N[lang];
+  window.NUNI.storyView = STORY_VIEW_I18N[lang];
+  window.NUNI.quiz = activeAudience === "teen" ? TEEN_QUIZ_I18N[lang] : QUIZ_I18N[lang];
   try { localStorage.setItem("nuni-lang", lang); } catch (e) {}
 
   updateAudienceUI(activeAudience || "kids");

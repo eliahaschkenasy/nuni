@@ -112,9 +112,10 @@ document.addEventListener("DOMContentLoaded", () => {
     questionView.hidden = true;
     result.hidden = false;
     scoreText.textContent = format(t.quiz_score, { score, total: quiz.length });
-    resultMessage.textContent = score >= 8
+    const ratio = score / quiz.length;
+    resultMessage.textContent = ratio >= 0.8
       ? t.quiz_result_high
-      : score >= 5
+      : ratio >= 0.5
         ? t.quiz_result_mid
         : t.quiz_result_low;
     restartButton.focus();
@@ -132,6 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   restartButton.addEventListener("click", resetQuiz);
   window.addEventListener("nuni:langchange", resetQuiz);
+  window.addEventListener("nuni:audiencechange", resetQuiz);
 
   resetQuiz();
 });

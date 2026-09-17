@@ -36,7 +36,7 @@
       </div>
       <div class="audience-intro">
         <p class="eyebrow" data-i18n="audience_eyebrow">המקום הנכון בשבילכם</p>
-        <h1 id="audience-title" data-i18n="audience_title">למי נוני עוזר היום?</h1>
+        <h1 id="audience-title" data-i18n="audience_title">בחרו את המסלול המתאים</h1>
         <p data-i18n="audience_intro">בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.</p>
       </div>
       <div class="audience-grid">
@@ -108,8 +108,8 @@
       <a href="#journey" data-i18n="nav_journey">המסע</a>
       <a href="story.html" data-i18n="nav_story" data-audiences="little,kids">סרטון</a>
       <a href="coloring.html" data-i18n="nav_coloring" data-audiences="little,kids">דפי צביעה</a>
-      <a href="equipment.html" data-i18n="nav_equipment">הציוד</a>
-      <a href="#feelings" data-i18n="nav_feelings">רגשות</a>
+      <a href="equipment.html" data-i18n="nav_equipment" data-audiences="little,kids,teen">הציוד</a>
+      <a href="#feelings" data-i18n="nav_feelings" data-audiences="little,kids,teen">רגשות</a>
       <a href="#quiz" data-i18n="nav_quiz" data-audiences="kids,teen">חידון</a>
       <a href="#faq" data-i18n="nav_faq">שאלות</a>
       <a href="#parents" data-i18n="nav_parents" data-audiences="parents">להורים</a>
@@ -162,6 +162,12 @@
               <path d="M104 116c6 6 26 6 32 0" fill="none" stroke="#4a3b2a" stroke-width="5" stroke-linecap="round"/>
             </g>
           </svg>
+        </div>
+        <div class="hero-context-art">
+          <span class="context-line context-line-long"></span>
+          <span class="context-line"></span>
+          <span class="context-pulse"></span>
+          <span class="context-line context-line-short"></span>
         </div>
       </div>
     </section>
@@ -320,7 +326,7 @@
     </section>
 
     <!-- ===== Feelings + Breathing ===== -->
-    <section id="feelings" class="section">
+    <section id="feelings" class="section" data-audiences="little,kids,teen">
       <div class="wrap two-col">
         <div>
           <h2 data-i18n="feelings_title">זה בסדר להרגיש איך שאתה מרגיש</h2>
