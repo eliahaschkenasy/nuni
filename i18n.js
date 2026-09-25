@@ -96,6 +96,14 @@ const I18N = {
     gear_band_desc: "צמיד רך עם השם שלך, כדי שכולם בבית החולים ידעו שזה אתה.",
     gear_cream_name: "קרם הקסם",
     gear_cream_desc: "קרם קטן שגורם לנקודה על היד להיות רדומה, כך שכמעט לא מרגישים שם כלום.",
+    photo_gallery_eyebrow: "הציוד האמיתי מקרוב",
+    photo_gallery_title: "רואים איך זה נראה",
+    photo_gallery_intro: "תמונות אמיתיות יכולות לעזור להכיר את הציוד לפני שמגיעים לבית החולים. בכל בית חולים הציוד יכול להיראות מעט שונה.",
+    photo_stethoscope: "סטטוסקופ אמיתי",
+    photo_iv: "צינורית קטנה ביד עם מדבקות של דובים",
+    photo_rabbit_lying: "הארנב מתרגל לנשום דרך המסכה בשכיבה",
+    photo_rabbit_sitting: "הארנב מחזיק את המסכה בעדינות",
+    photo_lamb: "הכבשה מכירה את המסכה מקרוב",
     gender_note: "האתר כתוב בלשון זכר מטעמי נוחות הקריאה, ומיועד לכל המגדרים כאחד."
   },
 
@@ -191,6 +199,14 @@ const I18N = {
     gear_band_desc: "A soft bracelet with your name on it, so everyone at the hospital knows it's you.",
     gear_cream_name: "The magic cream",
     gear_cream_desc: "A little cream that makes a spot on your hand feel sleepy, so you barely feel anything there.",
+    photo_gallery_eyebrow: "Real equipment, up close",
+    photo_gallery_title: "See what it looks like",
+    photo_gallery_intro: "Real photos can help you recognize the equipment before you arrive at the hospital. It may look a little different in each hospital.",
+    photo_stethoscope: "A real stethoscope",
+    photo_iv: "A small IV tube in the hand with bear stickers",
+    photo_rabbit_lying: "The rabbit practices breathing through the mask while lying down",
+    photo_rabbit_sitting: "The rabbit holds the mask gently",
+    photo_lamb: "The lamb gets to know the mask up close",
     gender_note: ""
   },
 
@@ -286,6 +302,14 @@ const I18N = {
     gear_band_desc: "سوار ناعم مكتوب عليه اسمك، ليعرف الجميع في المستشفى أنه أنت.",
     gear_cream_name: "كريم السحر",
     gear_cream_desc: "كريم صغير يجعل نقطة على يدك تشعر بالنعاس، فلا تكاد تشعر بشيء هناك.",
+    photo_gallery_eyebrow: "المعدات الحقيقية عن قرب",
+    photo_gallery_title: "شاهد كيف تبدو",
+    photo_gallery_intro: "قد تساعدك الصور الحقيقية على التعرّف إلى المعدات قبل الوصول إلى المستشفى. وقد تبدو مختلفة قليلًا من مستشفى إلى آخر.",
+    photo_stethoscope: "سماعة طبيب حقيقية",
+    photo_iv: "قنية وريدية صغيرة في اليد مع ملصقات دببة",
+    photo_rabbit_lying: "يتدرّب الأرنب على التنفس عبر القناع وهو مستلقٍ",
+    photo_rabbit_sitting: "يمسك الأرنب القناع بلطف",
+    photo_lamb: "يتعرّف الخروف إلى القناع عن قرب",
     gender_note: "كُتب الموقع بصيغة المذكّر لتسهيل القراءة، وهو موجّه لجميع الأطفال على حدٍّ سواء."
   },
 
@@ -381,6 +405,14 @@ const I18N = {
     gear_band_desc: "Мягкий браслет с твоим именем, чтобы все в больнице знали, что это ты.",
     gear_cream_name: "Волшебный крем",
     gear_cream_desc: "Маленький крем, от которого местечко на руке становится сонным, и ты там почти ничего не чувствуешь.",
+    photo_gallery_eyebrow: "Настоящее оборудование крупным планом",
+    photo_gallery_title: "Посмотри, как всё выглядит",
+    photo_gallery_intro: "Настоящие фотографии помогут узнать оборудование до приезда в больницу. В разных больницах оно может выглядеть немного иначе.",
+    photo_stethoscope: "Настоящий стетоскоп",
+    photo_iv: "Маленький внутривенный катетер на руке с наклейками мишек",
+    photo_rabbit_lying: "Кролик тренируется дышать через маску лёжа",
+    photo_rabbit_sitting: "Кролик мягко держит маску",
+    photo_lamb: "Овечка знакомится с маской поближе",
     gender_note: "Сайт написан в мужском роде для удобства чтения и обращён ко всем детям одинаково."
   },
 
@@ -476,6 +508,14 @@ const I18N = {
     gear_band_desc: "Un bracelet tout doux avec ton nom, pour que tout le monde à l'hôpital sache que c'est toi.",
     gear_cream_name: "La crème magique",
     gear_cream_desc: "Une petite crème qui endort un endroit sur ta main, pour que tu n'y sentes presque rien.",
+    photo_gallery_eyebrow: "Le vrai matériel, de près",
+    photo_gallery_title: "Regarde à quoi il ressemble",
+    photo_gallery_intro: "De vraies photos peuvent t’aider à reconnaître le matériel avant d’arriver à l’hôpital. Il peut être un peu différent dans chaque hôpital.",
+    photo_stethoscope: "Un vrai stéthoscope",
+    photo_iv: "Un petit cathéter dans la main avec des autocollants oursons",
+    photo_rabbit_lying: "Le lapin s’entraîne à respirer dans le masque en étant allongé",
+    photo_rabbit_sitting: "Le lapin tient doucement le masque",
+    photo_lamb: "Le mouton découvre le masque de près",
     gender_note: "Le site est rédigé au masculin pour faciliter la lecture et s'adresse à tous les enfants de la même façon."
   }
 };
@@ -1114,7 +1154,13 @@ const LITTLE_EQUIPMENT_HE = {
   title: "מַכִּירִים אֶת הַצִּיּוּד",
   intro: "לַחֲצוּ עַל כָּל פְּרִיט כְּדֵי לְהַכִּיר אוֹתוֹ וּלְגַלּוֹת מָה הוּא עוֹשֶׂה.",
   hint: "לַחֲצוּ כְּדֵי לְגַלּוֹת",
-  items: [["הַמַּסֵּכָה הָרַכָּה", "נוֹשְׁמִים דַּרְכָּהּ בַּעֲדִינוּת. לִפְעָמִים יֵשׁ לָהּ רֵיחַ שֶׁל תּוּת אוֹ מַסְטִיק."], ["הָאוֹר עַל הָאֶצְבַּע", "הוּא מֵאִיר בְּאוֹר אָדֹם וּבוֹדֵק אֶת הַדֹּפֶק וְאֶת הַחַמְצָן."], ["הַשַּׁרְווּל עַל הַיָּד", "הוּא מִתְנַפֵּחַ לְכַמָּה שְׁנִיּוֹת וּבוֹדֵק אֶת לַחַץ הַדָּם."], ["הַסְּטֶטוֹסְקוֹפּ", "הָרוֹפֵא מַקְשִׁיב בְּעֶזְרָתוֹ לַלֵּב וְלַנְּשִׁימָה."], ["הַצָּמִיד עִם הַשֵּׁם", "הַצֶּוֶת בּוֹדֵק אֶת הַשֵּׁם שֶׁעַל הַצָּמִיד לִפְנֵי טִפּוּל."], ["קְרֵם מְאַלְחֵשׁ", "הַקְּרֵם עוֹזֵר לְהַפְחִית אֶת הַתְּחוּשָׁה בָּעוֹר לִפְנֵי הַצִּנּוֹרִית."]]
+  items: [["הַמַּסֵּכָה הָרַכָּה", "נוֹשְׁמִים דַּרְכָּהּ בַּעֲדִינוּת. לִפְעָמִים יֵשׁ לָהּ רֵיחַ שֶׁל תּוּת אוֹ מַסְטִיק."], ["הָאוֹר עַל הָאֶצְבַּע", "הוּא מֵאִיר בְּאוֹר אָדֹם וּבוֹדֵק אֶת הַדֹּפֶק וְאֶת הַחַמְצָן."], ["הַשַּׁרְווּל עַל הַיָּד", "הוּא מִתְנַפֵּחַ לְכַמָּה שְׁנִיּוֹת וּבוֹדֵק אֶת לַחַץ הַדָּם."], ["הַסְּטֶטוֹסְקוֹפּ", "הָרוֹפֵא מַקְשִׁיב בְּעֶזְרָתוֹ לַלֵּב וְלַנְּשִׁימָה."], ["הַצָּמִיד עִם הַשֵּׁם", "הַצֶּוֶת בּוֹדֵק אֶת הַשֵּׁם שֶׁעַל הַצָּמִיד לִפְנֵי טִפּוּל."], ["קְרֵם מְאַלְחֵשׁ", "הַקְּרֵם עוֹזֵר לְהַפְחִית אֶת הַתְּחוּשָׁה בָּעוֹר לִפְנֵי הַצִּנּוֹרִית."]],
+  gallery: {
+    eyebrow: "הַצִּיּוּד הָאֲמִתִּי מִקָּרוֹב",
+    title: "רוֹאִים אֵיךְ זֶה נִרְאֶה",
+    intro: "תְּמוּנוֹת אֲמִתִּיּוֹת יְכוֹלוֹת לַעֲזֹר לְהַכִּיר אֶת הַצִּיּוּד לִפְנֵי שֶׁמַּגִּיעִים לְבֵית הַחוֹלִים. בְּכָל בֵּית חוֹלִים הַצִּיּוּד יָכוֹל לְהֵרָאוֹת קְצָת אַחֶרֶת.",
+    captions: ["סְטֶטוֹסְקוֹפּ אֲמִתִּי", "צִנּוֹרִית קְטַנָּה בַּיָּד עִם מַדְבֵּקוֹת שֶׁל דֻּבִּים", "הָאַרְנָב מִתְרַגֵּל לִנְשֹׁם דֶּרֶךְ הַמַּסֵּכָה בִּשְׁכִיבָה", "הָאַרְנָב מַחֲזִיק אֶת הַמַּסֵּכָה בַּעֲדִינוּת", "הַכִּבְשָׂה מַכִּירָה אֶת הַמַּסֵּכָה מִקָּרוֹב"]
+  }
 };
 
 const LITTLE_COLORING_HE = {
@@ -1408,6 +1454,17 @@ function updateAudienceUI(audience) {
       if (hintIcon) hintIcon.hidden = audience === "teen" || audience === "parents";
       if (hintText) hintText.textContent = vocalizedLittleEquipment?.hint || (audience === "teen" || audience === "parents" ? window.NUNI.equipmentOpen : dict.gear_hint);
     });
+    const gallery = equipmentMain.querySelector(".real-equipment");
+    if (gallery) {
+      const galleryCopy = vocalizedLittleEquipment?.gallery;
+      const captionKeys = ["photo_stethoscope", "photo_iv", "photo_rabbit_lying", "photo_rabbit_sitting", "photo_lamb"];
+      gallery.querySelector(".eyebrow").textContent = galleryCopy?.eyebrow || dict.photo_gallery_eyebrow;
+      gallery.querySelector("h2").textContent = galleryCopy?.title || dict.photo_gallery_title;
+      gallery.querySelector(".real-equipment-heading > p:last-child").textContent = galleryCopy?.intro || dict.photo_gallery_intro;
+      gallery.querySelectorAll("figcaption").forEach((caption, index) => {
+        caption.textContent = galleryCopy?.captions[index] || dict[captionKeys[index]];
+      });
+    }
   }
 
   const coloringMain = document.querySelector(".coloring-main");

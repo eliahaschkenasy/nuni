@@ -43,6 +43,37 @@
 }
 .gear.open .gear-desc { max-height: 260px; opacity: 1; margin-top: 4px; }
 
+.real-equipment {
+  margin-top: clamp(54px, 8vw, 88px); padding-top: clamp(38px, 6vw, 62px);
+  border-top: 1px solid rgba(51, 64, 90, .12);
+}
+.real-equipment-heading { max-width: 680px; margin: 0 auto 30px; }
+.real-equipment-heading h2 { margin-bottom: 10px; }
+.real-equipment-heading > p:last-child { margin: 0; color: var(--ink-soft); font-size: 1.06rem; }
+.real-photo-grid {
+  display: grid; grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: clamp(15px, 2.4vw, 24px); align-items: start;
+}
+.real-photo-card {
+  grid-column: span 2; margin: 0; overflow: hidden;
+  background: #fff; border: 1px solid rgba(51, 64, 90, .08); border-radius: 22px;
+  box-shadow: 0 18px 42px -28px rgba(35, 51, 75, .46);
+}
+.real-photo-card.real-photo-stethoscope,
+.real-photo-card.real-photo-wide { grid-column: span 3; }
+.real-photo-card img {
+  display: block; width: 100%; aspect-ratio: 4 / 3;
+  object-fit: cover; background: #e0e1e3;
+}
+.real-photo-stethoscope img { object-fit: contain; }
+.real-photo-tall img { aspect-ratio: 3 / 4; object-position: center 36%; }
+.real-photo-card figcaption {
+  min-height: 68px; display: grid; place-items: center;
+  padding: 14px 16px; color: var(--ink); font-weight: 700; line-height: 1.5;
+}
+html[lang="he"] body[data-audience="little"] .real-equipment-heading > p:last-child,
+html[lang="he"] body[data-audience="little"] .real-photo-card figcaption { line-height: 1.85; }
+
 body[data-audience="teen"] .equip-main,
 body[data-audience="parents"] .equip-main { text-align: start; }
 body[data-audience="teen"] .equip-lead,
@@ -63,4 +94,17 @@ body[data-audience="parents"] .gear-hint { background: #e7f2f1; border-radius: 7
   .equip-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
   .gear-visual { width: 96px; height: 96px; }
   .gear-visual svg { width: 64px; height: 64px; }
+  .real-photo-grid { grid-template-columns: 1fr; }
+  .real-photo-card,
+  .real-photo-card.real-photo-stethoscope,
+  .real-photo-card.real-photo-wide { grid-column: auto; }
+  .real-photo-card figcaption { min-height: 0; }
+}
+
+@media (min-width: 621px) and (max-width: 860px) {
+  .real-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .real-photo-card,
+  .real-photo-card.real-photo-stethoscope,
+  .real-photo-card.real-photo-wide { grid-column: auto; }
+  .real-photo-card:last-child { grid-column: 1 / -1; width: min(50%, 320px); justify-self: center; }
 }
