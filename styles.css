@@ -357,6 +357,16 @@ body[data-audience="teen"] .quiz-option { border-radius: 10px; }
 }
 .qa[open] summary::after { transform: rotate(45deg); }
 .qa p { margin: 0; padding: 0 22px 20px; color: var(--ink-soft); }
+.faq-photo {
+  margin: 0 22px 22px; padding: 12px; display: grid;
+  grid-template-columns: minmax(0, 150px) 1fr; align-items: center; gap: 14px;
+  border-radius: 16px; background: #f5f8ff;
+}
+.faq-photo img {
+  width: 100%; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: 12px; box-shadow: 0 6px 18px rgba(51, 64, 90, .12);
+}
+.faq-photo figcaption { color: var(--ink-soft); font-weight: 700; line-height: 1.55; }
 
 /* ===== Parents ===== */
 .tips { list-style: none; padding: 0; margin: 20px 0 0; display: grid; gap: 14px; }
@@ -555,6 +565,7 @@ body[data-audience="parents"] .audience-switch-dot { background: #4e8273; }
   .quiz-progress-row { align-items: flex-start; flex-direction: column; gap: 8px; }
   .quiz-progress { width: 100%; flex: 0 0 9px; }
   .quiz-option { padding: 13px; }
+  .faq-photo { margin: 0 16px 18px; grid-template-columns: 112px 1fr; gap: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -9,7 +9,7 @@ const CAPTIONS = {
     "🌅 בוקר טוב! נוני מתעורר.",
     "💧 היום אין ארוחת בוקר – אבל מותר לשתות מים!",
     "🚗 נוסעים לבית החולים.",
-    "🧑‍⚕️ אח נחמד מקבל את נוני ונותן לו פיג'מה.",
+    "🧑‍⚕️ אחות נחמדה מקבלת את נוני ונותנת לו פיג'מה.",
     "🛏️ לנוני יש מיטה משלו.",
     "😴 מסכה רכה, סופרים 3־2־1… ונוני נרדם.",
     "💙 נוני ישן, והרופא המרדים שומר עליו כל הזמן.",
@@ -29,7 +29,7 @@ const CAPTIONS = {
     "🌅 صباح الخير! نوني يستيقظ.",
     "💧 لا فطور اليوم — لكن يُسمح بشرب الماء!",
     "🚗 نذهب إلى المستشفى.",
-    "🧑‍⚕️ ممرّض لطيف يستقبل نوني ويعطيه بيجامة.",
+    "🧑‍⚕️ ممرّضة لطيفة تستقبل نوني وتعطيه بيجامة.",
     "🛏️ لنوني سرير خاص به.",
     "😴 قناع ناعم، نعدّ ٣-٢-١… وينام نوني.",
     "💙 ينام نوني، وطبيب التخدير يراقبه طوال الوقت.",
@@ -39,7 +39,7 @@ const CAPTIONS = {
     "🌅 Доброе утро! Нуни просыпается.",
     "💧 Сегодня без завтрака — но воду пить можно!",
     "🚗 Едем в больницу.",
-    "🧑‍⚕️ Добрый сотрудник встречает Нуни и даёт ему пижаму.",
+    "🧑‍⚕️ Добрая медсестра встречает Нуни и даёт ему пижаму.",
     "🛏️ У Нуни своя кроватка.",
     "😴 Мягкая маска, считаем 3-2-1… и Нуни засыпает.",
     "💙 Нуни спит, а врач-анестезиолог всё время рядом.",
@@ -49,66 +49,11 @@ const CAPTIONS = {
     "🌅 Bonjour ! Nuni se réveille.",
     "💧 Pas de petit-déjeuner aujourd'hui — mais Nuni peut boire de l'eau !",
     "🚗 En route pour l'hôpital.",
-    "🧑‍⚕️ Un gentil membre du personnel accueille Nuni et lui donne un pyjama.",
+    "🧑‍⚕️ Une gentille infirmière accueille Nuni et lui donne un pyjama.",
     "🛏️ Nuni a son propre lit.",
     "😴 Un masque tout doux, on compte 3-2-1… et Nuni s'endort.",
     "💙 Nuni dort, et le médecin anesthésiste veille sur lui tout le temps.",
     "🎉 Nuni se réveille — c'est terminé, bravo !"
-  ]
-};
-
-/* Gentle narration for pre-readers, one calm line per scene, in every language.
-   Read aloud by the browser's built-in voice (no audio files, works offline). */
-const NARRATION = {
-  he: [
-    "בוקר טוב! נוני מתעורר.",
-    "היום אין ארוחת בוקר, אבל מותר לנוני לשתות קצת מים.",
-    "עכשיו נוני נוסע לבית החולים.",
-    "איש צוות נחמד אומר שלום, ונותן לנוני פיג'מה רכה.",
-    "לנוני יש מיטה משלו.",
-    "מסכה רכה מתקרבת. בואו נספור יחד. שלוש… שתיים… אחת… ונוני נרדם.",
-    "נוני ישן. רופא ההרדמה נמצא לידו כל הזמן.",
-    "נוני מתעורר. הכול נגמר. כל הכבוד, נוני!"
-  ],
-  en: [
-    "Good morning! Nuni wakes up.",
-    "There is no breakfast today. But Nuni can drink a little water.",
-    "Now Nuni goes to the hospital.",
-    "A kind member of staff says hello, and gives Nuni soft pyjamas.",
-    "Nuni gets his very own bed.",
-    "A soft mask comes down. Let's count together. Three… two… one… and Nuni falls asleep.",
-    "Nuni is sleeping. The sleep doctor stays close the whole time.",
-    "Nuni wakes up. It's all done. Well done, Nuni!"
-  ],
-  ar: [
-    "صباح الخير! نوني يستيقظ.",
-    "لا يوجد فطور اليوم، لكن يمكن لنوني أن يشرب قليلاً من الماء.",
-    "الآن يذهب نوني إلى المستشفى.",
-    "أحد أفراد الطاقم اللطفاء يقول مرحباً، ويعطي نوني بيجامة ناعمة.",
-    "لنوني سرير خاص به.",
-    "ينزل قناع ناعم. لنعدّ معاً. ثلاثة… اثنان… واحد… وينام نوني.",
-    "نوني نائم. طبيب التخدير يبقى بقربه طوال الوقت.",
-    "نوني يستيقظ. انتهى كل شيء. أحسنت يا نوني!"
-  ],
-  ru: [
-    "Доброе утро! Нуни просыпается.",
-    "Сегодня нет завтрака, но Нуни можно попить немного воды.",
-    "Теперь Нуни едет в больницу.",
-    "Добрый сотрудник здоровается и даёт Нуни мягкую пижаму.",
-    "У Нуни есть своя кроватка.",
-    "Опускается мягкая маска. Давай посчитаем вместе. Три… два… один… и Нуни засыпает.",
-    "Нуни спит. Врач-анестезиолог всё время рядом.",
-    "Нуни просыпается. Всё закончилось. Молодец, Нуни!"
-  ],
-  fr: [
-    "Bonjour ! Nuni se réveille.",
-    "Il n'y a pas de petit-déjeuner aujourd'hui, mais Nuni peut boire un peu d'eau.",
-    "Maintenant, Nuni va à l'hôpital.",
-    "Un gentil membre du personnel dit bonjour et donne à Nuni un pyjama tout doux.",
-    "Nuni a son propre lit.",
-    "Un masque tout doux descend. Comptons ensemble. Trois… deux… un… et Nuni s'endort.",
-    "Nuni dort. Le médecin anesthésiste reste tout près pendant tout ce temps.",
-    "Nuni se réveille. C'est terminé. Bravo, Nuni !"
   ]
 };
 
@@ -124,6 +69,7 @@ const NARRATION_LANG = { he: "he-IL", en: "en-US", ar: "ar-SA", ru: "ru-RU", fr:
 const Narrator = (() => {
   const synth = window.speechSynthesis;
   let on = false, spokenFor = -1;
+  let currentUtterance = null;
 
   const curLang = () => (window.NUNI && window.NUNI.lang) || "he";
   const allVoices = () => (synth ? synth.getVoices() : []);
@@ -148,14 +94,16 @@ const Narrator = (() => {
     if (!on || !synth) return;
     if (i === spokenFor) return;         // don't repeat the same scene
     spokenFor = i;
-    synth.cancel();
     const lang = curLang();
-    const lines = NARRATION[lang] || NARRATION.he;
-    const u = new SpeechSynthesisUtterance(lines[Math.min(i, lines.length - 1)] || "");
+    const lines = CAPTIONS[lang] || CAPTIONS.he;
+    const caption = lines[Math.min(i, lines.length - 1)] || "";
+    const u = new SpeechSynthesisUtterance(caption.replace(/^\S+\s*/, ""));
     u.lang = NARRATION_LANG[lang] || "en-US";
     u.rate = 0.92; u.pitch = 1.12; u.volume = 1;
     const v = pickVoice(lang);
     if (v) u.voice = v;
+    currentUtterance = u;
+    u.onend = u.onerror = () => { if (currentUtterance === u) currentUtterance = null; };
     synth.speak(u);
   }
 
@@ -165,7 +113,7 @@ const Narrator = (() => {
     toggle() { on = !on; if (!on) this.stop(); return on; },
     speak,
     reset() { spokenFor = -1; },
-    stop() { if (synth) synth.cancel(); spokenFor = -1; }
+    stop() { if (synth) synth.cancel(); currentUtterance = null; spokenFor = -1; }
   };
 })();
 

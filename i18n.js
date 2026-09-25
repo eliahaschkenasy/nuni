@@ -11,7 +11,7 @@ const I18N = {
     aria_main: "ניווט ראשי", aria_language: "בחירת שפה", aria_menu: "תפריט",
     nav_about: "מה זה", nav_journey: "המסע", nav_feelings: "רגשות", nav_faq: "שאלות", nav_parents: "להורים",
     hero_eyebrow: "לילדים אמיצים (ולמבוגרים שלהם)",
-    hero_title: "אֶפְשָׁר לְהִתְרַגֵּשׁ וְגַם לִפְחֹד קְצָת. נוּנִי כָּאן כְּדֵי לְהַרְאוֹת מַה יִקְרֶה.",
+    hero_title: "אֶפְשָׁר לְהִתְרַגֵּשׁ וְגַם לְפַחֵד קְצָת. נוּנִי כָּאן כְּדֵי לְהַרְאוֹת מַה יִקְרֶה.",
     hero_subtitle: "בקרוב יהיה לך ניתוח, ותקבל שינה מיוחדת כדי שכלום לא יכאב. נוני יראה לך בדיוק מה קורה – שלב אחרי שלב.",
     hero_cta: "תראה לי מה קורה", hero_cta2: "להורים",
     what_title: "מה זו \"שינה של ניתוח\"?",
@@ -69,7 +69,7 @@ const I18N = {
     coloring_intro: "בחרו דף, הדפיסו וצבעו! דרך נהדרת להירגע ולהכיר את נוני לפני הביקור בבית החולים.",
     coloring_print: "הדפיסו את כל הדפים",
     color_nuni: "נוני הכוכב", color_balloon: "בלון הנשימה", color_bed: "מיטת בית החולים",
-    color_juice: "כוס מים", color_mask: "מסכת הקסם", color_nurse: "האח הנחמד",
+    color_juice: "כוס מים", color_mask: "מסכת הקסם", color_nurse: "האחות הנחמדה",
     color_machine: "מכונת ההרדמה",
     coloring_hint: "לחצו על תמונה כדי להדפיס אותה לבד.",
     story_title: "היום של נוני בבית החולים",
@@ -103,7 +103,9 @@ const I18N = {
     photo_iv: "צינורית קטנה ביד עם מדבקות של דובים",
     photo_rabbit_lying: "הארנב מתרגל לנשום דרך המסכה בשכיבה",
     photo_rabbit_sitting: "הארנב מחזיק את המסכה בעדינות",
-    photo_lamb: "הכבשה מכירה את המסכה מקרוב",
+    photo_lamb: "העז מכירה את המסכה מקרוב",
+    faq_mask_photo: "כָּךְ הַמַּסֵּכָה נִרְאֵית מִקָּרוֹב",
+    faq_iv_photo: "כָּךְ הַצִּנּוֹרִית נִרְאֵית עִם מַדְבֵּקוֹת",
     gender_note: "האתר כתוב בלשון זכר מטעמי נוחות הקריאה, ומיועד לכל המגדרים כאחד."
   },
 
@@ -206,7 +208,9 @@ const I18N = {
     photo_iv: "A small IV tube in the hand with bear stickers",
     photo_rabbit_lying: "The rabbit practices breathing through the mask while lying down",
     photo_rabbit_sitting: "The rabbit holds the mask gently",
-    photo_lamb: "The lamb gets to know the mask up close",
+    photo_lamb: "The goat gets to know the mask up close",
+    faq_mask_photo: "See the mask up close",
+    faq_iv_photo: "See the small tube with stickers",
     gender_note: ""
   },
 
@@ -275,7 +279,7 @@ const I18N = {
     coloring_intro: "اختر صفحة، اطبعها، ولوّنها! طريقة جميلة للاسترخاء والتعرّف على نوني قبل زيارة المستشفى.",
     coloring_print: "اطبع كل الصفحات",
     color_nuni: "نوني النجمة", color_balloon: "بالون التنفّس", color_bed: "سرير المستشفى",
-    color_juice: "كوب ماء", color_mask: "قناع السحر", color_nurse: "الممرّض اللطيف",
+    color_juice: "كوب ماء", color_mask: "قناع السحر", color_nurse: "الممرّضة اللطيفة",
     color_machine: "جهاز التخدير",
     coloring_hint: "اضغط على صورة لطباعتها وحدها.",
     story_title: "يوم نوني في المستشفى",
@@ -309,7 +313,9 @@ const I18N = {
     photo_iv: "قنية وريدية صغيرة في اليد مع ملصقات دببة",
     photo_rabbit_lying: "يتدرّب الأرنب على التنفس عبر القناع وهو مستلقٍ",
     photo_rabbit_sitting: "يمسك الأرنب القناع بلطف",
-    photo_lamb: "يتعرّف الخروف إلى القناع عن قرب",
+    photo_lamb: "تتعرّف العنزة إلى القناع عن قرب",
+    faq_mask_photo: "شاهد القناع عن قرب",
+    faq_iv_photo: "شاهد الأنبوب الصغير مع الملصقات",
     gender_note: "كُتب الموقع بصيغة المذكّر لتسهيل القراءة، وهو موجّه لجميع الأطفال على حدٍّ سواء."
   },
 
@@ -412,7 +418,9 @@ const I18N = {
     photo_iv: "Маленький внутривенный катетер на руке с наклейками мишек",
     photo_rabbit_lying: "Кролик тренируется дышать через маску лёжа",
     photo_rabbit_sitting: "Кролик мягко держит маску",
-    photo_lamb: "Овечка знакомится с маской поближе",
+    photo_lamb: "Козочка знакомится с маской поближе",
+    faq_mask_photo: "Маска крупным планом",
+    faq_iv_photo: "Маленькая трубочка с наклейками",
     gender_note: "Сайт написан в мужском роде для удобства чтения и обращён ко всем детям одинаково."
   },
 
@@ -481,7 +489,7 @@ const I18N = {
     coloring_intro: "Choisis une page, imprime-la et colorie ! Une jolie façon de se détendre et de faire connaissance avec Nuni avant la visite à l'hôpital.",
     coloring_print: "Imprimer toutes les pages",
     color_nuni: "Nuni l'étoile", color_balloon: "Le ballon de la respiration", color_bed: "Le lit d'hôpital",
-    color_juice: "Un verre d'eau", color_mask: "Le masque magique", color_nurse: "L'infirmier gentil",
+    color_juice: "Un verre d'eau", color_mask: "Le masque magique", color_nurse: "La gentille infirmière",
     color_machine: "La machine d'anesthésie",
     coloring_hint: "Appuie sur une image pour l'imprimer toute seule.",
     story_title: "La journée de Nuni à l'hôpital",
@@ -515,7 +523,9 @@ const I18N = {
     photo_iv: "Un petit cathéter dans la main avec des autocollants oursons",
     photo_rabbit_lying: "Le lapin s’entraîne à respirer dans le masque en étant allongé",
     photo_rabbit_sitting: "Le lapin tient doucement le masque",
-    photo_lamb: "Le mouton découvre le masque de près",
+    photo_lamb: "La chèvre découvre le masque de près",
+    faq_mask_photo: "Le masque de près",
+    faq_iv_photo: "Le petit tube avec des autocollants",
     gender_note: "Le site est rédigé au masculin pour faciliter la lecture et s'adresse à tous les enfants de la même façon."
   }
 };
@@ -537,7 +547,7 @@ const AUDIENCE_I18N = {
     audience_parents: "הורים ומטפלים", audience_parents_short: "להורים",
     audience_parents_desc: "כלים מעשיים להכנה ולתמיכה",
     audience_little_hero_eyebrow: "גִּילָאֵי 0 עַד 6 • אֶפְשָׁר לְגַלּוֹת יַחַד",
-    audience_little_hero_title: "אֶפְשָׁר לְהִתְרַגֵּשׁ וְגַם לִפְחֹד קְצָת. נוּנִי כָּאן כְּדֵי לְהַרְאוֹת מַה יִקְרֶה.",
+    audience_little_hero_title: "אֶפְשָׁר לְהִתְרַגֵּשׁ וְגַם לְפַחֵד קְצָת. נוּנִי כָּאן כְּדֵי לְהַרְאוֹת מַה יִקְרֶה.",
     audience_little_hero_subtitle: "בְּעֶזְרַת סִפּוּר, תְּמוּנוֹת וּמִשְׂחָק נַכִּיר אֶת בֵּית הַחוֹלִים וְאֶת הַהַרְדָּמָה — לְאַט וּבְיַחַד.",
     audience_kids_hero_eyebrow: "גילאי 7 עד 12 • המסע שלך",
     audience_kids_hero_title: "כשיודעים מה יקרה, מרגישים מוכנים יותר.",
@@ -552,7 +562,6 @@ const AUDIENCE_I18N = {
     read_aloud: "הַשְׁמִיעוּ לִי", read_stop: "עֲצִירָה", read_unavailable: "הַהַקְרָאָה אֵינָהּ זְמִינָה בַּמַּכְשִׁיר הַזֶּה",
     nav_quiz: "חידון", audience_hub_aria: "תוכן מותאם לגיל",
     little_hub_eyebrow: "בּוֹאוּ נַכִּיר יַחַד", little_hub_title: "לִרְאוֹת, לְשַׂחֵק וּלְהַרְגִּישׁ מוּכָנִים",
-    little_hub_intro: "אֶפְשָׁר לִרְאוֹת תְּמוּנוֹת, לְשַׂחֵק וְלִשְׁמֹעַ סִפּוּר קָצָר עִם מְבֻגָּר.",
     little_path1_title: "הַסִּפּוּר שֶׁל נוּנִי", little_path1_text: "סִרְטוֹן קָצָר שֶׁלֹּא צָרִיךְ לִקְרֹא",
     little_path2_title: "מַכִּירִים אֶת הַצִּיּוּד", little_path2_text: "נוֹגְעִים וּמְגַלִּים מַה כָּל דָּבָר עוֹשֶׂה",
     little_path3_title: "צוֹבְעִים עִם נוּנִי", little_path3_text: "דַּפִּים רְגוּעִים לְהַדְפָּסָה וְלִצְבִיעָה",
@@ -613,7 +622,6 @@ const AUDIENCE_I18N = {
     read_aloud: "Read this to me", read_stop: "Stop", read_unavailable: "Read-aloud is not available on this device",
     nav_quiz: "Quiz", audience_hub_aria: "Age-tailored content",
     little_hub_eyebrow: "Explore together", little_hub_title: "Watch, play and feel prepared",
-    little_hub_intro: "Pictures, play and a short story shared with a grown-up make preparation easier for little ones.",
     little_path1_title: "Nuni’s story", little_path1_text: "A short film with no reading needed",
     little_path2_title: "Meet the equipment", little_path2_text: "Tap and discover what everything does",
     little_path3_title: "Color with Nuni", little_path3_text: "Calm printable coloring pages",
@@ -674,7 +682,6 @@ const AUDIENCE_I18N = {
     read_aloud: "اقرأ لي", read_stop: "توقّف", read_unavailable: "القراءة الصوتية غير متاحة على هذا الجهاز",
     nav_quiz: "اختبار", audience_hub_aria: "محتوى مناسب للعمر",
     little_hub_eyebrow: "لنكتشف معًا", little_hub_title: "نشاهد ونلعب ونستعد",
-    little_hub_intro: "تساعد الصور واللعب والقصة القصيرة مع أحد الكبار الصغار على الاستعداد بسهولة.",
     little_path1_title: "قصة نوني", little_path1_text: "فيلم قصير لا يحتاج إلى قراءة",
     little_path2_title: "نتعرّف إلى المعدات", little_path2_text: "المس واكتشف وظيفة كل شيء",
     little_path3_title: "نلوّن مع نوني", little_path3_text: "صفحات تلوين هادئة للطباعة",
@@ -735,7 +742,6 @@ const AUDIENCE_I18N = {
     read_aloud: "Прочитай мне", read_stop: "Остановить", read_unavailable: "Озвучивание недоступно на этом устройстве",
     nav_quiz: "Тест", audience_hub_aria: "Материалы по возрасту",
     little_hub_eyebrow: "Узнаём вместе", little_hub_title: "Смотреть, играть и готовиться",
-    little_hub_intro: "Малышам легче подготовиться с помощью картинок, игры и короткой истории вместе со взрослым.",
     little_path1_title: "История Нуни", little_path1_text: "Короткий фильм, который не нужно читать",
     little_path2_title: "Знакомство с оборудованием", little_path2_text: "Нажимай и узнавай, для чего всё нужно",
     little_path3_title: "Раскраски с Нуни", little_path3_text: "Спокойные раскраски для печати",
@@ -796,7 +802,6 @@ const AUDIENCE_I18N = {
     read_aloud: "Lis-moi la page", read_stop: "Arrêter", read_unavailable: "La lecture à voix haute n’est pas disponible sur cet appareil",
     nav_quiz: "Quiz", audience_hub_aria: "Contenu adapté à l’âge",
     little_hub_eyebrow: "Découvrons ensemble", little_hub_title: "Regarder, jouer et se préparer",
-    little_hub_intro: "Les images, le jeu et une courte histoire partagée avec un adulte aident les petits à se préparer.",
     little_path1_title: "L’histoire de Nuni", little_path1_text: "Un petit film sans lecture nécessaire",
     little_path2_title: "Découvrir le matériel", little_path2_text: "Touche et découvre à quoi sert chaque objet",
     little_path3_title: "Colorier avec Nuni", little_path3_text: "Des coloriages calmes à imprimer",
@@ -1013,12 +1018,12 @@ const PARENT_FAQ_I18N = {
 const CORE_CONTENT_I18N = {
   he: {
     little: {
-      whatTitle: "מַהִי הַרְדָּמָה?", whatParagraphs: ["הַרְדָּמָה הִיא תְּרוּפָה שֶׁעוֹזֶרֶת לָנוּ לִישֹׁן בִּזְמַן הַטִּפּוּל.", "לִפְעָמִים נוֹשְׁמִים דֶּרֶךְ מַסֵּכָה, וְלִפְעָמִים מְקַבְּלִים תְּרוּפָה דֶּרֶךְ צִנּוֹרִית קְטַנָּה בַּיָּד. הַצֶּוֶת יַסְבִּיר מַה מַתְאִים לְךָ.", "בִּזְמַן הַטִּפּוּל, הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב וְשׁוֹמֵר עָלֶיךָ."],
-      journeyTitle: "הַיּוֹם בְּבֵית הַחוֹלִים — בִּתְמוּנוֹת וּבְמִלִּים קְצָרוֹת", steps: [["מִתְכּוֹנְנִים בַּבַּיִת", "מְבֻגָּר יַעֲזֹר לְךָ לְהִתְכּוֹנֵן וְיִפְעַל לְפִי הוֹרָאוֹת בֵּית הַחוֹלִים."], ["אוֹמְרִים שָׁלוֹם לַצֶּוֶת", "פּוֹגְשִׁים אֶת הַצֶּוֶת וְאֶפְשָׁר לְהָבִיא מַשֶּׁהוּ מֻכָּר מֵהַבַּיִת."], ["לוֹבְשִׁים בִּגְדֵי בֵּית חוֹלִים", "מְקַבְּלִים בְּגָדִים מַתְאִימִים וּמִתְכּוֹנְנִים יַחַד."], ["מַתְחִילִים אֶת הַהַרְדָּמָה", "הַצֶּוֶת יַסְבִּיר עַל הַמַּסֵּכָה אוֹ עַל הַצִּנּוֹרִית הַקְּטַנָּה בַּיָּד."], ["הַצֶּוֶת שׁוֹמֵר עָלֶיךָ", "הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב בְּמֶשֶׁךְ כָּל הַטִּפּוּל."], ["מִתְעוֹרְרִים", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, וְהַצֶּוֶת עוֹזֵר לְהַרְגִּישׁ בְּנוֹחַ."]],
-      feelingsTitle: "מֻתָּר לְהַרְגִּישׁ הַכֹּל", feelingsText: "אֶפְשָׁר לְפַחֵד, לִכְעֹס אוֹ לִשְׁאֹל שׁוּב. סַפְּרוּ לִמְבֻגָּר וְלַצֶּוֶת מַה יַּעֲזֹר: יָד לְהַחֲזִיק, חֵפֶץ מֻכָּר אוֹ נְשִׁימָה יַחַד.", breathTitle: "נוֹשְׁמִים כְּמוֹ בָּלוֹן", breathDefault: "לַחֲצוּ עַל הַתְחָלָה וְנִשְׁמוּ יַחַד", breathIn: "שׁוֹאֲפִים… הַבָּלוֹן גָּדֵל", breathHold: "מַחֲזִיקִים…", breathOut: "נוֹשְׁפִים… לְאַט", breathStart: "הַתְחָלָה", breathStop: "עֲצִירָה"
+      whatTitle: "מַהִי הַרְדָּמָה?", whatParagraphs: ["הַרְדָּמָה הִיא טִפּוּל רְפוּאִי מְיֻחָד שֶׁבּוֹ יְשֵׁנִים שֵׁנָה עֲמֻקָּה וְלֹא מַרְגִּישִׁים אֶת הַנִּתּוּחַ.", "לִפְעָמִים נוֹשְׁמִים דֶּרֶךְ מַסֵּכָה, וְלִפְעָמִים מְקַבְּלִים תְּרוּפָה דֶּרֶךְ צִנּוֹרִית קְטַנָּה בַּיָּד. הַצֶּוֶת יַסְבִּיר מַה מַתְאִים לְךָ.", "בִּזְמַן הַטִּפּוּל, הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב וְשׁוֹמֵר עָלֶיךָ."],
+      journeyTitle: "הַיּוֹם בְּבֵית הַחוֹלִים — בִּתְמוּנוֹת וּבְמִלִּים", steps: [["מִתְכּוֹנְנִים בַּבַּיִת", "מְבֻגָּר יַעֲזֹר לְךָ לְהִתְכּוֹנֵן וְיִפְעַל לְפִי הוֹרָאוֹת בֵּית הַחוֹלִים."], ["אוֹמְרִים שָׁלוֹם לַצֶּוֶת", "פּוֹגְשִׁים אֶת הַצֶּוֶת וְאֶפְשָׁר לְהָבִיא מַשֶּׁהוּ מֻכָּר מֵהַבַּיִת."], ["לוֹבְשִׁים בִּגְדֵי בֵּית חוֹלִים", "מְקַבְּלִים בְּגָדִים מַתְאִימִים וּמִתְכּוֹנְנִים יַחַד."], ["מַתְחִילִים אֶת הַהַרְדָּמָה", "הַצֶּוֶת יַסְבִּיר עַל הַמַּסֵּכָה אוֹ עַל הַצִּנּוֹרִית הַקְּטַנָּה בַּיָּד."], ["הַצֶּוֶת שׁוֹמֵר עָלֶיךָ", "הָרוֹפֵא הַמַּרְדִּים נִשְׁאָר קָרוֹב בְּמֶשֶׁךְ כָּל הַטִּפּוּל."], ["מִתְעוֹרְרִים", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, וְהַצֶּוֶת עוֹזֵר לְהַרְגִּישׁ בְּנוֹחַ."]],
+      feelingsTitle: "מֻתָּר לְהַרְגִּישׁ הַכֹּל", feelingsText: "אֶפְשָׁר לְפַחֵד, לִכְעֹס אוֹ לִשְׁאֹל שׁוּב. סַפְּרוּ לִמְבֻגָּר וְלַצֶּוֶת מַה יַּעֲזֹר: יָד לְהַחֲזִיק, חֵפֶץ מֻכָּר אוֹ נְשִׁימָה יַחַד.", breathTitle: "נוֹשְׁמִים כְּמוֹ בָּלוֹן", breathDefault: "לִחְצוּ עַל הַתְחָלָה וְנִשְׁמוּ יַחַד", breathIn: "שׁוֹאֲפִים… הַבָּלוֹן גָּדֵל", breathHold: "מַחֲזִיקִים…", breathOut: "נוֹשְׁפִים… לְאַט", breathStart: "הַתְחָלָה", breathStop: "עֲצִירָה"
     },
     kids: {
-      whatTitle: "מהי הרדמה כללית?", whatParagraphs: ["הרדמה כללית היא תרופה שגורמת לך להיות מחוסר הכרה בזמן הניתוח, כך שלא תהיה מודע למה שקורה.", "הרופא המרדים יכול להתחיל את ההרדמה דרך מסכה או דרך עירוי — צינורית פלסטיק דקה בווריד. אפשר להשתמש בקרם מאלחש כדי להפחית אי־נוחות בהכנסת העירוי.", "במשך כל הניתוח הרופא המרדים נמצא לידך ועוקב אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים."],
+      whatTitle: "מהי הרדמה כללית?", whatParagraphs: ["הרדמה כללית היא טיפול רפואי שיוצר מצב מבוקר של חוסר הכרה בזמן הניתוח, כך שלא תהיה מודע למה שקורה ולא תרגיש כאב במהלכו.", "הרופא המרדים יכול להתחיל את ההרדמה דרך מסכה או דרך עירוי — צינורית פלסטיק דקה בווריד. אפשר להשתמש בקרם מאלחש כדי להפחית אי־נוחות בהכנסת העירוי.", "במשך כל הניתוח הרופא המרדים נמצא לידך ועוקב אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים."],
       journeyTitle: "המסע שלך, שלב אחר שלב", steps: [["בבית", "מכינים תיק ופועלים בדיוק לפי הוראות בית החולים לגבי אוכל, שתייה ותרופות."], ["בקבלה", "הצוות בודק פרטים, שואל על הבריאות שלך ומסביר מה צפוי."], ["מתכוננים", "לובשים בגדי בית חולים ולפעמים מקבלים קרם מאלחש לפני הכנסת עירוי."], ["מתחילים את ההרדמה", "הרופא המרדים מסביר אם ההרדמה תתחיל דרך מסכה או דרך העירוי."], ["בזמן הניתוח", "הרופא המרדים משגיח ברציפות ומתאים את התרופות לפי הצורך."], ["בהתאוששות", "הצוות בודק איך מרגישים ועוזר במקרה של כאב, בחילה או אי־נוחות."]],
       feelingsTitle: "אפשר לדבר על מה שמדאיג אותך", feelingsText: "מחטים, מסכה, כאב וחוסר ודאות יכולים להדאיג. ספר לצוות מה הכי קשה לך ושאל אילו אפשרויות יכולות לעזור.", breathTitle: "תרגיל נשימה קצר", breathDefault: "לחצו על התחלה ועקבו אחר הקצב", breathIn: "שאיפה איטית", breathHold: "מחזיקים לרגע", breathOut: "נשיפה ארוכה ואיטית"
     },
@@ -1034,12 +1039,12 @@ const CORE_CONTENT_I18N = {
   },
   en: {
     little: {
-      whatTitle: "What is anesthesia?", whatParagraphs: ["Anesthesia is medicine that helps you sleep during your treatment.", "Sometimes you breathe through a mask and sometimes medicine goes through a small tube in your hand. The staff will tell you what is right for you.", "The anesthetist stays nearby and looks after you during the treatment."],
-      journeyTitle: "Your hospital day — short words and pictures", steps: [["Getting ready at home", "A grown-up will help you get ready and follow the hospital’s instructions."], ["Saying hello to the staff", "You meet the staff and can bring something familiar from home."], ["Hospital clothes", "You change into suitable clothes and get ready together."], ["Starting anesthesia", "The staff explain the mask or the small tube in your hand."], ["The staff look after you", "The anesthetist stays close throughout the treatment."], ["Waking up", "You wake in recovery and the staff help you feel comfortable."]],
+      whatTitle: "What is anesthesia?", whatParagraphs: ["Anesthesia is a special medical treatment that keeps you deeply asleep so you do not feel the operation.", "Sometimes you breathe through a mask and sometimes medicine goes through a small tube in your hand. The staff will tell you what is right for you.", "The anesthetist stays nearby and looks after you during the treatment."],
+      journeyTitle: "Your hospital day — in pictures and words", steps: [["Getting ready at home", "A grown-up will help you get ready and follow the hospital’s instructions."], ["Saying hello to the staff", "You meet the staff and can bring something familiar from home."], ["Hospital clothes", "You change into suitable clothes and get ready together."], ["Starting anesthesia", "The staff explain the mask or the small tube in your hand."], ["The staff look after you", "The anesthetist stays close throughout the treatment."], ["Waking up", "You wake in recovery and the staff help you feel comfortable."]],
       feelingsTitle: "Every feeling is allowed", feelingsText: "You can feel scared, cross or ask again. Tell a grown-up and the staff what could help: a hand to hold, something familiar or breathing together.", breathTitle: "Balloon breathing", breathDefault: "Press start and breathe together", breathIn: "Breathe in… the balloon grows", breathHold: "Hold…", breathOut: "Breathe out… slowly"
     },
     kids: {
-      whatTitle: "What is general anesthesia?", whatParagraphs: ["General anesthesia is medicine that makes you unconscious during an operation, so you are not aware of what is happening.", "The anesthetist may start it through a mask or an IV — a thin plastic tube in a vein. Numbing cream may be used to reduce discomfort when the IV is placed.", "The anesthetist stays with you throughout the operation and monitors breathing, heart rate, blood pressure and other signs."],
+      whatTitle: "What is general anesthesia?", whatParagraphs: ["General anesthesia is a medical treatment that creates a controlled state of unconsciousness during an operation, so you are unaware of what is happening and do not feel pain during it.", "The anesthetist may start it through a mask or an IV — a thin plastic tube in a vein. Numbing cream may be used to reduce discomfort when the IV is placed.", "The anesthetist stays with you throughout the operation and monitors breathing, heart rate, blood pressure and other signs."],
       journeyTitle: "Your journey, step by step", steps: [["At home", "Pack what you need and follow the hospital’s instructions about food, drinks and medicines exactly."], ["Checking in", "The staff check your details, ask about your health and explain what will happen."], ["Getting ready", "You change into hospital clothes and may have numbing cream before an IV is placed."], ["Starting anesthesia", "The anesthetist explains whether anesthesia will start through a mask or the IV."], ["During the operation", "The anesthetist monitors you continuously and adjusts the medicines when needed."], ["In recovery", "The staff check how you feel and help with pain, nausea or other discomfort."]],
       feelingsTitle: "Talk about what worries you", feelingsText: "Needles, masks, pain and uncertainty can feel worrying. Tell the staff what is hardest for you and ask what options could help.", breathTitle: "A short breathing exercise", breathDefault: "Press start and follow the pace", breathIn: "Slow breath in", breathHold: "Hold for a moment", breathOut: "Long, slow breath out"
     },
@@ -1055,12 +1060,12 @@ const CORE_CONTENT_I18N = {
   },
   ar: {
     little: {
-      whatTitle: "ما هو التخدير؟", whatParagraphs: ["التخدير دواء يساعدك على النوم أثناء العلاج.", "أحيانًا تتنفس عبر قناع، وأحيانًا يصل الدواء عبر أنبوب صغير في اليد. سيشرح لك الطاقم ما يناسبك.", "يبقى طبيب التخدير قريبًا ويعتني بك أثناء العلاج."],
-      journeyTitle: "يومك في المستشفى — صور وكلمات قصيرة", steps: [["الاستعداد في البيت", "يساعدك شخص بالغ ويتبع تعليمات المستشفى."], ["نقول مرحبًا للطاقم", "تقابل الطاقم ويمكنك إحضار شيء مألوف من البيت."], ["ملابس المستشفى", "ترتدي ملابس مناسبة وتستعدون معًا."], ["بدء التخدير", "يشرح الطاقم القناع أو الأنبوب الصغير في اليد."], ["الطاقم يعتني بك", "يبقى طبيب التخدير قريبًا طوال العلاج."], ["الاستيقاظ", "تستيقظ في غرفة التعافي ويساعدك الطاقم على الشعور بالراحة."]],
+      whatTitle: "ما هو التخدير؟", whatParagraphs: ["التخدير علاج طبي خاص يجعلك تنام بعمق فلا تشعر بالعملية.", "أحيانًا تتنفس عبر قناع، وأحيانًا يصل الدواء عبر أنبوب صغير في اليد. سيشرح لك الطاقم ما يناسبك.", "يبقى طبيب التخدير قريبًا ويعتني بك أثناء العلاج."],
+      journeyTitle: "يومك في المستشفى — بالصور والكلمات", steps: [["الاستعداد في البيت", "يساعدك شخص بالغ ويتبع تعليمات المستشفى."], ["نقول مرحبًا للطاقم", "تقابل الطاقم ويمكنك إحضار شيء مألوف من البيت."], ["ملابس المستشفى", "ترتدي ملابس مناسبة وتستعدون معًا."], ["بدء التخدير", "يشرح الطاقم القناع أو الأنبوب الصغير في اليد."], ["الطاقم يعتني بك", "يبقى طبيب التخدير قريبًا طوال العلاج."], ["الاستيقاظ", "تستيقظ في غرفة التعافي ويساعدك الطاقم على الشعور بالراحة."]],
       feelingsTitle: "كل المشاعر مسموحة", feelingsText: "يمكنك أن تخاف أو تغضب أو تسأل مرة أخرى. أخبر شخصًا بالغًا والطاقم بما يساعدك: يد تمسكها أو شيء مألوف أو التنفس معًا.", breathTitle: "تنفّس البالون", breathDefault: "اضغط ابدأ وتنفّسوا معًا", breathIn: "شهيق… يكبر البالون", breathHold: "نحبس قليلًا…", breathOut: "زفير… ببطء"
     },
     kids: {
-      whatTitle: "ما هو التخدير العام؟", whatParagraphs: ["التخدير العام دواء يجعلك فاقدًا للوعي أثناء العملية، فلا تدرك ما يحدث.", "قد يبدأ طبيب التخدير عبر قناع أو قنية وريدية، وهي أنبوب بلاستيكي رفيع داخل الوريد. وقد يُستخدم كريم مخدّر لتخفيف الانزعاج عند وضعها.", "يبقى طبيب التخدير معك طوال العملية ويراقب التنفس والنبض وضغط الدم ومؤشرات أخرى."],
+      whatTitle: "ما هو التخدير العام؟", whatParagraphs: ["التخدير العام علاج طبي يُحدث حالة مضبوطة من فقدان الوعي أثناء العملية، فلا تدرك ما يحدث ولا تشعر بالألم خلالها.", "قد يبدأ طبيب التخدير عبر قناع أو قنية وريدية، وهي أنبوب بلاستيكي رفيع داخل الوريد. وقد يُستخدم كريم مخدّر لتخفيف الانزعاج عند وضعها.", "يبقى طبيب التخدير معك طوال العملية ويراقب التنفس والنبض وضغط الدم ومؤشرات أخرى."],
       journeyTitle: "رحلتك خطوة بخطوة", steps: [["في البيت", "حضّر ما تحتاجه واتبع بدقة تعليمات الطعام والشراب والأدوية."], ["عند الاستقبال", "يتحقق الطاقم من بياناتك ويسأل عن صحتك ويشرح ما سيحدث."], ["الاستعداد", "ترتدي ملابس المستشفى وقد يوضع كريم مخدّر قبل القنية الوريدية."], ["بدء التخدير", "يشرح طبيب التخدير إن كان البدء عبر القناع أو القنية."], ["أثناء العملية", "يراقبك طبيب التخدير باستمرار ويعدّل الأدوية عند الحاجة."], ["في التعافي", "يتحقق الطاقم من شعورك ويساعد في الألم أو الغثيان أو أي انزعاج."]],
       feelingsTitle: "تحدّث عمّا يقلقك", feelingsText: "قد تقلقك الإبر أو القناع أو الألم أو عدم معرفة ما سيحدث. أخبر الطاقم بما يصعب عليك واسأل عن الخيارات التي قد تساعد.", breathTitle: "تمرين تنفّس قصير", breathDefault: "اضغط ابدأ واتبع الإيقاع", breathIn: "شهيق بطيء", breathHold: "توقف لحظة", breathOut: "زفير طويل وبطيء"
     },
@@ -1076,12 +1081,12 @@ const CORE_CONTENT_I18N = {
   },
   ru: {
     little: {
-      whatTitle: "Что такое анестезия?", whatParagraphs: ["Анестезия — это лекарство, которое помогает спать во время лечения.", "Иногда нужно дышать через маску, а иногда лекарство дают через маленькую трубочку в руке. Персонал расскажет, что подходит тебе.", "Анестезиолог всё время находится рядом и заботится о тебе."],
-      journeyTitle: "День в больнице — коротко и с картинками", steps: [["Готовимся дома", "Взрослый поможет подготовиться и выполнит инструкции больницы."], ["Здороваемся с персоналом", "Ты встретишь персонал и можешь взять знакомую вещь из дома."], ["Больничная одежда", "Ты переоденешься и подготовишься вместе со взрослым."], ["Начало анестезии", "Персонал расскажет о маске или маленькой трубочке в руке."], ["Персонал заботится о тебе", "Анестезиолог остаётся рядом всё время."], ["Пробуждение", "Ты проснёшься в палате пробуждения, и персонал поможет чувствовать себя удобно."]],
+      whatTitle: "Что такое анестезия?", whatParagraphs: ["Анестезия — это особая медицинская процедура: ты глубоко спишь и не чувствуешь операцию.", "Иногда нужно дышать через маску, а иногда лекарство дают через маленькую трубочку в руке. Персонал расскажет, что подходит тебе.", "Анестезиолог всё время находится рядом и заботится о тебе."],
+      journeyTitle: "День в больнице — в картинках и словах", steps: [["Готовимся дома", "Взрослый поможет подготовиться и выполнит инструкции больницы."], ["Здороваемся с персоналом", "Ты встретишь персонал и можешь взять знакомую вещь из дома."], ["Больничная одежда", "Ты переоденешься и подготовишься вместе со взрослым."], ["Начало анестезии", "Персонал расскажет о маске или маленькой трубочке в руке."], ["Персонал заботится о тебе", "Анестезиолог остаётся рядом всё время."], ["Пробуждение", "Ты проснёшься в палате пробуждения, и персонал поможет чувствовать себя удобно."]],
       feelingsTitle: "Можно чувствовать по-разному", feelingsText: "Можно бояться, сердиться или спросить ещё раз. Скажи взрослому и персоналу, что поможет: держать кого-то за руку, знакомая вещь или совместное дыхание.", breathTitle: "Дыхание-шарик", breathDefault: "Нажми «Начать» и дышите вместе", breathIn: "Вдох… шарик растёт", breathHold: "Задержи…", breathOut: "Выдох… медленно"
     },
     kids: {
-      whatTitle: "Что такое общая анестезия?", whatParagraphs: ["Общая анестезия — это лекарства, из-за которых во время операции ты находишься без сознания и не понимаешь, что происходит.", "Анестезиолог может начать анестезию через маску или внутривенный катетер — тонкую пластиковую трубку в вене. Обезболивающий крем может уменьшить неприятные ощущения при его установке.", "Анестезиолог остаётся с тобой всю операцию и следит за дыханием, пульсом, давлением и другими показателями."],
+      whatTitle: "Что такое общая анестезия?", whatParagraphs: ["Общая анестезия — это контролируемое врачом состояние без сознания во время операции: ты не понимаешь, что происходит, и не чувствуешь боли.", "Анестезиолог может начать анестезию через маску или внутривенный катетер — тонкую пластиковую трубку в вене. Обезболивающий крем может уменьшить неприятные ощущения при его установке.", "Анестезиолог остаётся с тобой всю операцию и следит за дыханием, пульсом, давлением и другими показателями."],
       journeyTitle: "Твой путь по шагам", steps: [["Дома", "Собери нужные вещи и точно следуй инструкциям о еде, питье и лекарствах."], ["Приём", "Персонал проверит данные, спросит о здоровье и объяснит, что будет дальше."], ["Подготовка", "Ты переоденешься; перед катетером могут нанести обезболивающий крем."], ["Начало анестезии", "Анестезиолог объяснит, начнётся ли она через маску или катетер."], ["Во время операции", "Анестезиолог постоянно наблюдает и при необходимости меняет дозы лекарств."], ["В палате пробуждения", "Персонал проверит самочувствие и поможет при боли, тошноте или другом дискомфорте."]],
       feelingsTitle: "Расскажи, что тебя беспокоит", feelingsText: "Иглы, маска, боль и неизвестность могут тревожить. Скажи персоналу, что для тебя труднее всего, и спроси, какие варианты помогут.", breathTitle: "Короткое дыхательное упражнение", breathDefault: "Нажми «Начать» и следуй ритму", breathIn: "Медленный вдох", breathHold: "Короткая пауза", breathOut: "Долгий медленный выдох"
     },
@@ -1097,12 +1102,12 @@ const CORE_CONTENT_I18N = {
   },
   fr: {
     little: {
-      whatTitle: "Qu’est-ce que l’anesthésie ?", whatParagraphs: ["L’anesthésie est un médicament qui t’aide à dormir pendant le soin.", "Parfois tu respires dans un masque, parfois le médicament passe par un petit tube dans la main. Le personnel t’expliquera ce qui te convient.", "L’anesthésiste reste près de toi et veille sur toi pendant le soin."],
-      journeyTitle: "Ta journée à l’hôpital — images et mots courts", steps: [["Se préparer à la maison", "Un adulte t’aide et suit les consignes de l’hôpital."], ["Dire bonjour au personnel", "Tu rencontres le personnel et peux apporter un objet familier."], ["Les vêtements de l’hôpital", "Tu mets des vêtements adaptés et vous vous préparez ensemble."], ["Commencer l’anesthésie", "Le personnel explique le masque ou le petit tube dans la main."], ["Le personnel veille sur toi", "L’anesthésiste reste près de toi pendant tout le soin."], ["Se réveiller", "Tu te réveilles en salle de réveil et le personnel t’aide à être bien."]],
+      whatTitle: "Qu’est-ce que l’anesthésie ?", whatParagraphs: ["L’anesthésie est un soin médical spécial qui te fait dormir profondément pour que tu ne sentes pas l’opération.", "Parfois tu respires dans un masque, parfois le médicament passe par un petit tube dans la main. Le personnel t’expliquera ce qui te convient.", "L’anesthésiste reste près de toi et veille sur toi pendant le soin."],
+      journeyTitle: "Ta journée à l’hôpital — en images et en mots", steps: [["Se préparer à la maison", "Un adulte t’aide et suit les consignes de l’hôpital."], ["Dire bonjour au personnel", "Tu rencontres le personnel et peux apporter un objet familier."], ["Les vêtements de l’hôpital", "Tu mets des vêtements adaptés et vous vous préparez ensemble."], ["Commencer l’anesthésie", "Le personnel explique le masque ou le petit tube dans la main."], ["Le personnel veille sur toi", "L’anesthésiste reste près de toi pendant tout le soin."], ["Se réveiller", "Tu te réveilles en salle de réveil et le personnel t’aide à être bien."]],
       feelingsTitle: "Toutes les émotions sont permises", feelingsText: "Tu peux avoir peur, être fâché ou redemander. Dis à un adulte et au personnel ce qui peut aider : tenir une main, garder un objet familier ou respirer ensemble.", breathTitle: "Respiration du ballon", breathDefault: "Appuie sur départ et respirez ensemble", breathIn: "Inspire… le ballon grandit", breathHold: "Retiens…", breathOut: "Expire… lentement"
     },
     kids: {
-      whatTitle: "Qu’est-ce que l’anesthésie générale ?", whatParagraphs: ["L’anesthésie générale utilise des médicaments qui te rendent inconscient pendant l’opération : tu ne sais pas ce qui se passe.", "L’anesthésiste peut commencer avec un masque ou une perfusion, un fin tube en plastique placé dans une veine. Une crème anesthésiante peut réduire la gêne lors de sa pose.", "L’anesthésiste reste avec toi pendant toute l’opération et surveille la respiration, le pouls, la tension et d’autres paramètres."],
+      whatTitle: "Qu’est-ce que l’anesthésie générale ?", whatParagraphs: ["L’anesthésie générale est un soin médical qui crée un état d’inconscience contrôlé pendant l’opération : tu n’as pas conscience de ce qui se passe et tu ne ressens pas de douleur.", "L’anesthésiste peut commencer avec un masque ou une perfusion, un fin tube en plastique placé dans une veine. Une crème anesthésiante peut réduire la gêne lors de sa pose.", "L’anesthésiste reste avec toi pendant toute l’opération et surveille la respiration, le pouls, la tension et d’autres paramètres."],
       journeyTitle: "Ton parcours étape par étape", steps: [["À la maison", "Prépare tes affaires et suis exactement les consignes sur les aliments, les boissons et les médicaments."], ["À l’accueil", "Le personnel vérifie tes informations, pose des questions sur ta santé et explique la suite."], ["La préparation", "Tu mets une tenue d’hôpital et peux recevoir une crème anesthésiante avant la perfusion."], ["Le début de l’anesthésie", "L’anesthésiste explique si elle commencera par le masque ou la perfusion."], ["Pendant l’opération", "L’anesthésiste te surveille en continu et adapte les médicaments si nécessaire."], ["En salle de réveil", "Le personnel vérifie comment tu te sens et traite la douleur, les nausées ou toute gêne."]],
       feelingsTitle: "Parle de ce qui t’inquiète", feelingsText: "Les aiguilles, le masque, la douleur ou l’incertitude peuvent inquiéter. Dis au personnel ce qui est le plus difficile et demande quelles options peuvent aider.", breathTitle: "Un court exercice de respiration", breathDefault: "Appuie sur départ et suis le rythme", breathIn: "Inspiration lente", breathHold: "Petite pause", breathOut: "Expiration longue et lente"
     },
@@ -1119,11 +1124,11 @@ const CORE_CONTENT_I18N = {
 };
 
 const LITTLE_FAQ_I18N = {
-  he: { title: "שְׁאֵלוֹת קְטַנּוֹת וַחֲשׁוּבוֹת", items: [["מִי יִהְיֶה אִתִּי?", "מְבֻגָּר וְהַצֶּוֶת יַעַזְרוּ לְךָ. אֶפְשָׁר לִשְׁאֹל מִי יָכוֹל לִהְיוֹת לְיָדְךָ בְּכָל שָׁלָב."], ["מָה אֶלְבַּשׁ?", "בְּדֶרֶךְ כְּלָל מְקַבְּלִים בִּגְדֵי בֵּית חוֹלִים נוֹחִים שֶׁמַּתְאִימִים לַטִּפּוּל."], ["מָה עוֹשָׂה הַמַּסֵּכָה?", "הַמַּסֵּכָה מֻנַּחַת בַּעֲדִינוּת לְיַד הָאַף וְהַפֶּה וְעוֹזֶרֶת לִנְשֹׁם. כְּשֶׁאֶפְשָׁר, הַצֶּוֶת יַרְאֶה לְךָ אוֹתָהּ קֹדֶם."], ["מָה זֹאת הַצִּנּוֹרִית בַּיָּד?", "זֹאת צִנּוֹרִית פְּלַסְטִיק קְטַנָּה שֶׁדַּרְכָּהּ אֶפְשָׁר לָתֵת תְּרוּפָה. אֶפְשָׁר לִשְׁאֹל עַל קְרֵם שֶׁמְּאַלְחֵשׁ אֶת הַמָּקוֹם."], ["אֵיפֹה אֶתְעוֹרֵר?", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, שֶׁבּוֹ הַצֶּוֶת נִשְׁאָר קָרוֹב וְעוֹזֵר."], ["מָה אִם אֶפְחַד?", "אֶפְשָׁר לוֹמַר שֶׁפּוֹחֲדִים, לְבַקֵּשׁ עוֹד הֶסְבֵּר וּלְהַחֲזִיק יָד אוֹ חֵפֶץ מֻכָּר."]] },
-  en: { title: "Small but important questions", items: [["Who will be with me?", "A grown-up and the staff will help you. Ask the hospital who can stay near you at each stage."], ["What will I wear?", "You will usually get comfortable hospital clothes that suit the treatment."], ["What does the mask do?", "The mask rests gently near your nose and mouth and helps you breathe. When possible, the staff can show it to you first."], ["What is the small tube in my hand?", "It is a small plastic tube used to give medicine. You can ask about cream that numbs the skin."], ["Where will I wake up?", "You wake in a recovery room, where the staff stay close and help you."], ["What if I feel scared?", "You can say you are scared, ask for another explanation and hold a hand or something familiar."]] },
-  ar: { title: "أسئلة صغيرة ومهمة", items: [["من سيكون معي؟", "سيساعدك شخص بالغ والطاقم. اسألوا المستشفى من يمكنه البقاء قربك في كل مرحلة."], ["ماذا سأرتدي؟", "عادة تحصل على ملابس مستشفى مريحة تناسب العلاج."], ["ماذا يفعل القناع؟", "يوضع القناع بلطف قرب الأنف والفم ويساعدك على التنفس. يمكن للطاقم أن يريك إياه أولًا عندما يكون ذلك ممكنًا."], ["ما الأنبوب الصغير في يدي؟", "إنه أنبوب بلاستيكي صغير يمكن إعطاء الدواء من خلاله. يمكن السؤال عن كريم يخدّر الجلد."], ["أين سأستيقظ؟", "تستيقظ في غرفة التعافي، حيث يبقى الطاقم قريبًا ويساعدك."], ["ماذا لو خفت؟", "يمكنك أن تقول إنك خائف وأن تطلب شرحًا آخر وتمسك يدًا أو شيئًا مألوفًا."]] },
-  ru: { title: "Маленькие, но важные вопросы", items: [["Кто будет со мной?", "Взрослый и персонал помогут тебе. Спросите в больнице, кто может быть рядом на каждом этапе."], ["Что я надену?", "Обычно дают удобную больничную одежду, подходящую для лечения."], ["Для чего нужна маска?", "Маску мягко прикладывают к носу и рту, и она помогает дышать. Если возможно, персонал сначала покажет её."], ["Что за маленькая трубочка в руке?", "Это маленькая пластиковая трубка, через которую дают лекарства. Можно спросить о креме, обезболивающем кожу."], ["Где я проснусь?", "Ты проснёшься в палате пробуждения, где персонал будет рядом и поможет."], ["Что, если мне страшно?", "Можно сказать, что страшно, попросить объяснить ещё раз и держать кого-то за руку или знакомую вещь."]] },
-  fr: { title: "De petites questions importantes", items: [["Qui sera avec moi ?", "Un adulte et le personnel t’aideront. Demandez à l’hôpital qui peut rester près de toi à chaque étape."], ["Que vais-je porter ?", "Tu recevras généralement une tenue d’hôpital confortable et adaptée au soin."], ["À quoi sert le masque ?", "Le masque se pose doucement près du nez et de la bouche et aide à respirer. Si possible, le personnel peut te le montrer avant."], ["Qu’est-ce que le petit tube dans ma main ?", "C’est un petit tube en plastique qui permet de donner des médicaments. Tu peux demander une crème qui endort la peau."], ["Où vais-je me réveiller ?", "Tu te réveilleras en salle de réveil, où le personnel reste près de toi et t’aide."], ["Et si j’ai peur ?", "Tu peux dire que tu as peur, demander une autre explication et tenir une main ou un objet familier."]] }
+  he: { title: "שְׁאֵלוֹת קְטַנּוֹת וַחֲשׁוּבוֹת", items: [["מִי יִהְיֶה אִתִּי?", "מְבֻגָּר וְהַצֶּוֶת יַעַזְרוּ לְךָ. אֶפְשָׁר לִשְׁאֹל מִי יָכוֹל לִהְיוֹת לְיָדְךָ בְּכָל שָׁלָב."], ["מָה אֶלְבַּשׁ?", "בְּדֶרֶךְ כְּלָל מְקַבְּלִים בִּגְדֵי בֵּית חוֹלִים נוֹחִים שֶׁמַּתְאִימִים לַטִּפּוּל."], ["מָה עוֹשָׂה הַמַּסֵּכָה?", "הַמַּסֵּכָה מֻנַּחַת בַּעֲדִינוּת עַל הָאַף וְהַפֶּה, וְנוֹשְׁמִים דַּרְכָּהּ אֲוִיר בְּרֵיחַ נָעִים. אִם תִּרְצֶה, הַצֶּוֶת יַרְאֶה לְךָ אוֹתָהּ קֹדֶם."], ["מָה זֹאת הַצִּנּוֹרִית בַּיָּד?", "זֹאת צִנּוֹרִית פְּלַסְטִיק קְטַנָּה שֶׁדַּרְכָּהּ אֶפְשָׁר לָתֵת תְּרוּפָה. אֶפְשָׁר לִשְׁאֹל עַל קְרֵם אוֹ סְפְּרֵיי מְאַלְחֵשׁ לַמָּקוֹם."], ["אֵיפֹה אֶתְעוֹרֵר?", "מִתְעוֹרְרִים בְּחֶדֶר הִתְאוֹשְׁשׁוּת, שֶׁבּוֹ הַצֶּוֶת נִשְׁאָר קָרוֹב וְעוֹזֵר."], ["מָה אִם אֶפְחַד?", "אֶפְשָׁר לוֹמַר שֶׁפּוֹחֲדִים, לְבַקֵּשׁ עוֹד הֶסְבֵּר וּלְהַחֲזִיק יָד אוֹ חֵפֶץ מֻכָּר."]] },
+  en: { title: "Small but important questions", items: [["Who will be with me?", "A grown-up and the staff will help you. Ask the hospital who can stay near you at each stage."], ["What will I wear?", "You will usually get comfortable hospital clothes that suit the treatment."], ["What does the mask do?", "The mask rests gently over your nose and mouth, and you breathe air with a pleasant smell through it. If you would like, the staff can show it to you first."], ["What is the small tube in my hand?", "It is a small plastic tube used to give medicine. You can ask about numbing cream or spray for the skin."], ["Where will I wake up?", "You wake in a recovery room, where the staff stay close and help you."], ["What if I feel scared?", "You can say you are scared, ask for another explanation and hold a hand or something familiar."]] },
+  ar: { title: "أسئلة صغيرة ومهمة", items: [["من سيكون معي؟", "سيساعدك شخص بالغ والطاقم. اسألوا المستشفى من يمكنه البقاء قربك في كل مرحلة."], ["ماذا سأرتدي؟", "عادة تحصل على ملابس مستشفى مريحة تناسب العلاج."], ["ماذا يفعل القناع؟", "يوضع القناع بلطف على الأنف والفم، وتتنفّس من خلاله هواءً ذا رائحة لطيفة. إذا أردت، يمكن للطاقم أن يريك إياه أولًا."], ["ما الأنبوب الصغير في يدي؟", "إنه أنبوب بلاستيكي صغير يمكن إعطاء الدواء من خلاله. يمكن السؤال عن كريم أو بخاخ مخدّر للجلد."], ["أين سأستيقظ؟", "تستيقظ في غرفة التعافي، حيث يبقى الطاقم قريبًا ويساعدك."], ["ماذا لو خفت؟", "يمكنك أن تقول إنك خائف وأن تطلب شرحًا آخر وتمسك يدًا أو شيئًا مألوفًا."]] },
+  ru: { title: "Маленькие, но важные вопросы", items: [["Кто будет со мной?", "Взрослый и персонал помогут тебе. Спросите в больнице, кто может быть рядом на каждом этапе."], ["Что я надену?", "Обычно дают удобную больничную одежду, подходящую для лечения."], ["Для чего нужна маска?", "Маску мягко надевают на нос и рот, и через неё ты дышишь воздухом с приятным запахом. Если хочешь, персонал сначала покажет её тебе."], ["Что за маленькая трубочка в руке?", "Это маленькая пластиковая трубка, через которую дают лекарства. Можно спросить об обезболивающем креме или спрее для кожи."], ["Где я проснусь?", "Ты проснёшься в палате пробуждения, где персонал будет рядом и поможет."], ["Что, если мне страшно?", "Можно сказать, что страшно, попросить объяснить ещё раз и держать кого-то за руку или знакомую вещь."]] },
+  fr: { title: "De petites questions importantes", items: [["Qui sera avec moi ?", "Un adulte et le personnel t’aideront. Demandez à l’hôpital qui peut rester près de toi à chaque étape."], ["Que vais-je porter ?", "Tu recevras généralement une tenue d’hôpital confortable et adaptée au soin."], ["À quoi sert le masque ?", "Le masque se pose doucement sur le nez et la bouche, et tu y respires de l’air avec une odeur agréable. Si tu le souhaites, le personnel peut te le montrer d’abord."], ["Qu’est-ce que le petit tube dans ma main ?", "C’est un petit tube en plastique qui permet de donner des médicaments. Tu peux demander une crème ou un spray anesthésiant pour la peau."], ["Où vais-je me réveiller ?", "Tu te réveilleras en salle de réveil, où le personnel reste près de toi et t’aide."], ["Et si j’ai peur ?", "Tu peux dire que tu as peur, demander une autre explication et tenir une main ou un objet familier."]] }
 };
 
 const PARENT_GUIDE_I18N = {
@@ -1152,20 +1157,20 @@ const EQUIPMENT_VIEW_I18N = {
 
 const LITTLE_EQUIPMENT_HE = {
   title: "מַכִּירִים אֶת הַצִּיּוּד",
-  intro: "לַחֲצוּ עַל כָּל פְּרִיט כְּדֵי לְהַכִּיר אוֹתוֹ וּלְגַלּוֹת מָה הוּא עוֹשֶׂה.",
-  hint: "לַחֲצוּ כְּדֵי לְגַלּוֹת",
+  intro: "לִחְצוּ עַל כָּל פְּרִיט כְּדֵי לְהַכִּיר אוֹתוֹ וּלְגַלּוֹת מָה הוּא עוֹשֶׂה.",
+  hint: "לִחְצוּ כְּדֵי לְגַלּוֹת",
   items: [["הַמַּסֵּכָה הָרַכָּה", "נוֹשְׁמִים דַּרְכָּהּ בַּעֲדִינוּת. לִפְעָמִים יֵשׁ לָהּ רֵיחַ שֶׁל תּוּת אוֹ מַסְטִיק."], ["הָאוֹר עַל הָאֶצְבַּע", "הוּא מֵאִיר בְּאוֹר אָדֹם וּבוֹדֵק אֶת הַדֹּפֶק וְאֶת הַחַמְצָן."], ["הַשַּׁרְווּל עַל הַיָּד", "הוּא מִתְנַפֵּחַ לְכַמָּה שְׁנִיּוֹת וּבוֹדֵק אֶת לַחַץ הַדָּם."], ["הַסְּטֶטוֹסְקוֹפּ", "הָרוֹפֵא מַקְשִׁיב בְּעֶזְרָתוֹ לַלֵּב וְלַנְּשִׁימָה."], ["הַצָּמִיד עִם הַשֵּׁם", "הַצֶּוֶת בּוֹדֵק אֶת הַשֵּׁם שֶׁעַל הַצָּמִיד לִפְנֵי טִפּוּל."], ["קְרֵם מְאַלְחֵשׁ", "הַקְּרֵם עוֹזֵר לְהַפְחִית אֶת הַתְּחוּשָׁה בָּעוֹר לִפְנֵי הַצִּנּוֹרִית."]],
   gallery: {
     eyebrow: "הַצִּיּוּד הָאֲמִתִּי מִקָּרוֹב",
     title: "רוֹאִים אֵיךְ זֶה נִרְאֶה",
     intro: "תְּמוּנוֹת אֲמִתִּיּוֹת יְכוֹלוֹת לַעֲזֹר לְהַכִּיר אֶת הַצִּיּוּד לִפְנֵי שֶׁמַּגִּיעִים לְבֵית הַחוֹלִים. בְּכָל בֵּית חוֹלִים הַצִּיּוּד יָכוֹל לְהֵרָאוֹת קְצָת אַחֶרֶת.",
-    captions: ["סְטֶטוֹסְקוֹפּ אֲמִתִּי", "צִנּוֹרִית קְטַנָּה בַּיָּד עִם מַדְבֵּקוֹת שֶׁל דֻּבִּים", "הָאַרְנָב מִתְרַגֵּל לִנְשֹׁם דֶּרֶךְ הַמַּסֵּכָה בִּשְׁכִיבָה", "הָאַרְנָב מַחֲזִיק אֶת הַמַּסֵּכָה בַּעֲדִינוּת", "הַכִּבְשָׂה מַכִּירָה אֶת הַמַּסֵּכָה מִקָּרוֹב"]
+    captions: ["סְטֶטוֹסְקוֹפּ אֲמִתִּי", "צִנּוֹרִית קְטַנָּה בַּיָּד עִם מַדְבֵּקוֹת שֶׁל דֻּבִּים", "הָאַרְנָב מִתְרַגֵּל לִנְשֹׁם דֶּרֶךְ הַמַּסֵּכָה בִּשְׁכִיבָה", "הָאַרְנָב מַחֲזִיק אֶת הַמַּסֵּכָה בַּעֲדִינוּת", "הָעֵז מַכִּירָה אֶת הַמַּסֵּכָה מִקָּרוֹב"]
   }
 };
 
 const LITTLE_COLORING_HE = {
-  title: "דַּפֵּי הַצְּבִיעָה שֶׁל נוּנִי", intro: "בַּחֲרוּ דַּף, הַדְפִּיסוּ וְצִבְעוּ!", hint: "לַחֲצוּ עַל תְּמוּנָה כְּדֵי לְהַדְפִּיס רַק אוֹתָהּ.", print: "הַדְפִּיסוּ אֶת כָּל הַדַּפִּים",
-  captions: ["נוּנִי הַכּוֹכָב", "בָּלוֹן הַנְּשִׁימָה", "מִטַּת בֵּית הַחוֹלִים", "כּוֹס מַיִם", "מַסֵּכַת הַהַרְדָּמָה", "אִישׁ צֶוֶת נֶחְמָד", "מְכוֹנַת הַהַרְדָּמָה"]
+  title: "דַּפֵּי הַצְּבִיעָה שֶׁל נוּנִי", intro: "בַּחֲרוּ דַּף, הַדְפִּיסוּ וְצִבְעוּ!", hint: "לִחְצוּ עַל תְּמוּנָה כְּדֵי לְהַדְפִּיס רַק אוֹתָהּ.", print: "הַדְפִּיסוּ אֶת כָּל הַדַּפִּים",
+  captions: ["נוּנִי הַכּוֹכָב", "בָּלוֹן הַנְּשִׁימָה", "מִטַּת בֵּית הַחוֹלִים", "כּוֹס מַיִם", "מַסֵּכַת הַהַרְדָּמָה", "הָאָחוֹת הַנֶּחְמָדָה", "מְכוֹנַת הַהַרְדָּמָה"]
 };
 
 const TEEN_QUIZ_COPY_I18N = {
