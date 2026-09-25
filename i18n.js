@@ -103,7 +103,7 @@ const I18N = {
     photo_iv: "צינורית קטנה ביד עם מדבקות של דובים",
     photo_rabbit_lying: "הארנב מתרגל לנשום דרך המסכה בשכיבה",
     photo_rabbit_sitting: "הארנב מחזיק את המסכה בעדינות",
-    photo_lamb: "העז מכירה את המסכה מקרוב",
+    photo_goat: "העז מכירה את המסכה מקרוב",
     faq_mask_photo: "כָּךְ הַמַּסֵּכָה נִרְאֵית מִקָּרוֹב",
     faq_iv_photo: "כָּךְ הַצִּנּוֹרִית נִרְאֵית עִם מַדְבֵּקוֹת",
     gender_note: "האתר כתוב בלשון זכר מטעמי נוחות הקריאה, ומיועד לכל המגדרים כאחד."
@@ -208,7 +208,7 @@ const I18N = {
     photo_iv: "A small IV tube in the hand with bear stickers",
     photo_rabbit_lying: "The rabbit practices breathing through the mask while lying down",
     photo_rabbit_sitting: "The rabbit holds the mask gently",
-    photo_lamb: "The goat gets to know the mask up close",
+    photo_goat: "The goat gets to know the mask up close",
     faq_mask_photo: "See the mask up close",
     faq_iv_photo: "See the small tube with stickers",
     gender_note: ""
@@ -313,7 +313,7 @@ const I18N = {
     photo_iv: "قنية وريدية صغيرة في اليد مع ملصقات دببة",
     photo_rabbit_lying: "يتدرّب الأرنب على التنفس عبر القناع وهو مستلقٍ",
     photo_rabbit_sitting: "يمسك الأرنب القناع بلطف",
-    photo_lamb: "تتعرّف العنزة إلى القناع عن قرب",
+    photo_goat: "تتعرّف العنزة إلى القناع عن قرب",
     faq_mask_photo: "شاهد القناع عن قرب",
     faq_iv_photo: "شاهد الأنبوب الصغير مع الملصقات",
     gender_note: "كُتب الموقع بصيغة المذكّر لتسهيل القراءة، وهو موجّه لجميع الأطفال على حدٍّ سواء."
@@ -418,7 +418,7 @@ const I18N = {
     photo_iv: "Маленький внутривенный катетер на руке с наклейками мишек",
     photo_rabbit_lying: "Кролик тренируется дышать через маску лёжа",
     photo_rabbit_sitting: "Кролик мягко держит маску",
-    photo_lamb: "Козочка знакомится с маской поближе",
+    photo_goat: "Козочка знакомится с маской поближе",
     faq_mask_photo: "Маска крупным планом",
     faq_iv_photo: "Маленькая трубочка с наклейками",
     gender_note: "Сайт написан в мужском роде для удобства чтения и обращён ко всем детям одинаково."
@@ -523,7 +523,7 @@ const I18N = {
     photo_iv: "Un petit cathéter dans la main avec des autocollants oursons",
     photo_rabbit_lying: "Le lapin s’entraîne à respirer dans le masque en étant allongé",
     photo_rabbit_sitting: "Le lapin tient doucement le masque",
-    photo_lamb: "La chèvre découvre le masque de près",
+    photo_goat: "La chèvre découvre le masque de près",
     faq_mask_photo: "Le masque de près",
     faq_iv_photo: "Le petit tube avec des autocollants",
     gender_note: "Le site est rédigé au masculin pour faciliter la lecture et s'adresse à tous les enfants de la même façon."
@@ -1462,7 +1462,7 @@ function updateAudienceUI(audience) {
     const gallery = equipmentMain.querySelector(".real-equipment");
     if (gallery) {
       const galleryCopy = vocalizedLittleEquipment?.gallery;
-      const captionKeys = ["photo_stethoscope", "photo_iv", "photo_rabbit_lying", "photo_rabbit_sitting", "photo_lamb"];
+      const captionKeys = ["photo_stethoscope", "photo_iv", "photo_rabbit_lying", "photo_rabbit_sitting", "photo_goat"];
       gallery.querySelector(".eyebrow").textContent = galleryCopy?.eyebrow || dict.photo_gallery_eyebrow;
       gallery.querySelector("h2").textContent = galleryCopy?.title || dict.photo_gallery_title;
       gallery.querySelector(".real-equipment-heading > p:last-child").textContent = galleryCopy?.intro || dict.photo_gallery_intro;

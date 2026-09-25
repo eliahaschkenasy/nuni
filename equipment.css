@@ -71,7 +71,7 @@
 .real-photo-wide img { aspect-ratio: 2048 / 1573; }
 .real-photo-tall img { aspect-ratio: 3 / 4; }
 .real-photo-rabbit img { object-position: center 28%; }
-.real-photo-lamb img { object-position: center 40%; }
+.real-photo-goat img { object-position: center 40%; }
 .real-photo-card figcaption {
   flex: 1; min-height: 68px; display: grid; place-items: center;
   padding: 14px 16px; color: var(--ink); font-weight: 700; line-height: 1.5;
