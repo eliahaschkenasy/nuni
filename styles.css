@@ -363,7 +363,7 @@ body[data-audience="teen"] .quiz-option { border-radius: 10px; }
   border-radius: 16px; background: #f5f8ff;
 }
 .faq-photo img {
-  width: 100%; aspect-ratio: 4 / 3; object-fit: cover;
+  width: 100%; min-width: 0; height: 150px; object-fit: cover;
   border-radius: 12px; box-shadow: 0 6px 18px rgba(51, 64, 90, .12);
 }
 .faq-photo figcaption { color: var(--ink-soft); font-weight: 700; line-height: 1.55; }
@@ -566,6 +566,7 @@ body[data-audience="parents"] .audience-switch-dot { background: #4e8273; }
   .quiz-progress { width: 100%; flex: 0 0 9px; }
   .quiz-option { padding: 13px; }
   .faq-photo { margin: 0 16px 18px; grid-template-columns: 112px 1fr; gap: 12px; }
+  .faq-photo img { height: 112px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
