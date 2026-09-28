@@ -49,13 +49,15 @@ body.audience-choosing { overflow: hidden; }
     radial-gradient(circle at 87% 78%, rgba(143, 224, 200, .32) 0 12%, transparent 12.3%),
     linear-gradient(145deg, #f3f9ff, #fffaf0 54%, #f3efff);
   padding: clamp(18px, 4vw, 48px);
+  display: flex; flex-direction: column;
 }
+/* The panel hugs its content and sits centred in the gate (margin:auto keeps it scrollable when taller) */
 .audience-gate-panel {
-  width: min(1080px, 100%); min-height: calc(100vh - clamp(36px, 8vw, 96px)); margin: 0 auto;
+  width: min(1080px, 100%); margin: auto;
   background: rgba(255,255,255,.82); border: 1px solid rgba(51,64,90,.1);
   box-shadow: 0 28px 80px -35px rgba(45, 57, 89, .38);
   border-radius: 36px; padding: clamp(20px, 4vw, 52px); backdrop-filter: blur(16px);
-  display: flex; flex-direction: column; justify-content: center;
+  display: flex; flex-direction: column;
 }
 .audience-gate-top {
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
@@ -71,8 +73,7 @@ body.audience-choosing { overflow: hidden; }
 }
 .gate-languages { background: #f1f3f7; }
 .audience-intro { max-width: 650px; margin: 0 auto clamp(28px, 5vh, 48px); text-align: center; }
-.audience-intro h1 { margin-bottom: .28em; font-size: clamp(2.1rem, 5vw, 4rem); }
-.audience-intro > p:last-child { color: var(--ink-soft); font-size: clamp(1rem, 2vw, 1.22rem); }
+.audience-intro > p { margin: 0; color: var(--ink); font-weight: 700; font-size: clamp(1.15rem, 2.4vw, 1.5rem); line-height: 1.5; }
 .audience-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .audience-card {
   position: relative; min-height: 210px; padding: 24px 20px; border: 2px solid transparent;
@@ -545,7 +546,6 @@ body[data-audience="parents"] .audience-switch-dot { background: #4e8273; }
 }
 
 @media (max-width: 560px) {
-  .audience-gate-panel { min-height: calc(100vh - 24px); }
   .audience-intro { margin-bottom: 22px; }
   .audience-grid { grid-template-columns: 1fr; }
   .audience-card { min-height: 0; flex-direction: row; align-items: center; padding: 16px; gap: 14px; }

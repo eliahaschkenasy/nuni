@@ -535,8 +535,6 @@ const I18N = {
 const AUDIENCE_I18N = {
   he: {
     audience_change: "שינוי קבוצת גיל",
-    audience_eyebrow: "המקום הנכון בשבילכם",
-    audience_title: "בחרו את המסלול המתאים",
     audience_intro: "בחרו גיל כדי לקבל הסברים ומראה שמתאימים בדיוק לכם.",
     audience_little: "גִּילָאֵי 0 עַד 6", audience_little_short: "גִּילָאֵי 0 עַד 6",
     audience_little_desc: "סִפּוּר עָדִין, תְּמוּנוֹת וּמִשְׂחָק",
@@ -552,7 +550,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_eyebrow: "גילאי 7 עד 12 • המסע שלך",
     audience_kids_hero_title: "כשיודעים מה יקרה, מרגישים מוכנים יותר.",
     audience_kids_hero_subtitle: "נוני יסביר מה קורה לפני הניתוח, בזמן ההרדמה ואחרי שמתעוררים — שלב אחרי שלב.",
-    audience_teen_hero_eyebrow: "גילאי 13 עד 18 • בלי ניחושים",
+    audience_teen_hero_eyebrow: "גילאי 13 עד 18",
     audience_teen_hero_title: "מידע ברור על ההרדמה והניתוח שלך",
     audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגיש ואילו שאלות כדאי לשאול.",
     audience_parents_hero_eyebrow: "להורים ולמטפלים",
@@ -594,8 +592,6 @@ const AUDIENCE_I18N = {
   },
   en: {
     audience_change: "Change age group",
-    audience_eyebrow: "The right space for you",
-    audience_title: "Choose the right path",
     audience_intro: "Choose an age group for explanations and a look made to fit.",
     audience_little: "Ages 0–6", audience_little_short: "Ages 0–6",
     audience_little_desc: "A gentle story, pictures and play",
@@ -611,7 +607,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_eyebrow: "Ages 7–12 • Your journey",
     audience_kids_hero_title: "Knowing what will happen can help you feel ready.",
     audience_kids_hero_subtitle: "Nuni explains what happens before the operation, during anesthesia and after you wake up — one step at a time.",
-    audience_teen_hero_eyebrow: "Ages 13–18 • No guesswork",
+    audience_teen_hero_eyebrow: "Ages 13–18",
     audience_teen_hero_title: "Clear information about your anesthesia and operation",
     audience_teen_hero_subtitle: "What to expect, what you might feel and what to ask.",
     audience_parents_hero_eyebrow: "For parents & caregivers",
@@ -653,8 +649,6 @@ const AUDIENCE_I18N = {
   },
   ar: {
     audience_change: "تغيير الفئة العمرية",
-    audience_eyebrow: "المكان المناسب لكم",
-    audience_title: "اختاروا المسار المناسب",
     audience_intro: "اختاروا الفئة العمرية لتحصلوا على شرح وتصميم مناسبين لكم.",
     audience_little: "من 0 إلى 6 سنوات", audience_little_short: "من 0 إلى 6",
     audience_little_desc: "قصة لطيفة وصور ولعب",
@@ -670,7 +664,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_eyebrow: "من 7 إلى 12 سنة • رحلتك",
     audience_kids_hero_title: "عندما تعرف ما سيحدث، تشعر بأنك أكثر استعدادًا.",
     audience_kids_hero_subtitle: "يشرح نوني ما يحدث قبل العملية وأثناء التخدير وبعد الاستيقاظ — خطوة بخطوة.",
-    audience_teen_hero_eyebrow: "من 13 إلى 18 سنة • بلا تخمين",
+    audience_teen_hero_eyebrow: "من 13 إلى 18 سنة",
     audience_teen_hero_title: "معلومات واضحة عن التخدير والعملية",
     audience_teen_hero_subtitle: "ما الذي سيحدث، وما قد تشعر به، وما الأسئلة التي يمكنك طرحها.",
     audience_parents_hero_eyebrow: "للأهل ومقدّمي الرعاية",
@@ -712,8 +706,6 @@ const AUDIENCE_I18N = {
   },
   ru: {
     audience_change: "Изменить возрастную группу",
-    audience_eyebrow: "Подходящий раздел для вас",
-    audience_title: "Выберите подходящий раздел",
     audience_intro: "Выберите возрастную группу — оформление и объяснения подстроятся под вас.",
     audience_little: "0–6 лет", audience_little_short: "0–6 лет",
     audience_little_desc: "Добрая история, картинки и игра",
@@ -729,7 +721,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_eyebrow: "7–12 лет • Твой путь",
     audience_kids_hero_title: "Когда знаешь, что будет, легче подготовиться.",
     audience_kids_hero_subtitle: "Нуни объяснит, что происходит до операции, во время анестезии и после пробуждения — шаг за шагом.",
-    audience_teen_hero_eyebrow: "13–18 лет • Без догадок",
+    audience_teen_hero_eyebrow: "13–18 лет",
     audience_teen_hero_title: "Понятно об анестезии и предстоящей операции",
     audience_teen_hero_subtitle: "Чего ожидать, что вы можете почувствовать и о чём стоит спросить.",
     audience_parents_hero_eyebrow: "Для родителей и близких",
@@ -771,8 +763,6 @@ const AUDIENCE_I18N = {
   },
   fr: {
     audience_change: "Changer de groupe d’âge",
-    audience_eyebrow: "L’espace qui vous correspond",
-    audience_title: "Choisissez le parcours adapté",
     audience_intro: "Choisissez un âge pour adapter les explications et l’univers visuel.",
     audience_little: "0–6 ans", audience_little_short: "0–6 ans",
     audience_little_desc: "Une histoire douce, des images et du jeu",
@@ -788,7 +778,7 @@ const AUDIENCE_I18N = {
     audience_kids_hero_eyebrow: "7–12 ans • Ton parcours",
     audience_kids_hero_title: "Savoir ce qui va se passer aide à se sentir prêt.",
     audience_kids_hero_subtitle: "Nuni explique ce qui se passe avant l’opération, pendant l’anesthésie et au réveil — étape par étape.",
-    audience_teen_hero_eyebrow: "13–18 ans • Sans zone floue",
+    audience_teen_hero_eyebrow: "13–18 ans",
     audience_teen_hero_title: "Des informations claires sur ton anesthésie et ton opération",
     audience_teen_hero_subtitle: "Ce qui va se passer, ce que tu pourrais ressentir et les questions à poser.",
     audience_parents_hero_eyebrow: "Pour les parents et les accompagnants",
@@ -1138,11 +1128,11 @@ const EQUIPMENT_ITEMS_I18N = {
 };
 
 const EQUIPMENT_VIEW_I18N = {
-  he: { kids: ["מכירים את הציוד בשמות האמיתיים", "לחצו על כל פריט כדי להבין מה הוא עושה ואיך הוא עשוי להרגיש."], teen: ["ציוד שתפגוש סביב ההרדמה", "הסבר ישיר על אמצעי הניטור והציוד הנפוצים. לא בכל הליך משתמשים בכולם."], parents: ["ציוד נפוץ בהרדמת ילדים", "סקירה קצרה של ציוד שהילד עשוי לפגוש. הצוות יסביר מה נדרש במקרה שלכם."] },
-  en: { kids: ["Meet the equipment by its real names", "Select each item to learn what it does and what it may feel like."], teen: ["Equipment used around anesthesia", "A direct guide to common monitoring and anesthesia equipment. Not every item is used for every procedure."], parents: ["Common equipment in pediatric anesthesia", "A short guide to equipment your child may meet. The staff will explain what is needed in your child’s case."] },
-  ar: { kids: ["تعرّف إلى المعدات بأسمائها الحقيقية", "اختر كل أداة لتعرف ما تفعله وكيف قد يكون الإحساس بها."], teen: ["معدات قد تراها مع التخدير", "شرح مباشر لمعدات المراقبة والتخدير الشائعة. لا تُستخدم كلها في كل إجراء."], parents: ["معدات شائعة في تخدير الأطفال", "دليل قصير للمعدات التي قد يقابلها الطفل. سيشرح الطاقم ما يلزم في حالتكم."] },
-  ru: { kids: ["Оборудование и его настоящие названия", "Выбери предмет, чтобы узнать, для чего он нужен и что можно почувствовать."], teen: ["Оборудование при анестезии", "Прямое объяснение распространённых мониторов и оборудования. Не всё используется при каждой процедуре."], parents: ["Обычное оборудование при детской анестезии", "Краткий обзор оборудования, с которым может встретиться ребёнок. Персонал объяснит, что нужно в вашем случае."] },
-  fr: { kids: ["Le matériel et ses vrais noms", "Sélectionne chaque objet pour comprendre son rôle et ce que tu pourrais ressentir."], teen: ["Le matériel utilisé autour de l’anesthésie", "Une présentation directe du matériel d’anesthésie et de surveillance courant. Tout n’est pas utilisé pour chaque intervention."], parents: ["Matériel courant en anesthésie pédiatrique", "Un bref aperçu du matériel que votre enfant peut rencontrer. Le personnel expliquera ce qui est nécessaire dans votre situation."] }
+  he: { kids: ["מכירים את הציוד בשמות האמיתיים", "לחצו על כל פריט כדי להבין מה הוא עושה ואיך הוא עשוי להרגיש."], teen: ["ציוד שתפגוש סביב ההרדמה", "אמצעי הניטור והציוד הנפוצים. לא בכל הליך משתמשים בכולם."], parents: ["ציוד נפוץ בהרדמת ילדים", "סקירה קצרה של ציוד שהילד עשוי לפגוש. הצוות יסביר מה נדרש במקרה שלכם."] },
+  en: { kids: ["Meet the equipment by its real names", "Select each item to learn what it does and what it may feel like."], teen: ["Equipment used around anesthesia", "Common monitoring and anesthesia equipment. Not every item is used for every procedure."], parents: ["Common equipment in pediatric anesthesia", "A short guide to equipment your child may meet. The staff will explain what is needed in your child’s case."] },
+  ar: { kids: ["تعرّف إلى المعدات بأسمائها الحقيقية", "اختر كل أداة لتعرف ما تفعله وكيف قد يكون الإحساس بها."], teen: ["معدات قد تراها مع التخدير", "معدات المراقبة والتخدير الشائعة. لا تُستخدم كلها في كل إجراء."], parents: ["معدات شائعة في تخدير الأطفال", "دليل قصير للمعدات التي قد يقابلها الطفل. سيشرح الطاقم ما يلزم في حالتكم."] },
+  ru: { kids: ["Оборудование и его настоящие названия", "Выбери предмет, чтобы узнать, для чего он нужен и что можно почувствовать."], teen: ["Оборудование при анестезии", "Распространённые мониторы и оборудование. Не всё используется при каждой процедуре."], parents: ["Обычное оборудование при детской анестезии", "Краткий обзор оборудования, с которым может встретиться ребёнок. Персонал объяснит, что нужно в вашем случае."] },
+  fr: { kids: ["Le matériel et ses vrais noms", "Sélectionne chaque objet pour comprendre son rôle et ce que tu pourrais ressentir."], teen: ["Le matériel utilisé autour de l’anesthésie", "Le matériel d’anesthésie et de surveillance courant. Tout n’est pas utilisé pour chaque intervention."], parents: ["Matériel courant en anesthésie pédiatrique", "Un bref aperçu du matériel que votre enfant peut rencontrer. Le personnel expliquera ce qui est nécessaire dans votre situation."] }
 };
 
 const LITTLE_EQUIPMENT_HE = {
