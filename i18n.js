@@ -553,8 +553,8 @@ const AUDIENCE_I18N = {
     audience_kids_hero_title: "כשיודעים מה יקרה, מרגישים מוכנים יותר.",
     audience_kids_hero_subtitle: "נוני יסביר מה קורה לפני הניתוח, בזמן ההרדמה ואחרי שמתעוררים — שלב אחרי שלב.",
     audience_teen_hero_eyebrow: "גילאי 13 עד 18 • בלי ניחושים",
-    audience_teen_hero_title: "מידע ברור על ההרדמה והניתוח שלך.",
-    audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגיש ואילו שאלות כדאי לשאול. מידע ישיר שיעזור להגיע מוכן יותר.",
+    audience_teen_hero_title: "מידע ברור על ההרדמה והניתוח שלך",
+    audience_teen_hero_subtitle: "מה צפוי, מה אולי תרגיש ואילו שאלות כדאי לשאול.",
     audience_parents_hero_eyebrow: "להורים ולמטפלים",
     audience_parents_hero_title: "לעזור לילד להגיע רגוע ומוכן יותר.",
     audience_parents_hero_subtitle: "הסברים מותאמי גיל, כלים לשיחה ורעיונות מעשיים לקראת הרדמה וניתוח.",
@@ -572,12 +572,11 @@ const AUDIENCE_I18N = {
     kids_path2_title: "חוקרים את הציוד", kids_path2_text: "מסכה, מדדים וצמיד זיהוי",
     kids_path3_title: "חידון ההרדמה", kids_path3_text: "עשר שאלות עם תשובה במקום",
     kids_guidance: "אפשר לשאול את הצוות כל שאלה ולספר מה מדאיג אותך. יחד תוכלו לבחור דרך הרגעה שמתאימה לך.",
-    teen_hub_eyebrow: "ישר ולעניין", teen_hub_title: "מה באמת קורה ואיפה יש לך בחירה",
-    teen_hub_intro: "מידע ישיר על ההרדמה, ההכנה וההתאוששות — בלי פעילויות שמיועדות לילדים קטנים.",
+    teen_hub_title: "מה קורה לפני, במהלך ואחרי ההרדמה",
     teen_path1_title: "להבין את ההרדמה", teen_path1_text: "מה התרופות עושות ואיך משגיחים עליך",
     teen_path2_title: "לדעת למה לצפות", teen_path2_text: "קבלה, הכנה, הרדמה והתאוששות",
     teen_path3_title: "לבדוק את עצמך", teen_path3_text: "חידון קצר עם הסבר לכל תשובה",
-    teen_guidance: "ההעדפות שלך חשובות. אפשר לומר לצוות אם מחטים, מסכה, בחילה, פרטיות או חוסר ודאות מטרידים אותך ולשאול אילו אפשרויות מתאימות ובטוחות עבורך.",
+    teen_guidance: "ההעדפות שלך חשובות. אפשר לומר לצוות אם מחטים, בחילה, פרטיות או חוסר ודאות מטרידים אותך ולשאול אילו אפשרויות מתאימות ובטוחות עבורך.",
     parents_hub_eyebrow: "הכנה מעשית", parents_hub_title: "מה לומר, מה להביא ומה לשאול",
     parents_hub_intro: "כלים פשוטים שיעזרו לכם להכין את הילד בהתאם לגיל ולתמוך בו ביום הניתוח.",
     parents_path1_title: "איך לדבר על הניתוח", parents_path1_text: "כנות, תזמון ומילים מותאמות לגיל",
@@ -613,8 +612,8 @@ const AUDIENCE_I18N = {
     audience_kids_hero_title: "Knowing what will happen can help you feel ready.",
     audience_kids_hero_subtitle: "Nuni explains what happens before the operation, during anesthesia and after you wake up — one step at a time.",
     audience_teen_hero_eyebrow: "Ages 13–18 • No guesswork",
-    audience_teen_hero_title: "Clear information about your anesthesia and operation.",
-    audience_teen_hero_subtitle: "What to expect, what you might feel and what to ask. Straightforward information to help you arrive prepared.",
+    audience_teen_hero_title: "Clear information about your anesthesia and operation",
+    audience_teen_hero_subtitle: "What to expect, what you might feel and what to ask.",
     audience_parents_hero_eyebrow: "For parents & caregivers",
     audience_parents_hero_title: "Help your child arrive calmer and better prepared.",
     audience_parents_hero_subtitle: "Age-appropriate explanations, conversation tools and practical ideas for anesthesia and surgery.",
@@ -632,12 +631,11 @@ const AUDIENCE_I18N = {
     kids_path2_title: "Explore the equipment", kids_path2_text: "Mask, monitors and identity band",
     kids_path3_title: "Anesthesia quiz", kids_path3_text: "Ten questions with instant answers",
     kids_guidance: "You can ask the staff anything and tell them what worries you. Together you can choose a calming strategy that fits you.",
-    teen_hub_eyebrow: "Straight to the point", teen_hub_title: "What really happens and where you have choices",
-    teen_hub_intro: "Direct information about anesthesia, preparation and recovery — without activities designed for younger children.",
+    teen_hub_title: "What happens before, during and after anesthesia",
     teen_path1_title: "Understand anesthesia", teen_path1_text: "What the medicines do and how you are monitored",
     teen_path2_title: "Know what to expect", teen_path2_text: "Check-in, preparation, anesthesia and recovery",
     teen_path3_title: "Test yourself", teen_path3_text: "A short quiz with an explanation for every answer",
-    teen_guidance: "Your preferences matter. Tell the staff if needles, masks, nausea, privacy or uncertainty concern you, and ask which options are safe and suitable for you.",
+    teen_guidance: "Your preferences matter. Tell the staff if needles, nausea, privacy or uncertainty concern you, and ask which options are safe and suitable for you.",
     parents_hub_eyebrow: "Practical preparation", parents_hub_title: "What to say, bring and ask",
     parents_hub_intro: "Simple tools to prepare your child in an age-appropriate way and support them on the day of surgery.",
     parents_path1_title: "How to talk about surgery", parents_path1_text: "Honesty, timing and age-appropriate words",
@@ -673,8 +671,8 @@ const AUDIENCE_I18N = {
     audience_kids_hero_title: "عندما تعرف ما سيحدث، تشعر بأنك أكثر استعدادًا.",
     audience_kids_hero_subtitle: "يشرح نوني ما يحدث قبل العملية وأثناء التخدير وبعد الاستيقاظ — خطوة بخطوة.",
     audience_teen_hero_eyebrow: "من 13 إلى 18 سنة • بلا تخمين",
-    audience_teen_hero_title: "معلومات واضحة عن التخدير والعملية.",
-    audience_teen_hero_subtitle: "ما الذي سيحدث، وما قد تشعر به، وما الأسئلة التي يمكنك طرحها. معلومات مباشرة تساعدك على الاستعداد.",
+    audience_teen_hero_title: "معلومات واضحة عن التخدير والعملية",
+    audience_teen_hero_subtitle: "ما الذي سيحدث، وما قد تشعر به، وما الأسئلة التي يمكنك طرحها.",
     audience_parents_hero_eyebrow: "للأهل ومقدّمي الرعاية",
     audience_parents_hero_title: "ساعدوا طفلكم على الوصول بهدوء واستعداد أكبر.",
     audience_parents_hero_subtitle: "شرح مناسب للعمر وأدوات للحوار وأفكار عملية قبل التخدير والعملية.",
@@ -692,12 +690,11 @@ const AUDIENCE_I18N = {
     kids_path2_title: "استكشف المعدات", kids_path2_text: "القناع وأجهزة المراقبة وسوار الهوية",
     kids_path3_title: "اختبار التخدير", kids_path3_text: "عشرة أسئلة مع إجابات فورية",
     kids_guidance: "يمكنك سؤال الطاقم عن أي شيء وإخبارهم بما يقلقك. ويمكنكم معًا اختيار طريقة تهدئة تناسبك.",
-    teen_hub_eyebrow: "بوضوح ومباشرة", teen_hub_title: "ما الذي يحدث فعلًا وأين يمكنك الاختيار",
-    teen_hub_intro: "معلومات مباشرة عن التخدير والاستعداد والتعافي — من دون أنشطة مخصّصة للأطفال الأصغر.",
+    teen_hub_title: "ما الذي يحدث قبل التخدير وأثناءه وبعده",
     teen_path1_title: "افهم التخدير", teen_path1_text: "ما الذي تفعله الأدوية وكيف تتم مراقبتك",
     teen_path2_title: "اعرف ما تتوقعه", teen_path2_text: "الاستقبال والاستعداد والتخدير والتعافي",
     teen_path3_title: "اختبر معلوماتك", teen_path3_text: "اختبار قصير مع شرح لكل إجابة",
-    teen_guidance: "تفضيلاتك مهمة. أخبر الطاقم إذا كانت الإبر أو القناع أو الغثيان أو الخصوصية أو عدم اليقين تقلقك، واسأل عن الخيارات الآمنة والمناسبة لك.",
+    teen_guidance: "تفضيلاتك مهمة. أخبر الطاقم إذا كانت الإبر أو الغثيان أو الخصوصية أو عدم اليقين تقلقك، واسأل عن الخيارات الآمنة والمناسبة لك.",
     parents_hub_eyebrow: "استعداد عملي", parents_hub_title: "ماذا تقولون وتحضرون وتسألون",
     parents_hub_intro: "أدوات بسيطة لإعداد طفلكم بما يناسب عمره ودعمه يوم العملية.",
     parents_path1_title: "كيف نتحدث عن العملية", parents_path1_text: "الصدق والتوقيت وكلمات تناسب العمر",
@@ -733,8 +730,8 @@ const AUDIENCE_I18N = {
     audience_kids_hero_title: "Когда знаешь, что будет, легче подготовиться.",
     audience_kids_hero_subtitle: "Нуни объяснит, что происходит до операции, во время анестезии и после пробуждения — шаг за шагом.",
     audience_teen_hero_eyebrow: "13–18 лет • Без догадок",
-    audience_teen_hero_title: "Понятно об анестезии и предстоящей операции.",
-    audience_teen_hero_subtitle: "Чего ожидать, что вы можете почувствовать и о чём стоит спросить. Прямые ответы помогут подготовиться.",
+    audience_teen_hero_title: "Понятно об анестезии и предстоящей операции",
+    audience_teen_hero_subtitle: "Чего ожидать, что вы можете почувствовать и о чём стоит спросить.",
     audience_parents_hero_eyebrow: "Для родителей и близких",
     audience_parents_hero_title: "Помогите ребёнку прийти спокойнее и подготовленнее.",
     audience_parents_hero_subtitle: "Объяснения по возрасту, подсказки для разговора и практические идеи перед анестезией и операцией.",
@@ -752,12 +749,11 @@ const AUDIENCE_I18N = {
     kids_path2_title: "Исследуй оборудование", kids_path2_text: "Маска, мониторы и браслет с именем",
     kids_path3_title: "Тест об анестезии", kids_path3_text: "Десять вопросов с мгновенными ответами",
     kids_guidance: "Ты можешь задать персоналу любой вопрос и рассказать, что тебя беспокоит. Вместе вы выберете подходящий способ успокоиться.",
-    teen_hub_eyebrow: "Прямо и по делу", teen_hub_title: "Что происходит на самом деле и где есть выбор",
-    teen_hub_intro: "Прямая информация об анестезии, подготовке и восстановлении — без занятий для маленьких детей.",
+    teen_hub_title: "Что происходит до, во время и после анестезии",
     teen_path1_title: "Разобраться в анестезии", teen_path1_text: "Как действуют лекарства и как за тобой наблюдают",
     teen_path2_title: "Знать, чего ожидать", teen_path2_text: "Приём, подготовка, анестезия и восстановление",
     teen_path3_title: "Проверить себя", teen_path3_text: "Короткий тест с объяснением каждого ответа",
-    teen_guidance: "Твои предпочтения важны. Скажи персоналу, если тебя беспокоят иглы, маска, тошнота, приватность или неизвестность, и спроси, какие варианты безопасны и подходят тебе.",
+    teen_guidance: "Твои предпочтения важны. Скажи персоналу, если тебя беспокоят иглы, тошнота, приватность или неизвестность, и спроси, какие варианты безопасны и подходят тебе.",
     parents_hub_eyebrow: "Практическая подготовка", parents_hub_title: "Что сказать, взять и спросить",
     parents_hub_intro: "Простые инструменты, чтобы подготовить ребёнка с учётом возраста и поддержать его в день операции.",
     parents_path1_title: "Как говорить об операции", parents_path1_text: "Честность, время и понятные по возрасту слова",
@@ -793,8 +789,8 @@ const AUDIENCE_I18N = {
     audience_kids_hero_title: "Savoir ce qui va se passer aide à se sentir prêt.",
     audience_kids_hero_subtitle: "Nuni explique ce qui se passe avant l’opération, pendant l’anesthésie et au réveil — étape par étape.",
     audience_teen_hero_eyebrow: "13–18 ans • Sans zone floue",
-    audience_teen_hero_title: "Des informations claires sur ton anesthésie et ton opération.",
-    audience_teen_hero_subtitle: "Ce qui va se passer, ce que tu pourrais ressentir et les questions à poser. Des réponses directes pour arriver mieux préparé.",
+    audience_teen_hero_title: "Des informations claires sur ton anesthésie et ton opération",
+    audience_teen_hero_subtitle: "Ce qui va se passer, ce que tu pourrais ressentir et les questions à poser.",
     audience_parents_hero_eyebrow: "Pour les parents et les accompagnants",
     audience_parents_hero_title: "Aidez votre enfant à arriver plus calme et mieux préparé.",
     audience_parents_hero_subtitle: "Des explications selon l’âge, des outils de dialogue et des idées concrètes avant l’anesthésie et l’opération.",
@@ -812,12 +808,11 @@ const AUDIENCE_I18N = {
     kids_path2_title: "Explorer le matériel", kids_path2_text: "Masque, moniteurs et bracelet d’identité",
     kids_path3_title: "Quiz sur l’anesthésie", kids_path3_text: "Dix questions avec des réponses immédiates",
     kids_guidance: "Tu peux tout demander au personnel et lui dire ce qui t’inquiète. Ensemble, vous pouvez choisir une méthode pour t’apaiser.",
-    teen_hub_eyebrow: "Clair et direct", teen_hub_title: "Ce qui se passe vraiment et les choix possibles",
-    teen_hub_intro: "Des informations directes sur l’anesthésie, la préparation et le réveil — sans activités destinées aux petits.",
+    teen_hub_title: "Ce qui se passe avant, pendant et après l’anesthésie",
     teen_path1_title: "Comprendre l’anesthésie", teen_path1_text: "L’action des médicaments et la surveillance",
     teen_path2_title: "Savoir à quoi s’attendre", teen_path2_text: "Accueil, préparation, anesthésie et réveil",
     teen_path3_title: "Tester tes connaissances", teen_path3_text: "Un quiz court avec une explication par réponse",
-    teen_guidance: "Tes préférences comptent. Dis au personnel si les aiguilles, le masque, les nausées, l’intimité ou l’incertitude t’inquiètent, et demande quelles options sont sûres et adaptées.",
+    teen_guidance: "Tes préférences comptent. Dis au personnel si les aiguilles, les nausées, l’intimité ou l’incertitude t’inquiètent, et demande quelles options sont sûres et adaptées.",
     parents_hub_eyebrow: "Préparation pratique", parents_hub_title: "Quoi dire, apporter et demander",
     parents_hub_intro: "Des outils simples pour préparer votre enfant selon son âge et le soutenir le jour de l’opération.",
     parents_path1_title: "Parler de l’opération", parents_path1_text: "Honnêteté, bon moment et mots adaptés à l’âge",
@@ -903,8 +898,7 @@ const TEEN_FAQ_I18N = {
   he: {
     title: "שאלות נפוצות בגיל 13–18",
     items: [
-      ["מה הסיכוי שאתעורר במהלך הניתוח?", "התעוררות לא מתוכננת במהלך הרדמה כללית היא נדירה. הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים, ומתאים את ההרדמה לפי הצורך. אם הנושא מטריד אותך, אפשר להעלות אותו בפגישה לפני הניתוח."],
-      ["יש לי בחירה באופן שבו מתחילים את ההרדמה?", "לפעמים קיימות כמה אפשרויות, למשל תרופה דרך עירוי או נשימה דרך מסכה, אבל לא כל אפשרות מתאימה לכל הליך. כדאי לומר לרופא המרדים מה חשוב לך וממה אתה חושש; יחד תבחרו בתוכנית שמתאימה לך ובטוחה מבחינה רפואית."],
+      ["מה הסיכוי שאתעורר במהלך הניתוח?", "התעוררות לא מתוכננת במהלך הרדמה כללית היא נדירה מאוד. הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ומדדים נוספים, ומתאים את ההרדמה לפי הצורך. אם הנושא מטריד אותך, אפשר להעלות אותו בפגישה לפני הניתוח."],
       ["אפשר לשאול שאלה רפואית בלי ההורים בחדר?", "כן, אפשר לבקש לדבר עם איש צוות בפרטיות. הצוות יסביר מה יכול להישאר חסוי ומה יהיה צורך לשתף כדי לשמור על בטיחותך. זו דרך מקובלת לשאול על נושאים אישיים בלי מבוכה."],
       ["מה עושים אם כואב לי או יש לי בחילה אחרי הניתוח?", "לא צריך לחכות שהתחושה תחמיר. כדאי לתאר לצוות מוקדם ככל האפשר מה מרגישים ועד כמה זה מפריע. אפשר לטפל בכאב, בבחילה ובתופעות נוספות בכמה דרכים ולהתאים את הטיפול לפי התגובה שלך."],
       ["איזה מידע חשוב למסור לצוות, גם אם הוא אישי?", "חשוב לספר לצוות על תרופות ותוספים, אלרגיות, תגובות קודמות להרדמה, עישון, שימוש בוייפ, שתיית אלכוהול או שימוש בחומרים אחרים. המידע עוזר לצוות לתכנן עבורך הרדמה וטיפול בטוחים. השאלות נשאלות מסיבות רפואיות בלבד — לא כדי לשפוט אותך."],
@@ -914,8 +908,7 @@ const TEEN_FAQ_I18N = {
   en: {
     title: "Common questions for ages 13–18",
     items: [
-      ["What are the chances of waking up during surgery?", "Unintended awareness during general anesthesia is rare. The anesthetist stays with you throughout the procedure, continuously monitors your breathing, heart rate, blood pressure and other signs, and adjusts the anesthetic when needed. If this worries you, bring it up before surgery."],
-      ["Do I get a say in how anesthesia starts?", "There may be options, such as medicine through an IV or breathing through a mask, but not every option suits every procedure. Tell the anesthetist what matters to you and what concerns you; together you can agree on a plan that is suitable and medically safe."],
+      ["What are the chances of waking up during surgery?", "Unintended awareness during general anesthesia is very rare. The anesthetist stays with you throughout the procedure, continuously monitors your breathing, heart rate, blood pressure and other signs, and adjusts the anesthetic when needed. If this worries you, bring it up before surgery."],
       ["Can I ask a medical question without my parents in the room?", "Yes. You can ask to speak with a staff member privately. They will explain what can remain confidential and what may need to be shared to keep you safe. It is a normal way to discuss personal topics without embarrassment."],
       ["What if I have pain or nausea after surgery?", "You do not need to wait for it to get worse. Tell the staff early what you feel and how much it is bothering you. Pain, nausea and other symptoms can be treated in several ways, and the treatment can be adjusted based on how you respond."],
       ["What should I tell the staff, even if it feels personal?", "Tell them about medicines and supplements, allergies, previous reactions to anesthesia, smoking or vaping, alcohol and other substance use. This information helps them plan safer care; the questions are medical, not judgmental."],
@@ -925,8 +918,7 @@ const TEEN_FAQ_I18N = {
   ar: {
     title: "أسئلة شائعة للأعمار 13–18",
     items: [
-      ["ما احتمال أن أستيقظ أثناء العملية؟", "الوعي غير المقصود أثناء التخدير العام نادر. يبقى طبيب التخدير معك طوال العملية، ويراقب باستمرار التنفس والنبض وضغط الدم ومؤشرات أخرى، ويعدّل التخدير عند الحاجة. إذا كان الأمر يقلقك، يمكنك طرحه قبل العملية."],
-      ["هل لي رأي في طريقة بدء التخدير؟", "قد تتوفر خيارات، مثل إعطاء الدواء عبر الوريد أو التنفس عبر قناع، لكن ليست كل طريقة مناسبة لكل إجراء. أخبر طبيب التخدير بما يهمك وما يقلقك؛ ويمكنكما الاتفاق على خطة مناسبة وآمنة طبيًا."],
+      ["ما احتمال أن أستيقظ أثناء العملية؟", "الوعي غير المقصود أثناء التخدير العام نادر جدًا. يبقى طبيب التخدير معك طوال العملية، ويراقب باستمرار التنفس والنبض وضغط الدم ومؤشرات أخرى، ويعدّل التخدير عند الحاجة. إذا كان الأمر يقلقك، يمكنك طرحه قبل العملية."],
       ["هل يمكنني طرح سؤال طبي من دون وجود والديّ؟", "نعم. يمكنك طلب التحدث مع أحد أفراد الطاقم على انفراد. سيشرح لك ما يمكن أن يبقى سريًا وما قد يلزم مشاركته للحفاظ على سلامتك. هذه طريقة معتادة لمناقشة المواضيع الشخصية من دون إحراج."],
       ["ماذا أفعل إذا شعرت بالألم أو الغثيان بعد العملية؟", "لا حاجة إلى الانتظار حتى يزداد الشعور سوءًا. أخبر الطاقم مبكرًا بما تشعر به ومدى إزعاجه لك. يمكن علاج الألم والغثيان وأعراض أخرى بعدة طرق، وتعديل العلاج بحسب استجابتك."],
       ["ما المعلومات التي يجب أن أخبر بها الطاقم حتى لو كانت شخصية؟", "أخبرهم عن الأدوية والمكمّلات والحساسيات وردود الفعل السابقة للتخدير والتدخين أو التدخين الإلكتروني والكحول واستخدام مواد أخرى. تساعد هذه المعلومات في وضع خطة أكثر أمانًا؛ فالأسئلة طبية وليست للحكم عليك."],
@@ -936,8 +928,7 @@ const TEEN_FAQ_I18N = {
   ru: {
     title: "Частые вопросы в 13–18 лет",
     items: [
-      ["Какова вероятность проснуться во время операции?", "Незапланированное пробуждение во время общей анестезии случается редко. Анестезиолог находится рядом на протяжении всей операции, постоянно контролирует дыхание, пульс, давление и другие показатели и при необходимости корректирует анестезию. Если это вас тревожит, обсудите вопрос до операции."],
-      ["Могу ли я участвовать в выборе способа начала анестезии?", "Иногда есть варианты, например введение лекарства через венозный катетер или вдыхание через маску, но не каждый способ подходит для каждой процедуры. Расскажите анестезиологу, что для вас важно и чего вы опасаетесь; вместе вы согласуете подходящий и безопасный план."],
+      ["Какова вероятность проснуться во время операции?", "Незапланированное пробуждение во время общей анестезии случается очень редко. Анестезиолог находится рядом на протяжении всей операции, постоянно контролирует дыхание, пульс, давление и другие показатели и при необходимости корректирует анестезию. Если это вас тревожит, обсудите вопрос до операции."],
       ["Можно ли задать медицинский вопрос без родителей в комнате?", "Да. Можно попросить поговорить с сотрудником наедине. Вам объяснят, что может остаться конфиденциальным, а чем потребуется поделиться ради вашей безопасности. Это обычный способ без стеснения обсудить личные темы."],
       ["Что делать, если после операции болит или тошнит?", "Не нужно ждать, пока станет хуже. Как можно раньше расскажите персоналу, что вы чувствуете и насколько это вас беспокоит. Боль, тошноту и другие симптомы можно лечить разными способами и корректировать лечение по вашей реакции."],
       ["Что важно сообщить персоналу, даже если это личное?", "Расскажите о лекарствах и добавках, аллергиях, прошлых реакциях на анестезию, курении или вейпинге, алкоголе и употреблении других веществ. Эта информация помогает сделать лечение безопаснее; вопросы задают по медицинским причинам, а не для осуждения."],
@@ -947,8 +938,7 @@ const TEEN_FAQ_I18N = {
   fr: {
     title: "Questions fréquentes de 13 à 18 ans",
     items: [
-      ["Quel est le risque de me réveiller pendant l’opération ?", "Une prise de conscience involontaire pendant une anesthésie générale est rare. L’anesthésiste reste auprès de toi pendant toute l’intervention, surveille en continu ta respiration, ton pouls, ta tension et d’autres paramètres, puis ajuste l’anesthésie si nécessaire. Si cela t’inquiète, parle-en avant l’opération."],
-      ["Puis-je participer au choix de la façon dont l’anesthésie commence ?", "Il peut y avoir plusieurs options, par exemple un médicament par perfusion ou un gaz respiré à travers un masque, mais toutes ne conviennent pas à chaque intervention. Dis à l’anesthésiste ce qui compte pour toi et ce qui t’inquiète ; vous pourrez convenir d’un plan adapté et sûr sur le plan médical."],
+      ["Quel est le risque de me réveiller pendant l’opération ?", "Une prise de conscience involontaire pendant une anesthésie générale est très rare. L’anesthésiste reste auprès de toi pendant toute l’intervention, surveille en continu ta respiration, ton pouls, ta tension et d’autres paramètres, puis ajuste l’anesthésie si nécessaire. Si cela t’inquiète, parle-en avant l’opération."],
       ["Puis-je poser une question médicale sans mes parents dans la pièce ?", "Oui. Tu peux demander à parler en privé avec un membre du personnel. On t’expliquera ce qui peut rester confidentiel et ce qui devra éventuellement être partagé pour assurer ta sécurité. C’est une façon normale d’aborder des sujets personnels sans gêne."],
       ["Que faire si j’ai mal ou si j’ai des nausées après l’opération ?", "Tu n’as pas besoin d’attendre que cela empire. Dis rapidement au personnel ce que tu ressens et à quel point cela te gêne. La douleur, les nausées et d’autres symptômes peuvent être traités de plusieurs façons, puis le traitement adapté selon ta réaction."],
       ["Que dois-je dire au personnel, même si cela paraît personnel ?", "Parle des médicaments et compléments, des allergies, des réactions antérieures à l’anesthésie, du tabac, du vapotage, de l’alcool et de toute autre substance. Ces informations permettent au personnel de préparer une anesthésie et des soins plus sûrs pour toi. Ces questions sont posées uniquement pour des raisons médicales, pas pour te juger."],
@@ -1028,8 +1018,8 @@ const CORE_CONTENT_I18N = {
       feelingsTitle: "אפשר לדבר על מה שמדאיג אותך", feelingsText: "מחטים, מסכה, כאב וחוסר ודאות יכולים להדאיג. ספר לצוות מה הכי קשה לך ושאל אילו אפשרויות יכולות לעזור.", breathTitle: "תרגיל נשימה קצר", breathDefault: "לחצו על התחלה ועקבו אחר הקצב", breathIn: "שאיפה איטית", breathHold: "מחזיקים לרגע", breathOut: "נשיפה ארוכה ואיטית"
     },
     teen: {
-      whatTitle: "הרדמה כללית — מה חשוב לדעת", whatParagraphs: ["הרדמה כללית היא מצב מבוקר של חוסר הכרה שנוצר באמצעות תרופות, כדי שלא תהיה מודע לניתוח ולא תחוש כאב במהלכו.", "לפני הניתוח תפגוש את הרופא המרדים ותוכלו לדבר על מצבך הרפואי, תרופות, רגישויות, חששות והעדפות. ההרדמה מתחילה בדרך כלל דרך עירוי, ולעיתים באמצעות גז דרך מסכה.", "הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ורמת החמצן ומתאים את הטיפול לפי הצורך."],
-      journeyTitle: "מה צפוי ביום הניתוח", steps: [["לפני ההגעה", "פועלים לפי ההוראות האישיות לגבי צום, שתייה ותרופות ומביאים רשימת תרופות ומידע רפואי."], ["קבלה והערכה", "הצוות מאמת פרטים ושואל על בריאות, אלרגיות, תגובות קודמות ושינויים מאז הבדיקה האחרונה."], ["תוכנית ההרדמה", "אפשר לשאול על העירוי, המסכה, טיפול בכאב, בחילה, פרטיות וכל נושא שמטריד אותך."], ["תחילת ההרדמה", "מחברים אמצעי ניטור ומתחילים את ההרדמה בדרך שסוכמה איתך ומתאימה להליך."], ["במהלך הניתוח", "הרופא המרדים מנטר את תפקודי הגוף ומתאים תרופות, נוזלים ותמיכה בנשימה."], ["התאוששות ושחרור", "מדווחים מוקדם על כאב או בחילה ופועלים לפי הוראות השחרור לפני החזרה ללימודים, לספורט ולשגרה."]],
+      whatTitle: "הרדמה כללית — מה חשוב לדעת", whatParagraphs: ["הרדמה כללית היא מצב מבוקר של חוסר הכרה שנוצר באמצעות תרופות, כדי שלא תהיה מודע לניתוח ולא תחוש כאב במהלכו.", "לפני הניתוח תפגוש את הרופא המרדים ותוכלו לדבר על מצבך הרפואי, תרופות, רגישויות, חששות והעדפות. ההרדמה מתחילה דרך עירוי.", "הרופא המרדים נמצא איתך לאורך הניתוח, עוקב ברציפות אחר הנשימה, הדופק, לחץ הדם ורמת החמצן ומתאים את הטיפול לפי הצורך."],
+      journeyTitle: "מה צפוי ביום הניתוח", steps: [["לפני ההגעה", "פועלים לפי ההוראות האישיות לגבי צום, שתייה ותרופות ומביאים רשימת תרופות ומידע רפואי."], ["קבלה והערכה", "הצוות מאמת פרטים ושואל על בריאות, אלרגיות, תגובות קודמות ושינויים מאז הבדיקה האחרונה."], ["תוכנית ההרדמה", "אפשר לשאול על העירוי, טיפול בכאב, בחילה, פרטיות וכל נושא שמטריד אותך."], ["תחילת ההרדמה", "מחברים אמצעי ניטור ומתחילים את ההרדמה דרך העירוי."], ["במהלך הניתוח", "הרופא המרדים מנטר את תפקודי הגוף ומתאים תרופות, נוזלים ותמיכה בנשימה."], ["התאוששות ושחרור", "מדווחים מוקדם על כאב או בחילה ופועלים לפי הוראות השחרור לפני החזרה ללימודים, לספורט ולשגרה."]],
       feelingsTitle: "שליטה, פרטיות וחששות", feelingsText: "אפשר לבקש הסבר ישיר, זמן לשאלות או שיחה פרטית עם איש צוות. כדאי לומר מראש אם מחטים, חוסר שליטה, בחילה, פרטיות או התעוררות מטרידים אותך.", breathTitle: "נשימה מודרכת — 60 שניות", breathDefault: "התחילו ועקבו אחר הקצב", breathIn: "שאיפה איטית דרך האף", breathHold: "עצירה קצרה", breathOut: "נשיפה ארוכה ואיטית"
     },
     parents: {
@@ -1049,8 +1039,8 @@ const CORE_CONTENT_I18N = {
       feelingsTitle: "Talk about what worries you", feelingsText: "Needles, masks, pain and uncertainty can feel worrying. Tell the staff what is hardest for you and ask what options could help.", breathTitle: "A short breathing exercise", breathDefault: "Press start and follow the pace", breathIn: "Slow breath in", breathHold: "Hold for a moment", breathOut: "Long, slow breath out"
     },
     teen: {
-      whatTitle: "General anesthesia — what matters", whatParagraphs: ["General anesthesia is a controlled state of unconsciousness produced by medicines so you are not aware of the operation and do not feel pain during it.", "Before surgery you will meet the anesthetist and can discuss your health, medicines, allergies, concerns and preferences. Anesthesia usually starts through an IV and sometimes with gas through a mask.", "The anesthetist stays with you throughout the procedure, continuously monitors breathing, heart rate, blood pressure and oxygen, and adjusts care when needed."],
-      journeyTitle: "What to expect on the day", steps: [["Before you arrive", "Follow your individual instructions about fasting, drinks and medicines, and bring a medicines list and relevant health information."], ["Check-in and assessment", "The staff confirm your details and ask about health, allergies, previous reactions and any recent changes."], ["Your anesthesia plan", "Ask about the IV, mask, pain control, nausea, privacy or anything else that concerns you."], ["Starting anesthesia", "Monitoring is attached and anesthesia begins using the method agreed with you and suited to the procedure."], ["During the operation", "The anesthetist monitors your body and adjusts medicines, fluids and breathing support."], ["Recovery and discharge", "Report pain or nausea early and follow discharge advice before returning to school, sports and your normal routine."]],
+      whatTitle: "General anesthesia — what matters", whatParagraphs: ["General anesthesia is a controlled state of unconsciousness produced by medicines so you are not aware of the operation and do not feel pain during it.", "Before surgery you will meet the anesthetist and can discuss your health, medicines, allergies, concerns and preferences. Anesthesia starts through an IV.", "The anesthetist stays with you throughout the procedure, continuously monitors breathing, heart rate, blood pressure and oxygen, and adjusts care when needed."],
+      journeyTitle: "What to expect on the day", steps: [["Before you arrive", "Follow your individual instructions about fasting, drinks and medicines, and bring a medicines list and relevant health information."], ["Check-in and assessment", "The staff confirm your details and ask about health, allergies, previous reactions and any recent changes."], ["Your anesthesia plan", "Ask about the IV, pain control, nausea, privacy or anything else that concerns you."], ["Starting anesthesia", "Monitoring is attached and anesthesia begins through the IV."], ["During the operation", "The anesthetist monitors your body and adjusts medicines, fluids and breathing support."], ["Recovery and discharge", "Report pain or nausea early and follow discharge advice before returning to school, sports and your normal routine."]],
       feelingsTitle: "Control, privacy and concerns", feelingsText: "You can ask for a direct explanation, time for questions or a private conversation with a staff member. Mention needles, loss of control, nausea, privacy or awareness if any of these worry you.", breathTitle: "60-second guided breathing", breathDefault: "Start and follow the pace", breathIn: "Slow breath in through your nose", breathHold: "Brief pause", breathOut: "Long, slow breath out"
     },
     parents: {
@@ -1070,8 +1060,8 @@ const CORE_CONTENT_I18N = {
       feelingsTitle: "تحدّث عمّا يقلقك", feelingsText: "قد تقلقك الإبر أو القناع أو الألم أو عدم معرفة ما سيحدث. أخبر الطاقم بما يصعب عليك واسأل عن الخيارات التي قد تساعد.", breathTitle: "تمرين تنفّس قصير", breathDefault: "اضغط ابدأ واتبع الإيقاع", breathIn: "شهيق بطيء", breathHold: "توقف لحظة", breathOut: "زفير طويل وبطيء"
     },
     teen: {
-      whatTitle: "التخدير العام — ما المهم؟", whatParagraphs: ["التخدير العام حالة مضبوطة من فقدان الوعي تسببها الأدوية، كي لا تدرك العملية ولا تشعر بالألم خلالها.", "قبل العملية ستقابل طبيب التخدير ويمكنك مناقشة صحتك وأدويتك وحساسياتك ومخاوفك وتفضيلاتك. يبدأ التخدير عادة عبر قنية وريدية وأحيانًا بغاز عبر قناع.", "يبقى طبيب التخدير معك طوال العملية ويراقب باستمرار التنفس والنبض وضغط الدم والأكسجين ويعدّل العلاج عند الحاجة."],
-      journeyTitle: "ما المتوقع يوم العملية", steps: [["قبل الوصول", "اتبع تعليماتك الشخصية للصيام والشراب والأدوية وأحضر قائمة الأدوية والمعلومات الصحية."], ["الاستقبال والتقييم", "يتحقق الطاقم من بياناتك ويسأل عن الصحة والحساسيات وردود الفعل السابقة وأي تغيّر حديث."], ["خطة التخدير", "اسأل عن القنية والقناع وعلاج الألم والغثيان والخصوصية وكل ما يقلقك."], ["بدء التخدير", "تُوصل أجهزة المراقبة ويبدأ التخدير بالطريقة المتفق عليها والمناسبة للإجراء."], ["أثناء العملية", "يراقب طبيب التخدير وظائف الجسم ويعدّل الأدوية والسوائل ودعم التنفس."], ["التعافي والخروج", "أبلغ مبكرًا عن الألم أو الغثيان واتبع تعليمات الخروج قبل العودة إلى الدراسة والرياضة والروتين."]],
+      whatTitle: "التخدير العام — ما المهم؟", whatParagraphs: ["التخدير العام حالة مضبوطة من فقدان الوعي تسببها الأدوية، كي لا تدرك العملية ولا تشعر بالألم خلالها.", "قبل العملية ستقابل طبيب التخدير ويمكنك مناقشة صحتك وأدويتك وحساسياتك ومخاوفك وتفضيلاتك. يبدأ التخدير عبر قنية وريدية.", "يبقى طبيب التخدير معك طوال العملية ويراقب باستمرار التنفس والنبض وضغط الدم والأكسجين ويعدّل العلاج عند الحاجة."],
+      journeyTitle: "ما المتوقع يوم العملية", steps: [["قبل الوصول", "اتبع تعليماتك الشخصية للصيام والشراب والأدوية وأحضر قائمة الأدوية والمعلومات الصحية."], ["الاستقبال والتقييم", "يتحقق الطاقم من بياناتك ويسأل عن الصحة والحساسيات وردود الفعل السابقة وأي تغيّر حديث."], ["خطة التخدير", "اسأل عن القنية وعلاج الألم والغثيان والخصوصية وكل ما يقلقك."], ["بدء التخدير", "تُوصل أجهزة المراقبة ويبدأ التخدير عبر القنية."], ["أثناء العملية", "يراقب طبيب التخدير وظائف الجسم ويعدّل الأدوية والسوائل ودعم التنفس."], ["التعافي والخروج", "أبلغ مبكرًا عن الألم أو الغثيان واتبع تعليمات الخروج قبل العودة إلى الدراسة والرياضة والروتين."]],
       feelingsTitle: "التحكم والخصوصية والمخاوف", feelingsText: "يمكنك طلب شرح مباشر أو وقت للأسئلة أو حديث خاص مع أحد أفراد الطاقم. اذكر الإبر أو فقدان السيطرة أو الغثيان أو الخصوصية أو الوعي إذا كانت تقلقك.", breathTitle: "تنفّس موجّه لمدة 60 ثانية", breathDefault: "ابدأ واتبع الإيقاع", breathIn: "شهيق بطيء عبر الأنف", breathHold: "توقف قصير", breathOut: "زفير طويل وبطيء"
     },
     parents: {
@@ -1091,8 +1081,8 @@ const CORE_CONTENT_I18N = {
       feelingsTitle: "Расскажи, что тебя беспокоит", feelingsText: "Иглы, маска, боль и неизвестность могут тревожить. Скажи персоналу, что для тебя труднее всего, и спроси, какие варианты помогут.", breathTitle: "Короткое дыхательное упражнение", breathDefault: "Нажми «Начать» и следуй ритму", breathIn: "Медленный вдох", breathHold: "Короткая пауза", breathOut: "Долгий медленный выдох"
     },
     teen: {
-      whatTitle: "Общая анестезия — главное", whatParagraphs: ["Общая анестезия — это контролируемое состояние без сознания, вызванное лекарствами, чтобы вы не осознавали операцию и не чувствовали боли во время неё.", "До операции вы встретитесь с анестезиологом и сможете обсудить здоровье, лекарства, аллергии, опасения и предпочтения. Обычно анестезию начинают через венозный катетер, иногда — газом через маску.", "Анестезиолог остаётся с вами всю операцию, постоянно следит за дыханием, пульсом, давлением и кислородом и корректирует лечение."],
-      journeyTitle: "Чего ожидать в день операции", steps: [["До приезда", "Выполните личные инструкции о голодании, питье и лекарствах; возьмите список лекарств и медицинские сведения."], ["Приём и оценка", "Персонал проверит данные и спросит о здоровье, аллергиях, прошлых реакциях и недавних изменениях."], ["План анестезии", "Спросите о катетере, маске, контроле боли, тошноте, приватности и всём, что вас беспокоит."], ["Начало анестезии", "Подключат мониторы и начнут анестезию согласованным и подходящим для процедуры способом."], ["Во время операции", "Анестезиолог следит за организмом и регулирует лекарства, жидкости и поддержку дыхания."], ["Восстановление и выписка", "Рано сообщайте о боли или тошноте и соблюдайте инструкции перед возвращением к учёбе, спорту и обычным делам."]],
+      whatTitle: "Общая анестезия — главное", whatParagraphs: ["Общая анестезия — это контролируемое состояние без сознания, вызванное лекарствами, чтобы вы не осознавали операцию и не чувствовали боли во время неё.", "До операции вы встретитесь с анестезиологом и сможете обсудить здоровье, лекарства, аллергии, опасения и предпочтения. Анестезию начинают через венозный катетер.", "Анестезиолог остаётся с вами всю операцию, постоянно следит за дыханием, пульсом, давлением и кислородом и корректирует лечение."],
+      journeyTitle: "Чего ожидать в день операции", steps: [["До приезда", "Выполните личные инструкции о голодании, питье и лекарствах; возьмите список лекарств и медицинские сведения."], ["Приём и оценка", "Персонал проверит данные и спросит о здоровье, аллергиях, прошлых реакциях и недавних изменениях."], ["План анестезии", "Спросите о катетере, контроле боли, тошноте, приватности и всём, что вас беспокоит."], ["Начало анестезии", "Подключат мониторы и начнут анестезию через катетер."], ["Во время операции", "Анестезиолог следит за организмом и регулирует лекарства, жидкости и поддержку дыхания."], ["Восстановление и выписка", "Рано сообщайте о боли или тошноте и соблюдайте инструкции перед возвращением к учёбе, спорту и обычным делам."]],
       feelingsTitle: "Контроль, приватность и тревоги", feelingsText: "Можно попросить прямое объяснение, время для вопросов или разговор с сотрудником наедине. Скажите, если вас тревожат иглы, потеря контроля, тошнота, приватность или пробуждение.", breathTitle: "Дыхание с подсказками — 60 секунд", breathDefault: "Начните и следуйте ритму", breathIn: "Медленный вдох через нос", breathHold: "Короткая пауза", breathOut: "Долгий медленный выдох"
     },
     parents: {
@@ -1112,8 +1102,8 @@ const CORE_CONTENT_I18N = {
       feelingsTitle: "Parle de ce qui t’inquiète", feelingsText: "Les aiguilles, le masque, la douleur ou l’incertitude peuvent inquiéter. Dis au personnel ce qui est le plus difficile et demande quelles options peuvent aider.", breathTitle: "Un court exercice de respiration", breathDefault: "Appuie sur départ et suis le rythme", breathIn: "Inspiration lente", breathHold: "Petite pause", breathOut: "Expiration longue et lente"
     },
     teen: {
-      whatTitle: "Anesthésie générale — l’essentiel", whatParagraphs: ["L’anesthésie générale est un état contrôlé d’inconscience produit par des médicaments, pour ne pas avoir conscience de l’opération ni ressentir de douleur pendant celle-ci.", "Avant l’opération, tu rencontres l’anesthésiste et peux parler de ta santé, de tes médicaments, allergies, inquiétudes et préférences. L’anesthésie commence généralement par une perfusion, parfois avec un gaz respiré par un masque.", "L’anesthésiste reste avec toi pendant toute l’intervention, surveille en continu la respiration, le pouls, la tension et l’oxygène, et adapte les soins."],
-      journeyTitle: "À quoi s’attendre le jour de l’opération", steps: [["Avant l’arrivée", "Suis tes consignes personnelles de jeûne, de boissons et de médicaments, et apporte une liste de traitements et les informations médicales utiles."], ["Accueil et évaluation", "Le personnel vérifie tes informations et demande tes allergies, réactions antérieures et changements récents de santé."], ["Ton plan d’anesthésie", "Pose tes questions sur la perfusion, le masque, la douleur, les nausées, l’intimité ou tout autre sujet."], ["Début de l’anesthésie", "Les moniteurs sont installés et l’anesthésie commence selon la méthode convenue et adaptée à l’intervention."], ["Pendant l’opération", "L’anesthésiste surveille ton organisme et adapte les médicaments, les liquides et l’aide respiratoire."], ["Réveil et sortie", "Signale tôt la douleur ou les nausées et suis les consignes avant de reprendre les cours, le sport et tes activités."]],
+      whatTitle: "Anesthésie générale — l’essentiel", whatParagraphs: ["L’anesthésie générale est un état contrôlé d’inconscience produit par des médicaments, pour ne pas avoir conscience de l’opération ni ressentir de douleur pendant celle-ci.", "Avant l’opération, tu rencontres l’anesthésiste et peux parler de ta santé, de tes médicaments, allergies, inquiétudes et préférences. L’anesthésie commence par une perfusion.", "L’anesthésiste reste avec toi pendant toute l’intervention, surveille en continu la respiration, le pouls, la tension et l’oxygène, et adapte les soins."],
+      journeyTitle: "À quoi s’attendre le jour de l’opération", steps: [["Avant l’arrivée", "Suis tes consignes personnelles de jeûne, de boissons et de médicaments, et apporte une liste de traitements et les informations médicales utiles."], ["Accueil et évaluation", "Le personnel vérifie tes informations et demande tes allergies, réactions antérieures et changements récents de santé."], ["Ton plan d’anesthésie", "Pose tes questions sur la perfusion, la douleur, les nausées, l’intimité ou tout autre sujet."], ["Début de l’anesthésie", "Les moniteurs sont installés et l’anesthésie commence par la perfusion."], ["Pendant l’opération", "L’anesthésiste surveille ton organisme et adapte les médicaments, les liquides et l’aide respiratoire."], ["Réveil et sortie", "Signale tôt la douleur ou les nausées et suis les consignes avant de reprendre les cours, le sport et tes activités."]],
       feelingsTitle: "Contrôle, intimité et inquiétudes", feelingsText: "Tu peux demander une explication directe, du temps pour tes questions ou un entretien privé avec un membre du personnel. Parle des aiguilles, de la perte de contrôle, des nausées, de l’intimité ou du réveil si cela t’inquiète.", breathTitle: "Respiration guidée — 60 secondes", breathDefault: "Commence et suis le rythme", breathIn: "Inspire lentement par le nez", breathHold: "Courte pause", breathOut: "Expire longtemps et lentement"
     },
     parents: {
@@ -1424,6 +1414,7 @@ function updateAudienceUI(audience) {
   if (faqTitle) faqTitle.textContent = faqContent.title;
   faqRows.forEach((row, index) => {
     const item = faqContent.items[index];
+    row.hidden = !item;
     if (!item) return;
     row.querySelector("summary").textContent = item[0];
     row.querySelector("p").textContent = item[1];

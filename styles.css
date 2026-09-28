@@ -250,7 +250,6 @@ body[data-audience="teen"] .audience-hub {
 }
 body[data-audience="teen"] .audience-hub h2,
 body[data-audience="teen"] .audience-hub .eyebrow { color: #fff; }
-body[data-audience="teen"] .audience-hub-heading > p:last-child { color: #d5e2ea; }
 body[data-audience="teen"] .audience-path { background: rgba(255,255,255,.09); color: #fff; border-color: rgba(255,255,255,.12); }
 body[data-audience="teen"] .audience-path small { color: #cfdee7; }
 body[data-audience="teen"] .audience-path > span { background: rgba(54,197,176,.2); color: #81eadb; }
